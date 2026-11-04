@@ -1,0 +1,1017 @@
+{
+  "version": 1,
+  "demo": true,
+  "selectors": [
+    {
+      "id": "rafael",
+      "name": "Rafael Arévalo Peñuela"
+    },
+    {
+      "id": "monica",
+      "name": "Mónica Bastos"
+    },
+    {
+      "id": "lectora03",
+      "name": "Lectora 03"
+    },
+    {
+      "id": "lector04",
+      "name": "Lector 04"
+    }
+  ],
+  "creators": [
+    {
+      "id": "pablo",
+      "name": "Pablo Restrepo",
+      "role": "Tramoya y construcción",
+      "bio": "Personaje ficticio para este ensayo. Construye mecanismos que sostienen la escena y conoce el peso de aquello que el público apenas alcanza a ver."
+    },
+    {
+      "id": "ines",
+      "name": "Inés Salcedo",
+      "role": "Vestuario y memoria textil",
+      "bio": "Personaje ficticio para este ensayo. Lee los cuerpos a través de sus prendas: remiendos, manchas y costuras guardan una historia paralela a la obra."
+    },
+    {
+      "id": "elias",
+      "name": "Elías Moreno",
+      "role": "Composición sonora",
+      "bio": "Personaje ficticio para este ensayo. Escucha el escenario antes de que empiece la función y trabaja con sus respiraciones, resonancias y silencios."
+    },
+    {
+      "id": "vera",
+      "name": "Vera Londoño",
+      "role": "Iluminación",
+      "bio": "Personaje ficticio para este ensayo. Traza espacios con luz y cuida los segundos en que una presencia aparece, se transforma o deja de ser visible."
+    },
+    {
+      "id": "lucia",
+      "name": "Lucía Perdomo",
+      "role": "Video y archivo",
+      "bio": "Personaje ficticio para este ensayo. Recoge imágenes de ensayos y pruebas para pensar lo que permanece cuando una función termina."
+    },
+    {
+      "id": "tomas",
+      "name": "Tomás Ariza",
+      "role": "Coordinación técnica",
+      "bio": "Personaje ficticio para este ensayo. Acompaña la trama de acuerdos, avisos y cuidados que permite que distintos oficios compartan un mismo tiempo."
+    }
+  ],
+  "knots": [
+    {
+      "id": "talleres",
+      "name": "Talleres",
+      "description": "Nudo provisional. Lugares donde materiales, herramientas y conocimientos se encuentran. El gesto cotidiano transmite un oficio y transforma lo que llega a la escena."
+    },
+    {
+      "id": "trasescena",
+      "name": "Trasescena",
+      "description": "Nudo provisional. Preparaciones, acuerdos y movimientos que acompañan el proceso escénico. La escucha permite reconocer a quienes sostienen ese tiempo compartido."
+    },
+    {
+      "id": "con-texto",
+      "name": "Con-texto",
+      "description": "Nudo provisional. Crónicas, registros y memorias sitúan los oficios en relación con sus espacios y condiciones. Cada fragmento conserva una pregunta por su contexto."
+    },
+    {
+      "id": "maridajes",
+      "name": "Maridajes",
+      "description": "Nudo de ensayo. Encuentros entre oficios y formas de hacer que se modifican mutuamente. Escuchar sus cruces permite recorrer las relaciones que componen una obra."
+    },
+    {
+      "id": "un-hacer-paralelo",
+      "name": "Un hacer paralelo",
+      "description": "Nudo de ensayo. Prácticas que acompañan el acontecimiento escénico y abren otros recorridos: registrar, reparar, guardar, descansar o recordar. Su tiempo dialoga con la función y continúa más allá de ella."
+    }
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "label": "peso",
+      "selections": [
+        "rafael",
+        "monica",
+        "lectora03",
+        "lector04"
+      ],
+      "creatorIds": [
+        "pablo",
+        "tomas"
+      ],
+      "knotId": "trasescena",
+      "kind": "text",
+      "body": "Antes de ser una imagen, la escenografía es un peso que alguien calcula, carga y reparte. El esfuerzo se vuelve casi invisible cuando el movimiento sale limpio.",
+      "relations": {
+        "pablo": "Pablo prueba el equilibrio de una pieza junto a quien habrá de moverla. La medida incluye la fuerza disponible al final de la función, cuando el cuerpo ya está cansado.",
+        "tomas": "Pablo prueba el equilibrio de una pieza junto a quien habrá de moverla. La medida incluye la fuerza disponible al final de la función, cuando el cuerpo ya está cansado."
+      }
+    },
+    {
+      "id": "w02",
+      "label": "manos",
+      "selections": [
+        "monica",
+        "lectora03",
+        "lector04"
+      ],
+      "creatorIds": [
+        "pablo",
+        "ines"
+      ],
+      "knotId": "talleres",
+      "kind": "image",
+      "body": "Hay saberes que se reconocen en las manos: la presión justa, un nudo que no cede, una costura que puede abrirse a tiempo. A veces el gesto recuerda antes que la persona.",
+      "relations": {
+        "pablo": "Pablo localiza con los dedos una unión floja; Inés distingue por tacto dónde una tela ha perdido resistencia. Dos maneras de leer una superficie antes de intervenirla.",
+        "ines": "Pablo localiza con los dedos una unión floja; Inés distingue por tacto dónde una tela ha perdido resistencia. Dos maneras de leer una superficie antes de intervenirla."
+      },
+      "mediaCaption": "Imagen de ensayo para el prototipo; no documenta un proceso real."
+    },
+    {
+      "id": "w03",
+      "label": "respiración",
+      "selections": [
+        "lectora03",
+        "lector04"
+      ],
+      "creatorIds": [
+        "elias",
+        "ines"
+      ],
+      "knotId": "maridajes",
+      "kind": "audio",
+      "body": "La respiración llega al micrófono y al cuello de una prenda. No siempre debe borrarse: puede ser la medida sensible de un cuerpo trabajando.",
+      "relations": {
+        "elias": "Elías deja un pequeño intervalo para que se oiga el aire. Inés amplía una costura para que ese aire pueda entrar sin resistencia.",
+        "ines": "Elías deja un pequeño intervalo para que se oiga el aire. Inés amplía una costura para que ese aire pueda entrar sin resistencia."
+      },
+      "mediaCaption": "Paisaje sonoro de demostración; no corresponde a un registro de campo."
+    },
+    {
+      "id": "w04",
+      "label": "carga",
+      "selections": [
+        "lector04"
+      ],
+      "creatorIds": [
+        "pablo"
+      ],
+      "knotId": "trasescena",
+      "kind": "text",
+      "body": "La carga no siempre tiene una forma que pueda levantarse entre dos. También pesan las decisiones acumuladas, la atención constante y la responsabilidad de anticipar un fallo.",
+      "relations": {
+        "pablo": "Tomás reparte tareas antes del montaje; Pablo señala cuándo un movimiento exige otra persona. Pedir apoyo forma parte del oficio."
+      }
+    },
+    {
+      "id": "w05",
+      "label": "cuidado",
+      "selections": [
+        "rafael",
+        "monica",
+        "lectora03"
+      ],
+      "creatorIds": [
+        "ines",
+        "tomas"
+      ],
+      "knotId": "trasescena",
+      "kind": "text",
+      "body": "Un vaso de agua al alcance, una pausa, un cable apartado del paso: el cuidado aparece en acciones pequeñas. Su efecto atraviesa toda la obra.",
+      "relations": {
+        "ines": "Inés reserva un minuto para comprobar que el vestuario no lastima. Tomás procura que ese minuto exista incluso cuando el horario se estrecha.",
+        "tomas": "Inés reserva un minuto para comprobar que el vestuario no lastima. Tomás procura que ese minuto exista incluso cuando el horario se estrecha."
+      }
+    },
+    {
+      "id": "w06",
+      "label": "gesto",
+      "selections": [
+        "monica",
+        "lectora03"
+      ],
+      "creatorIds": [
+        "ines",
+        "vera"
+      ],
+      "knotId": "talleres",
+      "kind": "text",
+      "body": "El gesto puede ser mínimo y aun así cambiar una escena. Acomodar una manga o girar apenas una luminaria prepara algo que después parecerá natural.",
+      "relations": {
+        "ines": "Vera ajusta un ángulo para acompañar un movimiento; Inés modifica la caída de una manga. Ambas intervenciones conversan sin necesidad de coincidir en el escenario.",
+        "vera": "Vera ajusta un ángulo para acompañar un movimiento; Inés modifica la caída de una manga. Ambas intervenciones conversan sin necesidad de coincidir en el escenario."
+      }
+    },
+    {
+      "id": "w07",
+      "label": "fatiga",
+      "selections": [
+        "lectora03"
+      ],
+      "creatorIds": [
+        "pablo",
+        "tomas"
+      ],
+      "knotId": "un-hacer-paralelo",
+      "kind": "text",
+      "body": "El cansancio altera la precisión y también la escucha. Hacerle lugar en una bitácora permite pensar las condiciones de la obra, además de sus resultados.",
+      "relations": {
+        "pablo": "Pablo anota qué cambios de escenografía exigen más fuerza. Tomás utiliza ese registro para reorganizar el siguiente montaje.",
+        "tomas": "Pablo anota qué cambios de escenografía exigen más fuerza. Tomás utiliza ese registro para reorganizar el siguiente montaje."
+      }
+    },
+    {
+      "id": "w08",
+      "label": "pulso",
+      "selections": [
+        "lector04",
+        "rafael",
+        "monica",
+        "lectora03"
+      ],
+      "creatorIds": [
+        "elias",
+        "vera"
+      ],
+      "knotId": "maridajes",
+      "kind": "audio",
+      "body": "Cada función encuentra un pulso propio dentro de una estructura conocida. Escuchar esa variación permite acompañar sin imponer siempre la misma velocidad.",
+      "relations": {
+        "elias": "Elías espera una respiración antes de abrir el sonido; Vera demora un instante una transición. El acuerdo se sostiene en la atención al presente.",
+        "vera": "Elías espera una respiración antes de abrir el sonido; Vera demora un instante una transición. El acuerdo se sostiene en la atención al presente."
+      },
+      "mediaCaption": "Paisaje sonoro de demostración; no corresponde a un registro de campo."
+    },
+    {
+      "id": "w09",
+      "label": "presencia",
+      "selections": [
+        "rafael",
+        "monica"
+      ],
+      "creatorIds": [
+        "lucia"
+      ],
+      "knotId": "con-texto",
+      "kind": "text",
+      "body": "Una presencia deja marcas incluso cuando no entra en cuadro. El vestuario usado y una imagen fuera de foco pueden guardar la intensidad de un encuentro.",
+      "relations": {
+        "lucia": "Lucía registra el camerino después del cambio; Inés reconoce qué prendas estuvieron en escena por el modo en que han quedado dobladas."
+      }
+    },
+    {
+      "id": "w10",
+      "label": "relevo",
+      "selections": [
+        "monica"
+      ],
+      "creatorIds": [
+        "tomas",
+        "pablo"
+      ],
+      "knotId": "un-hacer-paralelo",
+      "kind": "text",
+      "body": "El relevo transmite una tarea y una manera de cuidarla. Para que funcione, alguien debe hacer visible aquello que ya realiza sin pensarlo.",
+      "relations": {
+        "tomas": "Tomás organiza una pasada con el equipo entrante. Pablo descompone un mecanismo en movimientos que otra persona pueda repetir con confianza.",
+        "pablo": "Tomás organiza una pasada con el equipo entrante. Pablo descompone un mecanismo en movimientos que otra persona pueda repetir con confianza."
+      }
+    },
+    {
+      "id": "w11",
+      "label": "escucha",
+      "selections": [
+        "lectora03",
+        "lector04",
+        "rafael"
+      ],
+      "creatorIds": [
+        "elias",
+        "tomas"
+      ],
+      "knotId": "un-hacer-paralelo",
+      "kind": "text",
+      "body": "Escuchar es atender a una señal y al contexto que la rodea. En el trabajo colectivo, también significa advertir cuándo otra persona necesita tiempo.",
+      "relations": {
+        "elias": "Elías distingue una vibración ajena al diseño sonoro; Tomás detiene la prueba para encontrar su origen. Una interrupción puede evitar muchas otras.",
+        "tomas": "Elías distingue una vibración ajena al diseño sonoro; Tomás detiene la prueba para encontrar su origen. Una interrupción puede evitar muchas otras."
+      }
+    },
+    {
+      "id": "w12",
+      "label": "equilibrio",
+      "selections": [
+        "lector04",
+        "rafael"
+      ],
+      "creatorIds": [
+        "pablo",
+        "vera"
+      ],
+      "knotId": "trasescena",
+      "kind": "text",
+      "body": "El equilibrio pertenece a los objetos y a las relaciones entre quienes los manipulan. Se ensaya hasta que una tensión encuentra su lugar.",
+      "relations": {
+        "pablo": "Pablo compensa el peso de una pieza suspendida. Vera comprueba que su recorrido no invada el haz que guía a quien entra a escena.",
+        "vera": "Pablo compensa el peso de una pieza suspendida. Vera comprueba que su recorrido no invada el haz que guía a quien entra a escena."
+      }
+    },
+    {
+      "id": "w13",
+      "label": "costura",
+      "selections": [
+        "rafael",
+        "monica",
+        "lectora03",
+        "lector04"
+      ],
+      "creatorIds": [
+        "ines",
+        "lucia"
+      ],
+      "knotId": "talleres",
+      "kind": "image",
+      "body": "La costura une fragmentos y conserva la evidencia de esa unión. Un remiendo puede revelar más de la vida de una prenda que su apariencia durante la función.",
+      "relations": {
+        "ines": "Inés decide conservar una reparación visible. Lucía la fotografía como parte del recorrido del objeto, sin convertirla en un defecto que deba ocultarse.",
+        "lucia": "Inés decide conservar una reparación visible. Lucía la fotografía como parte del recorrido del objeto, sin convertirla en un defecto que deba ocultarse."
+      },
+      "mediaCaption": "Imagen de ensayo para el prototipo; no documenta un proceso real."
+    },
+    {
+      "id": "w14",
+      "label": "madera",
+      "selections": [
+        "monica",
+        "lectora03",
+        "lector04"
+      ],
+      "creatorIds": [
+        "pablo",
+        "lucia"
+      ],
+      "knotId": "talleres",
+      "kind": "text",
+      "body": "La madera llega con vetas, golpes y usos anteriores. Trabajarla implica conversar con una materia que no comienza de cero.",
+      "relations": {
+        "pablo": "Pablo recupera una tabla de un montaje previo. Lucía registra sus marcas antes de que el nuevo color las cubra parcialmente.",
+        "lucia": "Pablo recupera una tabla de un montaje previo. Lucía registra sus marcas antes de que el nuevo color las cubra parcialmente."
+      }
+    },
+    {
+      "id": "w15",
+      "label": "tela",
+      "selections": [
+        "lectora03",
+        "lector04"
+      ],
+      "creatorIds": [
+        "ines",
+        "vera"
+      ],
+      "knotId": "talleres",
+      "kind": "text",
+      "body": "Una tela modifica su color con cada luz y su forma con cada cuerpo. Su elección continúa durante los ensayos, lejos del momento inicial de diseño.",
+      "relations": {
+        "ines": "Inés lleva muestras a una prueba de luz. Vera descubre que una de ellas devuelve un brillo que cambia la escena y ajusta su intensidad.",
+        "vera": "Inés lleva muestras a una prueba de luz. Vera descubre que una de ellas devuelve un brillo que cambia la escena y ajusta su intensidad."
+      }
+    },
+    {
+      "id": "w16",
+      "label": "cable",
+      "selections": [
+        "lector04"
+      ],
+      "creatorIds": [
+        "elias",
+        "tomas"
+      ],
+      "knotId": "talleres",
+      "kind": "text",
+      "body": "El cable dibuja recorridos que el público rara vez sigue. Su disposición organiza movimientos, distancias y posibilidades de conexión.",
+      "relations": {
+        "elias": "Elías necesita una línea silenciosa; Tomás busca un recorrido que permita el cambio de escenografía. La solución se construye entre ambos.",
+        "tomas": "Elías necesita una línea silenciosa; Tomás busca un recorrido que permita el cambio de escenografía. La solución se construye entre ambos."
+      }
+    },
+    {
+      "id": "w17",
+      "label": "herramienta",
+      "selections": [
+        "rafael",
+        "monica",
+        "lectora03"
+      ],
+      "creatorIds": [
+        "pablo",
+        "ines"
+      ],
+      "knotId": "talleres",
+      "kind": "text",
+      "body": "Una herramienta prolonga el cuerpo y acumula hábitos de quien la usa. Su desgaste cuenta horas de trabajo que ninguna fotografía de estreno puede resumir.",
+      "relations": {
+        "pablo": "Pablo presta una llave con una indicación precisa; Inés guarda unas tijeras para un tipo de corte. El objeto circula acompañado de conocimiento.",
+        "ines": "Pablo presta una llave con una indicación precisa; Inés guarda unas tijeras para un tipo de corte. El objeto circula acompañado de conocimiento."
+      }
+    },
+    {
+      "id": "w18",
+      "label": "huella",
+      "selections": [
+        "monica",
+        "lectora03"
+      ],
+      "creatorIds": [
+        "lucia",
+        "ines"
+      ],
+      "knotId": "con-texto",
+      "kind": "text",
+      "body": "Las huellas del uso pueden tomarse como suciedad o como memoria. La diferencia depende de la pregunta con la que volvemos a mirar.",
+      "relations": {
+        "lucia": "Lucía fotografía una marca en el piso antes de desmontar. Inés encuentra el mismo recorrido en el desgaste de una suela.",
+        "ines": "Lucía fotografía una marca en el piso antes de desmontar. Inés encuentra el mismo recorrido en el desgaste de una suela."
+      }
+    },
+    {
+      "id": "w19",
+      "label": "polvo",
+      "selections": [
+        "lectora03"
+      ],
+      "creatorIds": [
+        "pablo",
+        "lucia"
+      ],
+      "knotId": "un-hacer-paralelo",
+      "kind": "image",
+      "body": "El polvo se posa sobre lo construido y aparece cuando la luz lo atraviesa. En suspensión, permite ver por un momento el volumen del aire.",
+      "relations": {
+        "pablo": "Pablo sacude una pieza antes de instalarla. Lucía registra esa nube breve, una imagen del montaje que no pertenece a la función.",
+        "lucia": "Pablo sacude una pieza antes de instalarla. Lucía registra esa nube breve, una imagen del montaje que no pertenece a la función."
+      },
+      "mediaCaption": "Imagen de ensayo para el prototipo; no documenta un proceso real."
+    },
+    {
+      "id": "w20",
+      "label": "remiendo",
+      "selections": [
+        "lector04",
+        "rafael",
+        "monica",
+        "lectora03"
+      ],
+      "creatorIds": [
+        "ines",
+        "tomas"
+      ],
+      "knotId": "un-hacer-paralelo",
+      "kind": "text",
+      "body": "Remendar no devuelve siempre una materia a su estado anterior. A veces inventa una continuidad posible con lo que todavía resiste.",
+      "relations": {
+        "ines": "Inés modifica una reparación para permitir un cambio rápido. Tomás incluye ese nuevo gesto en la secuencia de avisos.",
+        "tomas": "Inés modifica una reparación para permitir un cambio rápido. Tomás incluye ese nuevo gesto en la secuencia de avisos."
+      }
+    },
+    {
+      "id": "w21",
+      "label": "tensión",
+      "selections": [
+        "rafael",
+        "monica"
+      ],
+      "creatorIds": [
+        "pablo",
+        "elias"
+      ],
+      "knotId": "talleres",
+      "kind": "text",
+      "body": "Una tensión adecuada sostiene; una excesiva transmite vibraciones o anticipa una rotura. Aprender a reconocerla exige escuchar y tocar.",
+      "relations": {
+        "pablo": "Pablo reajusta un tirante que vibra durante una escena silenciosa. Elías escucha desde la sala para encontrar juntos el punto suficiente.",
+        "elias": "Pablo reajusta un tirante que vibra durante una escena silenciosa. Elías escucha desde la sala para encontrar juntos el punto suficiente."
+      }
+    },
+    {
+      "id": "w22",
+      "label": "archivo",
+      "selections": [
+        "monica"
+      ],
+      "creatorIds": [
+        "lucia",
+        "tomas"
+      ],
+      "knotId": "un-hacer-paralelo",
+      "kind": "text",
+      "body": "Un archivo puede reunir las versiones descartadas junto a la versión final. Así permite regresar a las decisiones y reconocer caminos que quedaron abiertos.",
+      "relations": {
+        "lucia": "Lucía conserva las pruebas con fecha y contexto. Tomás añade el esquema técnico para que las imágenes no queden separadas de sus condiciones de producción.",
+        "tomas": "Lucía conserva las pruebas con fecha y contexto. Tomás añade el esquema técnico para que las imágenes no queden separadas de sus condiciones de producción."
+      }
+    },
+    {
+      "id": "w23",
+      "label": "sombra",
+      "selections": [
+        "lectora03",
+        "lector04",
+        "rafael"
+      ],
+      "creatorIds": [
+        "vera",
+        "lucia"
+      ],
+      "knotId": "maridajes",
+      "kind": "text",
+      "body": "La sombra es una materia cambiante: se alarga, se corta, desaparece. También puede señalar a alguien que trabaja detrás de una superficie.",
+      "relations": {
+        "vera": "Vera desplaza una fuente hasta separar dos siluetas. Lucía observa cómo ese cambio transforma lo que su cámara podía distinguir.",
+        "lucia": "Vera desplaza una fuente hasta separar dos siluetas. Lucía observa cómo ese cambio transforma lo que su cámara podía distinguir."
+      }
+    },
+    {
+      "id": "w24",
+      "label": "trama",
+      "selections": [
+        "lector04",
+        "rafael"
+      ],
+      "creatorIds": [
+        "ines",
+        "elias"
+      ],
+      "knotId": "talleres",
+      "kind": "text",
+      "body": "Una trama se sostiene por cruces que no actúan de forma aislada. El tejido ofrece una imagen del trabajo colectivo, con tensiones y apoyos repartidos.",
+      "relations": {
+        "ines": "Inés escucha una prueba mientras termina una prenda. Elías incorpora el roce del tejido como punto de partida para una textura sonora.",
+        "elias": "Inés escucha una prueba mientras termina una prenda. Elías incorpora el roce del tejido como punto de partida para una textura sonora."
+      }
+    },
+    {
+      "id": "w25",
+      "label": "espera",
+      "selections": [
+        "rafael",
+        "monica",
+        "lectora03",
+        "lector04"
+      ],
+      "creatorIds": [
+        "tomas",
+        "vera"
+      ],
+      "knotId": "trasescena",
+      "kind": "text",
+      "body": "Esperar no es dejar de trabajar. Puede ser sostener una atención disponible hasta que un sonido, un movimiento o una mirada habilita el siguiente paso.",
+      "relations": {
+        "tomas": "Tomás conserva una pausa en la secuencia. Vera mantiene la oscuridad hasta que el cambio termina y la entrada puede ocurrir sin apuro.",
+        "vera": "Tomás conserva una pausa en la secuencia. Vera mantiene la oscuridad hasta que el cambio termina y la entrada puede ocurrir sin apuro."
+      }
+    },
+    {
+      "id": "w26",
+      "label": "señal",
+      "selections": [
+        "monica",
+        "lectora03",
+        "lector04"
+      ],
+      "creatorIds": [
+        "tomas",
+        "elias"
+      ],
+      "knotId": "trasescena",
+      "kind": "audio",
+      "body": "Una señal breve conecta trabajos que suceden a distancia. Su claridad depende de acuerdos ensayados y de saber quién está escuchando.",
+      "relations": {
+        "tomas": "Tomás da un aviso previo; Elías confirma sin añadir ruido a la comunicación. Entre ambos sostienen un lenguaje pequeño y preciso.",
+        "elias": "Tomás da un aviso previo; Elías confirma sin añadir ruido a la comunicación. Entre ambos sostienen un lenguaje pequeño y preciso."
+      },
+      "mediaCaption": "Paisaje sonoro de demostración; no corresponde a un registro de campo."
+    },
+    {
+      "id": "w27",
+      "label": "ensayo",
+      "selections": [
+        "lectora03",
+        "lector04"
+      ],
+      "creatorIds": [
+        "vera",
+        "ines"
+      ],
+      "knotId": "con-texto",
+      "kind": "text",
+      "body": "El ensayo reúne intentos que todavía pueden modificarse. Ahí aparecen relaciones entre cuerpos, materiales y tiempos que ningún plano había previsto.",
+      "relations": {
+        "vera": "Inés observa un cambio completo mientras Vera prueba una transición. Ambas anotan lo que solo se vuelve evidente cuando la secuencia se pone en movimiento.",
+        "ines": "Inés observa un cambio completo mientras Vera prueba una transición. Ambas anotan lo que solo se vuelve evidente cuando la secuencia se pone en movimiento."
+      }
+    },
+    {
+      "id": "w28",
+      "label": "repetición",
+      "selections": [
+        "lector04"
+      ],
+      "creatorIds": [
+        "pablo",
+        "elias"
+      ],
+      "knotId": "con-texto",
+      "kind": "text",
+      "body": "Repetir permite reconocer diferencias. Un mecanismo y una secuencia sonora pueden conservar su estructura mientras cambian de acuerdo con el ritmo de cada función.",
+      "relations": {
+        "pablo": "Pablo verifica la llegada de un carro en varias pasadas. Elías ajusta el punto en que su sonido acompaña ese recorrido.",
+        "elias": "Pablo verifica la llegada de un carro en varias pasadas. Elías ajusta el punto en que su sonido acompaña ese recorrido."
+      }
+    },
+    {
+      "id": "w29",
+      "label": "umbral",
+      "selections": [
+        "rafael",
+        "monica",
+        "lectora03"
+      ],
+      "creatorIds": [
+        "vera",
+        "lucia"
+      ],
+      "knotId": "maridajes",
+      "kind": "text",
+      "body": "Hay un intervalo en que una escena ya terminó y la siguiente aún no aparece. Ese umbral puede guardar tanta densidad como una imagen plenamente visible.",
+      "relations": {
+        "vera": "Vera sostiene un resto de luz. Lucía registra lo que sucede en ese borde, cuando la cámara todavía encuentra una forma en la oscuridad.",
+        "lucia": "Vera sostiene un resto de luz. Lucía registra lo que sucede en ese borde, cuando la cámara todavía encuentra una forma en la oscuridad."
+      }
+    },
+    {
+      "id": "w30",
+      "label": "pausa",
+      "selections": [
+        "monica",
+        "lectora03"
+      ],
+      "creatorIds": [
+        "tomas",
+        "ines"
+      ],
+      "knotId": "con-texto",
+      "kind": "text",
+      "body": "La pausa hace espacio para revisar, recuperar aire o cambiar una decisión. Suprimirla puede desplazar el problema hacia el cuerpo de otra persona.",
+      "relations": {
+        "tomas": "Tomás reserva una pausa entre pasadas. Inés aprovecha ese tiempo para revisar una presión que el vestuario produce en movimiento.",
+        "ines": "Tomás reserva una pausa entre pasadas. Inés aprovecha ese tiempo para revisar una presión que el vestuario produce en movimiento."
+      }
+    },
+    {
+      "id": "w31",
+      "label": "ritmo",
+      "selections": [
+        "lectora03"
+      ],
+      "creatorIds": [
+        "elias",
+        "vera"
+      ],
+      "knotId": "maridajes",
+      "kind": "text",
+      "body": "El ritmo nace de relaciones entre acciones, duraciones y vacíos. También organiza el trabajo que sucede antes de abrir la sala.",
+      "relations": {
+        "elias": "Elías y Vera comparan sus secuencias para encontrar un intervalo común. La coordinación no necesita borrar las diferencias entre escuchar y mirar.",
+        "vera": "Elías y Vera comparan sus secuencias para encontrar un intervalo común. La coordinación no necesita borrar las diferencias entre escuchar y mirar."
+      }
+    },
+    {
+      "id": "w32",
+      "label": "montaje",
+      "selections": [
+        "lector04",
+        "rafael",
+        "monica",
+        "lectora03"
+      ],
+      "creatorIds": [
+        "pablo",
+        "tomas"
+      ],
+      "knotId": "trasescena",
+      "kind": "text",
+      "body": "El montaje ocupa un tiempo más extenso que su resultado visible. Cada pieza instalada guarda decisiones de transporte, orden, prueba y colaboración.",
+      "relations": {
+        "pablo": "Pablo propone cambiar el orden de armado para evitar un esfuerzo repetido. Tomás adapta el plan a la disponibilidad del espacio y del equipo.",
+        "tomas": "Pablo propone cambiar el orden de armado para evitar un esfuerzo repetido. Tomás adapta el plan a la disponibilidad del espacio y del equipo."
+      }
+    },
+    {
+      "id": "w33",
+      "label": "desmontaje",
+      "selections": [
+        "rafael",
+        "monica"
+      ],
+      "creatorIds": [
+        "lucia",
+        "pablo"
+      ],
+      "knotId": "un-hacer-paralelo",
+      "kind": "image",
+      "body": "Después del último aplauso, la obra vuelve a convertirse en partes. El desmontaje decide qué se guarda, qué se transforma y qué no podrá volver a usarse.",
+      "relations": {
+        "lucia": "Lucía registra el orden inverso del espacio. Pablo marca las piezas que requerirán reparación antes de emprender otro viaje.",
+        "pablo": "Lucía registra el orden inverso del espacio. Pablo marca las piezas que requerirán reparación antes de emprender otro viaje."
+      },
+      "mediaCaption": "Imagen de ensayo para el prototipo; no documenta un proceso real."
+    },
+    {
+      "id": "w34",
+      "label": "duración",
+      "selections": [
+        "monica"
+      ],
+      "creatorIds": [
+        "elias",
+        "lucia"
+      ],
+      "knotId": "con-texto",
+      "kind": "text",
+      "body": "La duración de una función no contiene todo el tiempo de una obra. Hay preparaciones, pruebas y recuerdos que extienden su existencia hacia otras horas.",
+      "relations": {
+        "elias": "Lucía pone en relación un registro del ensayo y otro del cierre. Elías conserva versiones sonoras que permiten escuchar lo que cambió entre ambos momentos.",
+        "lucia": "Lucía pone en relación un registro del ensayo y otro del cierre. Elías conserva versiones sonoras que permiten escuchar lo que cambió entre ambos momentos."
+      }
+    },
+    {
+      "id": "w35",
+      "label": "intervalo",
+      "selections": [
+        "lectora03",
+        "lector04",
+        "rafael"
+      ],
+      "creatorIds": [
+        "vera",
+        "tomas"
+      ],
+      "knotId": "trasescena",
+      "kind": "text",
+      "body": "Un intervalo permite una transformación que no necesita mostrarse completa. Desde los costados, ese vacío está lleno de movimientos coordinados.",
+      "relations": {
+        "vera": "Vera ofrece una oscuridad suficiente; Tomás sigue el recorrido de quienes deben cruzar. El tiempo se mide con cuerpos en tránsito.",
+        "tomas": "Vera ofrece una oscuridad suficiente; Tomás sigue el recorrido de quienes deben cruzar. El tiempo se mide con cuerpos en tránsito."
+      }
+    },
+    {
+      "id": "w36",
+      "label": "memoria",
+      "selections": [
+        "lector04",
+        "rafael"
+      ],
+      "creatorIds": [
+        "ines",
+        "lucia"
+      ],
+      "knotId": "un-hacer-paralelo",
+      "kind": "text",
+      "body": "La memoria de una obra vive en documentos, objetos y personas. Ninguna de esas formas puede sustituir por completo a las otras.",
+      "relations": {
+        "ines": "Inés explica para qué servía una modificación de vestuario. Lucía añade esa relación al registro de la prenda, junto a la imagen que por sí sola no podía contarla.",
+        "lucia": "Inés explica para qué servía una modificación de vestuario. Lucía añade esa relación al registro de la prenda, junto a la imagen que por sí sola no podía contarla."
+      }
+    },
+    {
+      "id": "w37",
+      "label": "silencio",
+      "selections": [
+        "rafael",
+        "monica",
+        "lectora03",
+        "lector04"
+      ],
+      "creatorIds": [
+        "elias",
+        "vera"
+      ],
+      "knotId": "maridajes",
+      "kind": "audio",
+      "body": "El silencio de una sala contiene ventilación, cuerpos, motores y espera. Trabajar con él es decidir qué sonidos pueden ocupar el primer plano.",
+      "relations": {
+        "elias": "Elías baja una capa sonora y escucha el espacio. Vera acompaña esa apertura con una luz que no reclama toda la atención.",
+        "vera": "Elías baja una capa sonora y escucha el espacio. Vera acompaña esa apertura con una luz que no reclama toda la atención."
+      },
+      "mediaCaption": "Paisaje sonoro de demostración; no corresponde a un registro de campo."
+    },
+    {
+      "id": "w38",
+      "label": "penumbra",
+      "selections": [
+        "monica",
+        "lectora03",
+        "lector04"
+      ],
+      "creatorIds": [
+        "vera",
+        "ines"
+      ],
+      "knotId": "maridajes",
+      "kind": "text",
+      "body": "La penumbra permite ver sin entregar de inmediato una forma completa. También ofrece refugio para los gestos que sostienen una transformación.",
+      "relations": {
+        "vera": "Vera prueba cuánto puede reducir una luz sin perder el recorrido. Inés verifica que el cambio de vestuario todavía pueda hacerse con precisión.",
+        "ines": "Vera prueba cuánto puede reducir una luz sin perder el recorrido. Inés verifica que el cambio de vestuario todavía pueda hacerse con precisión."
+      }
+    },
+    {
+      "id": "w39",
+      "label": "fuera de campo",
+      "selections": [
+        "lectora03",
+        "lector04"
+      ],
+      "creatorIds": [
+        "lucia",
+        "elias"
+      ],
+      "knotId": "con-texto",
+      "kind": "text",
+      "body": "Fuera del encuadre continúa una escena de trabajo. Un sonido puede devolver parte de ese espacio que la imagen deja afuera.",
+      "relations": {
+        "lucia": "Lucía conserva una toma en la que no se ve quién prepara la entrada. Elías relaciona esa imagen con los pasos y roces que ocurren a su costado.",
+        "elias": "Lucía conserva una toma en la que no se ve quién prepara la entrada. Elías relaciona esa imagen con los pasos y roces que ocurren a su costado."
+      }
+    },
+    {
+      "id": "w40",
+      "label": "contrapeso",
+      "selections": [
+        "lector04"
+      ],
+      "creatorIds": [
+        "pablo",
+        "vera"
+      ],
+      "knotId": "talleres",
+      "kind": "text",
+      "body": "Un contrapeso responde a una fuerza desde otro lugar. Su eficacia permite que una elevación parezca leve aunque detrás exista una estructura precisa.",
+      "relations": {
+        "pablo": "Pablo calibra el mecanismo antes de la prueba de luz. Vera observa su trayectoria para evitar que la fuente revele por accidente lo que la escena prefiere dejar suspendido.",
+        "vera": "Pablo calibra el mecanismo antes de la prueba de luz. Vera observa su trayectoria para evitar que la fuente revele por accidente lo que la escena prefiere dejar suspendido."
+      }
+    },
+    {
+      "id": "w41",
+      "label": "entretelón",
+      "selections": [
+        "rafael",
+        "monica",
+        "lectora03"
+      ],
+      "creatorIds": [
+        "ines",
+        "tomas"
+      ],
+      "knotId": "maridajes",
+      "kind": "text",
+      "body": "El entretelón es un lugar de cruces rápidos, materiales disponibles y atención repartida. Allí la escena convive con su preparación inmediata.",
+      "relations": {
+        "ines": "Inés dispone las prendas siguiendo la secuencia del cambio. Tomás libera un paso que se había convertido en lugar de espera.",
+        "tomas": "Inés dispone las prendas siguiendo la secuencia del cambio. Tomás libera un paso que se había convertido en lugar de espera."
+      }
+    },
+    {
+      "id": "w42",
+      "label": "latencia",
+      "selections": [
+        "monica",
+        "lectora03"
+      ],
+      "creatorIds": [
+        "elias",
+        "lucia"
+      ],
+      "knotId": "un-hacer-paralelo",
+      "kind": "text",
+      "body": "Entre una acción y su respuesta puede existir una demora casi imperceptible. Ajustarla cambia la sensación de encuentro entre sonido, imagen y cuerpo.",
+      "relations": {
+        "elias": "Elías compara una señal con la imagen que prepara Lucía. Ambos deciden qué desfase conviene corregir y cuál puede volverse parte de la composición.",
+        "lucia": "Elías compara una señal con la imagen que prepara Lucía. Ambos deciden qué desfase conviene corregir y cuál puede volverse parte de la composición."
+      }
+    },
+    {
+      "id": "w43",
+      "label": "rastro",
+      "selections": [
+        "lectora03"
+      ],
+      "creatorIds": [
+        "lucia",
+        "pablo"
+      ],
+      "knotId": "con-texto",
+      "kind": "text",
+      "body": "Un rastro anuncia que algo ocurrió sin reconstruirlo por completo. La bitácora puede alojar esos fragmentos y permitir que convivan con preguntas abiertas.",
+      "relations": {
+        "lucia": "Lucía encuentra una cinta de marcación después del desmontaje. Pablo reconoce allí la posición de una pieza y recuerda una decisión que no había quedado escrita.",
+        "pablo": "Lucía encuentra una cinta de marcación después del desmontaje. Pablo reconoce allí la posición de una pieza y recuerda una decisión que no había quedado escrita."
+      }
+    },
+    {
+      "id": "w44",
+      "label": "oscuridad",
+      "selections": [
+        "lector04",
+        "rafael",
+        "monica",
+        "lectora03"
+      ],
+      "creatorIds": [
+        "vera",
+        "tomas"
+      ],
+      "knotId": "trasescena",
+      "kind": "text",
+      "body": "La oscuridad no vacía el escenario. Hace aparecer otras formas de orientación: una marca táctil, un aviso, la memoria del camino.",
+      "relations": {
+        "vera": "Vera prepara un apagón; Tomás recorre con el equipo lo que sucederá durante él. El acuerdo permite que la ausencia de luz tenga una duración habitable.",
+        "tomas": "Vera prepara un apagón; Tomás recorre con el equipo lo que sucederá durante él. El acuerdo permite que la ausencia de luz tenga una duración habitable."
+      }
+    },
+    {
+      "id": "w45",
+      "label": "eco",
+      "selections": [
+        "rafael",
+        "monica"
+      ],
+      "creatorIds": [
+        "elias",
+        "pablo"
+      ],
+      "knotId": "un-hacer-paralelo",
+      "kind": "text",
+      "body": "El eco deja escuchar el tamaño de un espacio y las superficies que lo componen. Un objeto añadido puede modificarlo sin producir un sonido propio.",
+      "relations": {
+        "elias": "Elías detecta una resonancia después de instalar una estructura. Pablo ensaya un pequeño cambio de material para acompañar la escucha.",
+        "pablo": "Elías detecta una resonancia después de instalar una estructura. Pablo ensaya un pequeño cambio de material para acompañar la escucha."
+      }
+    },
+    {
+      "id": "w46",
+      "label": "aparición",
+      "selections": [
+        "monica"
+      ],
+      "creatorIds": [
+        "vera",
+        "lucia"
+      ],
+      "knotId": "maridajes",
+      "kind": "text",
+      "body": "Aparecer es entrar en una relación con la mirada. La luz y el encuadre deciden cuánto de una presencia se entrega y cuánto continúa abierto.",
+      "relations": {
+        "vera": "Vera abre lentamente una zona del escenario. Lucía prueba un encuadre que conserva el borde de esa aparición en lugar de mostrarla entera.",
+        "lucia": "Vera abre lentamente una zona del escenario. Lucía prueba un encuadre que conserva el borde de esa aparición en lugar de mostrarla entera."
+      }
+    },
+    {
+      "id": "w47",
+      "label": "sostén",
+      "selections": [
+        "lectora03",
+        "lector04",
+        "rafael"
+      ],
+      "creatorIds": [
+        "ines"
+      ],
+      "knotId": "con-texto",
+      "kind": "text",
+      "body": "El sostén reúne apoyos materiales y acuerdos humanos. Muchas veces se reconoce cuando falta; registrarlo permite nombrar lo que hacía posible la continuidad.",
+      "relations": {
+        "ines": "Tomás incluye las tareas pequeñas en el reparto del día. Inés señala cuáles de ellas necesitan una persona disponible, aunque duren apenas unos segundos."
+      }
+    },
+    {
+      "id": "w48",
+      "label": "tras escena",
+      "selections": [
+        "lector04",
+        "rafael"
+      ],
+      "creatorIds": [
+        "tomas"
+      ],
+      "knotId": "trasescena",
+      "kind": "text",
+      "body": "Detrás de lo que se presenta hay un espacio de decisiones, reparaciones y encuentros. Esta nube propone recorrerlo sin reducirlo a una lista de funciones técnicas.",
+      "relations": {
+        "tomas": "Pablo y Tomás representan aquí dos recorridos ficticios entre muchos posibles. Sus relaciones con las palabras ensayan una forma de leer el trabajo que sostiene la escena."
+      }
+    }
+  ]
+}
