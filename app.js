@@ -4,13 +4,16 @@ import { createCloudArrangement, createWordPlacement, sampleBreath } from './mot
 import { createLung } from './lung.js?v=4';
 import { createOrbitFollower } from './dynamics.js?v=4';
 import { createTerritory } from './territory.js?v=6';
+import { createIndices } from './indices.js?v=7';
+import { installLiquidGlass } from './liquid-glass.js?v=7';
+import { getCloudLayout, getCloudDepthExtent, getDepthStyle, getWordVisibility } from './cloud-view.js?v=7';
 
 const $ = (s) => document.querySelector(s);
 const el = (tag, cls, text) => { const n = document.createElement(tag); if(cls) n.className=cls; if(text!==undefined) n.textContent=text; return n; };
 const stage=$('#stage'),cloud=$('#cloud'),canvas=$('#connections'),ctx=canvas.getContext('2d');
 const drawer=$('#drawer'),content=$('#drawer-content'),context=$('#context');
 const reduced=matchMedia('(prefers-reduced-motion: reduce)');
-let territory=null;
+let territory=null,indices=null;
 let connectionRGB='171,151,122';
 const zoneDelays=Array.from({length:8},()=>Math.random()*.9);
 let data,editor,nodes=[],mode=null,edges=[],hovered=null,paused=reduced.matches;
@@ -18,7 +21,7 @@ const lung=createLung();
 let lungPose=lung.update(0,false);
 let placements=new Map(),breathTime=0;
 let ax=0,ay=0,targetZoom=innerWidth<650?.82:1,zoom=targetZoom,velocityX=0,velocityY=0,lastTime=0,modeTime=0,rotationDirty=true;
-let viewport={w:innerWidth,h:innerHeight,cx:innerWidth*.53,cy:innerHeight*.52};
+let viewport=getCloudLayout(innerWidth,innerHeight);
 let pointers=new Map(),drag=null,pinchDistance=0,pinchTime=0,didDrag=false,stopSound=null,closeFocus=null;
 
 function hash(s){let n=2166136261;for(const c of s){n^=c.charCodeAt(0);n=Math.imul(n,16777619);}return n>>>0;}
@@ -27,7 +30,7 @@ function announce(text){$('#announcement').textContent=text;}
 
 function makeGrain(){const c=document.createElement('canvas');c.width=c.height=180;const g=c.getContext('2d'),im=g.createImageData(180,180),r=random(19);for(let i=0;i<im.data.length;i+=4){const v=Math.floor(r()*255);im.data[i]=im.data[i+1]=im.data[i+2]=v;im.data[i+3]=255;}g.putImageData(im,0,0);document.documentElement.style.setProperty('--grain-image',`url(${c.toDataURL()})`);}
 
-function resize(){viewport={w:innerWidth,h:innerHeight,cx:innerWidth*(innerWidth<650?.5:.53),cy:innerHeight*(innerWidth<650?.54:.52)};const dpr=Math.min(devicePixelRatio||1,2);canvas.width=Math.round(viewport.w*dpr);canvas.height=Math.round(viewport.h*dpr);canvas.style.width=viewport.w+'px';canvas.style.height=viewport.h+'px';ctx.setTransform(dpr,0,0,dpr,0,0);$('#space').style.perspectiveOrigin=`${viewport.cx}px ${viewport.cy}px`;cloud.style.left=viewport.cx+'px';cloud.style.top=viewport.cy+'px';positionWords();rotationDirty=true;}
+function resize(){viewport=getCloudLayout(innerWidth,innerHeight);const dpr=Math.min(devicePixelRatio||1,2);canvas.width=Math.round(viewport.w*dpr);canvas.height=Math.round(viewport.h*dpr);canvas.style.width=viewport.w+'px';canvas.style.height=viewport.h+'px';ctx.setTransform(dpr,0,0,dpr,0,0);$('#space').style.perspectiveOrigin=`${viewport.cx}px ${viewport.cy}px`;cloud.style.left=viewport.cx+'px';cloud.style.top=viewport.cy+'px';positionWords();measureWords();rotationDirty=true;}
 
 function rebuild(){
   hovered=null;
@@ -53,21 +56,24 @@ function rebuild(){
     cloud.append(anchor);
     return{word,button,span,anchor,placement,index:i,baseX:0,baseY:0,baseZ:0,x:0,y:0,z:0,depth:0,drift:sampleBreath(placement.breath,breathTime)*.08,breathDelay,orbitX:ax,orbitY:ay,follower:createOrbitFollower(`${word.id}:${placement.u}`,ax,ay)};
   });
-  positionWords();
+  positionWords();measureWords();
   if(mode){const source=(mode.type==='person'?data.creators:data.knots).find(x=>x.id===mode.id);if(source)activate(mode.type,source);else resetMode();}
   announce(`${data.words.length} palabras en la nube.`);
 }
 
 function positionWords(){
-  const small=viewport.w<650;
-  const rx=small?Math.max(160,viewport.w*.49):Math.min(600,viewport.w*.34);
-  const ry=small?Math.min(230,viewport.h*.235):Math.min(315,viewport.h*.32),rz=small?140:215;
+  const {rx,ry,rz}=viewport;
   nodes.forEach(n=>{
     n.baseX=n.placement.u*rx;n.baseY=n.placement.v*ry;n.baseZ=n.placement.w*rz;
     n.x=n.baseX*lungPose.x;n.y=n.baseY*lungPose.y;n.z=n.baseZ*lungPose.z+n.drift;
     n.button.style.fontSize=14*Math.pow(1.25,new Set(n.word.selections).size-1)+'pt';
   });
   if(mode)buildEdges();rotationDirty=true;
+}
+
+function measureWords(){
+  for(const n of nodes){n.labelWidth=n.button.offsetWidth;n.labelHeight=n.button.offsetHeight;}
+  rotationDirty=true;
 }
 
 function rotated(n){
@@ -80,7 +86,7 @@ function inMode(word){return!mode||(mode.type==='person'?word.creatorIds.include
 
 function frame(time){
   const dt=Math.min((time-lastTime)/1000||.016,.045);lastTime=time;
-  const blocked=drawer.open||!!document.querySelector('.editor-dialog[open]')||!!territory?.isOpen()||document.hidden;
+  const blocked=drawer.open||!!document.querySelector('.editor-dialog[open]')||!!territory?.isOpen()||!!indices?.isOpen()||document.hidden;
   // Reading a fragment leaves the living scene in motion behind its glass.
   const breathing=!paused&&!reduced.matches&&!document.hidden;
   lungPose=lung.update(dt,breathing);
@@ -105,6 +111,7 @@ function frame(time){
     cloud.dataset.breathPhase=lungPose.phase;
     cloud.dataset.volumeScale=(lungPose.x*lungPose.y*lungPose.z).toFixed(4);
     cloud.dataset.angularSpeed=Math.hypot(velocityX,velocityY).toFixed(4);
+    const depthExtent=getCloudDepthExtent(viewport,ax,ay);
     nodes.forEach(n=>{
       if(breathing&&n.word.id!==hovered)n.drift+=(sampleBreath(n.placement.breath,breathTime)*.08-n.drift)*(1-Math.exp(-dt*4));
       const localBreath=lung.sample(n.breathDelay);
@@ -116,35 +123,65 @@ function frame(time){
       n.anchor.style.transform=`translate3d(${p.x/zoom}px,${p.y/zoom}px,${p.z/zoom}px)`;
       n.button.style.transform=`translate(-50%,-50%) rotateZ(${n.placement.angle}deg)`;
       n.button.dataset.orbitLag=Math.hypot(ax-n.orbitX,ay-n.orbitY).toFixed(5);
-      const depth=Math.max(0,Math.min(1,(p.z+230*zoom)/(460*zoom)));
-      n.depth=p.z;n.button.style.opacity=String(.29+depth*.65);
-      n.span.style.filter=`blur(${(.12+Math.pow(1-depth,2)*2.4).toFixed(2)}px)`;
+      const optical=getDepthStyle(p.z,zoom,depthExtent),perspective=1000/(1000-p.z);
+      const sideways=Math.abs(Math.round(n.placement.angle/90)%2)===1;
+      const width=(sideways?n.labelHeight:n.labelWidth)*zoom*perspective;
+      const height=(sideways?n.labelWidth:n.labelHeight)*zoom*perspective;
+      const visibility=getWordVisibility({x:viewport.cx+p.x*perspective,y:viewport.cy+p.y*perspective,width,height},viewport,{hasContext:!!mode});
+      n.depth=p.z;n.button.style.opacity=String(optical.opacity*visibility);
+      n.button.style.setProperty('--depth-tone',optical.tone);
+      n.button.style.visibility=visibility<.015?'hidden':'';
+      n.button.dataset.depth=optical.depth.toFixed(3);
+      n.button.dataset.readingVisibility=visibility.toFixed(3);
+      n.span.style.filter=`blur(${optical.blur}px)`;
     });
     rotationDirty=false;
   }
   ctx.clearRect(0,0,viewport.w,viewport.h);
   if(mode){
+    ctx.save();
+    if(viewport.compact){
+      const bottom=viewport.safeBottom-(viewport.portrait?55:0);
+      ctx.beginPath();ctx.rect(0,viewport.safeTop,viewport.w,Math.max(0,bottom-viewport.safeTop));
+      if(viewport.titleRect){const r=viewport.titleRect;ctx.rect(r.left,r.top,r.right-r.left,r.bottom-r.top);}
+      ctx.clip('evenodd');
+    }
     const alpha=Math.min(1,(time-modeTime)/1000);
     ctx.strokeStyle=`rgba(${connectionRGB},${.31*alpha})`;ctx.lineWidth=.65;
     edges.forEach(([a,b])=>{const p=projected(a),q=projected(b);ctx.beginPath();ctx.moveTo(p.x,p.y);ctx.lineTo(q.x,q.y);ctx.stroke();});
     ctx.fillStyle=`rgba(${connectionRGB},${.55*alpha})`;
     nodes.filter(n=>inMode(n.word)).forEach(n=>{const p=projected(n);ctx.beginPath();ctx.arc(p.x,p.y,1.5,0,Math.PI*2);ctx.fill();});
+    ctx.restore();
   }
   requestAnimationFrame(frame);
 }
 
 function buildEdges(){const active=nodes.filter(n=>inMode(n.word));edges=[];if(active.length<2)return;const visited=[active[0]],rest=active.slice(1);while(rest.length){let best=null,min=Infinity;for(const a of visited)for(const b of rest){const d=(a.x-b.x)**2+(a.y-b.y)**2+(a.z-b.z)**2;if(d<min){min=d;best=[a,b];}}edges.push(best);visited.push(best[1]);rest.splice(rest.indexOf(best[1]),1);}}
 
-function activate(type,source){document.body.classList.add('has-constellation');mode={type,id:source.id};modeTime=performance.now();nodes.forEach(n=>{const active=inMode(n.word);n.button.classList.toggle('inactive',!active);n.button.classList.toggle('selected',active);n.button.tabIndex=active?0:-1;n.button.setAttribute('aria-hidden',String(!active));});buildEdges();$('#context-type').textContent=type==='person'?'CONSTELACIÓN DE UNA PERSONA':'HILOS DE UN NUDO';$('#context-title').textContent=source.name;context.hidden=false;$('.title-block').style.opacity='.45';const count=nodes.filter(n=>inMode(n.word)).length;announce(`${source.name}: ${count} palabras relacionadas. Pulsa la flecha para volver a la nube.`);}
-function resetMode(){document.body.classList.remove('has-constellation');territory?.close();mode=null;edges=[];nodes.forEach(n=>{n.button.classList.remove('inactive','selected');n.button.tabIndex=0;n.button.removeAttribute('aria-hidden');});context.hidden=true;$('.title-block').style.opacity='1';announce('Todas las palabras.');}
+function activate(type,source){indices?.close(false);territory?.close(false);rotationDirty=true;document.body.classList.add('has-constellation');mode={type,id:source.id};modeTime=performance.now();nodes.forEach(n=>{const active=inMode(n.word);n.button.classList.toggle('inactive',!active);n.button.classList.toggle('selected',active);n.button.tabIndex=active?0:-1;n.button.setAttribute('aria-hidden',String(!active));});buildEdges();$('#context-type').textContent=type==='person'?'CONSTELACIÓN DE UNA PERSONA':'HILOS DE UN NUDO';$('#context-title').textContent=source.name;context.hidden=false;$('.title-block').style.opacity='.45';const count=nodes.filter(n=>inMode(n.word)).length;announce(`${source.name}: ${count} palabras relacionadas. Pulsa la flecha para volver a la nube.`);}
+function resetMode(){rotationDirty=true;document.body.classList.remove('has-constellation');indices?.close();territory?.close();mode=null;edges=[];nodes.forEach(n=>{n.button.classList.remove('inactive','selected');n.button.tabIndex=0;n.button.removeAttribute('aria-hidden');});context.hidden=true;$('.title-block').style.opacity='1';announce('Todas las palabras.');}
 
 function heading(text){const h=el('h2','',text);h.id='drawer-heading';content.append(h);return h;}
-function openDrawer(kicker,render,trigger,kind='index'){territory?.close();velocityX=velocityY=0;lung.release();drawer.classList.toggle('word-plate',kind!=='index');drawer.classList.toggle('image-plate',kind==='image');if(stopSound){stopSound();stopSound=null;}closeFocus=trigger||document.activeElement;$('#drawer-kicker').textContent=kicker;content.replaceChildren();render();if(!drawer.open)drawer.showModal();drawer.scrollTop=0;const scroll=drawer.querySelector('.plate-scroll');if(scroll)scroll.scrollTop=0;}
+function openDrawer(kicker,render,trigger,kind='index'){indices?.close(false);territory?.close();velocityX=velocityY=0;lung.release();drawer.classList.toggle('word-plate',kind!=='index');drawer.classList.toggle('image-plate',kind==='image');if(stopSound){stopSound();stopSound=null;}closeFocus=trigger||document.activeElement;$('#drawer-kicker').textContent=kicker;content.replaceChildren();render();if(!drawer.open)drawer.showModal();drawer.scrollTop=0;const scroll=drawer.querySelector('.plate-scroll');if(scroll)scroll.scrollTop=0;}
 function closeDrawer(){if(stopSound){stopSound();stopSound=null;}drawer.close();if(closeFocus?.isConnected)closeFocus.focus({preventScroll:true});}
 
-function openPeople(){openDrawer('ÍNDICE DE PERSONAS',()=>{heading('Quienes sostienen.');content.append(el('p','lede','Cada nombre abre un recorrido distinto. Un conjunto de palabras que se encuentran en una manera de hacer.'));const list=el('div','drawer-list');data.creators.forEach((person,i)=>{const count=data.words.filter(w=>w.creatorIds.includes(person.id)).length;const b=el('button','person-row');b.append(el('span','row-index',String(i+1).padStart(2,'0')));const wrap=el('span');wrap.append(el('span','row-name',person.name),el('span','row-role',`${person.role} · ${count} palabras`));b.append(wrap,el('span','row-arrow','↗'));b.addEventListener('click',()=>{closeDrawer();activate('person',person);$('#return-button').focus({preventScroll:true});});list.append(b);});content.append(list,el('p','demo-note','Los personajes y sus vínculos son ficticios. Nos sirven para ensayar la navegación antes de reunir los materiales de esta bitácora.'));},$('#people-button'));}
-
-function openKnots(){openDrawer('NUDOS DE LA BITÁCORA',()=>{heading('Cinco maneras\nde entrar.');content.append(el('p','lede','Los nudos reúnen procesos, preguntas y afinidades. No ordenan un recorrido: dejan hilos que puedes seguir.'));const list=el('div','drawer-list');data.knots.forEach((knot,i)=>{const b=el('button','knot-row');b.append(el('span','row-index',String(i+1).padStart(2,'0')));const text=el('span');text.append(el('span','row-name',knot.name),el('span','row-description',knot.description));b.append(text,el('span','row-arrow','↗'));b.addEventListener('click',()=>{closeDrawer();activate('knot',knot);$('#return-button').focus({preventScroll:true});});list.append(b);});content.append(list,el('p','demo-note','Los cinco nombres proceden del acta de la reunión. La distribución de palabras y los contenidos de cada nudo son un ensayo.'));},$('#knots-button'));}
+function syncForeground(){
+  const raised=!!territory?.isOpen()||!!indices?.isOpen();
+  stage.inert=raised;
+  stage.style.opacity=raised?'.055':'';
+  context.hidden=raised||!mode;
+  document.body.classList.toggle('has-navigation-layer',raised);
+  $('.title-block').style.opacity=raised?'0':mode?'.45':'1';
+  if(raised){velocityX=velocityY=0;pointers.clear();drag=null;lung.release();}
+}
+function openIndex(type){
+  if(!indices)return;
+  if(drawer.open)closeDrawer();
+  territory?.close(false);
+  indices.open(type);
+}
+function openPeople(){openIndex('person');}
+function openKnots(){openIndex('knot');}
 
 function openWord(word,trigger){openDrawer(word.demo===false?'UN APORTE EN ESTE NAVEGADOR':'FRAGMENTO / CONTENIDO FICTICIO',()=>{const meta=el('div','word-meta');const knot=data.knots.find(k=>k.id===word.knotId);meta.append(el('span','',knot?.name||'Sin nudo'),el('span','small-dot'),el('span','',`${word.selections.length} ${word.selections.length===1?'selección':'selecciones'}`));content.append(meta);heading(word.label);
     if(mode?.type==='person'){const person=data.creators.find(p=>p.id===mode.id);const block=el('div','relation-block');block.append(el('p','eyebrow',`CON ${person.name.toLocaleUpperCase('es')}`),el('p','word-description',word.relations[mode.id]||'Esta palabra está vinculada a esta persona. El contexto del vínculo está por documentarse.'));content.append(block,el('p','eyebrow detail-label','LA PALABRA'));}
@@ -230,20 +267,22 @@ window.addEventListener('blur',()=>{pointers.clear();drag=null;velocityX=velocit
 stage.addEventListener('click',e=>{if(!didDrag&&!e.target.closest('.word')&&mode)resetMode();});
 stage.addEventListener('wheel',e=>{e.preventDefault();const delta=e.deltaY*(e.deltaMode===1?16:e.deltaMode===2?viewport.h:1);targetZoom=Math.max(.6,Math.min(1.75,targetZoom*Math.exp(-delta*.001)));$('#gesture-hint').style.opacity='.25';},{passive:false});
 stage.addEventListener('keydown',e=>{if(e.target!==stage)return;const changes={ArrowLeft:[0,-.07],ArrowRight:[0,.07],ArrowUp:[.07,0],ArrowDown:[-.07,0]};if(changes[e.key]){e.preventDefault();ax+=changes[e.key][0];ay+=changes[e.key][1];rotationDirty=true;}if(['+','=','-','_'].includes(e.key)){e.preventDefault();targetZoom=Math.max(.6,Math.min(1.75,targetZoom+(e.key==='-'||e.key==='_'?-.1:.1)));}});
-document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!drawer.open&&!document.querySelector('dialog[open]')&&!territory?.isOpen()&&mode)resetMode();});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!drawer.open&&!document.querySelector('dialog[open]')&&!territory?.isOpen()&&!indices?.isOpen()&&mode)resetMode();});
 $('#people-button').addEventListener('click',openPeople);$('#knots-button').addEventListener('click',openKnots);$('#about-button').addEventListener('click',openAbout);$('#close-drawer').addEventListener('click',closeDrawer);$('#return-button').addEventListener('click',resetMode);$('#pause-button').addEventListener('click',()=>{paused=!paused;velocityX=velocityY=0;updatePause();});
 drawer.addEventListener('click',e=>{if(e.target===drawer){const r=drawer.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)closeDrawer();}});drawer.addEventListener('cancel',()=>{if(stopSound){stopSound();stopSound=null;}});drawer.addEventListener('close',()=>{if(stopSound){stopSound();stopSound=null;}});window.addEventListener('resize',resize);reduced.addEventListener('change',e=>{if(e.matches){paused=true;velocityX=velocityY=0;lung.release();}updatePause();});document.addEventListener('visibilitychange',()=>{if(document.hidden&&stopSound){stopSound();stopSound=null;}pointers.clear();drag=null;velocityX=velocityY=0;lung.release();});
 
-makeGrain();installSurfaceTexture();createAppearance({onChange:()=>{connectionRGB=getComputedStyle(document.documentElement).getPropertyValue('--connection-rgb').trim()||'171,151,122';rotationDirty=true;}});updatePause();
-try{const response=await fetch('data.json');if(!response.ok)throw Error('No se encontró el archivo de palabras.');const base=await response.json();data=loadLocalData(base);editor=createEditor({getData:()=>data,onChange:next=>{data=next;mode=null;rebuild();resetMode();}});$('#contribute-button').addEventListener('click',()=>{territory?.close();editor.open();});resize();rebuild();$('#loading').hidden=true;requestAnimationFrame(frame);
+document.fonts?.ready.then(measureWords);document.fonts?.addEventListener('loadingdone',measureWords);
+makeGrain();installSurfaceTexture();installLiquidGlass();createAppearance({onChange:()=>{connectionRGB=getComputedStyle(document.documentElement).getPropertyValue('--connection-rgb').trim()||'171,151,122';measureWords();}});updatePause();
+try{const response=await fetch('data.json');if(!response.ok)throw Error('No se encontró el archivo de palabras.');const base=await response.json();data=loadLocalData(base);editor=createEditor({getData:()=>data,onChange:next=>{data=next;mode=null;rebuild();resetMode();}});$('#contribute-button').addEventListener('click',()=>{indices?.close(false);territory?.close();editor.open();});resize();rebuild();$('#loading').hidden=true;requestAnimationFrame(frame);
+  indices=createIndices({getData:()=>data,onSelect:(type,source)=>{activate(type,source);$('#return-button').focus({preventScroll:true});},onOpen:syncForeground,onClose:syncForeground});
   let territoryLoading=null;
   const loadTerritory=()=>{
     if(territory)return Promise.resolve(territory);
-    if(!territoryLoading)territoryLoading=createTerritory({getData:()=>data,onCreator:id=>{const person=data.creators.find(p=>p.id===id);if(person){activate('person',person);$('#return-button').focus({preventScroll:true});}},onOpen:()=>{$('#places-button').setAttribute('aria-expanded','true');velocityX=velocityY=0;lung.release();context.hidden=true;stage.inert=true;stage.style.opacity='.045';},onClose:()=>{$('#places-button').setAttribute('aria-expanded','false');stage.inert=false;stage.style.opacity='';context.hidden=!mode;$('.title-block').style.opacity=mode?'.45':'1';}}).then(value=>territory=value).finally(()=>{territoryLoading=null;});
+    if(!territoryLoading)territoryLoading=createTerritory({getData:()=>data,onCreator:id=>{const person=data.creators.find(p=>p.id===id);if(person){activate('person',person);$('#return-button').focus({preventScroll:true});}},onOpen:()=>{$('#places-button').setAttribute('aria-expanded','true');syncForeground();},onClose:()=>{$('#places-button').setAttribute('aria-expanded','false');syncForeground();}}).then(value=>territory=value).finally(()=>{territoryLoading=null;});
     return territoryLoading;
   };
   const showTerritory=async()=>{
-    try{const map=await loadTerritory();if(drawer.open)closeDrawer();map.open();}
+    try{const map=await loadTerritory();if(drawer.open)closeDrawer();indices?.close(false);map.open();}
     catch(error){console.warn(error);openDrawer('LUGARES',()=>{heading('El mapa tarda en llegar.');content.append(el('p','lede','No pudimos abrir los lugares del ensayo. Puedes volver a intentarlo.'));const retry=el('button','text-chip','Volver a intentar ↗');retry.addEventListener('click',showTerritory);content.append(retry);},$('#places-button'));}
   };
   loadTerritory().catch(error=>console.warn(error));

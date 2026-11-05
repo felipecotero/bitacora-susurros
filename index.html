@@ -10,12 +10,14 @@
   <link rel="icon" href="icon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css?v=5">
   <link rel="stylesheet" href="editor.css?v=5">
-  <link rel="stylesheet" href="glass.css?v=5">
-  <link rel="stylesheet" href="territory.css?v=6">
+  <link rel="stylesheet" href="glass.css?v=7">
+  <link rel="stylesheet" href="territory.css?v=7">
   <link rel="stylesheet" href="appearance.css?v=5">
+  <link rel="stylesheet" href="indices.css?v=7">
+  <link rel="stylesheet" href="cloud-view.css?v=7">
   <link rel="preload" href="fonts/architects-daughter-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="fonts/archivo-latin.woff2" as="font" type="font/woff2" crossorigin>
-  <script type="module" src="app.js?v=6"></script>
+  <script type="module" src="app.js?v=7"></script>
 </head>
 <body>
   <svg class="optical-definitions" xmlns="http://www.w3.org/2000/svg" width="0" height="0" aria-hidden="true" focusable="false">
@@ -38,9 +40,9 @@
     <div class="project-credit" aria-label="Bitácora de una investigación del colectivo Fragua"><span class="fragua-name">FRAGUA</span><span class="fragua-caption">COLECTIVO</span></div>
     <p class="edition">BITÁCORA DE UNA INVESTIGACIÓN<br>SUSURROS · VOCES OCULTAS</p>
     <nav class="main-nav" aria-label="Recorrer la bitácora">
-      <button id="people-button" aria-haspopup="dialog">Personas <span aria-hidden="true">↗</span></button>
+      <button id="people-button" aria-controls="indices-view" aria-expanded="false">Personas <span aria-hidden="true">↗</span></button>
       <button id="places-button" aria-controls="territory-view" aria-expanded="false">Lugares <span aria-hidden="true">↗</span></button>
-      <button id="knots-button" aria-haspopup="dialog">Nudos <span aria-hidden="true">↗</span></button>
+      <button id="knots-button" aria-controls="indices-view" aria-expanded="false">Nudos <span aria-hidden="true">↗</span></button>
       <button id="about-button" class="round-button" aria-label="Acerca de este ensayo" aria-haspopup="dialog">i</button>
     </nav>
   </header>

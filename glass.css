@@ -104,11 +104,13 @@
 }
 .word-plate .resin-image .detail-image {
   display: block;
-  width: 100%;
+  width: auto;
+  max-width: 100%;
   height: auto;
   max-height: 350px;
-  margin: 0;
+  margin: 0 auto;
   border-radius: 11px 14px 12px 15px;
+  clip-path: inset(0 round 11px 14px 12px 15px);
   object-fit: contain;
   filter: saturate(.65) contrast(.95);
   box-shadow: 0 0 15px #08110b55;
@@ -152,3 +154,91 @@
   .word-plate .resin-image .detail-image { max-height: 300px; }
 }
 @media (prefers-reduced-motion: reduce) { .drawer.word-plate[open] { animation: none; } }
+
+/* A convex lens: a clear, strongly refracted rim around a softly defocused centre. */
+html body .drawer.word-plate[data-liquid-glass],
+html body .territory-city-plate[data-liquid-glass] {
+  --liquid-saturation: 1.08;
+  --liquid-brightness: 1.06;
+  -webkit-backdrop-filter: blur(1.8px) saturate(var(--liquid-saturation));
+  backdrop-filter: blur(1.8px) saturate(var(--liquid-saturation));
+  backdrop-filter: var(--liquid-refraction) saturate(var(--liquid-saturation)) brightness(var(--liquid-brightness));
+}
+html[data-theme='day'] body .drawer.word-plate[data-liquid-glass],
+html[data-theme='day'] body .territory-city-plate[data-liquid-glass] {
+  --liquid-saturation: .82;
+  --liquid-brightness: 1.015;
+}
+html body .word-plate .plate-optics {
+  background:
+    radial-gradient(ellipse at 2% 0%, #f2ffe522, transparent 32%),
+    linear-gradient(127deg, #d7e2d215, #080d0b47 48%, #d1e4c30b);
+  box-shadow:
+    inset 1px 1px 1px #ffffff66,
+    inset -1px -1px 2px #efffe338,
+    inset 4px 3px 10px #ebffe90d,
+    inset -4px -5px 12px #00000035;
+}
+html body .word-plate .plate-scroll {
+  background: linear-gradient(90deg, #090e0b0a, #080d0b22 52%, #090e0b0a);
+}
+html[data-theme='day'] body .word-plate .plate-optics {
+  background:
+    radial-gradient(ellipse at 2% 0%, #ffffff7d, transparent 32%),
+    linear-gradient(127deg, #fffffa38, #f3f5e85c 48%, #ffffff24);
+  box-shadow:
+    inset 1px 1px 1px #ffffffdd,
+    inset -1px -1px 2px #7e8d646b,
+    inset 4px 3px 10px #ffffff33,
+    inset -4px -5px 12px #71855d14;
+}
+html[data-theme='day'] body .word-plate .plate-scroll {
+  background: linear-gradient(90deg, #ffffff0a, #fffff41a 52%, #ffffff0a);
+}
+html body .drawer.word-plate::before {
+  background: linear-gradient(125deg, #ffffff1a, transparent 18% 76%, #f2ffe50d);
+  box-shadow: inset 0 1px 1px #ffffff3b, inset -1px -1px 2px #d8ecc426, 0 0 0 1px #00000022;
+}
+html[data-theme='day'] body .drawer.word-plate::before {
+  background: linear-gradient(125deg, #ffffff70, transparent 18% 76%, #ffffff3d);
+  box-shadow: inset 0 1px 1px #ffffffe6, inset -1px -1px 2px #73875a38, 0 0 0 1px #4e633519;
+}
+html body .word-plate .resin-image .detail-image[data-liquid-glass] {
+  filter: var(--liquid-refraction) saturate(.78) contrast(.98);
+}
+/* The photograph is refracted itself, so no uniformly blurred veil covers it. */
+html body .word-plate .resin-image::after,
+html[data-theme='day'] body .word-plate .resin-image::after {
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+  background: linear-gradient(128deg, #ffffff08, transparent 34% 72%, #e9ffd806);
+}
+
+
+/* Safari/iOS use the same lens on a live, inert copy of the scene. */
+html body .drawer.word-plate[data-liquid-glass][data-liquid-renderer='scene-proxy'],
+html body .territory-city-plate[data-liquid-glass][data-liquid-renderer='scene-proxy'] {
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+}
+.liquid-scene-proxy {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  border-radius: inherit;
+  overflow: hidden;
+  pointer-events: none;
+  background: var(--bg);
+  filter: var(--liquid-refraction) saturate(var(--liquid-saturation,1.08)) brightness(var(--liquid-brightness,1.06));
+}
+.liquid-scene-viewport {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform-origin: 0 0;
+  overflow: hidden;
+  pointer-events: none;
+  isolation: isolate;
+}
+html body .word-plate .plate-optics { z-index: 1; }
+.territory-city-plate[data-liquid-renderer='scene-proxy'] .territory-city-inner { position: relative; z-index: 2; }
