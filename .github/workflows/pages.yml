@@ -1,0 +1,69 @@
+name: Publicar bitácora
+
+on:
+  workflow_dispatch:
+    inputs:
+      publish:
+        description: Publicar en el enlace de la bitácora
+        type: boolean
+        default: true
+
+permissions: {}
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    environment: susurros-source
+    permissions:
+      contents: read
+    steps:
+      - name: Obtener las ediciones anteriores
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+      - name: Obtener la fuente privada de 0.3
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          repository: felipecotero/bitacora-susurros-fuente
+          ref: main
+          path: .susurros-source
+          ssh-key: ${{ secrets.SUSURROS_SOURCE_KEY }}
+          persist-credentials: false
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: '22'
+          package-manager-cache: false
+      - name: Preparar la publicación
+        run: |
+          mkdir "$RUNNER_TEMP/susurros-site"
+          git archive HEAD -- .nojekyll index.html v0.1 v0.2 | tar -xf - -C "$RUNNER_TEMP/susurros-site"
+          npm --prefix .susurros-source ci --no-audit --no-fund
+          (cd .susurros-source && npm run build -- v0.3 "$RUNNER_TEMP/susurros-site/v0.3")
+          node --check "$RUNNER_TEMP/susurros-site/v0.3/app.js"
+          test ! -e "$RUNNER_TEMP/susurros-site/v0.3/data.json"
+      - name: Preparar paquete para GitHub Pages
+        if: inputs.publish
+        uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4
+        with:
+          path: ${{ runner.temp }}/susurros-site
+          retention-days: 1
+
+  deploy:
+    if: inputs.publish
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.publish.outputs.page_url }}
+    steps:
+      - name: Publicar en GitHub Pages
+        id: publish
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4
