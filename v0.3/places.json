@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "demo": false,
+  "description": "Lugares de trabajo confirmados para este corte.",
+  "locations": [
+    {
+      "id": "bogota",
+      "name": "Bogotá",
+      "latitude": 4.711,
+      "longitude": -74.072,
+      "creatorIds": [
+        "edwing",
+        "jhon",
+        "pablo"
+      ],
+      "labelOffset": [
+        85,
+        -42
+      ]
+    }
+  ]
+}

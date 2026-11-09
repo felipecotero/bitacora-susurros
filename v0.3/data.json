@@ -1,0 +1,3354 @@
+{
+  "version": 1,
+  "demo": false,
+  "selectors": [],
+  "creators": [
+    {
+      "id": "edwing",
+      "name": "Edwing Pinzón",
+      "role": "",
+      "bio": "",
+      "inProgress": false
+    },
+    {
+      "id": "castro",
+      "name": "Hermanos Castro",
+      "role": "",
+      "bio": "",
+      "inProgress": true
+    },
+    {
+      "id": "jhon",
+      "name": "Jhon Sánchez",
+      "role": "",
+      "bio": "",
+      "inProgress": false
+    },
+    {
+      "id": "pablo",
+      "name": "Pablo Restrepo",
+      "role": "",
+      "bio": "",
+      "inProgress": false
+    },
+    {
+      "id": "agarrapata",
+      "name": "Agarrapata",
+      "role": "",
+      "bio": "",
+      "inProgress": true
+    }
+  ],
+  "knots": [
+    {
+      "id": "talleres",
+      "name": "Talleres",
+      "description": "Selección de piezas pendiente."
+    },
+    {
+      "id": "trasescena",
+      "name": "Trasescena",
+      "description": "Selección de piezas pendiente."
+    },
+    {
+      "id": "con-texto",
+      "name": "Con-texto",
+      "description": "Selección de piezas pendiente."
+    },
+    {
+      "id": "maridajes",
+      "name": "Maridajes",
+      "description": "Selección de piezas pendiente."
+    },
+    {
+      "id": "un-hacer-paralelo",
+      "name": "Un hacer paralelo",
+      "description": "Selección de piezas pendiente."
+    }
+  ],
+  "words": [
+    {
+      "id": "color",
+      "label": "Color",
+      "knotId": null,
+      "creatorIds": [
+        "edwing"
+      ],
+      "selections": [],
+      "pieces": {
+        "edwing": [
+          {
+            "id": "edwing:color:glosario",
+            "kind": "text",
+            "creatorId": "edwing",
+            "text": "Característica visual de las superficies escenográficas que depende tanto de los materiales y acabados como de las condiciones de iluminación. Edwin considera el color parte de los conocimientos necesarios para realizar una escenografía y advierte que su apariencia puede modificarse considerablemente al llegar al escenario. En ocasiones, los colores y tratamientos solicitados durante la fabricación pierden su efecto porque la iluminación no permite apreciarlos."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "edwing:color:glosario",
+          "kind": "text",
+          "creatorId": "edwing",
+          "text": "Característica visual de las superficies escenográficas que depende tanto de los materiales y acabados como de las condiciones de iluminación. Edwin considera el color parte de los conocimientos necesarios para realizar una escenografía y advierte que su apariencia puede modificarse considerablemente al llegar al escenario. En ocasiones, los colores y tratamientos solicitados durante la fabricación pierden su efecto porque la iluminación no permite apreciarlos."
+        }
+      ]
+    },
+    {
+      "id": "construir",
+      "label": "Construir",
+      "knotId": null,
+      "creatorIds": [
+        "edwing"
+      ],
+      "selections": [],
+      "pieces": {
+        "edwing": [
+          {
+            "id": "edwing:construir:glosario",
+            "kind": "text",
+            "creatorId": "edwing",
+            "text": "Proceso de convertir una idea o diseño en un objeto físico mediante el trabajo con materiales, herramientas y procedimientos de fabricación. Edwin identifica la construcción como una segunda etapa de su trabajo, posterior a la planificación y al desarrollo inicial de la propuesta. Durante esta fase pueden aparecer dificultades que obligan a modificar las decisiones anteriores. Por eso acostumbra mostrar el proceso a sus clientes, de manera que puedan comprender los cambios y anticipar el resultado."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "edwing:construir:glosario",
+          "kind": "text",
+          "creatorId": "edwing",
+          "text": "Proceso de convertir una idea o diseño en un objeto físico mediante el trabajo con materiales, herramientas y procedimientos de fabricación. Edwin identifica la construcción como una segunda etapa de su trabajo, posterior a la planificación y al desarrollo inicial de la propuesta. Durante esta fase pueden aparecer dificultades que obligan a modificar las decisiones anteriores. Por eso acostumbra mostrar el proceso a sus clientes, de manera que puedan comprender los cambios y anticipar el resultado."
+        }
+      ]
+    },
+    {
+      "id": "desapercibido",
+      "label": "Desapercibido",
+      "knotId": null,
+      "creatorIds": [
+        "edwing"
+      ],
+      "selections": [],
+      "pieces": {
+        "edwing": [
+          {
+            "id": "edwing:desapercibido:glosario",
+            "kind": "text",
+            "creatorId": "edwing",
+            "text": "Condición del trabajo de realización escenográfica que, pese a ser necesario para una producción, puede quedar fuera de la percepción o del reconocimiento del público. Edwin menciona elementos cuyos acabados y texturas dejan de apreciarse debido a la iluminación, así como producciones en las que no se identifica a quienes fabricaron la escenografía. Aunque reconoce estas situaciones, afirma que su principal interés es que el trabajo quede bien realizado."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "edwing:desapercibido:glosario",
+          "kind": "text",
+          "creatorId": "edwing",
+          "text": "Condición del trabajo de realización escenográfica que, pese a ser necesario para una producción, puede quedar fuera de la percepción o del reconocimiento del público. Edwin menciona elementos cuyos acabados y texturas dejan de apreciarse debido a la iluminación, así como producciones en las que no se identifica a quienes fabricaron la escenografía. Aunque reconoce estas situaciones, afirma que su principal interés es que el trabajo quede bien realizado."
+        }
+      ]
+    },
+    {
+      "id": "dibujo",
+      "label": "Dibujo",
+      "knotId": null,
+      "creatorIds": [
+        "edwing"
+      ],
+      "selections": [],
+      "pieces": {
+        "edwing": [
+          {
+            "id": "edwing_dibujo_foto.jpg",
+            "kind": "image",
+            "creatorId": "edwing",
+            "src": "media/corte/web/edwing_dibujo_foto.jpg",
+            "caption": "Fotografía del archivo de Susurros.",
+            "alt": "Hojas con croquis y anotaciones sujetas con pinzas a un mueble de madera."
+          },
+          {
+            "id": "edwing:dibujo:glosario",
+            "kind": "text",
+            "creatorId": "edwing",
+            "text": "Herramienta de pensamiento y comunicación que permite desarrollar una propuesta escenográfica antes de construirla. Edwin utiliza el dibujo para estudiar medidas, uniones, pesos y características estructurales, especialmente cuando el proyecto no llega acompañado de planos. También le permite explicar sus ideas a los clientes y anticipar posibles dificultades. Su función es principalmente práctica, pues acompaña la búsqueda de soluciones constructivas."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "edwing_dibujo_foto.jpg",
+          "kind": "image",
+          "creatorId": "edwing",
+          "src": "media/corte/web/edwing_dibujo_foto.jpg",
+          "caption": "Fotografía del archivo de Susurros.",
+          "alt": "Hojas con croquis y anotaciones sujetas con pinzas a un mueble de madera."
+        },
+        {
+          "id": "edwing:dibujo:glosario",
+          "kind": "text",
+          "creatorId": "edwing",
+          "text": "Herramienta de pensamiento y comunicación que permite desarrollar una propuesta escenográfica antes de construirla. Edwin utiliza el dibujo para estudiar medidas, uniones, pesos y características estructurales, especialmente cuando el proyecto no llega acompañado de planos. También le permite explicar sus ideas a los clientes y anticipar posibles dificultades. Su función es principalmente práctica, pues acompaña la búsqueda de soluciones constructivas."
+        }
+      ]
+    },
+    {
+      "id": "ensamble",
+      "label": "Ensamble",
+      "knotId": null,
+      "creatorIds": [
+        "edwing"
+      ],
+      "selections": [],
+      "pieces": {
+        "edwing": [
+          {
+            "id": "edwing:ensamble:glosario",
+            "kind": "text",
+            "creatorId": "edwing",
+            "text": "Procedimiento de unión de piezas y materiales para conformar una estructura u objeto escenográfico. Edwin emplea diferentes tipos de ensamble, especialmente en madera, para mejorar la resistencia de los elementos construidos. Explica que la orientación y disposición de los listones puede modificar considerablemente su comportamiento estructural. El ensamblaje también es una función de su taller, donde reúne componentes fabricados por otros especialistas."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "edwing:ensamble:glosario",
+          "kind": "text",
+          "creatorId": "edwing",
+          "text": "Procedimiento de unión de piezas y materiales para conformar una estructura u objeto escenográfico. Edwin emplea diferentes tipos de ensamble, especialmente en madera, para mejorar la resistencia de los elementos construidos. Explica que la orientación y disposición de los listones puede modificar considerablemente su comportamiento estructural. El ensamblaje también es una función de su taller, donde reúne componentes fabricados por otros especialistas."
+        }
+      ]
+    },
+    {
+      "id": "espacio",
+      "label": "Espacio",
+      "knotId": null,
+      "creatorIds": [
+        "edwing"
+      ],
+      "selections": [],
+      "pieces": {
+        "edwing": [
+          {
+            "id": "edwing:espacio:glosario",
+            "kind": "text",
+            "creatorId": "edwing",
+            "text": "Lugar físico necesario para desarrollar los procesos de fabricación, montaje y almacenamiento de elementos escenográficos. Edwin ha adaptado progresivamente una casa que anteriormente funcionaba como restaurante, modificando divisiones interiores y distribuyendo áreas de corte, ensamblaje, pintura y bodegaje. Las dimensiones y características del lugar condicionan la organización de los proyectos. Por esta razón, buena parte de sus herramientas y mesas tienen ruedas, lo que permite reorganizar el taller según las necesidades de cada trabajo."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "edwing:espacio:glosario",
+          "kind": "text",
+          "creatorId": "edwing",
+          "text": "Lugar físico necesario para desarrollar los procesos de fabricación, montaje y almacenamiento de elementos escenográficos. Edwin ha adaptado progresivamente una casa que anteriormente funcionaba como restaurante, modificando divisiones interiores y distribuyendo áreas de corte, ensamblaje, pintura y bodegaje. Las dimensiones y características del lugar condicionan la organización de los proyectos. Por esta razón, buena parte de sus herramientas y mesas tienen ruedas, lo que permite reorganizar el taller según las necesidades de cada trabajo."
+        }
+      ]
+    },
+    {
+      "id": "experimental",
+      "label": "Experimental",
+      "knotId": null,
+      "creatorIds": [
+        "edwing"
+      ],
+      "selections": [],
+      "pieces": {
+        "edwing": [
+          {
+            "id": "edwing:experimental:glosario",
+            "kind": "text",
+            "creatorId": "edwing",
+            "text": "Característica de los proyectos cuyo desarrollo no está completamente definido desde el comienzo y exige explorar diferentes posibilidades de realización. Edwin distingue estos trabajos de aquellos que llegan al taller con planos, dimensiones y acabados establecidos. En los proyectos experimentales, la propuesta puede modificarse durante la construcción y requiere mayor participación del realizador en la búsqueda de soluciones."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "edwing:experimental:glosario",
+          "kind": "text",
+          "creatorId": "edwing",
+          "text": "Característica de los proyectos cuyo desarrollo no está completamente definido desde el comienzo y exige explorar diferentes posibilidades de realización. Edwin distingue estos trabajos de aquellos que llegan al taller con planos, dimensiones y acabados establecidos. En los proyectos experimentales, la propuesta puede modificarse durante la construcción y requiere mayor participación del realizador en la búsqueda de soluciones."
+        }
+      ]
+    },
+    {
+      "id": "geometria",
+      "label": "Geometría",
+      "knotId": null,
+      "creatorIds": [
+        "edwing"
+      ],
+      "selections": [],
+      "pieces": {
+        "edwing": [
+          {
+            "id": "edwing_geometria.mp4",
+            "kind": "video",
+            "creatorId": "edwing",
+            "src": "media/corte/web/edwing_geometria.mp4",
+            "caption": "Registro en video del archivo de Susurros.",
+            "poster": "media/corte/web/edwing_geometria.poster.jpg"
+          },
+          {
+            "id": "edwing:geometria:glosario",
+            "kind": "text",
+            "creatorId": "edwing",
+            "text": "Conjunto de conocimientos sobre formas, dimensiones y proporciones que permite estudiar y resolver problemas de construcción. Edwin utiliza la geometría para comprender el comportamiento de elementos estructurales, como vigas y columnas, y explicar cómo su disposición afecta la resistencia. En el trabajo con madera, por ejemplo, considera la orientación de los listones y la forma de unirlos para conseguir mayor rigidez."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "edwing_geometria.mp4",
+          "kind": "video",
+          "creatorId": "edwing",
+          "src": "media/corte/web/edwing_geometria.mp4",
+          "caption": "Registro en video del archivo de Susurros.",
+          "poster": "media/corte/web/edwing_geometria.poster.jpg"
+        },
+        {
+          "id": "edwing:geometria:glosario",
+          "kind": "text",
+          "creatorId": "edwing",
+          "text": "Conjunto de conocimientos sobre formas, dimensiones y proporciones que permite estudiar y resolver problemas de construcción. Edwin utiliza la geometría para comprender el comportamiento de elementos estructurales, como vigas y columnas, y explicar cómo su disposición afecta la resistencia. En el trabajo con madera, por ejemplo, considera la orientación de los listones y la forma de unirlos para conseguir mayor rigidez."
+        }
+      ]
+    },
+    {
+      "id": "gremio",
+      "label": "Gremio",
+      "knotId": null,
+      "creatorIds": [
+        "edwing"
+      ],
+      "selections": [],
+      "pieces": {
+        "edwing": [
+          {
+            "id": "edwing:gremio:glosario",
+            "kind": "text",
+            "creatorId": "edwing",
+            "text": "Conjunto de personas y talleres que comparten conocimientos relacionados con la realización escenográfica y otros oficios especializados. Edwin reconoce que no es posible dominar todos los materiales y procedimientos, por lo que recurre a especialistas cuando un proyecto requiere conocimientos que no posee. Estas relaciones permiten distribuir la fabricación de componentes entre diferentes talleres y reunirlos posteriormente para su ensamblaje."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "edwing:gremio:glosario",
+          "kind": "text",
+          "creatorId": "edwing",
+          "text": "Conjunto de personas y talleres que comparten conocimientos relacionados con la realización escenográfica y otros oficios especializados. Edwin reconoce que no es posible dominar todos los materiales y procedimientos, por lo que recurre a especialistas cuando un proyecto requiere conocimientos que no posee. Estas relaciones permiten distribuir la fabricación de componentes entre diferentes talleres y reunirlos posteriormente para su ensamblaje."
+        }
+      ]
+    },
+    {
+      "id": "herramientas",
+      "label": "Herramientas",
+      "knotId": null,
+      "creatorIds": [
+        "edwing"
+      ],
+      "selections": [],
+      "pieces": {
+        "edwing": [
+          {
+            "id": "edwing:herramientas:glosario",
+            "kind": "text",
+            "creatorId": "edwing",
+            "text": "Conjunto de instrumentos y máquinas que permiten cortar, transformar, unir y dar acabado a los materiales utilizados en la realización escenográfica. Para Edwin, disponer de herramientas adecuadas amplía las posibilidades de trabajo y permite resolver diferentes necesidades de fabricación. Su taller cuenta con áreas especializadas de corte y ensamblaje, así como con equipos móviles que pueden desplazarse según las dimensiones y características de cada proyecto."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "edwing:herramientas:glosario",
+          "kind": "text",
+          "creatorId": "edwing",
+          "text": "Conjunto de instrumentos y máquinas que permiten cortar, transformar, unir y dar acabado a los materiales utilizados en la realización escenográfica. Para Edwin, disponer de herramientas adecuadas amplía las posibilidades de trabajo y permite resolver diferentes necesidades de fabricación. Su taller cuenta con áreas especializadas de corte y ensamblaje, así como con equipos móviles que pueden desplazarse según las dimensiones y características de cada proyecto."
+        }
+      ]
+    },
+    {
+      "id": "improvisacion",
+      "label": "Improvisación",
+      "knotId": null,
+      "creatorIds": [
+        "edwing"
+      ],
+      "selections": [],
+      "pieces": {
+        "edwing": [
+          {
+            "id": "edwing:improvisacion:glosario",
+            "kind": "text",
+            "creatorId": "edwing",
+            "text": "Capacidad de encontrar una solución inmediata cuando aparecen dificultades imprevistas durante la fabricación. Edwin considera especialmente valioso saber resolver con los materiales y herramientas disponibles, incluso cuando el presupuesto es insuficiente o no se cuenta con los insumos previstos. Este aprendizaje proviene de la experiencia acumulada y de la familiaridad con diferentes procedimientos constructivos."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "edwing:improvisacion:glosario",
+          "kind": "text",
+          "creatorId": "edwing",
+          "text": "Capacidad de encontrar una solución inmediata cuando aparecen dificultades imprevistas durante la fabricación. Edwin considera especialmente valioso saber resolver con los materiales y herramientas disponibles, incluso cuando el presupuesto es insuficiente o no se cuenta con los insumos previstos. Este aprendizaje proviene de la experiencia acumulada y de la familiaridad con diferentes procedimientos constructivos."
+        }
+      ]
+    },
+    {
+      "id": "intemperie",
+      "label": "Intemperie",
+      "knotId": null,
+      "creatorIds": [
+        "edwing"
+      ],
+      "selections": [],
+      "pieces": {
+        "edwing": [
+          {
+            "id": "edwing:intemperie:glosario",
+            "kind": "text",
+            "creatorId": "edwing",
+            "text": "Condición de realizar trabajos de construcción en espacios abiertos, sin una infraestructura permanente que proteja de las condiciones ambientales. En la trayectoria de Edwin, este concepto remite a las limitaciones de espacio que acompañaron sus primeros trabajos, cuando debía recurrir a lugares prestados, como azoteas, para desarrollar proyectos. La experiencia contrasta con las posibilidades que ofrece su taller actual, adaptado progresivamente para realizar diferentes actividades."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "edwing:intemperie:glosario",
+          "kind": "text",
+          "creatorId": "edwing",
+          "text": "Condición de realizar trabajos de construcción en espacios abiertos, sin una infraestructura permanente que proteja de las condiciones ambientales. En la trayectoria de Edwin, este concepto remite a las limitaciones de espacio que acompañaron sus primeros trabajos, cuando debía recurrir a lugares prestados, como azoteas, para desarrollar proyectos. La experiencia contrasta con las posibilidades que ofrece su taller actual, adaptado progresivamente para realizar diferentes actividades."
+        }
+      ]
+    },
+    {
+      "id": "intuicion",
+      "label": "Intuición",
+      "knotId": null,
+      "creatorIds": [
+        "edwing"
+      ],
+      "selections": [],
+      "pieces": {
+        "edwing": [
+          {
+            "id": "edwing:intuicion:glosario",
+            "kind": "text",
+            "creatorId": "edwing",
+            "text": "Forma de conocimiento que permite tomar decisiones a partir de la experiencia, la observación y la familiaridad con los materiales. Edwin reconoce la intuición como parte de su aprendizaje inicial en la escenografía, cuando comenzó a recibir encargos y a desarrollar soluciones sin contar todavía con una formación específica en realización escénica. Posteriormente complementó estos conocimientos con estudios técnicos y conceptuales."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "edwing:intuicion:glosario",
+          "kind": "text",
+          "creatorId": "edwing",
+          "text": "Forma de conocimiento que permite tomar decisiones a partir de la experiencia, la observación y la familiaridad con los materiales. Edwin reconoce la intuición como parte de su aprendizaje inicial en la escenografía, cuando comenzó a recibir encargos y a desarrollar soluciones sin contar todavía con una formación específica en realización escénica. Posteriormente complementó estos conocimientos con estudios técnicos y conceptuales."
+        }
+      ]
+    },
+    {
+      "id": "laboratorio",
+      "label": "Laboratorio",
+      "knotId": null,
+      "creatorIds": [
+        "edwing",
+        "pablo"
+      ],
+      "selections": [],
+      "pieces": {
+        "edwing": [
+          {
+            "id": "edwing:laboratorio:glosario",
+            "kind": "text",
+            "creatorId": "edwing",
+            "text": "Espacio de trabajo en el que las ideas pueden explorarse, modificarse y desarrollarse mediante la experimentación. Edwin utiliza este concepto para describir algunos procesos de creación teatral en los que los grupos permiten al realizador proponer alternativas y transformar el diseño durante la construcción. En estos proyectos, el resultado no está completamente determinado desde el principio y puede cambiar de acuerdo con los descubrimientos y necesidades que surgen durante el trabajo."
+          }
+        ],
+        "pablo": [
+          {
+            "id": "pablo:laboratorio:glosario",
+            "kind": "text",
+            "creatorId": "pablo",
+            "text": "Espacio de trabajo que permite desarrollar distintas actividades artísticas y experimentar con materiales, formas y procedimientos. Pablo describe su estudio como un lugar multipropósito donde puede diseñar, dibujar, escribir, pintar, maquetear o estudiar música. Esta concepción proviene de su infancia, cuando creció en un entorno de talleres y creación artística. Aunque actualmente no dispone de un taller para construir escenografías de gran formato, conserva un espacio que le permite alternar entre disciplinas y explorar ideas."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "edwing:laboratorio:glosario",
+          "kind": "text",
+          "creatorId": "edwing",
+          "text": "Espacio de trabajo en el que las ideas pueden explorarse, modificarse y desarrollarse mediante la experimentación. Edwin utiliza este concepto para describir algunos procesos de creación teatral en los que los grupos permiten al realizador proponer alternativas y transformar el diseño durante la construcción. En estos proyectos, el resultado no está completamente determinado desde el principio y puede cambiar de acuerdo con los descubrimientos y necesidades que surgen durante el trabajo."
+        },
+        {
+          "id": "pablo:laboratorio:glosario",
+          "kind": "text",
+          "creatorId": "pablo",
+          "text": "Espacio de trabajo que permite desarrollar distintas actividades artísticas y experimentar con materiales, formas y procedimientos. Pablo describe su estudio como un lugar multipropósito donde puede diseñar, dibujar, escribir, pintar, maquetear o estudiar música. Esta concepción proviene de su infancia, cuando creció en un entorno de talleres y creación artística. Aunque actualmente no dispone de un taller para construir escenografías de gran formato, conserva un espacio que le permite alternar entre disciplinas y explorar ideas."
+        }
+      ]
+    },
+    {
+      "id": "libertad",
+      "label": "Libertad",
+      "knotId": null,
+      "creatorIds": [
+        "edwing"
+      ],
+      "selections": [],
+      "pieces": {
+        "edwing": [
+          {
+            "id": "edwing_libertad_v03.mp3",
+            "kind": "audio",
+            "creatorId": "edwing",
+            "src": "media/corte/web/edwing_libertad_v03.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "edwing:libertad:glosario",
+            "kind": "text",
+            "creatorId": "edwing",
+            "text": "Posibilidad de desarrollar proyectos mediante el uso autónomo de conocimientos, materiales y herramientas. Edwin describe su taller como un lugar donde puede crear y construir propuestas de diferentes características, principalmente relacionadas con las artes escénicas, las artes plásticas y los medios audiovisuales. Esta libertad está vinculada con la capacidad de encontrar procedimientos adecuados para cada proyecto, sin depender de una única manera de trabajar."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "edwing_libertad_v03.mp3",
+          "kind": "audio",
+          "creatorId": "edwing",
+          "src": "media/corte/web/edwing_libertad_v03.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "edwing:libertad:glosario",
+          "kind": "text",
+          "creatorId": "edwing",
+          "text": "Posibilidad de desarrollar proyectos mediante el uso autónomo de conocimientos, materiales y herramientas. Edwin describe su taller como un lugar donde puede crear y construir propuestas de diferentes características, principalmente relacionadas con las artes escénicas, las artes plásticas y los medios audiovisuales. Esta libertad está vinculada con la capacidad de encontrar procedimientos adecuados para cada proyecto, sin depender de una única manera de trabajar."
+        }
+      ]
+    },
+    {
+      "id": "madera",
+      "label": "Madera",
+      "knotId": null,
+      "creatorIds": [
+        "edwing"
+      ],
+      "selections": [],
+      "pieces": {
+        "edwing": [
+          {
+            "id": "edwing_madera.jpg",
+            "kind": "image",
+            "creatorId": "edwing",
+            "src": "media/corte/web/edwing_madera.jpg",
+            "caption": "Fotografía del archivo de Susurros.",
+            "alt": "Estante con tablas y recortes de madera de distintos tamaños."
+          },
+          {
+            "id": "edwing:madera:glosario",
+            "kind": "text",
+            "creatorId": "edwing",
+            "text": "Material principal en la práctica de realización escenográfica de Edwin, especialmente para la construcción de estructuras. Su conocimiento de la madera comprende las características físicas de los listones, las formas de unión y el comportamiento de los elementos sometidos a cargas. A partir de este material desarrolla bases, paredes, muebles y otros componentes que posteriormente pueden combinarse con diferentes técnicas y acabados."
+          },
+          {
+            "id": "edwing_madera_v03.mp3",
+            "kind": "audio",
+            "creatorId": "edwing",
+            "src": "media/corte/web/edwing_madera_v03.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "edwing_madera.jpg",
+          "kind": "image",
+          "creatorId": "edwing",
+          "src": "media/corte/web/edwing_madera.jpg",
+          "caption": "Fotografía del archivo de Susurros.",
+          "alt": "Estante con tablas y recortes de madera de distintos tamaños."
+        },
+        {
+          "id": "edwing:madera:glosario",
+          "kind": "text",
+          "creatorId": "edwing",
+          "text": "Material principal en la práctica de realización escenográfica de Edwin, especialmente para la construcción de estructuras. Su conocimiento de la madera comprende las características físicas de los listones, las formas de unión y el comportamiento de los elementos sometidos a cargas. A partir de este material desarrolla bases, paredes, muebles y otros componentes que posteriormente pueden combinarse con diferentes técnicas y acabados."
+        },
+        {
+          "id": "edwing_madera_v03.mp3",
+          "kind": "audio",
+          "creatorId": "edwing",
+          "src": "media/corte/web/edwing_madera_v03.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        }
+      ]
+    },
+    {
+      "id": "martillo",
+      "label": "Martillo",
+      "knotId": null,
+      "creatorIds": [
+        "edwing"
+      ],
+      "selections": [],
+      "pieces": {
+        "edwing": [
+          {
+            "id": "edwing:martillo:glosario",
+            "kind": "text",
+            "creatorId": "edwing",
+            "text": "Herramienta de golpe utilizada en diferentes operaciones de construcción y ensamblaje. Edwin identifica su sonido como uno de los más reconocibles del taller, aunque considera que el ambiente sonoro está compuesto por muchas acciones simultáneas. La repetición cotidiana de estos sonidos hace que dejen de percibirse individualmente y se integren en una experiencia sonora común."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "edwing:martillo:glosario",
+          "kind": "text",
+          "creatorId": "edwing",
+          "text": "Herramienta de golpe utilizada en diferentes operaciones de construcción y ensamblaje. Edwin identifica su sonido como uno de los más reconocibles del taller, aunque considera que el ambiente sonoro está compuesto por muchas acciones simultáneas. La repetición cotidiana de estos sonidos hace que dejen de percibirse individualmente y se integren en una experiencia sonora común."
+        }
+      ]
+    },
+    {
+      "id": "oficio",
+      "label": "Oficio",
+      "knotId": null,
+      "creatorIds": [
+        "edwing",
+        "jhon"
+      ],
+      "selections": [],
+      "pieces": {
+        "edwing": [
+          {
+            "id": "edwing_oficio_foto.jpg",
+            "kind": "image",
+            "creatorId": "edwing",
+            "src": "media/corte/web/edwing_oficio_foto.jpg",
+            "caption": "Fotografía del archivo de Susurros.",
+            "alt": "Banco de trabajo con tornillo de mesa, herramientas y protectores auditivos frente a una ventana."
+          },
+          {
+            "id": "edwing:oficio:glosario",
+            "kind": "text",
+            "creatorId": "edwing",
+            "text": "Conjunto de conocimientos y habilidades prácticas adquiridas mediante la experiencia de trabajo con materiales, herramientas y técnicas de construcción. Edwin considera que el oficio se desarrolla y transforma a través de los proyectos y del intercambio con otras personas. Al imaginar la desaparición de su taller, identifica la posible pérdida de estos conocimientos como una de sus principales preocupaciones. Por ello valora la posibilidad de enseñarlos y transmitirlos a quienes trabajan con él."
+          }
+        ],
+        "jhon": [
+          {
+            "id": "jhon_oficio_foto.jpg",
+            "kind": "image",
+            "creatorId": "jhon",
+            "src": "media/corte/web/jhon_oficio_foto.jpg",
+            "caption": "Fotografía del archivo de Susurros.",
+            "alt": "Una persona trabaja junto a una pieza escénica de gran tamaño en un taller."
+          },
+          {
+            "id": "jhon:oficio:glosario",
+            "kind": "text",
+            "creatorId": "jhon",
+            "text": "Conjunto de conocimientos y habilidades manuales desarrollados mediante la práctica y utilizados para fabricar objetos que requieren soluciones particulares. Jhon se reconoce como artesano y valora especialmente el trabajo realizado con las manos: cortar, lijar, modelar, pintar y transformar materiales. Considera que estas habilidades le han permitido sostener económicamente a su familia y defiende su continuidad frente a los cambios tecnológicos, aunque reconoce las dificultades y frustraciones que acompañan el trabajo cotidiano."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "edwing_oficio_foto.jpg",
+          "kind": "image",
+          "creatorId": "edwing",
+          "src": "media/corte/web/edwing_oficio_foto.jpg",
+          "caption": "Fotografía del archivo de Susurros.",
+          "alt": "Banco de trabajo con tornillo de mesa, herramientas y protectores auditivos frente a una ventana."
+        },
+        {
+          "id": "jhon_oficio_foto.jpg",
+          "kind": "image",
+          "creatorId": "jhon",
+          "src": "media/corte/web/jhon_oficio_foto.jpg",
+          "caption": "Fotografía del archivo de Susurros.",
+          "alt": "Una persona trabaja junto a una pieza escénica de gran tamaño en un taller."
+        },
+        {
+          "id": "edwing:oficio:glosario",
+          "kind": "text",
+          "creatorId": "edwing",
+          "text": "Conjunto de conocimientos y habilidades prácticas adquiridas mediante la experiencia de trabajo con materiales, herramientas y técnicas de construcción. Edwin considera que el oficio se desarrolla y transforma a través de los proyectos y del intercambio con otras personas. Al imaginar la desaparición de su taller, identifica la posible pérdida de estos conocimientos como una de sus principales preocupaciones. Por ello valora la posibilidad de enseñarlos y transmitirlos a quienes trabajan con él."
+        },
+        {
+          "id": "jhon:oficio:glosario",
+          "kind": "text",
+          "creatorId": "jhon",
+          "text": "Conjunto de conocimientos y habilidades manuales desarrollados mediante la práctica y utilizados para fabricar objetos que requieren soluciones particulares. Jhon se reconoce como artesano y valora especialmente el trabajo realizado con las manos: cortar, lijar, modelar, pintar y transformar materiales. Considera que estas habilidades le han permitido sostener económicamente a su familia y defiende su continuidad frente a los cambios tecnológicos, aunque reconoce las dificultades y frustraciones que acompañan el trabajo cotidiano."
+        }
+      ]
+    },
+    {
+      "id": "pesos",
+      "label": "Pesos",
+      "knotId": null,
+      "creatorIds": [
+        "edwing"
+      ],
+      "selections": [],
+      "pieces": {
+        "edwing": [
+          {
+            "id": "edwing:pesos:glosario",
+            "kind": "text",
+            "creatorId": "edwing",
+            "text": "Magnitudes que deben considerarse durante el diseño y la construcción de elementos escenográficos, tanto por las cargas que una estructura debe soportar como por el peso propio de las piezas. Edwin utiliza conocimientos de geometría y comportamiento de materiales para dimensionar vigas y columnas. También distingue las necesidades de la escenografía teatral, que debe transportarse y montarse repetidamente, de las estructuras destinadas a televisión, que suelen permanecer instaladas durante periodos prolongados."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "edwing:pesos:glosario",
+          "kind": "text",
+          "creatorId": "edwing",
+          "text": "Magnitudes que deben considerarse durante el diseño y la construcción de elementos escenográficos, tanto por las cargas que una estructura debe soportar como por el peso propio de las piezas. Edwin utiliza conocimientos de geometría y comportamiento de materiales para dimensionar vigas y columnas. También distingue las necesidades de la escenografía teatral, que debe transportarse y montarse repetidamente, de las estructuras destinadas a televisión, que suelen permanecer instaladas durante periodos prolongados."
+        }
+      ]
+    },
+    {
+      "id": "planificacion",
+      "label": "Planificación",
+      "knotId": null,
+      "creatorIds": [
+        "edwing"
+      ],
+      "selections": [],
+      "pieces": {
+        "edwing": [
+          {
+            "id": "edwing:planificacion:glosario",
+            "kind": "text",
+            "creatorId": "edwing",
+            "text": "Organización previa de las actividades, recursos y tiempos necesarios para desarrollar un proyecto escenográfico. Edwin acostumbra establecer un cronograma y comenzar por los elementos de mayor complejidad, independientemente del tamaño de la producción. Esta organización permite anticipar dificultades y distribuir el trabajo de acuerdo con las necesidades constructivas."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "edwing:planificacion:glosario",
+          "kind": "text",
+          "creatorId": "edwing",
+          "text": "Organización previa de las actividades, recursos y tiempos necesarios para desarrollar un proyecto escenográfico. Edwin acostumbra establecer un cronograma y comenzar por los elementos de mayor complejidad, independientemente del tamaño de la producción. Esta organización permite anticipar dificultades y distribuir el trabajo de acuerdo con las necesidades constructivas."
+        }
+      ]
+    },
+    {
+      "id": "planos",
+      "label": "Planos",
+      "knotId": null,
+      "creatorIds": [
+        "edwing"
+      ],
+      "selections": [],
+      "pieces": {
+        "edwing": [
+          {
+            "id": "edwing:planos:glosario",
+            "kind": "text",
+            "creatorId": "edwing",
+            "text": "Representaciones técnicas que contienen información sobre las dimensiones, características y disposición de los elementos que deben construirse. Edwin explica que algunos proyectos llegan al taller con planos completos, mientras que otros parten de ideas poco desarrolladas. Cuando no dispone de esta documentación, utiliza el dibujo para definir medidas, uniones y características estructurales, y comunicar las soluciones propuestas."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "edwing:planos:glosario",
+          "kind": "text",
+          "creatorId": "edwing",
+          "text": "Representaciones técnicas que contienen información sobre las dimensiones, características y disposición de los elementos que deben construirse. Edwin explica que algunos proyectos llegan al taller con planos completos, mientras que otros parten de ideas poco desarrolladas. Cuando no dispone de esta documentación, utiliza el dibujo para definir medidas, uniones y características estructurales, y comunicar las soluciones propuestas."
+        }
+      ]
+    },
+    {
+      "id": "placer",
+      "label": "Placer",
+      "knotId": null,
+      "creatorIds": [
+        "edwing"
+      ],
+      "selections": [],
+      "pieces": {
+        "edwing": [
+          {
+            "id": "edwing:placer:glosario",
+            "kind": "text",
+            "creatorId": "edwing",
+            "text": "Satisfacción personal que Edwin reconoce como una de las motivaciones iniciales de su trabajo. Su acercamiento a la realización escenográfica surgió del interés por la creación y el contacto temprano con el teatro, antes de convertirse en una actividad económica. Esta relación con el hacer permanece vinculada con la libertad de experimentar y desarrollar proyectos mediante sus propios conocimientos."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "edwing:placer:glosario",
+          "kind": "text",
+          "creatorId": "edwing",
+          "text": "Satisfacción personal que Edwin reconoce como una de las motivaciones iniciales de su trabajo. Su acercamiento a la realización escenográfica surgió del interés por la creación y el contacto temprano con el teatro, antes de convertirse en una actividad económica. Esta relación con el hacer permanece vinculada con la libertad de experimentar y desarrollar proyectos mediante sus propios conocimientos."
+        }
+      ]
+    },
+    {
+      "id": "presupuesto",
+      "label": "Presupuesto",
+      "knotId": null,
+      "creatorIds": [
+        "edwing"
+      ],
+      "selections": [],
+      "pieces": {
+        "edwing": [
+          {
+            "id": "edwing:presupuesto:glosario",
+            "kind": "text",
+            "creatorId": "edwing",
+            "text": "Cantidad de recursos económicos disponibles para desarrollar una producción y que condiciona las decisiones de materiales, procedimientos y alcance del proyecto. Edwin considera necesario establecer una relación viable entre la propuesta artística y los recursos disponibles. Cuando el presupuesto no permite realizar una idea en las condiciones inicialmente previstas, debe explicar las limitaciones al cliente y buscar alternativas constructivas."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "edwing:presupuesto:glosario",
+          "kind": "text",
+          "creatorId": "edwing",
+          "text": "Cantidad de recursos económicos disponibles para desarrollar una producción y que condiciona las decisiones de materiales, procedimientos y alcance del proyecto. Edwin considera necesario establecer una relación viable entre la propuesta artística y los recursos disponibles. Cuando el presupuesto no permite realizar una idea en las condiciones inicialmente previstas, debe explicar las limitaciones al cliente y buscar alternativas constructivas."
+        }
+      ]
+    },
+    {
+      "id": "red",
+      "label": "Red",
+      "knotId": null,
+      "creatorIds": [
+        "edwing",
+        "castro",
+        "agarrapata"
+      ],
+      "selections": [],
+      "pieces": {
+        "edwing": [
+          {
+            "id": "edwing:red:glosario",
+            "kind": "text",
+            "creatorId": "edwing",
+            "text": "Conjunto de relaciones entre talleres, especialistas y conocimientos que permite desarrollar proyectos mediante la colaboración. Edwin propone fortalecer estas conexiones para facilitar la resolución de problemas técnicos y conceptuales, y ampliar las posibilidades de los realizadores escenográficos. Considera valiosa la creación de un circuito que permita identificar los oficios disponibles y establecer vínculos entre personas que no necesariamente se conocen."
+          }
+        ],
+        "castro": [
+          {
+            "id": "castro:red:glosario",
+            "kind": "text",
+            "creatorId": "castro",
+            "text": "Conjunto de relaciones profesionales y personales que permite reunir los conocimientos necesarios para desarrollar una producción. Los hermanos Castro trabajan con especialistas de diferentes oficios, como soldadores, carpinteros, costureras y pasteleros, a quienes convocan según las necesidades de cada proyecto. Estas colaboraciones se construyen mediante experiencias compartidas y relaciones de confianza que superan la contratación puntual de un servicio."
+          }
+        ],
+        "agarrapata": [
+          {
+            "id": "agarrapata:red:glosario",
+            "kind": "text",
+            "creatorId": "agarrapata",
+            "text": "Estructura de colaboración flexible que reúne a personas con distintas habilidades y grados de vinculación. Agarrapata funciona mediante una red construida durante aproximadamente veinticinco años, que puede reunir desde unas pocas personas hasta varias decenas según las necesidades de cada proyecto. Sus integrantes no participan necesariamente de manera permanente, pero conservan vínculos que permiten convocarlos para nuevas producciones."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "edwing:red:glosario",
+          "kind": "text",
+          "creatorId": "edwing",
+          "text": "Conjunto de relaciones entre talleres, especialistas y conocimientos que permite desarrollar proyectos mediante la colaboración. Edwin propone fortalecer estas conexiones para facilitar la resolución de problemas técnicos y conceptuales, y ampliar las posibilidades de los realizadores escenográficos. Considera valiosa la creación de un circuito que permita identificar los oficios disponibles y establecer vínculos entre personas que no necesariamente se conocen."
+        },
+        {
+          "id": "castro:red:glosario",
+          "kind": "text",
+          "creatorId": "castro",
+          "text": "Conjunto de relaciones profesionales y personales que permite reunir los conocimientos necesarios para desarrollar una producción. Los hermanos Castro trabajan con especialistas de diferentes oficios, como soldadores, carpinteros, costureras y pasteleros, a quienes convocan según las necesidades de cada proyecto. Estas colaboraciones se construyen mediante experiencias compartidas y relaciones de confianza que superan la contratación puntual de un servicio."
+        },
+        {
+          "id": "agarrapata:red:glosario",
+          "kind": "text",
+          "creatorId": "agarrapata",
+          "text": "Estructura de colaboración flexible que reúne a personas con distintas habilidades y grados de vinculación. Agarrapata funciona mediante una red construida durante aproximadamente veinticinco años, que puede reunir desde unas pocas personas hasta varias decenas según las necesidades de cada proyecto. Sus integrantes no participan necesariamente de manera permanente, pero conservan vínculos que permiten convocarlos para nuevas producciones."
+        }
+      ]
+    },
+    {
+      "id": "resistencia",
+      "label": "Resistencia",
+      "knotId": null,
+      "creatorIds": [
+        "edwing",
+        "jhon",
+        "pablo",
+        "agarrapata"
+      ],
+      "selections": [],
+      "pieces": {
+        "edwing": [
+          {
+            "id": "edwing:resistencia:glosario",
+            "kind": "text",
+            "creatorId": "edwing",
+            "text": "Capacidad de un material o elemento estructural para soportar cargas sin fallar ni deformarse más allá de lo admisible. Edwin explica que la resistencia de una pieza de madera depende de sus dimensiones, su orientación y la manera como se une con otras. Mediante el ensamble de listones puede conseguir estructuras de mayor rigidez que las obtenidas con piezas individuales de dimensiones similares."
+          }
+        ],
+        "jhon": [
+          {
+            "id": "jhon:resistencia:glosario",
+            "kind": "text",
+            "creatorId": "jhon",
+            "text": "Decisión de mantener las técnicas manuales de creación frente a la creciente presencia de herramientas digitales y de inteligencia artificial. Jhon se identifica como escultor tradicional y expresa su deseo de continuar modelando sus propias figuras, aun cuando reconoce que estas tecnologías permiten producir imágenes y diseños con mayor rapidez. Su resistencia está vinculada con el valor que atribuye al trabajo hecho con las manos y a la continuidad de su oficio."
+          }
+        ],
+        "pablo": [
+          {
+            "id": "pablo:resistencia:glosario",
+            "kind": "text",
+            "creatorId": "pablo",
+            "text": "Defensa del valor del trabajo artístico y de la participación del diseñador dentro de las condiciones de producción teatral. Pablo relata experiencias en las que su trabajo ha recibido reconocimiento y otras en las que su nombre ha quedado relegado o excluido de los créditos. También describe situaciones en las que las decisiones de dirección modifican elementos escenográficos después de haber sido aprobados. Su posición consiste en procurar que la propuesta construida conserve la intención del diseño y en reivindicar el reconocimiento de quienes participan en la creación."
+          }
+        ],
+        "agarrapata": [
+          {
+            "id": "agarrapata:resistencia:glosario",
+            "kind": "text",
+            "creatorId": "agarrapata",
+            "text": "Decisión de organizar el trabajo artístico según condiciones que el propio colectivo considera justas y sostenibles. Agarrapata procura evitar jornadas excesivas, garantizar descansos y mantener una distribución de responsabilidades que permita cuidar a las personas. Esta postura se expresa en la posibilidad de establecer límites frente a las exigencias de producción y de construir una manera de trabajar coherente con la vida que sus integrantes desean llevar."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "edwing:resistencia:glosario",
+          "kind": "text",
+          "creatorId": "edwing",
+          "text": "Capacidad de un material o elemento estructural para soportar cargas sin fallar ni deformarse más allá de lo admisible. Edwin explica que la resistencia de una pieza de madera depende de sus dimensiones, su orientación y la manera como se une con otras. Mediante el ensamble de listones puede conseguir estructuras de mayor rigidez que las obtenidas con piezas individuales de dimensiones similares."
+        },
+        {
+          "id": "jhon:resistencia:glosario",
+          "kind": "text",
+          "creatorId": "jhon",
+          "text": "Decisión de mantener las técnicas manuales de creación frente a la creciente presencia de herramientas digitales y de inteligencia artificial. Jhon se identifica como escultor tradicional y expresa su deseo de continuar modelando sus propias figuras, aun cuando reconoce que estas tecnologías permiten producir imágenes y diseños con mayor rapidez. Su resistencia está vinculada con el valor que atribuye al trabajo hecho con las manos y a la continuidad de su oficio."
+        },
+        {
+          "id": "pablo:resistencia:glosario",
+          "kind": "text",
+          "creatorId": "pablo",
+          "text": "Defensa del valor del trabajo artístico y de la participación del diseñador dentro de las condiciones de producción teatral. Pablo relata experiencias en las que su trabajo ha recibido reconocimiento y otras en las que su nombre ha quedado relegado o excluido de los créditos. También describe situaciones en las que las decisiones de dirección modifican elementos escenográficos después de haber sido aprobados. Su posición consiste en procurar que la propuesta construida conserve la intención del diseño y en reivindicar el reconocimiento de quienes participan en la creación."
+        },
+        {
+          "id": "agarrapata:resistencia:glosario",
+          "kind": "text",
+          "creatorId": "agarrapata",
+          "text": "Decisión de organizar el trabajo artístico según condiciones que el propio colectivo considera justas y sostenibles. Agarrapata procura evitar jornadas excesivas, garantizar descansos y mantener una distribución de responsabilidades que permita cuidar a las personas. Esta postura se expresa en la posibilidad de establecer límites frente a las exigencias de producción y de construir una manera de trabajar coherente con la vida que sus integrantes desean llevar."
+        }
+      ]
+    },
+    {
+      "id": "solucion",
+      "label": "Solución",
+      "knotId": null,
+      "creatorIds": [
+        "edwing",
+        "castro"
+      ],
+      "selections": [],
+      "pieces": {
+        "edwing": [
+          {
+            "id": "edwing:solucion:glosario",
+            "kind": "text",
+            "creatorId": "edwing",
+            "text": "Respuesta práctica a las dificultades que aparecen durante el diseño y la construcción de una escenografía. Para Edwin, resolver problemas constituye una parte permanente del oficio, pues cada proyecto presenta condiciones particulares de espacio, materiales, presupuesto y funcionamiento. La solución puede surgir durante la planificación o en el propio proceso constructivo, cuando es necesario adaptar procedimientos y encontrar alternativas."
+          }
+        ],
+        "castro": [
+          {
+            "id": "castro:solucion:glosario",
+            "kind": "text",
+            "creatorId": "castro",
+            "text": "Respuesta técnica y creativa a un problema planteado durante el desarrollo de una obra. Los hermanos Castro identifican la capacidad de encontrar soluciones como una de las principales habilidades de su taller. Su trabajo consiste en interpretar las necesidades de otros artistas y determinar cómo materializarlas mediante procedimientos, mecanismos y materiales adecuados. Cada solución debe responder a las condiciones particulares del objeto y a la función que cumplirá en escena."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "edwing:solucion:glosario",
+          "kind": "text",
+          "creatorId": "edwing",
+          "text": "Respuesta práctica a las dificultades que aparecen durante el diseño y la construcción de una escenografía. Para Edwin, resolver problemas constituye una parte permanente del oficio, pues cada proyecto presenta condiciones particulares de espacio, materiales, presupuesto y funcionamiento. La solución puede surgir durante la planificación o en el propio proceso constructivo, cuando es necesario adaptar procedimientos y encontrar alternativas."
+        },
+        {
+          "id": "castro:solucion:glosario",
+          "kind": "text",
+          "creatorId": "castro",
+          "text": "Respuesta técnica y creativa a un problema planteado durante el desarrollo de una obra. Los hermanos Castro identifican la capacidad de encontrar soluciones como una de las principales habilidades de su taller. Su trabajo consiste en interpretar las necesidades de otros artistas y determinar cómo materializarlas mediante procedimientos, mecanismos y materiales adecuados. Cada solución debe responder a las condiciones particulares del objeto y a la función que cumplirá en escena."
+        }
+      ]
+    },
+    {
+      "id": "textura",
+      "label": "Textura",
+      "knotId": null,
+      "creatorIds": [
+        "edwing"
+      ],
+      "selections": [],
+      "pieces": {
+        "edwing": [
+          {
+            "id": "edwing_textura.mp3",
+            "kind": "audio",
+            "creatorId": "edwing",
+            "src": "media/corte/web/edwing_textura.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "edwing:textura:glosario",
+            "kind": "text",
+            "creatorId": "edwing",
+            "text": "Característica superficial de un elemento escenográfico que determina parte de su apariencia visual y táctil. Edwin utiliza materiales como tierras, arenas y cementos para producir diferentes texturas y considera estos procedimientos soluciones prácticas de acabado. También reconoce que su percepción depende de la iluminación, que puede hacer visibles o disimular los tratamientos realizados durante la fabricación."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "edwing_textura.mp3",
+          "kind": "audio",
+          "creatorId": "edwing",
+          "src": "media/corte/web/edwing_textura.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "edwing:textura:glosario",
+          "kind": "text",
+          "creatorId": "edwing",
+          "text": "Característica superficial de un elemento escenográfico que determina parte de su apariencia visual y táctil. Edwin utiliza materiales como tierras, arenas y cementos para producir diferentes texturas y considera estos procedimientos soluciones prácticas de acabado. También reconoce que su percepción depende de la iluminación, que puede hacer visibles o disimular los tratamientos realizados durante la fabricación."
+        }
+      ]
+    },
+    {
+      "id": "transformacion",
+      "label": "Transformación",
+      "knotId": null,
+      "creatorIds": [
+        "edwing",
+        "castro"
+      ],
+      "selections": [],
+      "pieces": {
+        "edwing": [
+          {
+            "id": "edwing:transformacion:glosario",
+            "kind": "text",
+            "creatorId": "edwing",
+            "text": "Proceso de modificación de materiales, objetos y espacios para adaptarlos a nuevas funciones. En la práctica de Edwin, la transformación comprende la construcción de elementos escenográficos a partir de materias primas y la combinación de diferentes procedimientos de fabricación. También aparece en la adecuación progresiva de su propio taller, una antigua casa destinada a restaurante que ha modificado para incorporar espacios de corte, ensamblaje, almacenamiento y pintura."
+          }
+        ],
+        "castro": [
+          {
+            "id": "castro:transformacion:glosario",
+            "kind": "text",
+            "creatorId": "castro",
+            "text": "Proceso mediante el cual los materiales adquieren nuevas formas y funciones a través del trabajo artesanal. Los hermanos Castro utilizan este concepto para describir la actividad general de su taller, donde materiales como el icopor, la espuma o el yeso se convierten en máscaras, títeres y objetos escénicos. La transformación implica conocer las propiedades de la materia y dominar los procedimientos que permiten modificarla para responder a una intención artística."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "edwing:transformacion:glosario",
+          "kind": "text",
+          "creatorId": "edwing",
+          "text": "Proceso de modificación de materiales, objetos y espacios para adaptarlos a nuevas funciones. En la práctica de Edwin, la transformación comprende la construcción de elementos escenográficos a partir de materias primas y la combinación de diferentes procedimientos de fabricación. También aparece en la adecuación progresiva de su propio taller, una antigua casa destinada a restaurante que ha modificado para incorporar espacios de corte, ensamblaje, almacenamiento y pintura."
+        },
+        {
+          "id": "castro:transformacion:glosario",
+          "kind": "text",
+          "creatorId": "castro",
+          "text": "Proceso mediante el cual los materiales adquieren nuevas formas y funciones a través del trabajo artesanal. Los hermanos Castro utilizan este concepto para describir la actividad general de su taller, donde materiales como el icopor, la espuma o el yeso se convierten en máscaras, títeres y objetos escénicos. La transformación implica conocer las propiedades de la materia y dominar los procedimientos que permiten modificarla para responder a una intención artística."
+        }
+      ]
+    },
+    {
+      "id": "tras-escena",
+      "label": "Tras-escena",
+      "knotId": null,
+      "creatorIds": [
+        "edwing"
+      ],
+      "selections": [],
+      "pieces": {
+        "edwing": [
+          {
+            "id": "edwing:tras-escena:glosario",
+            "kind": "text",
+            "creatorId": "edwing",
+            "text": "Conjunto de espacios y actividades que se desarrollan detrás de la representación y hacen posible su realización. Edwin relaciona este ámbito con sus primeras experiencias teatrales, cuando acompañaba a una tía a los ensayos y permanecía cerca de las actividades de preparación escénica. Este contacto temprano con el trabajo que ocurre fuera de la vista del público formó parte de su acercamiento posterior a la escenografía."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "edwing:tras-escena:glosario",
+          "kind": "text",
+          "creatorId": "edwing",
+          "text": "Conjunto de espacios y actividades que se desarrollan detrás de la representación y hacen posible su realización. Edwin relaciona este ámbito con sus primeras experiencias teatrales, cuando acompañaba a una tía a los ensayos y permanecía cerca de las actividades de preparación escénica. Este contacto temprano con el trabajo que ocurre fuera de la vista del público formó parte de su acercamiento posterior a la escenografía."
+        }
+      ]
+    },
+    {
+      "id": "visualizacion",
+      "label": "Visualización",
+      "knotId": null,
+      "creatorIds": [
+        "edwing"
+      ],
+      "selections": [],
+      "pieces": {
+        "edwing": [
+          {
+            "id": "edwing:visualizacion:glosario",
+            "kind": "text",
+            "creatorId": "edwing",
+            "text": "Capacidad de imaginar las características tridimensionales de un objeto antes de construirlo. Edwin describe su facilidad para concebir mentalmente volúmenes, proporciones, texturas y colores sin necesidad de elaborar previamente un dibujo o consultar referencias visuales. Esta habilidad le permite anticipar la apariencia de las piezas y desarrollar directamente algunas propuestas, aunque utiliza dibujos técnicos cuando necesita resolver detalles constructivos o comunicar sus ideas a otras personas."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "edwing:visualizacion:glosario",
+          "kind": "text",
+          "creatorId": "edwing",
+          "text": "Capacidad de imaginar las características tridimensionales de un objeto antes de construirlo. Edwin describe su facilidad para concebir mentalmente volúmenes, proporciones, texturas y colores sin necesidad de elaborar previamente un dibujo o consultar referencias visuales. Esta habilidad le permite anticipar la apariencia de las piezas y desarrollar directamente algunas propuestas, aunque utiliza dibujos técnicos cuando necesita resolver detalles constructivos o comunicar sus ideas a otras personas."
+        }
+      ]
+    },
+    {
+      "id": "alma",
+      "label": "Alma",
+      "knotId": null,
+      "creatorIds": [
+        "castro"
+      ],
+      "selections": [],
+      "pieces": {
+        "castro": [
+          {
+            "id": "castro:alma:glosario",
+            "kind": "text",
+            "creatorId": "castro",
+            "text": "Valor afectivo y simbólico que los hermanos Castro atribuyen a los objetos construidos artesanalmente. Consideran que la fabricación manual establece una relación particular entre el creador y la materia, en la que intervienen el tiempo, el conocimiento y la experiencia de quien trabaja. Los objetos adquieren así una existencia que puede prolongarse más allá de la vida de sus creadores, lo que suscita preguntas sobre su conservación y su destino después de las funciones."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "castro:alma:glosario",
+          "kind": "text",
+          "creatorId": "castro",
+          "text": "Valor afectivo y simbólico que los hermanos Castro atribuyen a los objetos construidos artesanalmente. Consideran que la fabricación manual establece una relación particular entre el creador y la materia, en la que intervienen el tiempo, el conocimiento y la experiencia de quien trabaja. Los objetos adquieren así una existencia que puede prolongarse más allá de la vida de sus creadores, lo que suscita preguntas sobre su conservación y su destino después de las funciones."
+        }
+      ]
+    },
+    {
+      "id": "cobrar",
+      "label": "Cobrar",
+      "knotId": null,
+      "creatorIds": [
+        "castro"
+      ],
+      "selections": [],
+      "pieces": {
+        "castro": [
+          {
+            "id": "castro:cobrar:glosario",
+            "kind": "text",
+            "creatorId": "castro",
+            "text": "Capacidad de establecer el valor económico de un trabajo a partir de los conocimientos, el tiempo y los recursos necesarios para realizarlo. Los hermanos Castro reconocen que aprender a cobrar ha sido parte de su experiencia profesional, pues su formación artística no les proporcionó herramientas suficientes para calcular presupuestos o negociar condiciones laborales. Este aprendizaje también implica reconocer los límites del taller y saber rechazar encargos cuando sus condiciones no son adecuadas."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "castro:cobrar:glosario",
+          "kind": "text",
+          "creatorId": "castro",
+          "text": "Capacidad de establecer el valor económico de un trabajo a partir de los conocimientos, el tiempo y los recursos necesarios para realizarlo. Los hermanos Castro reconocen que aprender a cobrar ha sido parte de su experiencia profesional, pues su formación artística no les proporcionó herramientas suficientes para calcular presupuestos o negociar condiciones laborales. Este aprendizaje también implica reconocer los límites del taller y saber rechazar encargos cuando sus condiciones no son adecuadas."
+        }
+      ]
+    },
+    {
+      "id": "cocreacion",
+      "label": "Cocreación",
+      "knotId": null,
+      "creatorIds": [
+        "castro"
+      ],
+      "selections": [],
+      "pieces": {
+        "castro": [
+          {
+            "id": "castro:cocreacion:glosario",
+            "kind": "text",
+            "creatorId": "castro",
+            "text": "Participación del taller en la construcción artística de una obra mediante propuestas plásticas, técnicas y simbólicas. Los hermanos Castro consideran que su trabajo no consiste únicamente en fabricar objetos definidos por otros creadores. La interpretación de las ideas, la elección de materiales y la búsqueda de soluciones también implican decisiones artísticas que contribuyen al sentido de la puesta en escena. Por ello reivindican su participación como creadores junto con quienes escriben, dirigen o interpretan."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "castro:cocreacion:glosario",
+          "kind": "text",
+          "creatorId": "castro",
+          "text": "Participación del taller en la construcción artística de una obra mediante propuestas plásticas, técnicas y simbólicas. Los hermanos Castro consideran que su trabajo no consiste únicamente en fabricar objetos definidos por otros creadores. La interpretación de las ideas, la elección de materiales y la búsqueda de soluciones también implican decisiones artísticas que contribuyen al sentido de la puesta en escena. Por ello reivindican su participación como creadores junto con quienes escriben, dirigen o interpretan."
+        }
+      ]
+    },
+    {
+      "id": "creditos",
+      "label": "Créditos",
+      "knotId": null,
+      "creatorIds": [
+        "castro"
+      ],
+      "selections": [],
+      "pieces": {
+        "castro": [
+          {
+            "id": "castro:creditos:glosario",
+            "kind": "text",
+            "creatorId": "castro",
+            "text": "Reconocimiento público de las personas que participan en la creación y realización de los elementos de una producción escénica. Los hermanos Castro señalan que en el teatro no siempre existe la costumbre de registrar los nombres de quienes construyen la escenografía, la utilería o las máscaras. Consideran que esta ausencia dificulta el reconocimiento de los oficios y de sus aportes artísticos. La inclusión de estos nombres en programas de mano y otros materiales de divulgación forma parte de una práctica que, según su experiencia, comienza a cambiar."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "castro:creditos:glosario",
+          "kind": "text",
+          "creatorId": "castro",
+          "text": "Reconocimiento público de las personas que participan en la creación y realización de los elementos de una producción escénica. Los hermanos Castro señalan que en el teatro no siempre existe la costumbre de registrar los nombres de quienes construyen la escenografía, la utilería o las máscaras. Consideran que esta ausencia dificulta el reconocimiento de los oficios y de sus aportes artísticos. La inclusión de estos nombres en programas de mano y otros materiales de divulgación forma parte de una práctica que, según su experiencia, comienza a cambiar."
+        }
+      ]
+    },
+    {
+      "id": "cuidado",
+      "label": "Cuidado",
+      "knotId": null,
+      "creatorIds": [
+        "castro",
+        "agarrapata"
+      ],
+      "selections": [],
+      "pieces": {
+        "castro": [
+          {
+            "id": "castro:cuidado:glosario",
+            "kind": "text",
+            "creatorId": "castro",
+            "text": "Práctica de establecer condiciones y límites de trabajo que permitan proteger la salud y el bienestar de quienes participan en el taller. Los hermanos Castro recuerdan experiencias de producción, especialmente en televisión, marcadas por las urgencias y las jornadas prolongadas. Con el tiempo aprendieron a organizar su trabajo de otra manera, evitando los trasnochos y rechazando proyectos cuyas exigencias comprometan su bienestar."
+          }
+        ],
+        "agarrapata": [
+          {
+            "id": "agarrapata:cuidado:glosario",
+            "kind": "text",
+            "creatorId": "agarrapata",
+            "text": "Conjunto de prácticas destinadas a garantizar condiciones de trabajo compatibles con el bienestar de quienes participan en una producción. En Agarrapata incluye jornadas con horarios definidos, tiempos de descanso, alimentación compartida y remuneraciones oportunas. El colectivo ha encontrado que los espacios de convivencia, especialmente las comidas, favorecen también la aparición de soluciones creativas y fortalecen las relaciones entre los integrantes del equipo."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "castro:cuidado:glosario",
+          "kind": "text",
+          "creatorId": "castro",
+          "text": "Práctica de establecer condiciones y límites de trabajo que permitan proteger la salud y el bienestar de quienes participan en el taller. Los hermanos Castro recuerdan experiencias de producción, especialmente en televisión, marcadas por las urgencias y las jornadas prolongadas. Con el tiempo aprendieron a organizar su trabajo de otra manera, evitando los trasnochos y rechazando proyectos cuyas exigencias comprometan su bienestar."
+        },
+        {
+          "id": "agarrapata:cuidado:glosario",
+          "kind": "text",
+          "creatorId": "agarrapata",
+          "text": "Conjunto de prácticas destinadas a garantizar condiciones de trabajo compatibles con el bienestar de quienes participan en una producción. En Agarrapata incluye jornadas con horarios definidos, tiempos de descanso, alimentación compartida y remuneraciones oportunas. El colectivo ha encontrado que los espacios de convivencia, especialmente las comidas, favorecen también la aparición de soluciones creativas y fortalecen las relaciones entre los integrantes del equipo."
+        }
+      ]
+    },
+    {
+      "id": "desorden",
+      "label": "Desorden",
+      "knotId": null,
+      "creatorIds": [
+        "castro"
+      ],
+      "selections": [],
+      "pieces": {
+        "castro": [
+          {
+            "id": "castro:desorden:glosario",
+            "kind": "text",
+            "creatorId": "castro",
+            "text": "Forma particular de organización de los materiales, herramientas y objetos acumulados en el taller. Los hermanos Castro describen un espacio en el que cada cajón contiene elementos de una categoría reconocible para quienes trabajan allí, aunque su disposición no responda a un sistema de orden convencional. Esta organización se ha construido mediante el uso cotidiano y el conocimiento de los materiales disponibles. Una reorganización externa podría dificultar la localización de las herramientas y alterar las rutinas de trabajo."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "castro:desorden:glosario",
+          "kind": "text",
+          "creatorId": "castro",
+          "text": "Forma particular de organización de los materiales, herramientas y objetos acumulados en el taller. Los hermanos Castro describen un espacio en el que cada cajón contiene elementos de una categoría reconocible para quienes trabajan allí, aunque su disposición no responda a un sistema de orden convencional. Esta organización se ha construido mediante el uso cotidiano y el conocimiento de los materiales disponibles. Una reorganización externa podría dificultar la localización de las herramientas y alterar las rutinas de trabajo."
+        }
+      ]
+    },
+    {
+      "id": "equipo",
+      "label": "Equipo",
+      "knotId": null,
+      "creatorIds": [
+        "castro"
+      ],
+      "selections": [],
+      "pieces": {
+        "castro": [
+          {
+            "id": "castro:equipo:glosario",
+            "kind": "text",
+            "creatorId": "castro",
+            "text": "Organización del trabajo colectivo mediante la participación de personas con diferentes niveles de conocimiento y experiencia. Los hermanos Castro recuperan la estructura tradicional del taller artesanal, compuesta por aprendices, oficiales y maestros. Cada nivel cumple una función dentro de los procesos de formación y producción, y permite que los conocimientos circulen entre generaciones. Desde esta perspectiva, el taller no se reduce a quienes lo dirigen, sino que existe gracias a la participación de un grupo más amplio."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "castro:equipo:glosario",
+          "kind": "text",
+          "creatorId": "castro",
+          "text": "Organización del trabajo colectivo mediante la participación de personas con diferentes niveles de conocimiento y experiencia. Los hermanos Castro recuperan la estructura tradicional del taller artesanal, compuesta por aprendices, oficiales y maestros. Cada nivel cumple una función dentro de los procesos de formación y producción, y permite que los conocimientos circulen entre generaciones. Desde esta perspectiva, el taller no se reduce a quienes lo dirigen, sino que existe gracias a la participación de un grupo más amplio."
+        }
+      ]
+    },
+    {
+      "id": "espuma",
+      "label": "Espuma",
+      "knotId": null,
+      "creatorIds": [
+        "castro"
+      ],
+      "selections": [],
+      "pieces": {
+        "castro": [
+          {
+            "id": "castro:espuma:glosario",
+            "kind": "text",
+            "creatorId": "castro",
+            "text": "Material utilizado para tallar y construir formas tridimensionales destinadas a la escena. Los hermanos Castro explican que las características de cada espuma influyen directamente en las posibilidades de trabajo y en la calidad de los acabados. Conocer las densidades, las marcas y los proveedores permite seleccionar el material adecuado para cada proyecto. Este conocimiento también se aplica a otros materiales de talla, como el icopor de alta densidad."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "castro:espuma:glosario",
+          "kind": "text",
+          "creatorId": "castro",
+          "text": "Material utilizado para tallar y construir formas tridimensionales destinadas a la escena. Los hermanos Castro explican que las características de cada espuma influyen directamente en las posibilidades de trabajo y en la calidad de los acabados. Conocer las densidades, las marcas y los proveedores permite seleccionar el material adecuado para cada proyecto. Este conocimiento también se aplica a otros materiales de talla, como el icopor de alta densidad."
+        }
+      ]
+    },
+    {
+      "id": "experimentacion",
+      "label": "Experimentación",
+      "knotId": null,
+      "creatorIds": [
+        "castro",
+        "jhon"
+      ],
+      "selections": [],
+      "pieces": {
+        "castro": [
+          {
+            "id": "castro:experimentacion:glosario",
+            "kind": "text",
+            "creatorId": "castro",
+            "text": "Proceso de exploración de materiales y procedimientos para descubrir posibilidades de uso que no siempre corresponden a su función original. Los hermanos Castro encuentran en objetos cotidianos oportunidades para resolver problemas escénicos. Su trabajo exige observar las propiedades físicas de los materiales, manipularlos y realizar pruebas que permitan identificar aplicaciones inesperadas. La cinta transparente de embalaje aparece en su relato como ejemplo de un material común cuyo potencial creativo puede pasar inadvertido."
+          }
+        ],
+        "jhon": [
+          {
+            "id": "jhon:experimentacion:glosario",
+            "kind": "text",
+            "creatorId": "jhon",
+            "text": "Proceso de aprendizaje y creación basado en probar materiales, observar sus comportamientos y modificar los procedimientos según los resultados. Para Jhon, el ensayo y error es una parte habitual del trabajo, pues muchos encargos requieren soluciones que no conoce de antemano. Experimenta incluso con productos de ferretería destinados a otros usos, buscando nuevas texturas, acabados y posibilidades de fabricación."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "castro:experimentacion:glosario",
+          "kind": "text",
+          "creatorId": "castro",
+          "text": "Proceso de exploración de materiales y procedimientos para descubrir posibilidades de uso que no siempre corresponden a su función original. Los hermanos Castro encuentran en objetos cotidianos oportunidades para resolver problemas escénicos. Su trabajo exige observar las propiedades físicas de los materiales, manipularlos y realizar pruebas que permitan identificar aplicaciones inesperadas. La cinta transparente de embalaje aparece en su relato como ejemplo de un material común cuyo potencial creativo puede pasar inadvertido."
+        },
+        {
+          "id": "jhon:experimentacion:glosario",
+          "kind": "text",
+          "creatorId": "jhon",
+          "text": "Proceso de aprendizaje y creación basado en probar materiales, observar sus comportamientos y modificar los procedimientos según los resultados. Para Jhon, el ensayo y error es una parte habitual del trabajo, pues muchos encargos requieren soluciones que no conoce de antemano. Experimenta incluso con productos de ferretería destinados a otros usos, buscando nuevas texturas, acabados y posibilidades de fabricación."
+        }
+      ]
+    },
+    {
+      "id": "extrano",
+      "label": "Extraño",
+      "knotId": null,
+      "creatorIds": [
+        "castro"
+      ],
+      "selections": [],
+      "pieces": {
+        "castro": [
+          {
+            "id": "castro:extrano:glosario",
+            "kind": "text",
+            "creatorId": "castro",
+            "text": "Cualidad visual de los objetos que producen una sensación de rareza, inquietud o desconcierto en el espectador. Los hermanos Castro reconocen esta característica como parte de sus intereses artísticos y valoran que sus creaciones puedan provocar reacciones que escapen de lo familiar o lo convencional. Cuando el público identifica un objeto como extraño, interpretan esa percepción como una respuesta favorable a la intención de su trabajo."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "castro:extrano:glosario",
+          "kind": "text",
+          "creatorId": "castro",
+          "text": "Cualidad visual de los objetos que producen una sensación de rareza, inquietud o desconcierto en el espectador. Los hermanos Castro reconocen esta característica como parte de sus intereses artísticos y valoran que sus creaciones puedan provocar reacciones que escapen de lo familiar o lo convencional. Cuando el público identifica un objeto como extraño, interpretan esa percepción como una respuesta favorable a la intención de su trabajo."
+        }
+      ]
+    },
+    {
+      "id": "falsedad",
+      "label": "Falsedad",
+      "knotId": null,
+      "creatorIds": [
+        "castro"
+      ],
+      "selections": [],
+      "pieces": {
+        "castro": [
+          {
+            "id": "castro:falsedad:glosario",
+            "kind": "text",
+            "creatorId": "castro",
+            "text": "Condición de los objetos escénicos que representan elementos de la realidad sin compartir necesariamente sus materiales, características o funciones. Para los hermanos Castro, la falsedad es una posibilidad propia de la creación teatral: un objeto puede parecer un cuchillo sin serlo, y debe cumplir las acciones requeridas por la escena sin producir los riesgos del objeto original. La fabricación exige comprender qué características deben reproducirse y cuáles pueden modificarse para responder a las necesidades de la representación."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "castro:falsedad:glosario",
+          "kind": "text",
+          "creatorId": "castro",
+          "text": "Condición de los objetos escénicos que representan elementos de la realidad sin compartir necesariamente sus materiales, características o funciones. Para los hermanos Castro, la falsedad es una posibilidad propia de la creación teatral: un objeto puede parecer un cuchillo sin serlo, y debe cumplir las acciones requeridas por la escena sin producir los riesgos del objeto original. La fabricación exige comprender qué características deben reproducirse y cuáles pueden modificarse para responder a las necesidades de la representación."
+        }
+      ]
+    },
+    {
+      "id": "investigacion",
+      "label": "Investigación",
+      "knotId": null,
+      "creatorIds": [
+        "castro"
+      ],
+      "selections": [],
+      "pieces": {
+        "castro": [
+          {
+            "id": "castro:investigacion:glosario",
+            "kind": "text",
+            "creatorId": "castro",
+            "text": "Proceso de búsqueda y estudio de materiales, mecanismos y procedimientos necesarios para resolver problemas específicos de una creación. Los hermanos Castro explican que cada encargo puede exigir conocimientos que todavía no poseen, por lo que deben investigar antes de definir cómo construirlo. Mencionan el caso de una marioneta que debía permanecer de pie, cuya realización implicó estudiar alternativas técnicas. La investigación acompaña así la creación y permite desarrollar soluciones ajustadas a cada proyecto."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "castro:investigacion:glosario",
+          "kind": "text",
+          "creatorId": "castro",
+          "text": "Proceso de búsqueda y estudio de materiales, mecanismos y procedimientos necesarios para resolver problemas específicos de una creación. Los hermanos Castro explican que cada encargo puede exigir conocimientos que todavía no poseen, por lo que deben investigar antes de definir cómo construirlo. Mencionan el caso de una marioneta que debía permanecer de pie, cuya realización implicó estudiar alternativas técnicas. La investigación acompaña así la creación y permite desarrollar soluciones ajustadas a cada proyecto."
+        }
+      ]
+    },
+    {
+      "id": "luz",
+      "label": "Luz",
+      "knotId": null,
+      "creatorIds": [
+        "castro"
+      ],
+      "selections": [],
+      "pieces": {
+        "castro": [
+          {
+            "id": "castro:luz:glosario",
+            "kind": "text",
+            "creatorId": "castro",
+            "text": "Recurso escénico que modifica la apariencia de los materiales y participa en la construcción visual de los objetos. Los hermanos Castro describen cómo un mismo plástico de burbujas pudo representar una mina de esmeraldas o una de rubíes mediante cambios de iluminación. También reconocen que la luz puede alterar los colores y acabados previstos durante la fabricación. Por ello consideran necesario establecer acuerdos con quienes diseñan la iluminación para que los elementos plásticos conserven las características buscadas."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "castro:luz:glosario",
+          "kind": "text",
+          "creatorId": "castro",
+          "text": "Recurso escénico que modifica la apariencia de los materiales y participa en la construcción visual de los objetos. Los hermanos Castro describen cómo un mismo plástico de burbujas pudo representar una mina de esmeraldas o una de rubíes mediante cambios de iluminación. También reconocen que la luz puede alterar los colores y acabados previstos durante la fabricación. Por ello consideran necesario establecer acuerdos con quienes diseñan la iluminación para que los elementos plásticos conserven las características buscadas."
+        }
+      ]
+    },
+    {
+      "id": "mascaras",
+      "label": "Máscaras",
+      "knotId": null,
+      "creatorIds": [
+        "castro"
+      ],
+      "selections": [],
+      "pieces": {
+        "castro": [
+          {
+            "id": "castro:mascaras:glosario",
+            "kind": "text",
+            "creatorId": "castro",
+            "text": "Objetos construidos para cubrir o transformar el rostro de un intérprete y modificar su apariencia durante la representación. Su fabricación requiere conocimientos de volumen, materiales y acabados, además de considerar las condiciones físicas de quien las utiliza. Los hermanos Castro incorporan a su trabajo la experiencia que han tenido como actores de máscara, prestando atención a la visibilidad, la ventilación, el peso y la comodidad. Estas condiciones son necesarias para que el intérprete pueda desarrollar sus acciones escénicas de manera segura."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "castro:mascaras:glosario",
+          "kind": "text",
+          "creatorId": "castro",
+          "text": "Objetos construidos para cubrir o transformar el rostro de un intérprete y modificar su apariencia durante la representación. Su fabricación requiere conocimientos de volumen, materiales y acabados, además de considerar las condiciones físicas de quien las utiliza. Los hermanos Castro incorporan a su trabajo la experiencia que han tenido como actores de máscara, prestando atención a la visibilidad, la ventilación, el peso y la comodidad. Estas condiciones son necesarias para que el intérprete pueda desarrollar sus acciones escénicas de manera segura."
+        }
+      ]
+    },
+    {
+      "id": "materia",
+      "label": "Materia",
+      "knotId": null,
+      "creatorIds": [
+        "castro"
+      ],
+      "selections": [],
+      "pieces": {
+        "castro": [
+          {
+            "id": "castro:materia:glosario",
+            "kind": "text",
+            "creatorId": "castro",
+            "text": "Conjunto de elementos físicos y tangibles mediante los cuales una idea artística adquiere forma. Los hermanos Castro describen su trabajo como el tránsito entre lo imaginado por un creador y su realización material. Este proceso requiere interpretar imágenes, conceptos o necesidades escénicas y encontrar los procedimientos que permitan convertirlos en objetos concretos. La materia es, por tanto, el medio sobre el cual se desarrollan las decisiones técnicas y plásticas del taller."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "castro:materia:glosario",
+          "kind": "text",
+          "creatorId": "castro",
+          "text": "Conjunto de elementos físicos y tangibles mediante los cuales una idea artística adquiere forma. Los hermanos Castro describen su trabajo como el tránsito entre lo imaginado por un creador y su realización material. Este proceso requiere interpretar imágenes, conceptos o necesidades escénicas y encontrar los procedimientos que permitan convertirlos en objetos concretos. La materia es, por tanto, el medio sobre el cual se desarrollan las decisiones técnicas y plásticas del taller."
+        }
+      ]
+    },
+    {
+      "id": "moldes",
+      "label": "Moldes",
+      "knotId": null,
+      "creatorIds": [
+        "castro"
+      ],
+      "selections": [],
+      "pieces": {
+        "castro": [
+          {
+            "id": "castro:moldes:glosario",
+            "kind": "text",
+            "creatorId": "castro",
+            "text": "Matrices utilizadas para reproducir formas y fabricar nuevas piezas a partir de un modelo original. Los hermanos Castro conservan un archivo de aproximadamente sesenta o setenta moldes de yeso correspondientes a trabajos anteriores. Estas piezas pueden emplearse nuevamente en la elaboración de máscaras, rostros, prótesis o muñecos, evitando repetir algunos procesos de fabricación. Su almacenamiento constituye también un registro material de los proyectos realizados por el taller."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "castro:moldes:glosario",
+          "kind": "text",
+          "creatorId": "castro",
+          "text": "Matrices utilizadas para reproducir formas y fabricar nuevas piezas a partir de un modelo original. Los hermanos Castro conservan un archivo de aproximadamente sesenta o setenta moldes de yeso correspondientes a trabajos anteriores. Estas piezas pueden emplearse nuevamente en la elaboración de máscaras, rostros, prótesis o muñecos, evitando repetir algunos procesos de fabricación. Su almacenamiento constituye también un registro material de los proyectos realizados por el taller."
+        }
+      ]
+    },
+    {
+      "id": "musica",
+      "label": "Música",
+      "knotId": null,
+      "creatorIds": [
+        "castro",
+        "pablo"
+      ],
+      "selections": [],
+      "pieces": {
+        "castro": [
+          {
+            "id": "castro:musica:glosario",
+            "kind": "text",
+            "creatorId": "castro",
+            "text": "Elemento que acompaña y organiza el ritmo de trabajo dentro del taller. Los hermanos Castro describen la costumbre de seleccionar música según las características de cada proyecto, hasta el punto de asociar determinadas obras con canciones o artistas específicos. Consideran que el ambiente sonoro influye en la manera de trabajar y que, de alguna forma, participa en la construcción de los objetos."
+          }
+        ],
+        "pablo": [
+          {
+            "id": "pablo:musica:glosario",
+            "kind": "text",
+            "creatorId": "pablo",
+            "text": "Disciplina que atraviesa la formación artística de Pablo y su manera de trabajar en el teatro. Comenzó sus estudios musicales a los siete años, aprendiendo solfeo y varios instrumentos, y ha mantenido esta práctica durante su vida. Actualmente toca batería, estudia instrumentos de percusión de la India y participa en ensambles con amigos. En su trabajo como actor busca que los personajes tengan alguna relación con la música, ya sea mediante el canto, el silbido, la interpretación instrumental o el ritmo corporal."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "castro:musica:glosario",
+          "kind": "text",
+          "creatorId": "castro",
+          "text": "Elemento que acompaña y organiza el ritmo de trabajo dentro del taller. Los hermanos Castro describen la costumbre de seleccionar música según las características de cada proyecto, hasta el punto de asociar determinadas obras con canciones o artistas específicos. Consideran que el ambiente sonoro influye en la manera de trabajar y que, de alguna forma, participa en la construcción de los objetos."
+        },
+        {
+          "id": "pablo:musica:glosario",
+          "kind": "text",
+          "creatorId": "pablo",
+          "text": "Disciplina que atraviesa la formación artística de Pablo y su manera de trabajar en el teatro. Comenzó sus estudios musicales a los siete años, aprendiendo solfeo y varios instrumentos, y ha mantenido esta práctica durante su vida. Actualmente toca batería, estudia instrumentos de percusión de la India y participa en ensambles con amigos. En su trabajo como actor busca que los personajes tengan alguna relación con la música, ya sea mediante el canto, el silbido, la interpretación instrumental o el ritmo corporal."
+        }
+      ]
+    },
+    {
+      "id": "particularidad",
+      "label": "Particularidad",
+      "knotId": null,
+      "creatorIds": [
+        "castro"
+      ],
+      "selections": [],
+      "pieces": {
+        "castro": [
+          {
+            "id": "castro:particularidad:glosario",
+            "kind": "text",
+            "creatorId": "castro",
+            "text": "Conjunto de características y problemas específicos que cada creador aporta a un proyecto. Los hermanos Castro consideran que las necesidades de una obra no pueden resolverse mediante fórmulas generales, pues dependen de la imaginación, las decisiones y las preguntas de quienes participan en ella. Esta singularidad exige interpretar cada encargo y desarrollar procedimientos adecuados a sus condiciones, incluso cuando se cuenta con experiencias previas en trabajos similares."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "castro:particularidad:glosario",
+          "kind": "text",
+          "creatorId": "castro",
+          "text": "Conjunto de características y problemas específicos que cada creador aporta a un proyecto. Los hermanos Castro consideran que las necesidades de una obra no pueden resolverse mediante fórmulas generales, pues dependen de la imaginación, las decisiones y las preguntas de quienes participan en ella. Esta singularidad exige interpretar cada encargo y desarrollar procedimientos adecuados a sus condiciones, incluso cuando se cuenta con experiencias previas en trabajos similares."
+        }
+      ]
+    },
+    {
+      "id": "relevo",
+      "label": "Relevo",
+      "knotId": null,
+      "creatorIds": [
+        "castro"
+      ],
+      "selections": [],
+      "pieces": {
+        "castro": [
+          {
+            "id": "castro:relevo:glosario",
+            "kind": "text",
+            "creatorId": "castro",
+            "text": "Proceso de incorporación de nuevas generaciones al taller y de transmisión y renovación de los conocimientos del oficio. Los hermanos Castro reconocen que la llegada de personas jóvenes implica entrar en contacto con tecnologías, procedimientos y maneras de pensar diferentes. Este cambio puede producir incertidumbre, pero también permite cuestionar las prácticas establecidas y evitar que la experiencia acumulada se convierta en resistencia frente a nuevas posibilidades."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "castro:relevo:glosario",
+          "kind": "text",
+          "creatorId": "castro",
+          "text": "Proceso de incorporación de nuevas generaciones al taller y de transmisión y renovación de los conocimientos del oficio. Los hermanos Castro reconocen que la llegada de personas jóvenes implica entrar en contacto con tecnologías, procedimientos y maneras de pensar diferentes. Este cambio puede producir incertidumbre, pero también permite cuestionar las prácticas establecidas y evitar que la experiencia acumulada se convierta en resistencia frente a nuevas posibilidades."
+        }
+      ]
+    },
+    {
+      "id": "serendipia",
+      "label": "Serendipia",
+      "knotId": null,
+      "creatorIds": [
+        "castro"
+      ],
+      "selections": [],
+      "pieces": {
+        "castro": [
+          {
+            "id": "castro:serendipia:glosario",
+            "kind": "text",
+            "creatorId": "castro",
+            "text": "Descubrimiento inesperado que permite encontrar una solución mientras se exploran otras posibilidades. Los hermanos Castro relatan que, durante la búsqueda de materiales para un telón destinado a una gala de ballet, encontraron un fragmento de plástico de burbujas en la cocina de una casa. El material terminó convirtiéndose en parte de la solución visual del proyecto. La serendipia aparece así como una posibilidad asociada a la observación y a la disposición para reconocer usos imprevistos de los objetos cotidianos."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "castro:serendipia:glosario",
+          "kind": "text",
+          "creatorId": "castro",
+          "text": "Descubrimiento inesperado que permite encontrar una solución mientras se exploran otras posibilidades. Los hermanos Castro relatan que, durante la búsqueda de materiales para un telón destinado a una gala de ballet, encontraron un fragmento de plástico de burbujas en la cocina de una casa. El material terminó convirtiéndose en parte de la solución visual del proyecto. La serendipia aparece así como una posibilidad asociada a la observación y a la disposición para reconocer usos imprevistos de los objetos cotidianos."
+        }
+      ]
+    },
+    {
+      "id": "titeres",
+      "label": "Títeres",
+      "knotId": null,
+      "creatorIds": [
+        "castro"
+      ],
+      "selections": [],
+      "pieces": {
+        "castro": [
+          {
+            "id": "castro:titeres:glosario",
+            "kind": "text",
+            "creatorId": "castro",
+            "text": "Figuras u objetos construidos para ser animados mediante diferentes procedimientos de manipulación escénica. Los hermanos Castro reconocen el teatro de títeres como un campo que reúne numerosas técnicas de fabricación y movimiento. Cada tipo de títere presenta necesidades particulares relacionadas con sus materiales, mecanismos, dimensiones y formas de manipulación, por lo que su construcción requiere conocimientos específicos."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "castro:titeres:glosario",
+          "kind": "text",
+          "creatorId": "castro",
+          "text": "Figuras u objetos construidos para ser animados mediante diferentes procedimientos de manipulación escénica. Los hermanos Castro reconocen el teatro de títeres como un campo que reúne numerosas técnicas de fabricación y movimiento. Cada tipo de títere presenta necesidades particulares relacionadas con sus materiales, mecanismos, dimensiones y formas de manipulación, por lo que su construcción requiere conocimientos específicos."
+        }
+      ]
+    },
+    {
+      "id": "utileria",
+      "label": "Utilería",
+      "knotId": null,
+      "creatorIds": [
+        "castro",
+        "jhon",
+        "agarrapata"
+      ],
+      "selections": [],
+      "pieces": {
+        "castro": [
+          {
+            "id": "castro:utileria:glosario",
+            "kind": "text",
+            "creatorId": "castro",
+            "text": "Conjunto de objetos construidos o adaptados para ser manipulados durante una representación y cumplir una función dramática. Los hermanos Castro reivindican la denominación de utileros, que identifican como un término históricamente desvalorizado, y definen su especialidad como utilería especializada. Su trabajo comprende la fabricación de objetos que deben responder a exigencias particulares de apariencia, funcionamiento y seguridad, y que no siempre pueden resolverse utilizando objetos reales."
+          }
+        ],
+        "jhon": [
+          {
+            "id": "jhon_utileria.mp3",
+            "kind": "audio",
+            "creatorId": "jhon",
+            "src": "media/corte/web/jhon_utileria.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          }
+        ],
+        "agarrapata": [
+          {
+            "id": "agarrapata:utileria:glosario",
+            "kind": "text",
+            "creatorId": "agarrapata",
+            "text": "Conjunto de objetos fabricados o preparados para intervenir en una representación escénica. En Agarrapata, la creación de objetos está vinculada principalmente con el teatro de títeres y la animación. La Casa de los Objetos reúne elementos de distintas producciones, que circulan entre proyectos y pueden adquirir nuevas funciones en otras obras."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "castro:utileria:glosario",
+          "kind": "text",
+          "creatorId": "castro",
+          "text": "Conjunto de objetos construidos o adaptados para ser manipulados durante una representación y cumplir una función dramática. Los hermanos Castro reivindican la denominación de utileros, que identifican como un término históricamente desvalorizado, y definen su especialidad como utilería especializada. Su trabajo comprende la fabricación de objetos que deben responder a exigencias particulares de apariencia, funcionamiento y seguridad, y que no siempre pueden resolverse utilizando objetos reales."
+        },
+        {
+          "id": "jhon_utileria.mp3",
+          "kind": "audio",
+          "creatorId": "jhon",
+          "src": "media/corte/web/jhon_utileria.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "agarrapata:utileria:glosario",
+          "kind": "text",
+          "creatorId": "agarrapata",
+          "text": "Conjunto de objetos fabricados o preparados para intervenir en una representación escénica. En Agarrapata, la creación de objetos está vinculada principalmente con el teatro de títeres y la animación. La Casa de los Objetos reúne elementos de distintas producciones, que circulan entre proyectos y pueden adquirir nuevas funciones en otras obras."
+        }
+      ]
+    },
+    {
+      "id": "ingenio",
+      "label": "Ingenio",
+      "knotId": null,
+      "creatorIds": [
+        "jhon"
+      ],
+      "selections": [],
+      "pieces": {
+        "jhon": [
+          {
+            "id": "jhon_ingenio.mp4",
+            "kind": "video",
+            "creatorId": "jhon",
+            "src": "media/corte/web/jhon_ingenio.mp4",
+            "caption": "Registro en video del archivo de Susurros.",
+            "poster": "media/corte/web/jhon_ingenio.poster.jpg"
+          },
+          {
+            "id": "jhon:ingenio:glosario",
+            "kind": "text",
+            "creatorId": "jhon",
+            "text": "Habilidad para desarrollar soluciones con materiales y procedimientos disponibles cuando los recursos industriales especializados resultan inaccesibles o demasiado costosos. Jhon aprovecha objetos cotidianos, productos nacionales y piezas recuperadas para fabricar utilería. En una ocasión, por ejemplo, compró cámaras y videograbadoras VHS para desarmarlas y utilizar sus componentes en la construcción de robots para una serie. Su ingenio consiste en reconocer posibilidades de uso en materiales que originalmente tenían otra función."
+          },
+          {
+            "id": "jhon_ingenio_foto.jpg",
+            "kind": "image",
+            "creatorId": "jhon",
+            "src": "media/corte/web/jhon_ingenio_foto.jpg",
+            "caption": "Fotografía del archivo de Susurros.",
+            "alt": "Una mano señala monedas y piezas circulares junto a sus impresiones sobre una lámina blanca."
+          },
+          {
+            "id": "jhon_ingenio_v03.mp3",
+            "kind": "audio",
+            "creatorId": "jhon",
+            "src": "media/corte/web/jhon_ingenio_v03.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "jhon_ingenio.mp4",
+          "kind": "video",
+          "creatorId": "jhon",
+          "src": "media/corte/web/jhon_ingenio.mp4",
+          "caption": "Registro en video del archivo de Susurros.",
+          "poster": "media/corte/web/jhon_ingenio.poster.jpg"
+        },
+        {
+          "id": "jhon:ingenio:glosario",
+          "kind": "text",
+          "creatorId": "jhon",
+          "text": "Habilidad para desarrollar soluciones con materiales y procedimientos disponibles cuando los recursos industriales especializados resultan inaccesibles o demasiado costosos. Jhon aprovecha objetos cotidianos, productos nacionales y piezas recuperadas para fabricar utilería. En una ocasión, por ejemplo, compró cámaras y videograbadoras VHS para desarmarlas y utilizar sus componentes en la construcción de robots para una serie. Su ingenio consiste en reconocer posibilidades de uso en materiales que originalmente tenían otra función."
+        },
+        {
+          "id": "jhon_ingenio_foto.jpg",
+          "kind": "image",
+          "creatorId": "jhon",
+          "src": "media/corte/web/jhon_ingenio_foto.jpg",
+          "caption": "Fotografía del archivo de Susurros.",
+          "alt": "Una mano señala monedas y piezas circulares junto a sus impresiones sobre una lámina blanca."
+        },
+        {
+          "id": "jhon_ingenio_v03.mp3",
+          "kind": "audio",
+          "creatorId": "jhon",
+          "src": "media/corte/web/jhon_ingenio_v03.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        }
+      ]
+    },
+    {
+      "id": "maestria",
+      "label": "Maestría",
+      "knotId": null,
+      "creatorIds": [
+        "jhon"
+      ],
+      "selections": [],
+      "pieces": {
+        "jhon": [
+          {
+            "id": "jhon:maestria:glosario",
+            "kind": "text",
+            "creatorId": "jhon",
+            "text": "Conocimiento del oficio desarrollado durante años de práctica, experimentación y resolución de encargos diversos. Para Jhon, la experiencia le ha permitido reconocer las posibilidades de los materiales, anticipar dificultades y afrontar trabajos complejos con mayor tranquilidad. Esta seguridad no implica que haya dejado de experimentar o equivocarse, sino que ha aprendido a enfrentar los problemas sin la desesperación que sentía al comienzo de su trayectoria."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "jhon:maestria:glosario",
+          "kind": "text",
+          "creatorId": "jhon",
+          "text": "Conocimiento del oficio desarrollado durante años de práctica, experimentación y resolución de encargos diversos. Para Jhon, la experiencia le ha permitido reconocer las posibilidades de los materiales, anticipar dificultades y afrontar trabajos complejos con mayor tranquilidad. Esta seguridad no implica que haya dejado de experimentar o equivocarse, sino que ha aprendido a enfrentar los problemas sin la desesperación que sentía al comienzo de su trayectoria."
+        }
+      ]
+    },
+    {
+      "id": "versatilidad",
+      "label": "Versatilidad",
+      "knotId": null,
+      "creatorIds": [
+        "jhon",
+        "pablo"
+      ],
+      "selections": [],
+      "pieces": {
+        "jhon": [
+          {
+            "id": "jhon_versatilidad_v03.mp3",
+            "kind": "audio",
+            "creatorId": "jhon",
+            "src": "media/corte/web/jhon_versatilidad_v03.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "jhon:versatilidad:glosario",
+            "kind": "text",
+            "creatorId": "jhon",
+            "text": "Capacidad de realizar objetos de distintas características, materiales y funciones, adaptando las técnicas de fabricación a las necesidades de cada encargo. En el taller de Jhon, la versatilidad se manifiesta en la diversidad de piezas que produce para cine, televisión y teatro, desde miniaturas y objetos de época hasta herramientas, armas simuladas y elementos para escenas de acción. Cada proyecto exige combinar conocimientos, explorar materiales y emplear procedimientos diferentes según las características del objeto."
+          }
+        ],
+        "pablo": [
+          {
+            "id": "pablo:versatilidad:glosario",
+            "kind": "text",
+            "creatorId": "pablo",
+            "text": "Capacidad de transitar entre distintas disciplinas artísticas y utilizar sus conocimientos de manera complementaria. Pablo estudió música y actuación, y ha desarrollado su trabajo en el diseño escenográfico, las artes plásticas y la docencia. Esta diversidad le permite abordar una creación desde el dibujo, la composición espacial, el movimiento, la construcción o el sonido, según las necesidades del proyecto. En su estudio mantiene herramientas e instrumentos que le permiten alternar entre estas actividades."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "jhon_versatilidad_v03.mp3",
+          "kind": "audio",
+          "creatorId": "jhon",
+          "src": "media/corte/web/jhon_versatilidad_v03.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "pablo:versatilidad:glosario",
+          "kind": "text",
+          "creatorId": "pablo",
+          "text": "Capacidad de transitar entre distintas disciplinas artísticas y utilizar sus conocimientos de manera complementaria. Pablo estudió música y actuación, y ha desarrollado su trabajo en el diseño escenográfico, las artes plásticas y la docencia. Esta diversidad le permite abordar una creación desde el dibujo, la composición espacial, el movimiento, la construcción o el sonido, según las necesidades del proyecto. En su estudio mantiene herramientas e instrumentos que le permiten alternar entre estas actividades."
+        },
+        {
+          "id": "jhon:versatilidad:glosario",
+          "kind": "text",
+          "creatorId": "jhon",
+          "text": "Capacidad de realizar objetos de distintas características, materiales y funciones, adaptando las técnicas de fabricación a las necesidades de cada encargo. En el taller de Jhon, la versatilidad se manifiesta en la diversidad de piezas que produce para cine, televisión y teatro, desde miniaturas y objetos de época hasta herramientas, armas simuladas y elementos para escenas de acción. Cada proyecto exige combinar conocimientos, explorar materiales y emplear procedimientos diferentes según las características del objeto."
+        }
+      ]
+    },
+    {
+      "id": "empirismo",
+      "label": "Empirismo",
+      "knotId": null,
+      "creatorIds": [
+        "jhon",
+        "pablo"
+      ],
+      "selections": [],
+      "pieces": {
+        "jhon": [
+          {
+            "id": "jhon:empirismo:glosario",
+            "kind": "text",
+            "creatorId": "jhon",
+            "text": "Conocimiento adquirido mediante la práctica, la observación y la experimentación directa con materiales y herramientas. Para Jhon, el aprendizaje de la utilería ocurre principalmente en el taller, donde cada encargo plantea problemas que exigen probar procedimientos y aprender de los resultados. La experiencia acumulada permite desarrollar habilidades que no necesariamente provienen de una formación académica, especialmente en un oficio que, según señala, carece de una carrera profesional específica en Colombia."
+          }
+        ],
+        "pablo": [
+          {
+            "id": "pablo:empirismo:glosario",
+            "kind": "text",
+            "creatorId": "pablo",
+            "text": "Aprendizaje de habilidades artísticas y técnicas mediante la participación directa en procesos de creación desde la infancia. Pablo creció rodeado de escritores, músicos y artistas plásticos, y comenzó a familiarizarse con materiales y herramientas ayudando a su madre, que trabajaba como escenógrafa. Posteriormente desarrolló estas habilidades durante su formación teatral, cuando debía construir sus propios elementos de utilería, vestuario y escenografía. Su conocimiento práctico se formó mediante la observación, el trabajo manual y la experimentación."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "jhon:empirismo:glosario",
+          "kind": "text",
+          "creatorId": "jhon",
+          "text": "Conocimiento adquirido mediante la práctica, la observación y la experimentación directa con materiales y herramientas. Para Jhon, el aprendizaje de la utilería ocurre principalmente en el taller, donde cada encargo plantea problemas que exigen probar procedimientos y aprender de los resultados. La experiencia acumulada permite desarrollar habilidades que no necesariamente provienen de una formación académica, especialmente en un oficio que, según señala, carece de una carrera profesional específica en Colombia."
+        },
+        {
+          "id": "pablo:empirismo:glosario",
+          "kind": "text",
+          "creatorId": "pablo",
+          "text": "Aprendizaje de habilidades artísticas y técnicas mediante la participación directa en procesos de creación desde la infancia. Pablo creció rodeado de escritores, músicos y artistas plásticos, y comenzó a familiarizarse con materiales y herramientas ayudando a su madre, que trabajaba como escenógrafa. Posteriormente desarrolló estas habilidades durante su formación teatral, cuando debía construir sus propios elementos de utilería, vestuario y escenografía. Su conocimiento práctico se formó mediante la observación, el trabajo manual y la experimentación."
+        }
+      ]
+    },
+    {
+      "id": "props",
+      "label": "Props",
+      "knotId": null,
+      "creatorIds": [
+        "jhon"
+      ],
+      "selections": [],
+      "pieces": {
+        "jhon": [
+          {
+            "id": "jhon:props:glosario",
+            "kind": "text",
+            "creatorId": "jhon",
+            "text": "Término utilizado en la industria audiovisual y teatral para referirse a los objetos de utilería que intervienen en una producción. Jhon explica que su uso se ha extendido con la llegada de producciones extranjeras y la adopción de un vocabulario común entre los equipos de trabajo. Aunque reconoce esta denominación, identifica la utilería como la especialidad principal de su taller."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "jhon:props:glosario",
+          "kind": "text",
+          "creatorId": "jhon",
+          "text": "Término utilizado en la industria audiovisual y teatral para referirse a los objetos de utilería que intervienen en una producción. Jhon explica que su uso se ha extendido con la llegada de producciones extranjeras y la adopción de un vocabulario común entre los equipos de trabajo. Aunque reconoce esta denominación, identifica la utilería como la especialidad principal de su taller."
+        }
+      ]
+    },
+    {
+      "id": "dummies",
+      "label": "Dummies",
+      "knotId": null,
+      "creatorIds": [
+        "jhon",
+        "agarrapata"
+      ],
+      "selections": [],
+      "pieces": {
+        "jhon": [
+          {
+            "id": "jhon:dummies:glosario",
+            "kind": "text",
+            "creatorId": "jhon",
+            "text": "Réplicas de objetos fabricadas con materiales blandos para su utilización en escenas de acción que implican golpes, caídas o contacto físico. Jhon describe cómo reproduce herramientas y otros elementos mediante goma EVA, conservando sus proporciones y apariencia mediante técnicas de pintura y texturizado. Estas piezas deben resultar convincentes ante la cámara o sobre el escenario y, al mismo tiempo, reducir el riesgo de lesiones para los intérpretes."
+          }
+        ],
+        "agarrapata": [
+          {
+            "id": "agarrapata:dummies:glosario",
+            "kind": "text",
+            "creatorId": "agarrapata",
+            "text": "Réplicas de objetos o figuras fabricadas con materiales blandos o de menor peso para utilizarlas en escenas que implican golpes, caídas o contacto físico. Su construcción busca conservar las características visuales del elemento original y reducir los riesgos durante la representación. Pueden realizarse con espumas, cauchos y otros materiales flexibles, según el tipo de acción y las condiciones de manipulación."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "jhon:dummies:glosario",
+          "kind": "text",
+          "creatorId": "jhon",
+          "text": "Réplicas de objetos fabricadas con materiales blandos para su utilización en escenas de acción que implican golpes, caídas o contacto físico. Jhon describe cómo reproduce herramientas y otros elementos mediante goma EVA, conservando sus proporciones y apariencia mediante técnicas de pintura y texturizado. Estas piezas deben resultar convincentes ante la cámara o sobre el escenario y, al mismo tiempo, reducir el riesgo de lesiones para los intérpretes."
+        },
+        {
+          "id": "agarrapata:dummies:glosario",
+          "kind": "text",
+          "creatorId": "agarrapata",
+          "text": "Réplicas de objetos o figuras fabricadas con materiales blandos o de menor peso para utilizarlas en escenas que implican golpes, caídas o contacto físico. Su construcción busca conservar las características visuales del elemento original y reducir los riesgos durante la representación. Pueden realizarse con espumas, cauchos y otros materiales flexibles, según el tipo de acción y las condiciones de manipulación."
+        }
+      ]
+    },
+    {
+      "id": "patina",
+      "label": "Pátina",
+      "knotId": null,
+      "creatorIds": [
+        "jhon",
+        "agarrapata"
+      ],
+      "selections": [],
+      "pieces": {
+        "jhon": [
+          {
+            "id": "jhon:patina:glosario",
+            "kind": "text",
+            "creatorId": "jhon",
+            "text": "Tratamiento de las superficies de un objeto mediante pinturas, recubrimientos y técnicas de texturizado para conseguir una apariencia determinada. En el trabajo de Jhon, estos acabados permiten imitar materiales y hacer que una réplica resulte convincente ante la cámara o sobre el escenario. Describe, por ejemplo, cómo aplica pinturas especiales de caucho sobre piezas de goma EVA para sellar los poros y reproducir la textura, el color y la apariencia de un martillo real."
+          }
+        ],
+        "agarrapata": [
+          {
+            "id": "agarrapata:patina:glosario",
+            "kind": "text",
+            "creatorId": "agarrapata",
+            "text": "Tratamiento pictórico de las superficies para modificar su apariencia y simular los efectos del uso, el envejecimiento o el paso del tiempo. Mediante capas de pintura, veladuras, sombras y desgastes controlados, es posible representar oxidación, suciedad, deterioro o variaciones de color propias de determinados materiales. En la construcción escénica, la pátina permite dar a los objetos una apariencia acorde con las características visuales de la puesta en escena."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "jhon:patina:glosario",
+          "kind": "text",
+          "creatorId": "jhon",
+          "text": "Tratamiento de las superficies de un objeto mediante pinturas, recubrimientos y técnicas de texturizado para conseguir una apariencia determinada. En el trabajo de Jhon, estos acabados permiten imitar materiales y hacer que una réplica resulte convincente ante la cámara o sobre el escenario. Describe, por ejemplo, cómo aplica pinturas especiales de caucho sobre piezas de goma EVA para sellar los poros y reproducir la textura, el color y la apariencia de un martillo real."
+        },
+        {
+          "id": "agarrapata:patina:glosario",
+          "kind": "text",
+          "creatorId": "agarrapata",
+          "text": "Tratamiento pictórico de las superficies para modificar su apariencia y simular los efectos del uso, el envejecimiento o el paso del tiempo. Mediante capas de pintura, veladuras, sombras y desgastes controlados, es posible representar oxidación, suciedad, deterioro o variaciones de color propias de determinados materiales. En la construcción escénica, la pátina permite dar a los objetos una apariencia acorde con las características visuales de la puesta en escena."
+        }
+      ]
+    },
+    {
+      "id": "miniaturismo",
+      "label": "Miniaturismo",
+      "knotId": null,
+      "creatorIds": [
+        "jhon"
+      ],
+      "selections": [],
+      "pieces": {
+        "jhon": [
+          {
+            "id": "jhon:miniaturismo:glosario",
+            "kind": "text",
+            "creatorId": "jhon",
+            "text": "Práctica de modelar, reproducir y pintar figuras de pequeño formato, con especial atención a las proporciones y los detalles. Jhon comenzó de manera autodidacta con la fabricación de soldados de plomo, utilizando materiales como jabón y madera de balso. Esta actividad, que desarrolla desde hace más de 35 años, despertó su interés por la historia y la indumentaria militar y lo vinculó posteriormente con la producción de maquetas para comerciales. Actualmente continúa elaborando figuras como una actividad personal."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "jhon:miniaturismo:glosario",
+          "kind": "text",
+          "creatorId": "jhon",
+          "text": "Práctica de modelar, reproducir y pintar figuras de pequeño formato, con especial atención a las proporciones y los detalles. Jhon comenzó de manera autodidacta con la fabricación de soldados de plomo, utilizando materiales como jabón y madera de balso. Esta actividad, que desarrolla desde hace más de 35 años, despertó su interés por la historia y la indumentaria militar y lo vinculó posteriormente con la producción de maquetas para comerciales. Actualmente continúa elaborando figuras como una actividad personal."
+        }
+      ]
+    },
+    {
+      "id": "replica",
+      "label": "Réplica",
+      "knotId": null,
+      "creatorIds": [
+        "jhon"
+      ],
+      "selections": [],
+      "pieces": {
+        "jhon": [
+          {
+            "id": "jhon:replica:glosario",
+            "kind": "text",
+            "creatorId": "jhon",
+            "text": "Reproducción de un objeto a partir de sus características visuales, materiales o históricas, según las necesidades de una producción. Jhon describe la fabricación de monedas de época, para las que utiliza referencias suministradas por el cliente, diseño digital, grabado sobre acrílico y modelado con masilla epóxica. El trabajo exige considerar los procedimientos de fabricación originales para conseguir una apariencia correspondiente al periodo representado, como sucede con las monedas del siglo XIX y los doblones españoles de los siglos XVI y XVII."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "jhon:replica:glosario",
+          "kind": "text",
+          "creatorId": "jhon",
+          "text": "Reproducción de un objeto a partir de sus características visuales, materiales o históricas, según las necesidades de una producción. Jhon describe la fabricación de monedas de época, para las que utiliza referencias suministradas por el cliente, diseño digital, grabado sobre acrílico y modelado con masilla epóxica. El trabajo exige considerar los procedimientos de fabricación originales para conseguir una apariencia correspondiente al periodo representado, como sucede con las monedas del siglo XIX y los doblones españoles de los siglos XVI y XVII."
+        }
+      ]
+    },
+    {
+      "id": "cotidianidad",
+      "label": "Cotidianidad",
+      "knotId": null,
+      "creatorIds": [
+        "jhon"
+      ],
+      "selections": [],
+      "pieces": {
+        "jhon": [
+          {
+            "id": "jhon:cotidianidad:glosario",
+            "kind": "text",
+            "creatorId": "jhon",
+            "text": "Relación entre la vida doméstica y el trabajo artesanal cuando el taller funciona dentro de la vivienda. El taller de Jhon ocupa una terraza en el tercer piso de su casa, acondicionada progresivamente con ayuda de su cuñado. Esta cercanía le permite trabajar a cualquier hora, pero también hace que las jornadas se extiendan hasta la noche o la madrugada. El espacio reúne herramientas, materiales acumulados durante años y objetos recuperados que conserva para futuros proyectos."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "jhon:cotidianidad:glosario",
+          "kind": "text",
+          "creatorId": "jhon",
+          "text": "Relación entre la vida doméstica y el trabajo artesanal cuando el taller funciona dentro de la vivienda. El taller de Jhon ocupa una terraza en el tercer piso de su casa, acondicionada progresivamente con ayuda de su cuñado. Esta cercanía le permite trabajar a cualquier hora, pero también hace que las jornadas se extiendan hasta la noche o la madrugada. El espacio reúne herramientas, materiales acumulados durante años y objetos recuperados que conserva para futuros proyectos."
+        }
+      ]
+    },
+    {
+      "id": "colectivo",
+      "label": "Colectivo",
+      "knotId": null,
+      "creatorIds": [
+        "jhon"
+      ],
+      "selections": [],
+      "pieces": {
+        "jhon": [
+          {
+            "id": "jhon:colectivo:glosario",
+            "kind": "text",
+            "creatorId": "jhon",
+            "text": "Forma de trabajo basada en la colaboración entre familiares, especialistas y ayudantes que participan según las necesidades de cada producción. En el taller de Jhon trabajan habitualmente su esposa y su cuñado, y para determinados encargos recurre a carpinteros, estudiantes y otros colaboradores. También cuenta con el apoyo de sus sobrinos cuando necesita ampliar el equipo. Esta red permite distribuir tareas y responder a proyectos que superan la capacidad habitual del taller."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "jhon:colectivo:glosario",
+          "kind": "text",
+          "creatorId": "jhon",
+          "text": "Forma de trabajo basada en la colaboración entre familiares, especialistas y ayudantes que participan según las necesidades de cada producción. En el taller de Jhon trabajan habitualmente su esposa y su cuñado, y para determinados encargos recurre a carpinteros, estudiantes y otros colaboradores. También cuenta con el apoyo de sus sobrinos cuando necesita ampliar el equipo. Esta red permite distribuir tareas y responder a proyectos que superan la capacidad habitual del taller."
+        }
+      ]
+    },
+    {
+      "id": "memoria",
+      "label": "Memoria",
+      "knotId": null,
+      "creatorIds": [
+        "jhon",
+        "pablo"
+      ],
+      "selections": [],
+      "pieces": {
+        "jhon": [
+          {
+            "id": "jhon:memoria:glosario",
+            "kind": "text",
+            "creatorId": "jhon",
+            "text": "Conocimiento del pasado que se conserva y se reconstruye mediante la investigación y la realización manual de objetos. En la experiencia de Jhon, esta relación aparece especialmente en su afición por las miniaturas militares. La fabricación de soldados lo ha llevado a estudiar uniformes e indumentaria de diferentes periodos, desde la época precolombina hasta la guerra de Corea. Su interés por elaborar un libro ilustrado sobre indumentaria militar colombiana muestra cómo la investigación histórica forma parte de su práctica como modelista."
+          }
+        ],
+        "pablo": [
+          {
+            "id": "pablo:memoria:glosario",
+            "kind": "text",
+            "creatorId": "pablo",
+            "text": "Práctica de conservar registros y objetos que permiten reconstruir la trayectoria de un creador y sus producciones. Pablo guarda fotografías, bocetos, planos constructivos e imágenes de montajes y funciones. También utiliza las redes sociales como una especie de archivo personal, al que llama su «egoteca», donde reúne evidencias de los proyectos en los que ha participado. Conserva además pinturas y elementos escenográficos de otros momentos de su vida, incluso cuando ya no tienen un uso inmediato."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "jhon:memoria:glosario",
+          "kind": "text",
+          "creatorId": "jhon",
+          "text": "Conocimiento del pasado que se conserva y se reconstruye mediante la investigación y la realización manual de objetos. En la experiencia de Jhon, esta relación aparece especialmente en su afición por las miniaturas militares. La fabricación de soldados lo ha llevado a estudiar uniformes e indumentaria de diferentes periodos, desde la época precolombina hasta la guerra de Corea. Su interés por elaborar un libro ilustrado sobre indumentaria militar colombiana muestra cómo la investigación histórica forma parte de su práctica como modelista."
+        },
+        {
+          "id": "pablo:memoria:glosario",
+          "kind": "text",
+          "creatorId": "pablo",
+          "text": "Práctica de conservar registros y objetos que permiten reconstruir la trayectoria de un creador y sus producciones. Pablo guarda fotografías, bocetos, planos constructivos e imágenes de montajes y funciones. También utiliza las redes sociales como una especie de archivo personal, al que llama su «egoteca», donde reúne evidencias de los proyectos en los que ha participado. Conserva además pinturas y elementos escenográficos de otros momentos de su vida, incluso cuando ya no tienen un uso inmediato."
+        }
+      ]
+    },
+    {
+      "id": "moldeo",
+      "label": "Moldeo",
+      "knotId": null,
+      "creatorIds": [
+        "jhon",
+        "agarrapata"
+      ],
+      "selections": [],
+      "pieces": {
+        "jhon": [
+          {
+            "id": "jhon:moldeo:glosario",
+            "kind": "text",
+            "creatorId": "jhon",
+            "text": "Procedimiento de reproducción de objetos mediante la fabricación de moldes y el vaciado de materiales como resinas y espumas. En el taller de Jhon, la moldería se utiliza especialmente cuando es necesario producir varias copias de una pieza. Trabaja con moldes de caucho de silicona, resinas de poliéster y equipos como una bomba de vacío para eliminar burbujas de las mezclas. El procedimiento se elige según las características del objeto, su uso y los recursos disponibles."
+          }
+        ],
+        "agarrapata": [
+          {
+            "id": "agarrapata:moldeo:glosario",
+            "kind": "text",
+            "creatorId": "agarrapata",
+            "text": "Técnica de reproducción de piezas mediante la elaboración de un molde a partir de un modelo original. Según las características del objeto, pueden emplearse materiales como caucho de silicona, yeso o fibra de vidrio para fabricar las matrices. El procedimiento permite obtener varias copias de una misma forma, conservar detalles superficiales y facilitar la producción de componentes repetidos para títeres u objetos escénicos."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "jhon:moldeo:glosario",
+          "kind": "text",
+          "creatorId": "jhon",
+          "text": "Procedimiento de reproducción de objetos mediante la fabricación de moldes y el vaciado de materiales como resinas y espumas. En el taller de Jhon, la moldería se utiliza especialmente cuando es necesario producir varias copias de una pieza. Trabaja con moldes de caucho de silicona, resinas de poliéster y equipos como una bomba de vacío para eliminar burbujas de las mezclas. El procedimiento se elige según las características del objeto, su uso y los recursos disponibles."
+        },
+        {
+          "id": "agarrapata:moldeo:glosario",
+          "kind": "text",
+          "creatorId": "agarrapata",
+          "text": "Técnica de reproducción de piezas mediante la elaboración de un molde a partir de un modelo original. Según las características del objeto, pueden emplearse materiales como caucho de silicona, yeso o fibra de vidrio para fabricar las matrices. El procedimiento permite obtener varias copias de una misma forma, conservar detalles superficiales y facilitar la producción de componentes repetidos para títeres u objetos escénicos."
+        }
+      ]
+    },
+    {
+      "id": "fundicion",
+      "label": "Fundición",
+      "knotId": null,
+      "creatorIds": [
+        "jhon"
+      ],
+      "selections": [],
+      "pieces": {
+        "jhon": [
+          {
+            "id": "jhon_fundicion.jpg",
+            "kind": "image",
+            "creatorId": "jhon",
+            "src": "media/corte/web/jhon_fundicion.jpg",
+            "caption": "Fotografía del archivo de Susurros.",
+            "alt": "Varillas, perfiles y tubos metálicos en recipientes del taller."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "jhon_fundicion.jpg",
+          "kind": "image",
+          "creatorId": "jhon",
+          "src": "media/corte/web/jhon_fundicion.jpg",
+          "caption": "Fotografía del archivo de Susurros.",
+          "alt": "Varillas, perfiles y tubos metálicos en recipientes del taller."
+        }
+      ]
+    },
+    {
+      "id": "pasion",
+      "label": "Pasión",
+      "knotId": null,
+      "creatorIds": [
+        "jhon"
+      ],
+      "selections": [],
+      "pieces": {
+        "jhon": [
+          {
+            "id": "jhon_pasion.mp3",
+            "kind": "audio",
+            "creatorId": "jhon",
+            "src": "media/corte/web/jhon_pasion.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "jhon_pasion.mp3",
+          "kind": "audio",
+          "creatorId": "jhon",
+          "src": "media/corte/web/jhon_pasion.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        }
+      ]
+    },
+    {
+      "id": "legado",
+      "label": "Legado",
+      "knotId": null,
+      "creatorIds": [
+        "jhon"
+      ],
+      "selections": [],
+      "pieces": {
+        "jhon": [
+          {
+            "id": "jhon_legado.mp3",
+            "kind": "audio",
+            "creatorId": "jhon",
+            "src": "media/corte/web/jhon_legado.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "jhon_legado.mp3",
+          "kind": "audio",
+          "creatorId": "jhon",
+          "src": "media/corte/web/jhon_legado.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        }
+      ]
+    },
+    {
+      "id": "modelismo",
+      "label": "Modelismo",
+      "knotId": null,
+      "creatorIds": [
+        "jhon"
+      ],
+      "selections": [],
+      "pieces": {
+        "jhon": [
+          {
+            "id": "jhon_modelismo.jpg",
+            "kind": "image",
+            "creatorId": "jhon",
+            "src": "media/corte/web/jhon_modelismo.jpg",
+            "caption": "Fotografía del archivo de Susurros.",
+            "alt": "Figuras pintadas en miniatura frente a libros sobre uniformes militares."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "jhon_modelismo.jpg",
+          "kind": "image",
+          "creatorId": "jhon",
+          "src": "media/corte/web/jhon_modelismo.jpg",
+          "caption": "Fotografía del archivo de Susurros.",
+          "alt": "Figuras pintadas en miniatura frente a libros sobre uniformes militares."
+        }
+      ]
+    },
+    {
+      "id": "artesanal",
+      "label": "Artesanal",
+      "knotId": null,
+      "creatorIds": [
+        "jhon"
+      ],
+      "selections": [],
+      "pieces": {
+        "jhon": [
+          {
+            "id": "jhon_artesanal.jpg",
+            "kind": "image",
+            "creatorId": "jhon",
+            "src": "media/corte/web/jhon_artesanal.jpg",
+            "caption": "Fotografía del archivo de Susurros.",
+            "alt": "Manos, dos martillos y monedas sobre una mesa de trabajo."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "jhon_artesanal.jpg",
+          "kind": "image",
+          "creatorId": "jhon",
+          "src": "media/corte/web/jhon_artesanal.jpg",
+          "caption": "Fotografía del archivo de Susurros.",
+          "alt": "Manos, dos martillos y monedas sobre una mesa de trabajo."
+        }
+      ]
+    },
+    {
+      "id": "diseno",
+      "label": "Diseño",
+      "knotId": null,
+      "creatorIds": [
+        "pablo"
+      ],
+      "selections": [],
+      "pieces": {
+        "pablo": [
+          {
+            "id": "pablo:diseno:glosario",
+            "kind": "text",
+            "creatorId": "pablo",
+            "text": "Proceso de concepción y desarrollo de una propuesta visual y espacial para una puesta en escena. Pablo parte de la lectura del texto, la observación de ensayos y el dibujo para construir sus propuestas escenográficas. Su formación familiar y teatral le proporcionó referentes de composición, equilibrio, color y uso de materiales. Considera importante conservar la intención del boceto durante la construcción y el montaje, aunque reconoce que las decisiones de dirección y las necesidades de la producción pueden exigir modificaciones."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "pablo:diseno:glosario",
+          "kind": "text",
+          "creatorId": "pablo",
+          "text": "Proceso de concepción y desarrollo de una propuesta visual y espacial para una puesta en escena. Pablo parte de la lectura del texto, la observación de ensayos y el dibujo para construir sus propuestas escenográficas. Su formación familiar y teatral le proporcionó referentes de composición, equilibrio, color y uso de materiales. Considera importante conservar la intención del boceto durante la construcción y el montaje, aunque reconoce que las decisiones de dirección y las necesidades de la producción pueden exigir modificaciones."
+        }
+      ]
+    },
+    {
+      "id": "resolucion",
+      "label": "Resolución",
+      "knotId": null,
+      "creatorIds": [
+        "pablo"
+      ],
+      "selections": [],
+      "pieces": {
+        "pablo": [
+          {
+            "id": "pablo_resolucion_v03.mp3",
+            "kind": "audio",
+            "creatorId": "pablo",
+            "src": "media/corte/web/pablo_resolucion_v03.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "pablo:resolucion:glosario",
+            "kind": "text",
+            "creatorId": "pablo",
+            "text": "Capacidad de adaptar una propuesta escenográfica a las condiciones materiales, económicas y técnicas de una producción. Pablo recuerda que anteriormente era posible importar determinados insumos o encargar materiales especializados, mientras que las restricciones presupuestales actuales exigen buscar otras alternativas. En su experiencia, resolver supone conocer los recursos disponibles, evaluar sustituciones y modificar los procedimientos de fabricación para llevar adelante un montaje."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "pablo_resolucion_v03.mp3",
+          "kind": "audio",
+          "creatorId": "pablo",
+          "src": "media/corte/web/pablo_resolucion_v03.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "pablo:resolucion:glosario",
+          "kind": "text",
+          "creatorId": "pablo",
+          "text": "Capacidad de adaptar una propuesta escenográfica a las condiciones materiales, económicas y técnicas de una producción. Pablo recuerda que anteriormente era posible importar determinados insumos o encargar materiales especializados, mientras que las restricciones presupuestales actuales exigen buscar otras alternativas. En su experiencia, resolver supone conocer los recursos disponibles, evaluar sustituciones y modificar los procedimientos de fabricación para llevar adelante un montaje."
+        }
+      ]
+    },
+    {
+      "id": "adaptacion",
+      "label": "Adaptación",
+      "knotId": null,
+      "creatorIds": [
+        "pablo"
+      ],
+      "selections": [],
+      "pieces": {
+        "pablo": [
+          {
+            "id": "pablo_adaptacion.mp3",
+            "kind": "audio",
+            "creatorId": "pablo",
+            "src": "media/corte/web/pablo_adaptacion.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "pablo_adaptacion.mp3",
+          "kind": "audio",
+          "creatorId": "pablo",
+          "src": "media/corte/web/pablo_adaptacion.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        }
+      ]
+    },
+    {
+      "id": "recursos",
+      "label": "Recursos",
+      "knotId": null,
+      "creatorIds": [
+        "pablo"
+      ],
+      "selections": [],
+      "pieces": {
+        "pablo": [
+          {
+            "id": "pablo:recursos:glosario",
+            "kind": "text",
+            "creatorId": "pablo",
+            "text": "Conjunto de materiales, conocimientos y alternativas prácticas que permiten realizar una propuesta cuando los insumos previstos no están disponibles. Pablo relata el caso de una producción de Così fan tutte en el Teatro Colón, para la que una diseñadora italiana solicitó telas teatrales especializadas que resultaban difíciles y costosas de conseguir en Bogotá. Después de explorar distintas posibilidades, el equipo utilizó liencillo para cubrir los bastidores, aceptando las diferencias visuales respecto al material originalmente solicitado."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "pablo:recursos:glosario",
+          "kind": "text",
+          "creatorId": "pablo",
+          "text": "Conjunto de materiales, conocimientos y alternativas prácticas que permiten realizar una propuesta cuando los insumos previstos no están disponibles. Pablo relata el caso de una producción de Così fan tutte en el Teatro Colón, para la que una diseñadora italiana solicitó telas teatrales especializadas que resultaban difíciles y costosas de conseguir en Bogotá. Después de explorar distintas posibilidades, el equipo utilizó liencillo para cubrir los bastidores, aceptando las diferencias visuales respecto al material originalmente solicitado."
+        }
+      ]
+    },
+    {
+      "id": "practica",
+      "label": "Práctica",
+      "knotId": null,
+      "creatorIds": [
+        "pablo"
+      ],
+      "selections": [],
+      "pieces": {
+        "pablo": [
+          {
+            "id": "pablo_practica.jpg",
+            "kind": "image",
+            "creatorId": "pablo",
+            "src": "media/corte/web/pablo_practica.jpg",
+            "caption": "Fotografía del archivo de Susurros.",
+            "alt": "Croquis a lápiz con piezas numeradas y una leyenda manuscrita en un cuaderno."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "pablo_practica.jpg",
+          "kind": "image",
+          "creatorId": "pablo",
+          "src": "media/corte/web/pablo_practica.jpg",
+          "caption": "Fotografía del archivo de Susurros.",
+          "alt": "Croquis a lápiz con piezas numeradas y una leyenda manuscrita en un cuaderno."
+        }
+      ]
+    },
+    {
+      "id": "escenotecnia",
+      "label": "Escenotecnia",
+      "knotId": null,
+      "creatorIds": [
+        "pablo"
+      ],
+      "selections": [],
+      "pieces": {
+        "pablo": [
+          {
+            "id": "pablo:escenotecnia:glosario",
+            "kind": "text",
+            "creatorId": "pablo",
+            "text": "Conjunto de conocimientos y procedimientos técnicos necesarios para materializar y montar una propuesta escénica. Pablo distingue su trabajo como diseñador de su experiencia en producción técnica, especialmente en los montajes de ópera de gran formato. En la Ópera de Colombia participó en la coordinación de recursos y materiales requeridos por diseñadores, incluidos elementos que debían importarse. Su experiencia en escenotecnia también se relaciona con la enseñanza, en la que incorpora herramientas teatrales y ejercicios de percepción espacial."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "pablo:escenotecnia:glosario",
+          "kind": "text",
+          "creatorId": "pablo",
+          "text": "Conjunto de conocimientos y procedimientos técnicos necesarios para materializar y montar una propuesta escénica. Pablo distingue su trabajo como diseñador de su experiencia en producción técnica, especialmente en los montajes de ópera de gran formato. En la Ópera de Colombia participó en la coordinación de recursos y materiales requeridos por diseñadores, incluidos elementos que debían importarse. Su experiencia en escenotecnia también se relaciona con la enseñanza, en la que incorpora herramientas teatrales y ejercicios de percepción espacial."
+        }
+      ]
+    },
+    {
+      "id": "maquetismo",
+      "label": "Maquetismo",
+      "knotId": null,
+      "creatorIds": [
+        "pablo"
+      ],
+      "selections": [],
+      "pieces": {
+        "pablo": [
+          {
+            "id": "pablo:maquetismo:glosario",
+            "kind": "text",
+            "creatorId": "pablo",
+            "text": "Proceso de representación y estudio de una propuesta escenográfica mediante modelos a escala, dibujos y otros recursos gráficos. Para Pablo, maquetear forma parte de las actividades que puede desarrollar en su estudio junto con la composición y el diseño. Las maquetas le permiten explorar espacialmente las ideas antes de su construcción. En su práctica también utiliza bocetos y planos constructivos para comunicar las características de los elementos que posteriormente realizan otros talleres."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "pablo:maquetismo:glosario",
+          "kind": "text",
+          "creatorId": "pablo",
+          "text": "Proceso de representación y estudio de una propuesta escenográfica mediante modelos a escala, dibujos y otros recursos gráficos. Para Pablo, maquetear forma parte de las actividades que puede desarrollar en su estudio junto con la composición y el diseño. Las maquetas le permiten explorar espacialmente las ideas antes de su construcción. En su práctica también utiliza bocetos y planos constructivos para comunicar las características de los elementos que posteriormente realizan otros talleres."
+        }
+      ]
+    },
+    {
+      "id": "pedagogia",
+      "label": "Pedagogía",
+      "knotId": null,
+      "creatorIds": [
+        "pablo"
+      ],
+      "selections": [],
+      "pieces": {
+        "pablo": [
+          {
+            "id": "pablo:pedagogia:glosario",
+            "kind": "text",
+            "creatorId": "pablo",
+            "text": "Práctica de enseñanza que vincula la creación artística con la experiencia física y la participación de los estudiantes. Pablo comenzó a desarrollar esta metodología cuando fue invitado a orientar talleres de artes plásticas para niños y jóvenes en la Casa del Teatro Nacional. Consideraba importante que los propios participantes construyeran los elementos de sus montajes, por lo que diseñó actividades de dibujo, pintura y trabajo colectivo en grandes formatos. Actualmente incorpora ejercicios de desplazamiento, observación y contacto corporal en sus clases universitarias de escenotecnia."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "pablo:pedagogia:glosario",
+          "kind": "text",
+          "creatorId": "pablo",
+          "text": "Práctica de enseñanza que vincula la creación artística con la experiencia física y la participación de los estudiantes. Pablo comenzó a desarrollar esta metodología cuando fue invitado a orientar talleres de artes plásticas para niños y jóvenes en la Casa del Teatro Nacional. Consideraba importante que los propios participantes construyeran los elementos de sus montajes, por lo que diseñó actividades de dibujo, pintura y trabajo colectivo en grandes formatos. Actualmente incorpora ejercicios de desplazamiento, observación y contacto corporal en sus clases universitarias de escenotecnia."
+        }
+      ]
+    },
+    {
+      "id": "herencia",
+      "label": "Herencia",
+      "knotId": null,
+      "creatorIds": [
+        "pablo"
+      ],
+      "selections": [],
+      "pieces": {
+        "pablo": [
+          {
+            "id": "pablo:herencia:glosario",
+            "kind": "text",
+            "creatorId": "pablo",
+            "text": "Transmisión familiar de conocimientos, sensibilidades y prácticas artísticas que influyen en la formación de un oficio. Pablo creció en una familia de escritores, músicos y artistas plásticos. Su padre es escritor, su madre es artista plástica y escenógrafa, y su hermana es diseñadora industrial. Desde niño observó procesos de construcción escenográfica y participó en tareas manuales sencillas que le permitieron familiarizarse con herramientas y materiales. Reconoce en esta experiencia el origen de su sensibilidad hacia la composición, el equilibrio y la creación visual."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "pablo:herencia:glosario",
+          "kind": "text",
+          "creatorId": "pablo",
+          "text": "Transmisión familiar de conocimientos, sensibilidades y prácticas artísticas que influyen en la formación de un oficio. Pablo creció en una familia de escritores, músicos y artistas plásticos. Su padre es escritor, su madre es artista plástica y escenógrafa, y su hermana es diseñadora industrial. Desde niño observó procesos de construcción escenográfica y participó en tareas manuales sencillas que le permitieron familiarizarse con herramientas y materiales. Reconoce en esta experiencia el origen de su sensibilidad hacia la composición, el equilibrio y la creación visual."
+        }
+      ]
+    },
+    {
+      "id": "reciclaje",
+      "label": "Reciclaje",
+      "knotId": null,
+      "creatorIds": [
+        "pablo"
+      ],
+      "selections": [],
+      "pieces": {
+        "pablo": [
+          {
+            "id": "pablo_reciclaje_v03.mp3",
+            "kind": "audio",
+            "creatorId": "pablo",
+            "src": "media/corte/web/pablo_reciclaje_v03.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "pablo:reciclaje:glosario",
+            "kind": "text",
+            "creatorId": "pablo",
+            "text": "Práctica de conservar y reutilizar materiales o elementos escenográficos en nuevas producciones. Pablo relata que, durante un montaje, el director decidió retirar unas patas escenográficas antes del estreno. En lugar de desecharlas, las guardó y dos años después las incorporó a otra obra, donde encontraron una función diferente. Para él, los elementos construidos pueden conservar su utilidad incluso cuando dejan de formar parte del proyecto para el que fueron concebidos."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "pablo_reciclaje_v03.mp3",
+          "kind": "audio",
+          "creatorId": "pablo",
+          "src": "media/corte/web/pablo_reciclaje_v03.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "pablo:reciclaje:glosario",
+          "kind": "text",
+          "creatorId": "pablo",
+          "text": "Práctica de conservar y reutilizar materiales o elementos escenográficos en nuevas producciones. Pablo relata que, durante un montaje, el director decidió retirar unas patas escenográficas antes del estreno. En lugar de desecharlas, las guardó y dos años después las incorporó a otra obra, donde encontraron una función diferente. Para él, los elementos construidos pueden conservar su utilidad incluso cuando dejan de formar parte del proyecto para el que fueron concebidos."
+        }
+      ]
+    },
+    {
+      "id": "sonoridad",
+      "label": "Sonoridad",
+      "knotId": null,
+      "creatorIds": [
+        "pablo"
+      ],
+      "selections": [],
+      "pieces": {
+        "pablo": [
+          {
+            "id": "pablo:sonoridad:glosario",
+            "kind": "text",
+            "creatorId": "pablo",
+            "text": "Presencia de sonidos, ritmos y prácticas musicales que acompañan el trabajo creativo y pueden incorporarse a la interpretación escénica. Pablo describe su estudio como un espacio cuya sonoridad cambia constantemente: allí escucha música de distintos géneros, estudia percusión y dibuja. Su formación musical también influye en la construcción de personajes, a los que procura dar una relación particular con el sonido, el canto o el movimiento rítmico."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "pablo:sonoridad:glosario",
+          "kind": "text",
+          "creatorId": "pablo",
+          "text": "Presencia de sonidos, ritmos y prácticas musicales que acompañan el trabajo creativo y pueden incorporarse a la interpretación escénica. Pablo describe su estudio como un espacio cuya sonoridad cambia constantemente: allí escucha música de distintos géneros, estudia percusión y dibuja. Su formación musical también influye en la construcción de personajes, a los que procura dar una relación particular con el sonido, el canto o el movimiento rítmico."
+        }
+      ]
+    },
+    {
+      "id": "articulacion",
+      "label": "Articulación",
+      "knotId": null,
+      "creatorIds": [
+        "agarrapata"
+      ],
+      "selections": [],
+      "pieces": {
+        "agarrapata": [
+          {
+            "id": "agarrapata:articulacion:glosario",
+            "kind": "text",
+            "creatorId": "agarrapata",
+            "text": "Sistema de uniones que permite el movimiento de las distintas partes de un títere, especialmente en figuras de gran formato. Para Agarrapata, las articulaciones deben combinar fluidez, ligereza y simplicidad mecánica. Durante la construcción de un elefante de aproximadamente cuatro metros, el equipo sustituyó el mecanismo previsto para unir la cabeza al cuerpo por una pieza utilizada en vehículos y remolques, que permitió mover la cabeza con facilidad y soportar su peso."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "agarrapata:articulacion:glosario",
+          "kind": "text",
+          "creatorId": "agarrapata",
+          "text": "Sistema de uniones que permite el movimiento de las distintas partes de un títere, especialmente en figuras de gran formato. Para Agarrapata, las articulaciones deben combinar fluidez, ligereza y simplicidad mecánica. Durante la construcción de un elefante de aproximadamente cuatro metros, el equipo sustituyó el mecanismo previsto para unir la cabeza al cuerpo por una pieza utilizada en vehículos y remolques, que permitió mover la cabeza con facilidad y soportar su peso."
+        }
+      ]
+    },
+    {
+      "id": "escalabilidad",
+      "label": "Escalabilidad",
+      "knotId": null,
+      "creatorIds": [
+        "agarrapata"
+      ],
+      "selections": [],
+      "pieces": {
+        "agarrapata": [
+          {
+            "id": "agarrapata:escalabilidad:glosario",
+            "kind": "text",
+            "creatorId": "agarrapata",
+            "text": "Capacidad de adaptar los procedimientos de diseño y construcción a objetos de dimensiones muy diferentes. En la Casa de los Objetos se fabrican títeres de aproximadamente quince centímetros y figuras que alcanzan los cinco metros y medio de altura. El aumento de escala exige resolver problemas de peso, estabilidad, articulación y manipulación, especialmente cuando los títeres deben ser animados por varias personas."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "agarrapata:escalabilidad:glosario",
+          "kind": "text",
+          "creatorId": "agarrapata",
+          "text": "Capacidad de adaptar los procedimientos de diseño y construcción a objetos de dimensiones muy diferentes. En la Casa de los Objetos se fabrican títeres de aproximadamente quince centímetros y figuras que alcanzan los cinco metros y medio de altura. El aumento de escala exige resolver problemas de peso, estabilidad, articulación y manipulación, especialmente cuando los títeres deben ser animados por varias personas."
+        }
+      ]
+    },
+    {
+      "id": "sostenibilidad",
+      "label": "Sostenibilidad",
+      "knotId": null,
+      "creatorIds": [
+        "agarrapata"
+      ],
+      "selections": [],
+      "pieces": {
+        "agarrapata": [
+          {
+            "id": "agarrapata:sostenibilidad:glosario",
+            "kind": "text",
+            "creatorId": "agarrapata",
+            "text": "Capacidad de mantener los proyectos y las relaciones de trabajo mediante una administración que considere tanto las necesidades económicas como las condiciones de quienes participan. Yuri explica que los presupuestos buscan remunerar adecuadamente a los artistas y establecer desembolsos que permitan contar con flujo de caja para pagarles puntualmente, sin depender exclusivamente del pago final del cliente. Esta gestión acompaña la organización de equipos y tiempos de producción."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "agarrapata:sostenibilidad:glosario",
+          "kind": "text",
+          "creatorId": "agarrapata",
+          "text": "Capacidad de mantener los proyectos y las relaciones de trabajo mediante una administración que considere tanto las necesidades económicas como las condiciones de quienes participan. Yuri explica que los presupuestos buscan remunerar adecuadamente a los artistas y establecer desembolsos que permitan contar con flujo de caja para pagarles puntualmente, sin depender exclusivamente del pago final del cliente. Esta gestión acompaña la organización de equipos y tiempos de producción."
+        }
+      ]
+    },
+    {
+      "id": "animacion",
+      "label": "Animación",
+      "knotId": null,
+      "creatorIds": [
+        "agarrapata"
+      ],
+      "selections": [],
+      "pieces": {
+        "agarrapata": [
+          {
+            "id": "agarrapata:animacion:glosario",
+            "kind": "text",
+            "creatorId": "agarrapata",
+            "text": "Proceso mediante el cual los objetos y títeres adquieren movimiento durante la representación escénica. En Agarrapata, la animación determina buena parte de las decisiones constructivas: desde el diseño inicial se establece qué acciones debe realizar cada figura, cómo se moverá y cuántas personas necesitará para manipularla. Durante la fabricación se realizan pruebas sucesivas para comprobar que las estructuras, articulaciones y acabados permitan ejecutar los movimientos previstos."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "agarrapata:animacion:glosario",
+          "kind": "text",
+          "creatorId": "agarrapata",
+          "text": "Proceso mediante el cual los objetos y títeres adquieren movimiento durante la representación escénica. En Agarrapata, la animación determina buena parte de las decisiones constructivas: desde el diseño inicial se establece qué acciones debe realizar cada figura, cómo se moverá y cuántas personas necesitará para manipularla. Durante la fabricación se realizan pruebas sucesivas para comprobar que las estructuras, articulaciones y acabados permitan ejecutar los movimientos previstos."
+        }
+      ]
+    },
+    {
+      "id": "estructuras",
+      "label": "Estructuras",
+      "knotId": null,
+      "creatorIds": [
+        "agarrapata"
+      ],
+      "selections": [],
+      "pieces": {
+        "agarrapata": [
+          {
+            "id": "agarrapata:estructuras:glosario",
+            "kind": "text",
+            "creatorId": "agarrapata",
+            "text": "Conjunto de elementos que conforman el soporte interno de un títere y determinan sus proporciones, resistencia y posibilidades de movimiento. Agarrapata utiliza principalmente aluminio, madera, PVC, tornillería y otros materiales según las necesidades de cada figura. Las estructuras del cuerpo y la cabeza suelen desarrollarse por separado, siguiendo dibujos con medidas y proporciones definidas. Su construcción debe garantizar el volumen requerido con el menor peso posible."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "agarrapata:estructuras:glosario",
+          "kind": "text",
+          "creatorId": "agarrapata",
+          "text": "Conjunto de elementos que conforman el soporte interno de un títere y determinan sus proporciones, resistencia y posibilidades de movimiento. Agarrapata utiliza principalmente aluminio, madera, PVC, tornillería y otros materiales según las necesidades de cada figura. Las estructuras del cuerpo y la cabeza suelen desarrollarse por separado, siguiendo dibujos con medidas y proporciones definidas. Su construcción debe garantizar el volumen requerido con el menor peso posible."
+        }
+      ]
+    },
+    {
+      "id": "mecanismos",
+      "label": "Mecanismos",
+      "knotId": null,
+      "creatorIds": [
+        "agarrapata"
+      ],
+      "selections": [],
+      "pieces": {
+        "agarrapata": [
+          {
+            "id": "agarrapata:mecanismos:glosario",
+            "kind": "text",
+            "creatorId": "agarrapata",
+            "text": "Dispositivos que permiten transmitir o controlar el movimiento de las partes de un títere. En Agarrapata, su desarrollo combina conocimientos técnicos con la búsqueda de aplicaciones distintas para piezas existentes. Durante la construcción de un elefante, Óscar Ramos propuso utilizar una pieza procedente de mecanismos automotrices, que consiguió en el sector del 7 de Agosto de Bogotá. La solución permitió articular la cabeza y posteriormente fue reutilizada en otros proyectos."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "agarrapata:mecanismos:glosario",
+          "kind": "text",
+          "creatorId": "agarrapata",
+          "text": "Dispositivos que permiten transmitir o controlar el movimiento de las partes de un títere. En Agarrapata, su desarrollo combina conocimientos técnicos con la búsqueda de aplicaciones distintas para piezas existentes. Durante la construcción de un elefante, Óscar Ramos propuso utilizar una pieza procedente de mecanismos automotrices, que consiguió en el sector del 7 de Agosto de Bogotá. La solución permitió articular la cabeza y posteriormente fue reutilizada en otros proyectos."
+        }
+      ]
+    },
+    {
+      "id": "volumetria",
+      "label": "Volumetría",
+      "knotId": null,
+      "creatorIds": [
+        "agarrapata"
+      ],
+      "selections": [],
+      "pieces": {
+        "agarrapata": [
+          {
+            "id": "agarrapata:volumetria:glosario",
+            "kind": "text",
+            "creatorId": "agarrapata",
+            "text": "Proceso de construcción de las formas tridimensionales que definen el cuerpo y la apariencia de un títere. En Agarrapata, el desarrollo de los volúmenes se realiza paralelamente a la fabricación de las estructuras internas. Mientras un equipo construye el cuerpo y otro trabaja en la cabeza, otras personas elaboran extremidades, patas, manos o uñas. Posteriormente se incorporan los revestimientos y acabados, cuidando que el volumen final no dificulte la animación."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "agarrapata:volumetria:glosario",
+          "kind": "text",
+          "creatorId": "agarrapata",
+          "text": "Proceso de construcción de las formas tridimensionales que definen el cuerpo y la apariencia de un títere. En Agarrapata, el desarrollo de los volúmenes se realiza paralelamente a la fabricación de las estructuras internas. Mientras un equipo construye el cuerpo y otro trabaja en la cabeza, otras personas elaboran extremidades, patas, manos o uñas. Posteriormente se incorporan los revestimientos y acabados, cuidando que el volumen final no dificulte la animación."
+        }
+      ]
+    },
+    {
+      "id": "tallado",
+      "label": "Tallado",
+      "knotId": null,
+      "creatorIds": [
+        "agarrapata"
+      ],
+      "selections": [],
+      "pieces": {
+        "agarrapata": [
+          {
+            "id": "agarrapata:tallado:glosario",
+            "kind": "text",
+            "creatorId": "agarrapata",
+            "text": "Procedimiento de conformación de piezas mediante la eliminación de material para obtener los volúmenes y detalles requeridos. En Agarrapata, el tallado aparece como una especialidad dentro de los equipos que participan en la construcción de títeres. Edgar menciona que algunas personas tienen especial habilidad para realizar tallas, aunque la entrevista no describe los materiales ni las herramientas específicas que emplean."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "agarrapata:tallado:glosario",
+          "kind": "text",
+          "creatorId": "agarrapata",
+          "text": "Procedimiento de conformación de piezas mediante la eliminación de material para obtener los volúmenes y detalles requeridos. En Agarrapata, el tallado aparece como una especialidad dentro de los equipos que participan en la construcción de títeres. Edgar menciona que algunas personas tienen especial habilidad para realizar tallas, aunque la entrevista no describe los materiales ni las herramientas específicas que emplean."
+        }
+      ]
+    },
+    {
+      "id": "modelado",
+      "label": "Modelado",
+      "knotId": null,
+      "creatorIds": [
+        "agarrapata"
+      ],
+      "selections": [],
+      "pieces": {
+        "agarrapata": [
+          {
+            "id": "agarrapata:modelado:glosario",
+            "kind": "text",
+            "creatorId": "agarrapata",
+            "text": "Procedimiento de creación de formas tridimensionales mediante la manipulación directa de materiales maleables, como arcilla, plastilina, papel o masillas epóxicas. En la fabricación de títeres permite desarrollar cabezas, rostros, extremidades y detalles anatómicos, ajustando progresivamente sus proporciones y características. Las piezas modeladas pueden utilizarse directamente o servir como originales para la elaboración de moldes."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "agarrapata:modelado:glosario",
+          "kind": "text",
+          "creatorId": "agarrapata",
+          "text": "Procedimiento de creación de formas tridimensionales mediante la manipulación directa de materiales maleables, como arcilla, plastilina, papel o masillas epóxicas. En la fabricación de títeres permite desarrollar cabezas, rostros, extremidades y detalles anatómicos, ajustando progresivamente sus proporciones y características. Las piezas modeladas pueden utilizarse directamente o servir como originales para la elaboración de moldes."
+        }
+      ]
+    },
+    {
+      "id": "texturizado",
+      "label": "Texturizado",
+      "knotId": null,
+      "creatorIds": [
+        "agarrapata"
+      ],
+      "selections": [],
+      "pieces": {
+        "agarrapata": [
+          {
+            "id": "agarrapata:texturizado:glosario",
+            "kind": "text",
+            "creatorId": "agarrapata",
+            "text": "Conjunto de procedimientos utilizados para crear o modificar las características superficiales de un objeto. Mediante la aplicación, talla o modelado de materiales pueden reproducirse relieves, escamas, poros, arrugas y otras particularidades de una superficie. En la fabricación de títeres, el texturizado contribuye a definir la apariencia de pieles, cabezas y extremidades, y puede combinarse con pintura y otros acabados para conseguir distintos grados de realismo."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "agarrapata:texturizado:glosario",
+          "kind": "text",
+          "creatorId": "agarrapata",
+          "text": "Conjunto de procedimientos utilizados para crear o modificar las características superficiales de un objeto. Mediante la aplicación, talla o modelado de materiales pueden reproducirse relieves, escamas, poros, arrugas y otras particularidades de una superficie. En la fabricación de títeres, el texturizado contribuye a definir la apariencia de pieles, cabezas y extremidades, y puede combinarse con pintura y otros acabados para conseguir distintos grados de realismo."
+        }
+      ]
+    },
+    {
+      "id": "cerrajeria",
+      "label": "Cerrajería",
+      "knotId": null,
+      "creatorIds": [
+        "agarrapata"
+      ],
+      "selections": [],
+      "pieces": {
+        "agarrapata": [
+          {
+            "id": "agarrapata:cerrajeria:glosario",
+            "kind": "text",
+            "creatorId": "agarrapata",
+            "text": "Conjunto de procedimientos de corte, conformación, unión y soldadura de elementos metálicos empleados en la construcción de estructuras escénicas. Incluye el trabajo con perfiles, platinas y varillas que sirven como soportes o componentes de mecanismos. En la fabricación de títeres de gran formato, estos conocimientos permiten desarrollar estructuras resistentes y resolver conexiones entre piezas, considerando su peso y las necesidades de movimiento."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "agarrapata:cerrajeria:glosario",
+          "kind": "text",
+          "creatorId": "agarrapata",
+          "text": "Conjunto de procedimientos de corte, conformación, unión y soldadura de elementos metálicos empleados en la construcción de estructuras escénicas. Incluye el trabajo con perfiles, platinas y varillas que sirven como soportes o componentes de mecanismos. En la fabricación de títeres de gran formato, estos conocimientos permiten desarrollar estructuras resistentes y resolver conexiones entre piezas, considerando su peso y las necesidades de movimiento."
+        }
+      ]
+    },
+    {
+      "id": "ensamblaje",
+      "label": "Ensamblaje",
+      "knotId": null,
+      "creatorIds": [
+        "agarrapata"
+      ],
+      "selections": [],
+      "pieces": {
+        "agarrapata": [
+          {
+            "id": "agarrapata:ensamblaje:glosario",
+            "kind": "text",
+            "creatorId": "agarrapata",
+            "text": "Proceso de unión de las distintas partes que componen un títere u objeto escénico. En Agarrapata, los cuerpos, cabezas y extremidades pueden construirse simultáneamente por diferentes equipos y reunirse posteriormente para comprobar su funcionamiento. Las piezas deben poder ensamblarse y desensamblarse con facilidad, tanto para realizar ajustes durante la fabricación como para permitir el transporte y montaje de figuras de gran tamaño."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "agarrapata:ensamblaje:glosario",
+          "kind": "text",
+          "creatorId": "agarrapata",
+          "text": "Proceso de unión de las distintas partes que componen un títere u objeto escénico. En Agarrapata, los cuerpos, cabezas y extremidades pueden construirse simultáneamente por diferentes equipos y reunirse posteriormente para comprobar su funcionamiento. Las piezas deben poder ensamblarse y desensamblarse con facilidad, tanto para realizar ajustes durante la fabricación como para permitir el transporte y montaje de figuras de gran tamaño."
+        }
+      ]
+    },
+    {
+      "id": "carpinteria",
+      "label": "Carpintería",
+      "knotId": null,
+      "creatorIds": [
+        "agarrapata"
+      ],
+      "selections": [],
+      "pieces": {
+        "agarrapata": [
+          {
+            "id": "agarrapata:carpinteria:glosario",
+            "kind": "text",
+            "creatorId": "agarrapata",
+            "text": "Trabajo de corte, preparación y ensamblaje de elementos de madera utilizados en las estructuras de los títeres. En Agarrapata se emplean láminas de tríplex de distintos espesores, combinadas con perfiles y varillas de aluminio, para construir partes del cuerpo y soportes de las figuras. La selección de materiales responde a la necesidad de conseguir estructuras resistentes, ligeras y fáciles de transportar."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "agarrapata:carpinteria:glosario",
+          "kind": "text",
+          "creatorId": "agarrapata",
+          "text": "Trabajo de corte, preparación y ensamblaje de elementos de madera utilizados en las estructuras de los títeres. En Agarrapata se emplean láminas de tríplex de distintos espesores, combinadas con perfiles y varillas de aluminio, para construir partes del cuerpo y soportes de las figuras. La selección de materiales responde a la necesidad de conseguir estructuras resistentes, ligeras y fáciles de transportar."
+        }
+      ]
+    },
+    {
+      "id": "termoformado",
+      "label": "Termoformado",
+      "knotId": null,
+      "creatorIds": [
+        "agarrapata"
+      ],
+      "selections": [],
+      "pieces": {
+        "agarrapata": [
+          {
+            "id": "agarrapata:termoformado:glosario",
+            "kind": "text",
+            "creatorId": "agarrapata",
+            "text": "Técnica de conformación de materiales termoplásticos mediante la aplicación controlada de calor. Permite ablandar láminas o piezas de plástico para darles una forma determinada utilizando moldes, soportes o herramientas de conformación. En la construcción de títeres y elementos escénicos puede emplearse para producir superficies curvas, carcasas y componentes ligeros que requieren conservar su forma después del enfriamiento."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "agarrapata:termoformado:glosario",
+          "kind": "text",
+          "creatorId": "agarrapata",
+          "text": "Técnica de conformación de materiales termoplásticos mediante la aplicación controlada de calor. Permite ablandar láminas o piezas de plástico para darles una forma determinada utilizando moldes, soportes o herramientas de conformación. En la construcción de títeres y elementos escénicos puede emplearse para producir superficies curvas, carcasas y componentes ligeros que requieren conservar su forma después del enfriamiento."
+        }
+      ]
+    },
+    {
+      "id": "aerografia",
+      "label": "Aerografía",
+      "knotId": null,
+      "creatorIds": [
+        "agarrapata"
+      ],
+      "selections": [],
+      "pieces": {
+        "agarrapata": [
+          {
+            "id": "agarrapata:aerografia:glosario",
+            "kind": "text",
+            "creatorId": "agarrapata",
+            "text": "Técnica de aplicación de pintura mediante un aerógrafo que permite distribuir el color en capas finas y controladas. Se utiliza en la elaboración de títeres y objetos escénicos para producir degradados, sombras, transiciones de color y acabados de apariencia uniforme. Resulta especialmente útil cuando se busca dar profundidad visual a una superficie o reproducir características como variaciones de tonalidad en la piel."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "agarrapata:aerografia:glosario",
+          "kind": "text",
+          "creatorId": "agarrapata",
+          "text": "Técnica de aplicación de pintura mediante un aerógrafo que permite distribuir el color en capas finas y controladas. Se utiliza en la elaboración de títeres y objetos escénicos para producir degradados, sombras, transiciones de color y acabados de apariencia uniforme. Resulta especialmente útil cuando se busca dar profundidad visual a una superficie o reproducir características como variaciones de tonalidad en la piel."
+        }
+      ]
+    },
+    {
+      "id": "policromia",
+      "label": "Policromía",
+      "knotId": null,
+      "creatorIds": [
+        "agarrapata"
+      ],
+      "selections": [],
+      "pieces": {
+        "agarrapata": [
+          {
+            "id": "agarrapata:policromia:glosario",
+            "kind": "text",
+            "creatorId": "agarrapata",
+            "text": "Proceso de aplicación y combinación de colores sobre una pieza para definir sus características visuales. En la elaboración de títeres y objetos escénicos, comprende la distribución de tonos, contrastes, sombras y capas pictóricas que contribuyen a distinguir formas, volúmenes y detalles. La policromía se desarrolla de acuerdo con la propuesta estética del objeto y puede combinarse con técnicas de texturizado y acabado superficial."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "agarrapata:policromia:glosario",
+          "kind": "text",
+          "creatorId": "agarrapata",
+          "text": "Proceso de aplicación y combinación de colores sobre una pieza para definir sus características visuales. En la elaboración de títeres y objetos escénicos, comprende la distribución de tonos, contrastes, sombras y capas pictóricas que contribuyen a distinguir formas, volúmenes y detalles. La policromía se desarrolla de acuerdo con la propuesta estética del objeto y puede combinarse con técnicas de texturizado y acabado superficial."
+        }
+      ]
+    },
+    {
+      "id": "sellado",
+      "label": "Sellado",
+      "knotId": null,
+      "creatorIds": [
+        "agarrapata"
+      ],
+      "selections": [],
+      "pieces": {
+        "agarrapata": [
+          {
+            "id": "agarrapata:sellado:glosario",
+            "kind": "text",
+            "creatorId": "agarrapata",
+            "text": "Procedimiento de preparación y protección de las superficies antes de aplicar pintura u otros acabados. Consiste en cerrar poros, estabilizar materiales absorbentes y generar una base adecuada para los tratamientos posteriores. En la fabricación de títeres y objetos escénicos pueden emplearse cauchos, resinas o recubrimientos compatibles con el material original, procurando conservar la flexibilidad cuando las piezas deben deformarse o moverse."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "agarrapata:sellado:glosario",
+          "kind": "text",
+          "creatorId": "agarrapata",
+          "text": "Procedimiento de preparación y protección de las superficies antes de aplicar pintura u otros acabados. Consiste en cerrar poros, estabilizar materiales absorbentes y generar una base adecuada para los tratamientos posteriores. En la fabricación de títeres y objetos escénicos pueden emplearse cauchos, resinas o recubrimientos compatibles con el material original, procurando conservar la flexibilidad cuando las piezas deben deformarse o moverse."
+        }
+      ]
+    },
+    {
+      "id": "cinematica",
+      "label": "Cinemática",
+      "knotId": null,
+      "creatorIds": [
+        "agarrapata"
+      ],
+      "selections": [],
+      "pieces": {
+        "agarrapata": [
+          {
+            "id": "agarrapata:cinematica:glosario",
+            "kind": "text",
+            "creatorId": "agarrapata",
+            "text": "Estudio y desarrollo de los movimientos que pueden realizar las partes de un objeto o títere articulado. En la construcción escénica, comprende el diseño de ejes, palancas, poleas, levas y otros mecanismos que permiten transmitir movimientos y controlar su recorrido. Su aplicación busca que las acciones del títere sean fluidas, funcionales y compatibles con las posibilidades de manipulación de los animadores."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "agarrapata:cinematica:glosario",
+          "kind": "text",
+          "creatorId": "agarrapata",
+          "text": "Estudio y desarrollo de los movimientos que pueden realizar las partes de un objeto o títere articulado. En la construcción escénica, comprende el diseño de ejes, palancas, poleas, levas y otros mecanismos que permiten transmitir movimientos y controlar su recorrido. Su aplicación busca que las acciones del títere sean fluidas, funcionales y compatibles con las posibilidades de manipulación de los animadores."
+        }
+      ]
+    },
+    {
+      "id": "comunidad",
+      "label": "Comunidad",
+      "knotId": null,
+      "creatorIds": [
+        "agarrapata"
+      ],
+      "selections": [],
+      "pieces": {
+        "agarrapata": [
+          {
+            "id": "agarrapata:comunidad:glosario",
+            "kind": "text",
+            "creatorId": "agarrapata",
+            "text": "Forma de convivencia y creación en la que las personas participan desde sus conocimientos, habilidades y posibilidades particulares. Agarrapata se reconoce como una familia de seres humanos, títeres, objetos y otros seres vivos que comparten un mismo espacio. El trabajo colectivo se sostiene mediante la confianza y la distribución flexible de responsabilidades, reconociendo que cada integrante puede aportar de manera diferente según el proyecto y sus circunstancias personales."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "agarrapata:comunidad:glosario",
+          "kind": "text",
+          "creatorId": "agarrapata",
+          "text": "Forma de convivencia y creación en la que las personas participan desde sus conocimientos, habilidades y posibilidades particulares. Agarrapata se reconoce como una familia de seres humanos, títeres, objetos y otros seres vivos que comparten un mismo espacio. El trabajo colectivo se sostiene mediante la confianza y la distribución flexible de responsabilidades, reconociendo que cada integrante puede aportar de manera diferente según el proyecto y sus circunstancias personales."
+        }
+      ]
+    },
+    {
+      "id": "refugio",
+      "label": "Refugio",
+      "knotId": null,
+      "creatorIds": [
+        "agarrapata"
+      ],
+      "selections": [],
+      "pieces": {
+        "agarrapata": [
+          {
+            "id": "agarrapata:refugio:glosario",
+            "kind": "text",
+            "creatorId": "agarrapata",
+            "text": "Espacio de convivencia, trabajo y encuentro que Agarrapata ha construido alrededor de la Casa de los Objetos, ubicada junto al humedal Córdoba. La casa funciona simultáneamente como taller, bodega, lugar de ensayo y espacio compartido por personas, animales y objetos. Allí las actividades domésticas se mezclan con la creación, y las conversaciones durante las comidas o los descansos forman parte del desarrollo de los proyectos. La idea de refugio se relaciona con esta posibilidad de trabajar y convivir en condiciones que el colectivo considera deseables."
+          }
+        ]
+      },
+      "piecesGeneral": [
+        {
+          "id": "agarrapata:refugio:glosario",
+          "kind": "text",
+          "creatorId": "agarrapata",
+          "text": "Espacio de convivencia, trabajo y encuentro que Agarrapata ha construido alrededor de la Casa de los Objetos, ubicada junto al humedal Córdoba. La casa funciona simultáneamente como taller, bodega, lugar de ensayo y espacio compartido por personas, animales y objetos. Allí las actividades domésticas se mezclan con la creación, y las conversaciones durante las comidas o los descansos forman parte del desarrollo de los proyectos. La idea de refugio se relaciona con esta posibilidad de trabajar y convivir en condiciones que el colectivo considera deseables."
+        }
+      ]
+    }
+  ]
+}

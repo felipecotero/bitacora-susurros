@@ -1,0 +1,409 @@
+@font-face {
+  font-family: 'Architects Daughter';
+  src: url('fonts/architects-daughter-latin.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --brand-font: 'Archivo', 'Helvetica Neue', Arial, sans-serif;
+  --connection-rgb: 171, 151, 122;
+  --grain-opacity: .06;
+  --grain-image: none;
+}
+
+html[data-writing='print'] { --sans: var(--brand-font); }
+html[data-writing='hand'] { --sans: 'Architects Daughter', 'Segoe Print', cursive; }
+.project-credit .fragua-name,
+.project-credit .fragua-caption { font-family: var(--brand-font); }
+
+/* The grain lies over the ink as well as the surface underneath it. */
+.film-grain,
+.surface-grain {
+  pointer-events: none;
+  opacity: var(--grain-opacity);
+  mix-blend-mode: normal;
+  background-image: var(--grain-image);
+  background-repeat: repeat;
+  background-size: 180px 180px;
+  animation: surface-noise .32s steps(1) infinite;
+  animation-delay: var(--grain-phase, 0s);
+  transform: none;
+}
+.film-grain { position: fixed; inset: -30%; z-index: 2147483000; }
+.surface-grain {
+  position: absolute;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+}
+@keyframes surface-noise {
+  0% { background-position: 0 0; }
+  25% { background-position: 37px -23px; }
+  50% { background-position: -19px 46px; }
+  75% { background-position: 52px 17px; }
+}
+
+.appearance-controls {
+  position: fixed;
+  z-index: 12;
+  top: 94px;
+  right: 42px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-family: var(--sans);
+}
+.appearance-controls button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  min-height: 30px;
+  padding: 4px 0 5px;
+  border-bottom: 1px solid var(--line);
+  color: var(--muted);
+  font-family: var(--sans);
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 1.4;
+  white-space: nowrap;
+}
+.appearance-controls button:hover { color: var(--paper); border-color: var(--accent); }
+.appearance-icon { font-size: 15px; line-height: 1; letter-spacing: -.7px; }
+.appearance-label { display: inline-block; }
+
+.title-block { transition: filter .65s, opacity .65s; }
+.title-block h1 { font-size: clamp(58px, 6.15vw, 88px); }
+.has-constellation .title-block { filter: blur(.85px); }
+.has-floating-content .title-block { filter: blur(1.15px); }
+.has-floating-content .masthead,
+.has-floating-content .footer { filter: blur(.18px); }
+
+/* An ordinary, legible architectural hand; brand lettering stays in Archivo. */
+html[data-writing='hand'] body { font-family: var(--sans); }
+html[data-writing='hand'] .title-block h1 {
+  font-family: var(--sans);
+  font-size: clamp(66px, 7vw, 100px);
+  font-weight: 400;
+  letter-spacing: -1.8px;
+  line-height: 1.08;
+  margin: 12px 0 17px;
+}
+html[data-writing='hand'] .word { font-weight: 400; letter-spacing: .1px; }
+html[data-writing='hand'] .main-nav > button:not(.round-button) { font-size: 15px; }
+html[data-writing='hand'] .edition { font-size: 10px; letter-spacing: 1px; }
+html[data-writing='hand'] .eyebrow,
+html[data-writing='hand'] .territory-eyebrow,
+html[data-writing='hand'] .editor-eyebrow { font-size: 11px; font-weight: 400; letter-spacing: 1px; }
+html[data-writing='hand'] .intro { font-size: 16px; line-height: 1.65; }
+html[data-writing='hand'] .drawer h2,
+html[data-writing='hand'] .drawer h3,
+html[data-writing='hand'] .row-name,
+html[data-writing='hand'] .audio-title,
+html[data-writing='hand'] .territory-heading h2,
+html[data-writing='hand'] .territory-city-inner h2,
+html[data-writing='hand'] .territory-person-name,
+html[data-writing='hand'] .editor-header h2 { font-weight: 400; letter-spacing: -.3px; }
+html[data-writing='hand'] .word-description { font-size: 21px; line-height: 1.75; }
+html[data-writing='hand'] .drawer .lede { font-size: 19px; }
+html[data-writing='hand'] .drawer .small-copy { font-size: 15px; line-height: 1.8; }
+html[data-writing='hand'] .word-plate .word-meta { font-size: 10px; letter-spacing: .8px; }
+html[data-writing='hand'] .row-role,
+html[data-writing='hand'] .row-description { font-size: 13px; letter-spacing: .1px; }
+html[data-writing='hand'] .text-chip { font-size: 13px; }
+html[data-writing='hand'] .context p:last-child { font-size: 19px; font-weight: 400; }
+html[data-writing='hand'] .context .eyebrow { font-size: 9px; letter-spacing: .7px; }
+html[data-writing='hand'] .media-caption,
+html[data-writing='hand'] .word-plate .plate-caption { font-size: 14px; }
+html[data-writing='hand'] .gesture-hint { font-size: 13px; }
+html[data-writing='hand'] .archive-caption { font-size: 10px; letter-spacing: .6px; }
+html[data-writing='hand'] .footer-actions > button:last-child { font-size: 16px; }
+html[data-writing='hand'] .friend-network span { font-size: 8px; letter-spacing: .7px; }
+html[data-writing='hand'] .appearance-controls button { font-size: 13px; }
+html[data-writing='hand'] .appearance-icon { font-size: 16px; }
+html[data-writing='hand'] .territory-intro { font-size: 15px; }
+html[data-writing='hand'] .territory-city-name { font-size: 15px; font-weight: 400; letter-spacing: .05px; }
+html[data-writing='hand'] .territory-city-number { font-size: 10px; letter-spacing: .3px; }
+html[data-writing='hand'] .territory-back > span:last-child,
+html[data-writing='hand'] .territory-demo { font-size: 11px; letter-spacing: .2px; }
+html[data-writing='hand'] .territory-city-count,
+html[data-writing='hand'] .territory-person-role,
+html[data-writing='hand'] .territory-city-note { font-size: 13px; }
+html[data-writing='hand'] .editor-label,
+html[data-writing='hand'] .editor-selector,
+html[data-writing='hand'] .editor-selections legend { font-size: 15px; }
+html[data-writing='hand'] .editor-form input:not([type='checkbox']),
+html[data-writing='hand'] .editor-form textarea,
+html[data-writing='hand'] .editor-form select { font-size: 16px; }
+html[data-writing='hand'] .editor-help,
+html[data-writing='hand'] .editor-label span,
+html[data-writing='hand'] .editor-local-note,
+html[data-writing='hand'] .editor-status,
+html[data-writing='hand'] .editor-match,
+html[data-writing='hand'] .editor-transfer p:not(.editor-eyebrow) { font-size: 13px; }
+html[data-writing='hand'] .editor-save,
+html[data-writing='hand'] .editor-view,
+html[data-writing='hand'] .editor-transfer-actions button { font-size: 15px; }
+
+/* Paper and ink are applied to every surface, including native inputs and maps. */
+html[data-theme='day'] {
+  color-scheme: light;
+  --bg: #faf8f1;
+  --paper: #242620;
+  --muted: #686b5e;
+  --faint: #929384;
+  --line: #c7c6b8;
+  --accent: #75664b;
+  --connection-rgb: 68, 66, 56;
+  --grain-opacity: .055;
+}
+html[data-theme='day'] button:hover { color: #141710; }
+html[data-theme='day'] .vignette {
+  box-shadow: inset 0 0 170px 40px #827a5711;
+  background: radial-gradient(ellipse at 54% 52%, transparent 25%, #c7bea00b 100%);
+}
+html[data-theme='day'] .main-nav > button:not(.round-button) { border-color: #a5a797; }
+html[data-theme='day'] .round-button { border-color: #9a9c8c; }
+html[data-theme='day'] .round-button:hover { border-color: #383d30; }
+html[data-theme='day'] .word { color: #34372f; }
+html[data-theme='day'] .word.selected { color: #2f3025; }
+html[data-theme='day'] .word:hover,
+html[data-theme='day'] .word:focus-visible { color: #10140c !important; }
+html[data-theme='day'] .word:hover > span,
+html[data-theme='day'] .word:focus-visible > span { text-shadow: 0 0 8px #706d4e26; }
+html[data-theme='day'] .word:focus-visible > span { outline-color: #68664d; }
+html[data-theme='day'] .caption-detail { color: #898b7d; }
+html[data-theme='day'] .status-dot { background: #837758; box-shadow: 0 0 5px #83775820; }
+html[data-theme='day'] .gesture-hint { color: #7b7f6e; }
+html[data-theme='day'] .drag-icon { color: #6b715f; }
+html[data-theme='day'] .friend-network img { filter: brightness(0); opacity: .82; }
+html[data-theme='day'] .context {
+  background: #faf8f0c7;
+  color: #30372a;
+  border: 1px solid #bcbda733;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+html[data-theme='day'] .drawer {
+  background: #f4f2e9;
+  color: #2b2f24;
+  box-shadow: -30px 0 80px #4e54321a;
+}
+html[data-theme='day'] .drawer::backdrop { background: #b8bba514; }
+html[data-theme='day'] .close-button { color: #68705b; }
+html[data-theme='day'] .drawer .lede { color: #4d5545; }
+html[data-theme='day'] .row-index { color: #848a76; }
+html[data-theme='day'] .row-role,
+html[data-theme='day'] .row-description { color: #6c725e; }
+html[data-theme='day'] .row-arrow { color: #6c725e; }
+html[data-theme='day'] .person-row:hover .row-name,
+html[data-theme='day'] .knot-row:hover .row-name { color: #4f5b3e; }
+html[data-theme='day'] .demo-note { color: #72745c; border-color: #a0a184; }
+html[data-theme='day'] .word-description { color: #30362a; }
+html[data-theme='day'] .word-meta .small-dot { background: #7c836b; }
+html[data-theme='day'] .text-chip { border-color: #b5baa6; color: #58634c; }
+html[data-theme='day'] .text-chip:hover { border-color: #737e60; }
+html[data-theme='day'] .media-caption { color: #747a65; }
+html[data-theme='day'] .audio-card { border-color: #bfc3ad; background: linear-gradient(130deg, #e1e4d4b0, #f2f3e9a0); }
+html[data-theme='day'] .audio-play > span:first-child { border-color: #929d7d; }
+html[data-theme='day'] .waveform i { background: #7b8b62; }
+html[data-theme='day'] .size-scale { color: #6d755a; }
+html[data-theme='day'] .no-js { background: #eeecdf; color: #30372a; border: 1px solid #b8bea5; }
+
+/* Clear resin on paper: pale refraction without a dark floating panel. */
+html[data-theme='day'] .drawer.word-plate {
+  background: transparent;
+  color: #2e3527;
+  box-shadow: 0 28px 85px #53603a26, 0 3px 12px #59623e17;
+  -webkit-backdrop-filter: blur(9px) saturate(.75) brightness(.99);
+  backdrop-filter: blur(9px) saturate(.75) brightness(.99);
+  backdrop-filter: url('#resin-refraction') blur(7px) saturate(.75) brightness(.99);
+}
+html[data-theme='day'] .drawer.word-plate::backdrop { background: #c9ceba12; }
+html[data-theme='day'] .word-plate .plate-optics {
+  background: radial-gradient(ellipse at 3% 0%, #ffffff70, transparent 46%), linear-gradient(128deg, #fffffa50, #e9ecdc70 52%, #fffff72b);
+  box-shadow: inset 1px 1px 1px #ffffffcc, inset -1px -1px 1px #aeb89b75, inset 3px 0 9px #ffffff38, inset 0 -7px 15px #87936b14;
+}
+html[data-theme='day'] .drawer.word-plate::before {
+  border-color: #b2bda27a;
+  background: linear-gradient(132deg, #ffffff36, transparent 20% 78%, #ffffff25);
+  box-shadow: inset 0 2px 2px #ffffff80, 1px 0 0 #ffffff60, -1px 0 0 #7d886238;
+}
+html[data-theme='day'] .drawer.word-plate::after { border-color: #83906917; border-top-color: #fffefa9e; }
+html[data-theme='day'] .word-plate .plate-scroll {
+  background: linear-gradient(90deg, #ffffff14, #f5f7eb3d 60%, #ffffff14);
+  scrollbar-color: #969f825a transparent;
+}
+html[data-theme='day'] .word-plate .eyebrow,
+html[data-theme='day'] .word-plate .word-meta { color: #737e61; }
+html[data-theme='day'] .word-plate .word-description { color: #333c29; text-shadow: 0 1px 8px #fffff73d; }
+html[data-theme='day'] .word-plate .close-button { color: #687853; }
+html[data-theme='day'] .word-plate .close-button:hover { color: #25331a; }
+html[data-theme='day'] .word-plate .small-copy { color: #6b785a; }
+html[data-theme='day'] .word-plate .text-chip { color: #53663f; border-color: #8e9f6d5e; background: #ffffff16; }
+html[data-theme='day'] .word-plate .text-chip:hover { border-color: #798e5d; }
+html[data-theme='day'] .word-plate .relation-block { border-color: #9ba98a54; }
+html[data-theme='day'] .word-plate .relation-block > .eyebrow { color: #69794e; }
+html[data-theme='day'] .word-plate .audio-card { border-color: #9ead8459; background: linear-gradient(130deg, #f7f9ed59, #dfe8cd24); }
+html[data-theme='day'] .word-plate .audio-play > span:first-child { border-color: #9ead85; }
+html[data-theme='day'] .word-plate .waveform i { background: #7b8d61; }
+html[data-theme='day'] .word-plate .resin-image {
+  border-color: #b5c49b;
+  background: linear-gradient(132deg, #ffffff5c, #d8e4bf15 45%, #fffff04d);
+  box-shadow: 1px 3px 0 #7f8e6020, inset 0 1px 1px #ffffffd9, inset -2px -3px 8px #84965b36, 0 13px 25px #7f8f5d22;
+}
+html[data-theme='day'] .word-plate .resin-image .detail-image { box-shadow: 0 0 15px #74894c29; }
+html[data-theme='day'] .word-plate .resin-image::before {
+  border-top-color: #ffffffc7;
+  border-left-color: #fffef382;
+  background: linear-gradient(118deg, #ffffff1a, transparent 21% 69%, #ffffff16);
+  box-shadow: inset 3px 4px 7px #ffffff2b, inset -3px -3px 6px #7b8c5633;
+}
+html[data-theme='day'] .word-plate .resin-image::after {
+  -webkit-backdrop-filter: blur(1.1px) saturate(.8) brightness(1.04);
+  backdrop-filter: blur(1.1px) saturate(.8) brightness(1.04);
+  backdrop-filter: url('#resin-image-refraction') blur(.7px) saturate(.8) brightness(1.04);
+}
+html[data-theme='day'] .word-plate .plate-caption { color: #6d7c55; }
+
+/* The editor remains a page of the same notebook in daylight. */
+html[data-theme='day'] .editor-dialog { background: #f5f3e9; color: #2c3324; border-color: #a2ae8c66; scrollbar-color: #a1ae87 #f5f3e9; }
+html[data-theme='day'] .editor-dialog::backdrop { background: #9fa98b24; }
+html[data-theme='day'] .editor-eyebrow,
+html[data-theme='day'] .editor-local-note { color: #738252; }
+html[data-theme='day'] .editor-intro { color: #6f785f; }
+html[data-theme='day'] .editor-close,
+html[data-theme='day'] .editor-label { color: #35432a; }
+html[data-theme='day'] .editor-local-note { border-color: #a7b58c57; }
+html[data-theme='day'] .editor-form input:not([type='checkbox']),
+html[data-theme='day'] .editor-form textarea,
+html[data-theme='day'] .editor-form select { background: #fbfcf4; color: #34402a; border-color: #b1bea2; color-scheme: light; }
+html[data-theme='day'] .editor-form input::placeholder,
+html[data-theme='day'] .editor-form textarea::placeholder { color: #8b947a; }
+html[data-theme='day'] .editor-label span,
+html[data-theme='day'] .editor-help { color: #7d8869; }
+html[data-theme='day'] .editor-match { color: #6b8050; }
+html[data-theme='day'] .editor-selector input { accent-color: #798d53; }
+html[data-theme='day'] .editor-form input[type='file'] { background: none; color: #73845c; }
+html[data-theme='day'] .editor-form input[type='file']::file-selector-button { background: #e6edda; border-color: #a5b68a; color: #3c512c; }
+html[data-theme='day'] .editor-save { background: #d9e2c8; color: #314123; border-color: #a2b381; }
+html[data-theme='day'] .editor-save:hover { background: #cddbb8; }
+html[data-theme='day'] .editor-view,
+html[data-theme='day'] .editor-transfer-actions button { color: #6b8050; border-color: #8fa26d82; }
+html[data-theme='day'] .editor-status { color: #62784a; }
+html[data-theme='day'] .editor-error { color: #8e4837; }
+html[data-theme='day'] .editor-transfer { border-color: #a7b68a66; }
+html[data-theme='day'] .editor-transfer p:not(.editor-eyebrow) { color: #7b8968; }
+html[data-theme='day'] .editor-dialog :focus-visible { outline-color: #6c8150; }
+
+/* Geographic marks use ink, never a white map on white paper. */
+html[data-theme='day'] .territory-map { filter: drop-shadow(0 0 7px #74795b12); }
+html[data-theme='day'] .territory-outline { stroke: #555e42; filter: drop-shadow(0 0 1px #7f895c33); }
+html[data-theme='day'] .territory-outline-depth { stroke: #6b7952; }
+html[data-theme='day'] .territory-guide { stroke: #737d5c; }
+html[data-theme='day'] .territory-eyebrow { color: #7b8666; }
+html[data-theme='day'] .territory-intro,
+html[data-theme='day'] .territory-back { color: #707d5c; }
+html[data-theme='day'] .territory-demo { color: #899376; }
+html[data-theme='day'] .territory-city { color: #404c32; }
+html[data-theme='day'] .territory-city-name { text-shadow: 0 1px 12px #fffff66b; }
+html[data-theme='day'] .territory-city-number { color: #84916e; }
+html[data-theme='day'] .territory-point::before { border-color: #667a4c; background: #fafbf1; box-shadow: 0 0 9px #7b8d5920; }
+html[data-theme='day'] .territory-point::after { border-color: #7d926027; }
+html[data-theme='day'] .territory-city:hover .territory-point::before,
+html[data-theme='day'] .territory-city:focus-visible .territory-point::before { background: #6d8251; box-shadow: 0 0 15px #6d82513b; }
+html[data-theme='day'] .territory-city:hover .territory-city-name,
+html[data-theme='day'] .territory-city:focus-visible .territory-city-name { color: #273a18; }
+html[data-theme='day'] .territory-city:focus-visible .territory-city-label { outline-color: #7d925b; }
+html[data-theme='day'] .territory-city-plate {
+  color: #35462a;
+  border-color: #a5b58b7d;
+  background: linear-gradient(135deg, #fffff866, #eaf0dc8a 60%, #ffffff40);
+  box-shadow: inset 1px 1px 1px #ffffffc9, inset -2px -3px 9px #8d9e6d2e, 0 22px 80px #667a3e24;
+  -webkit-backdrop-filter: blur(10px) saturate(.8);
+  backdrop-filter: blur(10px) saturate(.8);
+  backdrop-filter: url('#resin-refraction') blur(7px) saturate(.8);
+}
+html[data-theme='day'] .territory-city-plate::backdrop { background: #b7c3a012; }
+html[data-theme='day'] .territory-city-inner { scrollbar-color: #8f9f7059 transparent; }
+html[data-theme='day'] .territory-close,
+html[data-theme='day'] .territory-city-count,
+html[data-theme='day'] .territory-person-role,
+html[data-theme='day'] .territory-person-arrow { color: #738657; }
+html[data-theme='day'] .territory-people,
+html[data-theme='day'] .territory-person { border-color: #a0b7834f; }
+html[data-theme='day'] .territory-person:hover .territory-person-name { color: #294418; }
+html[data-theme='day'] .territory-city-note,
+html[data-theme='day'] .territory-empty { color: #7a8e5e; }
+
+@media (min-width: 1500px) { .appearance-controls { right: 55px; } }
+@media (max-width: 1000px) { .appearance-controls { right: 28px; top: 88px; } }
+@media (max-width: 650px) {
+  .appearance-controls { top: 76px; right: 22px; gap: 16px; }
+  .appearance-controls button { min-height: 29px; font-size: 9px; }
+  .appearance-icon { font-size: 14px; }
+  .title-block { top: 126px; }
+  .title-block h1 { font-size: 54px; }
+  .territory-heading { top: 128px; }
+  html[data-writing='hand'] .title-block h1 { font-size: 60px; line-height: 1.05; margin: 10px 0 14px; }
+  html[data-writing='hand'] .intro { font-size: 13px; line-height: 1.55; }
+  html[data-writing='hand'] .main-nav > button:not(.round-button) { font-size: 12px; }
+  html[data-writing='hand'] .eyebrow,
+  html[data-writing='hand'] .territory-eyebrow { font-size: 9px; letter-spacing: .8px; }
+  html[data-writing='hand'] .appearance-controls button { font-size: 12px; }
+  html[data-writing='hand'] .archive-caption { font-size: 8px; letter-spacing: .35px; }
+  html[data-writing='hand'] .footer-actions > button:last-child { font-size: 13px; }
+  html[data-writing='hand'] .gesture-hint { font-size: 11px; }
+  html[data-writing='hand'] .friend-network span { font-size: 7px; }
+  html[data-writing='hand'] .word-description { font-size: 19px; line-height: 1.7; }
+  html[data-writing='hand'] .word-plate .word-meta { font-size: 9px; }
+  html[data-writing='hand'] .context p:last-child { font-size: 17px; }
+  html[data-writing='hand'] .territory-intro { font-size: 12px; }
+  html[data-writing='hand'] .territory-city-name { font-size: 12px; }
+  html[data-writing='hand'] .territory-city-number { font-size: 9px; }
+  html[data-writing='hand'] .territory-back > span:last-child,
+  html[data-writing='hand'] .territory-demo { font-size: 9px; }
+}
+@media (max-width: 390px) {
+  .appearance-controls { right: 18px; gap: 14px; }
+  html[data-writing='hand'] .main-nav > button:not(.round-button) { font-size: 11px; }
+  html[data-writing='hand'] .title-block h1 { font-size: 58px; }
+  html[data-writing='hand'] .footer-actions > button:last-child { font-size: 12px; }
+}
+@media (max-height: 520px) and (min-width: 651px) {
+  .masthead { top: 21px; }
+  .appearance-controls { top: 66px; right: 28px; }
+  .title-block { top: 99px; }
+  .title-block h1 { font-size: 48px; margin: 10px 0 13px; }
+  .intro { font-size: 11px; }
+  .footer { bottom: 16px; }
+  .friend-network img { width: 31px; height: 30px; }
+  .gesture-hint { font-size: 9px; }
+  .context { bottom: 85px; }
+  html[data-writing='hand'] .title-block h1 { font-size: 57px; margin: 7px 0 12px; }
+  html[data-writing='hand'] .intro { font-size: 13px; line-height: 1.5; }
+  html[data-writing='hand'] .edition { font-size: 8px; }
+  html[data-writing='hand'] .gesture-hint { font-size: 11px; }
+  html[data-writing='hand'] .archive-caption { font-size: 8px; }
+  html[data-writing='hand'] .footer-actions > button:last-child { font-size: 14px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .film-grain, .surface-grain { animation: none; }
+  .title-block { transition: none; }
+}
+/* Keep the map introduction above its return link on a short horizontal screen. */
+@media (max-height:520px) and (min-width:651px){
+  .territory-heading{top:92px;width:215px}
+  .territory-heading h2{font-size:30px;margin:8px 0 9px}
+  .territory-intro{font-size:11px;line-height:1.45}
+  .territory-back{bottom:95px}
+  .territory-demo{bottom:68px;font-size:8px}
+  html[data-writing='hand'] .territory-eyebrow{font-size:9px;line-height:1.5}
+  html[data-writing='hand'] .territory-intro{font-size:12px;line-height:1.45}
+  html[data-writing='hand'] .territory-demo{font-size:9px}
+}
