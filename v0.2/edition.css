@@ -1,4 +1,4 @@
-/* Keep both lines of the title at the same size. */
+/* Give the project name the larger line in the title. */
 .project-credit .fragua-logo {
   display: block;
   width: 142px;
@@ -24,7 +24,9 @@
   color: inherit;
 }
 .v02-title h1 > strong {
+  font-size: .8em;
   font-weight: 700;
+  margin-bottom: .12em;
 }
 body[data-active-person] .v02-title {
   opacity: 0 !important;
