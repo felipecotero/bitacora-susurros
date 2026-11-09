@@ -7,7 +7,7 @@ import { createIndices } from './indices.js?v=02';
 import { createPersonProfile } from './people.js?v=privado-1';
 import { installLiquidGlass } from './liquid-glass.js?v=7';
 import { getCloudLayout, getCloudDepthExtent, getDepthStyle, getWordVisibility } from './cloud-view.js?v=02-2';
-import { createSoundscape, selectSoundscapeTracks } from './soundscape.js?v=03-2';
+import { createSoundscape, selectSoundscapeTracks } from './soundscape.js?v=03-3';
 
 const $ = (s) => document.querySelector(s);
 const el = (tag, cls, text) => { const n = document.createElement(tag); if(cls) n.className=cls; if(text!==undefined) n.textContent=text; return n; };
@@ -80,13 +80,15 @@ function arrangeLandingTracks() {
       .map(piece => ({wordId: word.id, piece}))
   );
   const sessionKey = 'susurros.v03.previous-audio';
-  let previous = [];
-  try {
-    const stored = JSON.parse(localStorage.getItem(sessionKey) || '[]');
-    if (Array.isArray(stored)) previous = stored;
-  } catch {}
+  let previous;
+  try { previous = JSON.parse(localStorage.getItem(sessionKey)); } catch {}
   const tracks = selectSoundscapeTracks(candidates, Math.random, previous);
-  try { localStorage.setItem(sessionKey, JSON.stringify(tracks.map(track => track.wordId))); } catch {}
+  try {
+    localStorage.setItem(sessionKey, JSON.stringify({
+      words: tracks.map(track => track.wordId),
+      sources: tracks.map(track => track.piece.src),
+    }));
+  } catch {}
   const firstVoice = tracks.findIndex(track => track.piece.audioRole !== 'ambience');
   if (firstVoice > 0) [tracks[0], tracks[firstVoice]] = [tracks[firstVoice], tracks[0]];
   const verticalSide = Math.random() < .5 ? -1 : 1;
@@ -1019,7 +1021,7 @@ drawer.addEventListener('click',e=>{if(e.target===drawer){const r=drawer.getBoun
 document.fonts?.ready.then(resize);document.fonts?.addEventListener('loadingdone',measureWords);
 makeGrain();installSurfaceTexture();installLiquidGlass();createAppearance({onChange:()=>{connectionRGB=getComputedStyle(document.documentElement).getPropertyValue('--connection-rgb').trim()||'171,151,122';measureWords();}});updatePause();
 try{
-  const response=await fetch('data.json');
+  const response=await fetch('data.json?v=03-3');
   if(!response.ok)throw Error('No se encontró el archivo de palabras.');
   data=await response.json();
   resize();rebuild();setupSoundscape();$('#loading').hidden=true;requestAnimationFrame(frame);

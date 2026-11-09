@@ -15,7 +15,7 @@
       "name": "Hermanos Castro",
       "role": "",
       "bio": "",
-      "inProgress": true
+      "inProgress": false
     },
     {
       "id": "jhon",
@@ -82,6 +82,14 @@
             "kind": "text",
             "creatorId": "edwing",
             "text": "Característica visual de las superficies escenográficas que depende tanto de los materiales y acabados como de las condiciones de iluminación. Edwin considera el color parte de los conocimientos necesarios para realizar una escenografía y advierte que su apariencia puede modificarse considerablemente al llegar al escenario. En ocasiones, los colores y tratamientos solicitados durante la fabricación pierden su efecto porque la iluminación no permite apreciarlos."
+          },
+          {
+            "id": "edwing_color_registro_v03.mp3",
+            "kind": "audio",
+            "creatorId": "edwing",
+            "src": "media/corte/web/edwing_color_registro_v03.mp3",
+            "caption": "Registro sonoro del archivo de Edwing Pinzón.",
+            "audioRole": "ambience"
           }
         ]
       },
@@ -91,6 +99,14 @@
           "kind": "text",
           "creatorId": "edwing",
           "text": "Característica visual de las superficies escenográficas que depende tanto de los materiales y acabados como de las condiciones de iluminación. Edwin considera el color parte de los conocimientos necesarios para realizar una escenografía y advierte que su apariencia puede modificarse considerablemente al llegar al escenario. En ocasiones, los colores y tratamientos solicitados durante la fabricación pierden su efecto porque la iluminación no permite apreciarlos."
+        },
+        {
+          "id": "edwing_color_registro_v03.mp3",
+          "kind": "audio",
+          "creatorId": "edwing",
+          "src": "media/corte/web/edwing_color_registro_v03.mp3",
+          "caption": "Registro sonoro del archivo de Edwing Pinzón.",
+          "audioRole": "ambience"
         }
       ]
     },
@@ -109,6 +125,14 @@
             "kind": "text",
             "creatorId": "edwing",
             "text": "Proceso de convertir una idea o diseño en un objeto físico mediante el trabajo con materiales, herramientas y procedimientos de fabricación. Edwin identifica la construcción como una segunda etapa de su trabajo, posterior a la planificación y al desarrollo inicial de la propuesta. Durante esta fase pueden aparecer dificultades que obligan a modificar las decisiones anteriores. Por eso acostumbra mostrar el proceso a sus clientes, de manera que puedan comprender los cambios y anticipar el resultado."
+          },
+          {
+            "id": "edwing_planificacion_construir_v03.mp3",
+            "kind": "audio",
+            "creatorId": "edwing",
+            "src": "media/corte/web/edwing_planificacion_construir_v03.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
           }
         ]
       },
@@ -118,6 +142,14 @@
           "kind": "text",
           "creatorId": "edwing",
           "text": "Proceso de convertir una idea o diseño en un objeto físico mediante el trabajo con materiales, herramientas y procedimientos de fabricación. Edwin identifica la construcción como una segunda etapa de su trabajo, posterior a la planificación y al desarrollo inicial de la propuesta. Durante esta fase pueden aparecer dificultades que obligan a modificar las decisiones anteriores. Por eso acostumbra mostrar el proceso a sus clientes, de manera que puedan comprender los cambios y anticipar el resultado."
+        },
+        {
+          "id": "edwing_planificacion_construir_v03.mp3",
+          "kind": "audio",
+          "creatorId": "edwing",
+          "src": "media/corte/web/edwing_planificacion_construir_v03.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
         }
       ]
     },
@@ -136,6 +168,30 @@
             "kind": "text",
             "creatorId": "edwing",
             "text": "Condición del trabajo de realización escenográfica que, pese a ser necesario para una producción, puede quedar fuera de la percepción o del reconocimiento del público. Edwin menciona elementos cuyos acabados y texturas dejan de apreciarse debido a la iluminación, así como producciones en las que no se identifica a quienes fabricaron la escenografía. Aunque reconoce estas situaciones, afirma que su principal interés es que el trabajo quede bien realizado."
+          },
+          {
+            "id": "edwing_textura.mp3",
+            "kind": "audio",
+            "creatorId": "edwing",
+            "src": "media/corte/web/edwing_textura.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "edwing_desapercibido_figurar_v03.mp3",
+            "kind": "audio",
+            "creatorId": "edwing",
+            "src": "media/corte/web/edwing_desapercibido_figurar_v03.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "edwing_desapercibido_registro_v03.mp3",
+            "kind": "audio",
+            "creatorId": "edwing",
+            "src": "media/corte/web/edwing_desapercibido_registro_v03.mp3",
+            "caption": "Registro sonoro del archivo de Edwing Pinzón.",
+            "audioRole": "ambience"
           }
         ]
       },
@@ -145,6 +201,30 @@
           "kind": "text",
           "creatorId": "edwing",
           "text": "Condición del trabajo de realización escenográfica que, pese a ser necesario para una producción, puede quedar fuera de la percepción o del reconocimiento del público. Edwin menciona elementos cuyos acabados y texturas dejan de apreciarse debido a la iluminación, así como producciones en las que no se identifica a quienes fabricaron la escenografía. Aunque reconoce estas situaciones, afirma que su principal interés es que el trabajo quede bien realizado."
+        },
+        {
+          "id": "edwing_textura.mp3",
+          "kind": "audio",
+          "creatorId": "edwing",
+          "src": "media/corte/web/edwing_textura.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "edwing_desapercibido_figurar_v03.mp3",
+          "kind": "audio",
+          "creatorId": "edwing",
+          "src": "media/corte/web/edwing_desapercibido_figurar_v03.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "edwing_desapercibido_registro_v03.mp3",
+          "kind": "audio",
+          "creatorId": "edwing",
+          "src": "media/corte/web/edwing_desapercibido_registro_v03.mp3",
+          "caption": "Registro sonoro del archivo de Edwing Pinzón.",
+          "audioRole": "ambience"
         }
       ]
     },
@@ -171,6 +251,14 @@
             "kind": "text",
             "creatorId": "edwing",
             "text": "Herramienta de pensamiento y comunicación que permite desarrollar una propuesta escenográfica antes de construirla. Edwin utiliza el dibujo para estudiar medidas, uniones, pesos y características estructurales, especialmente cuando el proyecto no llega acompañado de planos. También le permite explicar sus ideas a los clientes y anticipar posibles dificultades. Su función es principalmente práctica, pues acompaña la búsqueda de soluciones constructivas."
+          },
+          {
+            "id": "edwing_planificacion_construir_v03.mp3",
+            "kind": "audio",
+            "creatorId": "edwing",
+            "src": "media/corte/web/edwing_planificacion_construir_v03.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
           }
         ]
       },
@@ -188,6 +276,14 @@
           "kind": "text",
           "creatorId": "edwing",
           "text": "Herramienta de pensamiento y comunicación que permite desarrollar una propuesta escenográfica antes de construirla. Edwin utiliza el dibujo para estudiar medidas, uniones, pesos y características estructurales, especialmente cuando el proyecto no llega acompañado de planos. También le permite explicar sus ideas a los clientes y anticipar posibles dificultades. Su función es principalmente práctica, pues acompaña la búsqueda de soluciones constructivas."
+        },
+        {
+          "id": "edwing_planificacion_construir_v03.mp3",
+          "kind": "audio",
+          "creatorId": "edwing",
+          "src": "media/corte/web/edwing_planificacion_construir_v03.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
         }
       ]
     },
@@ -233,6 +329,14 @@
             "kind": "text",
             "creatorId": "edwing",
             "text": "Lugar físico necesario para desarrollar los procesos de fabricación, montaje y almacenamiento de elementos escenográficos. Edwin ha adaptado progresivamente una casa que anteriormente funcionaba como restaurante, modificando divisiones interiores y distribuyendo áreas de corte, ensamblaje, pintura y bodegaje. Las dimensiones y características del lugar condicionan la organización de los proyectos. Por esta razón, buena parte de sus herramientas y mesas tienen ruedas, lo que permite reorganizar el taller según las necesidades de cada trabajo."
+          },
+          {
+            "id": "edwing_espacio_taller_v03.mp3",
+            "kind": "audio",
+            "creatorId": "edwing",
+            "src": "media/corte/web/edwing_espacio_taller_v03.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
           }
         ]
       },
@@ -242,6 +346,14 @@
           "kind": "text",
           "creatorId": "edwing",
           "text": "Lugar físico necesario para desarrollar los procesos de fabricación, montaje y almacenamiento de elementos escenográficos. Edwin ha adaptado progresivamente una casa que anteriormente funcionaba como restaurante, modificando divisiones interiores y distribuyendo áreas de corte, ensamblaje, pintura y bodegaje. Las dimensiones y características del lugar condicionan la organización de los proyectos. Por esta razón, buena parte de sus herramientas y mesas tienen ruedas, lo que permite reorganizar el taller según las necesidades de cada trabajo."
+        },
+        {
+          "id": "edwing_espacio_taller_v03.mp3",
+          "kind": "audio",
+          "creatorId": "edwing",
+          "src": "media/corte/web/edwing_espacio_taller_v03.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
         }
       ]
     },
@@ -260,6 +372,14 @@
             "kind": "text",
             "creatorId": "edwing",
             "text": "Característica de los proyectos cuyo desarrollo no está completamente definido desde el comienzo y exige explorar diferentes posibilidades de realización. Edwin distingue estos trabajos de aquellos que llegan al taller con planos, dimensiones y acabados establecidos. En los proyectos experimentales, la propuesta puede modificarse durante la construcción y requiere mayor participación del realizador en la búsqueda de soluciones."
+          },
+          {
+            "id": "edwing_planificacion_construir_v03.mp3",
+            "kind": "audio",
+            "creatorId": "edwing",
+            "src": "media/corte/web/edwing_planificacion_construir_v03.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
           }
         ]
       },
@@ -269,6 +389,14 @@
           "kind": "text",
           "creatorId": "edwing",
           "text": "Característica de los proyectos cuyo desarrollo no está completamente definido desde el comienzo y exige explorar diferentes posibilidades de realización. Edwin distingue estos trabajos de aquellos que llegan al taller con planos, dimensiones y acabados establecidos. En los proyectos experimentales, la propuesta puede modificarse durante la construcción y requiere mayor participación del realizador en la búsqueda de soluciones."
+        },
+        {
+          "id": "edwing_planificacion_construir_v03.mp3",
+          "kind": "audio",
+          "creatorId": "edwing",
+          "src": "media/corte/web/edwing_planificacion_construir_v03.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
         }
       ]
     },
@@ -295,6 +423,14 @@
             "kind": "text",
             "creatorId": "edwing",
             "text": "Conjunto de conocimientos sobre formas, dimensiones y proporciones que permite estudiar y resolver problemas de construcción. Edwin utiliza la geometría para comprender el comportamiento de elementos estructurales, como vigas y columnas, y explicar cómo su disposición afecta la resistencia. En el trabajo con madera, por ejemplo, considera la orientación de los listones y la forma de unirlos para conseguir mayor rigidez."
+          },
+          {
+            "id": "edwing_geometria_pesos_v03.mp3",
+            "kind": "audio",
+            "creatorId": "edwing",
+            "src": "media/corte/web/edwing_geometria_pesos_v03.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
           }
         ]
       },
@@ -312,6 +448,14 @@
           "kind": "text",
           "creatorId": "edwing",
           "text": "Conjunto de conocimientos sobre formas, dimensiones y proporciones que permite estudiar y resolver problemas de construcción. Edwin utiliza la geometría para comprender el comportamiento de elementos estructurales, como vigas y columnas, y explicar cómo su disposición afecta la resistencia. En el trabajo con madera, por ejemplo, considera la orientación de los listones y la forma de unirlos para conseguir mayor rigidez."
+        },
+        {
+          "id": "edwing_geometria_pesos_v03.mp3",
+          "kind": "audio",
+          "creatorId": "edwing",
+          "src": "media/corte/web/edwing_geometria_pesos_v03.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
         }
       ]
     },
@@ -466,6 +610,22 @@
             "kind": "text",
             "creatorId": "edwing",
             "text": "Espacio de trabajo en el que las ideas pueden explorarse, modificarse y desarrollarse mediante la experimentación. Edwin utiliza este concepto para describir algunos procesos de creación teatral en los que los grupos permiten al realizador proponer alternativas y transformar el diseño durante la construcción. En estos proyectos, el resultado no está completamente determinado desde el principio y puede cambiar de acuerdo con los descubrimientos y necesidades que surgen durante el trabajo."
+          },
+          {
+            "id": "edwing_laboratorio_textura_v03.mp3",
+            "kind": "audio",
+            "creatorId": "edwing",
+            "src": "media/corte/web/edwing_laboratorio_textura_v03.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "edwing_laboratorio_registro_v03.mp3",
+            "kind": "audio",
+            "creatorId": "edwing",
+            "src": "media/corte/web/edwing_laboratorio_registro_v03.mp3",
+            "caption": "Registro sonoro del archivo de Edwing Pinzón.",
+            "audioRole": "ambience"
           }
         ],
         "pablo": [
@@ -474,6 +634,14 @@
             "kind": "text",
             "creatorId": "pablo",
             "text": "Espacio de trabajo que permite desarrollar distintas actividades artísticas y experimentar con materiales, formas y procedimientos. Pablo describe su estudio como un lugar multipropósito donde puede diseñar, dibujar, escribir, pintar, maquetear o estudiar música. Esta concepción proviene de su infancia, cuando creció en un entorno de talleres y creación artística. Aunque actualmente no dispone de un taller para construir escenografías de gran formato, conserva un espacio que le permite alternar entre disciplinas y explorar ideas."
+          },
+          {
+            "id": "pablo_laboratorio.mp3",
+            "kind": "audio",
+            "creatorId": "pablo",
+            "src": "media/corte/web/pablo_laboratorio.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
           }
         ]
       },
@@ -489,6 +657,30 @@
           "kind": "text",
           "creatorId": "pablo",
           "text": "Espacio de trabajo que permite desarrollar distintas actividades artísticas y experimentar con materiales, formas y procedimientos. Pablo describe su estudio como un lugar multipropósito donde puede diseñar, dibujar, escribir, pintar, maquetear o estudiar música. Esta concepción proviene de su infancia, cuando creció en un entorno de talleres y creación artística. Aunque actualmente no dispone de un taller para construir escenografías de gran formato, conserva un espacio que le permite alternar entre disciplinas y explorar ideas."
+        },
+        {
+          "id": "edwing_laboratorio_textura_v03.mp3",
+          "kind": "audio",
+          "creatorId": "edwing",
+          "src": "media/corte/web/edwing_laboratorio_textura_v03.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "pablo_laboratorio.mp3",
+          "kind": "audio",
+          "creatorId": "pablo",
+          "src": "media/corte/web/pablo_laboratorio.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "edwing_laboratorio_registro_v03.mp3",
+          "kind": "audio",
+          "creatorId": "edwing",
+          "src": "media/corte/web/edwing_laboratorio_registro_v03.mp3",
+          "caption": "Registro sonoro del archivo de Edwing Pinzón.",
+          "audioRole": "ambience"
         }
       ]
     },
@@ -645,6 +837,22 @@
             "kind": "text",
             "creatorId": "edwing",
             "text": "Conjunto de conocimientos y habilidades prácticas adquiridas mediante la experiencia de trabajo con materiales, herramientas y técnicas de construcción. Edwin considera que el oficio se desarrolla y transforma a través de los proyectos y del intercambio con otras personas. Al imaginar la desaparición de su taller, identifica la posible pérdida de estos conocimientos como una de sus principales preocupaciones. Por ello valora la posibilidad de enseñarlos y transmitirlos a quienes trabajan con él."
+          },
+          {
+            "id": "edwing_oficio_ensenanza_v03.mp3",
+            "kind": "audio",
+            "creatorId": "edwing",
+            "src": "media/corte/web/edwing_oficio_ensenanza_v03.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "edwing_trasescena_oficio_v03.mp3",
+            "kind": "audio",
+            "creatorId": "edwing",
+            "src": "media/corte/web/edwing_trasescena_oficio_v03.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
           }
         ],
         "jhon": [
@@ -661,6 +869,70 @@
             "kind": "text",
             "creatorId": "jhon",
             "text": "Conjunto de conocimientos y habilidades manuales desarrollados mediante la práctica y utilizados para fabricar objetos que requieren soluciones particulares. Jhon se reconoce como artesano y valora especialmente el trabajo realizado con las manos: cortar, lijar, modelar, pintar y transformar materiales. Considera que estas habilidades le han permitido sostener económicamente a su familia y defiende su continuidad frente a los cambios tecnológicos, aunque reconoce las dificultades y frustraciones que acompañan el trabajo cotidiano."
+          },
+          {
+            "id": "jhon_colectivo_cotidianidad_oficio_legado.mp3",
+            "kind": "audio",
+            "creatorId": "jhon",
+            "src": "media/corte/web/jhon_colectivo_cotidianidad_oficio_legado.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "jhon_ingenio_v03.mp3",
+            "kind": "audio",
+            "creatorId": "jhon",
+            "src": "media/corte/web/jhon_ingenio_v03.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "jhon_colectivo_cotidianidad_oficio_versatilidad.mp3",
+            "kind": "audio",
+            "creatorId": "jhon",
+            "src": "media/corte/web/jhon_colectivo_cotidianidad_oficio_versatilidad.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "jhon_versatilidad_v03.mp3",
+            "kind": "audio",
+            "creatorId": "jhon",
+            "src": "media/corte/web/jhon_versatilidad_v03.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "jhon_cotidianidad_colectivo_oficio.mp3",
+            "kind": "audio",
+            "creatorId": "jhon",
+            "src": "media/corte/web/jhon_cotidianidad_colectivo_oficio.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "jhon_oficio_pasion_legado.mp3",
+            "kind": "audio",
+            "creatorId": "jhon",
+            "src": "media/corte/web/jhon_oficio_pasion_legado.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "jhon_oficio_memoria.mp3",
+            "kind": "audio",
+            "creatorId": "jhon",
+            "src": "media/corte/web/jhon_oficio_memoria.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "jhon_pasion.mp3",
+            "kind": "audio",
+            "creatorId": "jhon",
+            "src": "media/corte/web/jhon_pasion.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
           }
         ]
       },
@@ -692,6 +964,86 @@
           "kind": "text",
           "creatorId": "jhon",
           "text": "Conjunto de conocimientos y habilidades manuales desarrollados mediante la práctica y utilizados para fabricar objetos que requieren soluciones particulares. Jhon se reconoce como artesano y valora especialmente el trabajo realizado con las manos: cortar, lijar, modelar, pintar y transformar materiales. Considera que estas habilidades le han permitido sostener económicamente a su familia y defiende su continuidad frente a los cambios tecnológicos, aunque reconoce las dificultades y frustraciones que acompañan el trabajo cotidiano."
+        },
+        {
+          "id": "edwing_oficio_ensenanza_v03.mp3",
+          "kind": "audio",
+          "creatorId": "edwing",
+          "src": "media/corte/web/edwing_oficio_ensenanza_v03.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "jhon_colectivo_cotidianidad_oficio_legado.mp3",
+          "kind": "audio",
+          "creatorId": "jhon",
+          "src": "media/corte/web/jhon_colectivo_cotidianidad_oficio_legado.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "edwing_trasescena_oficio_v03.mp3",
+          "kind": "audio",
+          "creatorId": "edwing",
+          "src": "media/corte/web/edwing_trasescena_oficio_v03.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "jhon_ingenio_v03.mp3",
+          "kind": "audio",
+          "creatorId": "jhon",
+          "src": "media/corte/web/jhon_ingenio_v03.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "jhon_colectivo_cotidianidad_oficio_versatilidad.mp3",
+          "kind": "audio",
+          "creatorId": "jhon",
+          "src": "media/corte/web/jhon_colectivo_cotidianidad_oficio_versatilidad.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "jhon_versatilidad_v03.mp3",
+          "kind": "audio",
+          "creatorId": "jhon",
+          "src": "media/corte/web/jhon_versatilidad_v03.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "jhon_cotidianidad_colectivo_oficio.mp3",
+          "kind": "audio",
+          "creatorId": "jhon",
+          "src": "media/corte/web/jhon_cotidianidad_colectivo_oficio.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "jhon_oficio_pasion_legado.mp3",
+          "kind": "audio",
+          "creatorId": "jhon",
+          "src": "media/corte/web/jhon_oficio_pasion_legado.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "jhon_oficio_memoria.mp3",
+          "kind": "audio",
+          "creatorId": "jhon",
+          "src": "media/corte/web/jhon_oficio_memoria.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "jhon_pasion.mp3",
+          "kind": "audio",
+          "creatorId": "jhon",
+          "src": "media/corte/web/jhon_pasion.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
         }
       ]
     },
@@ -710,6 +1062,14 @@
             "kind": "text",
             "creatorId": "edwing",
             "text": "Magnitudes que deben considerarse durante el diseño y la construcción de elementos escenográficos, tanto por las cargas que una estructura debe soportar como por el peso propio de las piezas. Edwin utiliza conocimientos de geometría y comportamiento de materiales para dimensionar vigas y columnas. También distingue las necesidades de la escenografía teatral, que debe transportarse y montarse repetidamente, de las estructuras destinadas a televisión, que suelen permanecer instaladas durante periodos prolongados."
+          },
+          {
+            "id": "edwing_geometria_pesos_v03.mp3",
+            "kind": "audio",
+            "creatorId": "edwing",
+            "src": "media/corte/web/edwing_geometria_pesos_v03.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
           }
         ]
       },
@@ -719,6 +1079,14 @@
           "kind": "text",
           "creatorId": "edwing",
           "text": "Magnitudes que deben considerarse durante el diseño y la construcción de elementos escenográficos, tanto por las cargas que una estructura debe soportar como por el peso propio de las piezas. Edwin utiliza conocimientos de geometría y comportamiento de materiales para dimensionar vigas y columnas. También distingue las necesidades de la escenografía teatral, que debe transportarse y montarse repetidamente, de las estructuras destinadas a televisión, que suelen permanecer instaladas durante periodos prolongados."
+        },
+        {
+          "id": "edwing_geometria_pesos_v03.mp3",
+          "kind": "audio",
+          "creatorId": "edwing",
+          "src": "media/corte/web/edwing_geometria_pesos_v03.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
         }
       ]
     },
@@ -737,6 +1105,14 @@
             "kind": "text",
             "creatorId": "edwing",
             "text": "Organización previa de las actividades, recursos y tiempos necesarios para desarrollar un proyecto escenográfico. Edwin acostumbra establecer un cronograma y comenzar por los elementos de mayor complejidad, independientemente del tamaño de la producción. Esta organización permite anticipar dificultades y distribuir el trabajo de acuerdo con las necesidades constructivas."
+          },
+          {
+            "id": "edwing_planificacion_construir_v03.mp3",
+            "kind": "audio",
+            "creatorId": "edwing",
+            "src": "media/corte/web/edwing_planificacion_construir_v03.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
           }
         ]
       },
@@ -746,6 +1122,14 @@
           "kind": "text",
           "creatorId": "edwing",
           "text": "Organización previa de las actividades, recursos y tiempos necesarios para desarrollar un proyecto escenográfico. Edwin acostumbra establecer un cronograma y comenzar por los elementos de mayor complejidad, independientemente del tamaño de la producción. Esta organización permite anticipar dificultades y distribuir el trabajo de acuerdo con las necesidades constructivas."
+        },
+        {
+          "id": "edwing_planificacion_construir_v03.mp3",
+          "kind": "audio",
+          "creatorId": "edwing",
+          "src": "media/corte/web/edwing_planificacion_construir_v03.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
         }
       ]
     },
@@ -764,6 +1148,14 @@
             "kind": "text",
             "creatorId": "edwing",
             "text": "Representaciones técnicas que contienen información sobre las dimensiones, características y disposición de los elementos que deben construirse. Edwin explica que algunos proyectos llegan al taller con planos completos, mientras que otros parten de ideas poco desarrolladas. Cuando no dispone de esta documentación, utiliza el dibujo para definir medidas, uniones y características estructurales, y comunicar las soluciones propuestas."
+          },
+          {
+            "id": "edwing_planificacion_construir_v03.mp3",
+            "kind": "audio",
+            "creatorId": "edwing",
+            "src": "media/corte/web/edwing_planificacion_construir_v03.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
           }
         ]
       },
@@ -773,6 +1165,14 @@
           "kind": "text",
           "creatorId": "edwing",
           "text": "Representaciones técnicas que contienen información sobre las dimensiones, características y disposición de los elementos que deben construirse. Edwin explica que algunos proyectos llegan al taller con planos completos, mientras que otros parten de ideas poco desarrolladas. Cuando no dispone de esta documentación, utiliza el dibujo para definir medidas, uniones y características estructurales, y comunicar las soluciones propuestas."
+        },
+        {
+          "id": "edwing_planificacion_construir_v03.mp3",
+          "kind": "audio",
+          "creatorId": "edwing",
+          "src": "media/corte/web/edwing_planificacion_construir_v03.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
         }
       ]
     },
@@ -855,6 +1255,14 @@
             "kind": "text",
             "creatorId": "castro",
             "text": "Conjunto de relaciones profesionales y personales que permite reunir los conocimientos necesarios para desarrollar una producción. Los hermanos Castro trabajan con especialistas de diferentes oficios, como soldadores, carpinteros, costureras y pasteleros, a quienes convocan según las necesidades de cada proyecto. Estas colaboraciones se construyen mediante experiencias compartidas y relaciones de confianza que superan la contratación puntual de un servicio."
+          },
+          {
+            "id": "castro_maquina_coser.mp3",
+            "kind": "audio",
+            "creatorId": "castro",
+            "src": "media/corte/web/castro_maquina_coser.mp3",
+            "caption": "Máquina de coser en el taller de Hermanos Castro.",
+            "audioRole": "ambience"
           }
         ],
         "agarrapata": [
@@ -884,6 +1292,14 @@
           "kind": "text",
           "creatorId": "agarrapata",
           "text": "Estructura de colaboración flexible que reúne a personas con distintas habilidades y grados de vinculación. Agarrapata funciona mediante una red construida durante aproximadamente veinticinco años, que puede reunir desde unas pocas personas hasta varias decenas según las necesidades de cada proyecto. Sus integrantes no participan necesariamente de manera permanente, pero conservan vínculos que permiten convocarlos para nuevas producciones."
+        },
+        {
+          "id": "castro_maquina_coser.mp3",
+          "kind": "audio",
+          "creatorId": "castro",
+          "src": "media/corte/web/castro_maquina_coser.mp3",
+          "caption": "Máquina de coser en el taller de Hermanos Castro.",
+          "audioRole": "ambience"
         }
       ]
     },
@@ -905,6 +1321,14 @@
             "kind": "text",
             "creatorId": "edwing",
             "text": "Capacidad de un material o elemento estructural para soportar cargas sin fallar ni deformarse más allá de lo admisible. Edwin explica que la resistencia de una pieza de madera depende de sus dimensiones, su orientación y la manera como se une con otras. Mediante el ensamble de listones puede conseguir estructuras de mayor rigidez que las obtenidas con piezas individuales de dimensiones similares."
+          },
+          {
+            "id": "edwing_geometria_pesos_v03.mp3",
+            "kind": "audio",
+            "creatorId": "edwing",
+            "src": "media/corte/web/edwing_geometria_pesos_v03.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
           }
         ],
         "jhon": [
@@ -913,6 +1337,14 @@
             "kind": "text",
             "creatorId": "jhon",
             "text": "Decisión de mantener las técnicas manuales de creación frente a la creciente presencia de herramientas digitales y de inteligencia artificial. Jhon se identifica como escultor tradicional y expresa su deseo de continuar modelando sus propias figuras, aun cuando reconoce que estas tecnologías permiten producir imágenes y diseños con mayor rapidez. Su resistencia está vinculada con el valor que atribuye al trabajo hecho con las manos y a la continuidad de su oficio."
+          },
+          {
+            "id": "jhon_legado.mp3",
+            "kind": "audio",
+            "creatorId": "jhon",
+            "src": "media/corte/web/jhon_legado.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
           }
         ],
         "pablo": [
@@ -921,6 +1353,30 @@
             "kind": "text",
             "creatorId": "pablo",
             "text": "Defensa del valor del trabajo artístico y de la participación del diseñador dentro de las condiciones de producción teatral. Pablo relata experiencias en las que su trabajo ha recibido reconocimiento y otras en las que su nombre ha quedado relegado o excluido de los créditos. También describe situaciones en las que las decisiones de dirección modifican elementos escenográficos después de haber sido aprobados. Su posición consiste en procurar que la propuesta construida conserve la intención del diseño y en reivindicar el reconocimiento de quienes participan en la creación."
+          },
+          {
+            "id": "pablo_adaptacion.mp3",
+            "kind": "audio",
+            "creatorId": "pablo",
+            "src": "media/corte/web/pablo_adaptacion.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "pablo_diseno_memoria.mp3",
+            "kind": "audio",
+            "creatorId": "pablo",
+            "src": "media/corte/web/pablo_diseno_memoria.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "pablo_reciclaje_v03.mp3",
+            "kind": "audio",
+            "creatorId": "pablo",
+            "src": "media/corte/web/pablo_reciclaje_v03.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
           }
         ],
         "agarrapata": [
@@ -956,6 +1412,46 @@
           "kind": "text",
           "creatorId": "agarrapata",
           "text": "Decisión de organizar el trabajo artístico según condiciones que el propio colectivo considera justas y sostenibles. Agarrapata procura evitar jornadas excesivas, garantizar descansos y mantener una distribución de responsabilidades que permita cuidar a las personas. Esta postura se expresa en la posibilidad de establecer límites frente a las exigencias de producción y de construir una manera de trabajar coherente con la vida que sus integrantes desean llevar."
+        },
+        {
+          "id": "edwing_geometria_pesos_v03.mp3",
+          "kind": "audio",
+          "creatorId": "edwing",
+          "src": "media/corte/web/edwing_geometria_pesos_v03.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "jhon_legado.mp3",
+          "kind": "audio",
+          "creatorId": "jhon",
+          "src": "media/corte/web/jhon_legado.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "pablo_adaptacion.mp3",
+          "kind": "audio",
+          "creatorId": "pablo",
+          "src": "media/corte/web/pablo_adaptacion.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "pablo_diseno_memoria.mp3",
+          "kind": "audio",
+          "creatorId": "pablo",
+          "src": "media/corte/web/pablo_diseno_memoria.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "pablo_reciclaje_v03.mp3",
+          "kind": "audio",
+          "creatorId": "pablo",
+          "src": "media/corte/web/pablo_reciclaje_v03.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
         }
       ]
     },
@@ -975,6 +1471,30 @@
             "kind": "text",
             "creatorId": "edwing",
             "text": "Respuesta práctica a las dificultades que aparecen durante el diseño y la construcción de una escenografía. Para Edwin, resolver problemas constituye una parte permanente del oficio, pues cada proyecto presenta condiciones particulares de espacio, materiales, presupuesto y funcionamiento. La solución puede surgir durante la planificación o en el propio proceso constructivo, cuando es necesario adaptar procedimientos y encontrar alternativas."
+          },
+          {
+            "id": "edwing_solucion_aprendizaje_v03.mp3",
+            "kind": "audio",
+            "creatorId": "edwing",
+            "src": "media/corte/web/edwing_solucion_aprendizaje_v03.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "edwing_solucion_tecnica_v03.mp3",
+            "kind": "audio",
+            "creatorId": "edwing",
+            "src": "media/corte/web/edwing_solucion_tecnica_v03.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "edwing_planificacion_construir_v03.mp3",
+            "kind": "audio",
+            "creatorId": "edwing",
+            "src": "media/corte/web/edwing_planificacion_construir_v03.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
           }
         ],
         "castro": [
@@ -998,6 +1518,30 @@
           "kind": "text",
           "creatorId": "castro",
           "text": "Respuesta técnica y creativa a un problema planteado durante el desarrollo de una obra. Los hermanos Castro identifican la capacidad de encontrar soluciones como una de las principales habilidades de su taller. Su trabajo consiste en interpretar las necesidades de otros artistas y determinar cómo materializarlas mediante procedimientos, mecanismos y materiales adecuados. Cada solución debe responder a las condiciones particulares del objeto y a la función que cumplirá en escena."
+        },
+        {
+          "id": "edwing_solucion_aprendizaje_v03.mp3",
+          "kind": "audio",
+          "creatorId": "edwing",
+          "src": "media/corte/web/edwing_solucion_aprendizaje_v03.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "edwing_solucion_tecnica_v03.mp3",
+          "kind": "audio",
+          "creatorId": "edwing",
+          "src": "media/corte/web/edwing_solucion_tecnica_v03.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "edwing_planificacion_construir_v03.mp3",
+          "kind": "audio",
+          "creatorId": "edwing",
+          "src": "media/corte/web/edwing_planificacion_construir_v03.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
         }
       ]
     },
@@ -1024,6 +1568,14 @@
             "kind": "text",
             "creatorId": "edwing",
             "text": "Característica superficial de un elemento escenográfico que determina parte de su apariencia visual y táctil. Edwin utiliza materiales como tierras, arenas y cementos para producir diferentes texturas y considera estos procedimientos soluciones prácticas de acabado. También reconoce que su percepción depende de la iluminación, que puede hacer visibles o disimular los tratamientos realizados durante la fabricación."
+          },
+          {
+            "id": "edwing_laboratorio_textura_v03.mp3",
+            "kind": "audio",
+            "creatorId": "edwing",
+            "src": "media/corte/web/edwing_laboratorio_textura_v03.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
           }
         ]
       },
@@ -1041,6 +1593,14 @@
           "kind": "text",
           "creatorId": "edwing",
           "text": "Característica superficial de un elemento escenográfico que determina parte de su apariencia visual y táctil. Edwin utiliza materiales como tierras, arenas y cementos para producir diferentes texturas y considera estos procedimientos soluciones prácticas de acabado. También reconoce que su percepción depende de la iluminación, que puede hacer visibles o disimular los tratamientos realizados durante la fabricación."
+        },
+        {
+          "id": "edwing_laboratorio_textura_v03.mp3",
+          "kind": "audio",
+          "creatorId": "edwing",
+          "src": "media/corte/web/edwing_laboratorio_textura_v03.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
         }
       ]
     },
@@ -1060,6 +1620,14 @@
             "kind": "text",
             "creatorId": "edwing",
             "text": "Proceso de modificación de materiales, objetos y espacios para adaptarlos a nuevas funciones. En la práctica de Edwin, la transformación comprende la construcción de elementos escenográficos a partir de materias primas y la combinación de diferentes procedimientos de fabricación. También aparece en la adecuación progresiva de su propio taller, una antigua casa destinada a restaurante que ha modificado para incorporar espacios de corte, ensamblaje, almacenamiento y pintura."
+          },
+          {
+            "id": "edwing_transformacion_registro_v03.mp3",
+            "kind": "audio",
+            "creatorId": "edwing",
+            "src": "media/corte/web/edwing_transformacion_registro_v03.mp3",
+            "caption": "Registro sonoro del archivo de Edwing Pinzón.",
+            "audioRole": "ambience"
           }
         ],
         "castro": [
@@ -1068,6 +1636,14 @@
             "kind": "text",
             "creatorId": "castro",
             "text": "Proceso mediante el cual los materiales adquieren nuevas formas y funciones a través del trabajo artesanal. Los hermanos Castro utilizan este concepto para describir la actividad general de su taller, donde materiales como el icopor, la espuma o el yeso se convierten en máscaras, títeres y objetos escénicos. La transformación implica conocer las propiedades de la materia y dominar los procedimientos que permiten modificarla para responder a una intención artística."
+          },
+          {
+            "id": "castro_lijas.mp3",
+            "kind": "audio",
+            "creatorId": "castro",
+            "src": "media/corte/web/castro_lijas.mp3",
+            "caption": "Registro de lijado en el taller de Hermanos Castro.",
+            "audioRole": "ambience"
           }
         ]
       },
@@ -1083,6 +1659,22 @@
           "kind": "text",
           "creatorId": "castro",
           "text": "Proceso mediante el cual los materiales adquieren nuevas formas y funciones a través del trabajo artesanal. Los hermanos Castro utilizan este concepto para describir la actividad general de su taller, donde materiales como el icopor, la espuma o el yeso se convierten en máscaras, títeres y objetos escénicos. La transformación implica conocer las propiedades de la materia y dominar los procedimientos que permiten modificarla para responder a una intención artística."
+        },
+        {
+          "id": "edwing_transformacion_registro_v03.mp3",
+          "kind": "audio",
+          "creatorId": "edwing",
+          "src": "media/corte/web/edwing_transformacion_registro_v03.mp3",
+          "caption": "Registro sonoro del archivo de Edwing Pinzón.",
+          "audioRole": "ambience"
+        },
+        {
+          "id": "castro_lijas.mp3",
+          "kind": "audio",
+          "creatorId": "castro",
+          "src": "media/corte/web/castro_lijas.mp3",
+          "caption": "Registro de lijado en el taller de Hermanos Castro.",
+          "audioRole": "ambience"
         }
       ]
     },
@@ -1101,6 +1693,22 @@
             "kind": "text",
             "creatorId": "edwing",
             "text": "Conjunto de espacios y actividades que se desarrollan detrás de la representación y hacen posible su realización. Edwin relaciona este ámbito con sus primeras experiencias teatrales, cuando acompañaba a una tía a los ensayos y permanecía cerca de las actividades de preparación escénica. Este contacto temprano con el trabajo que ocurre fuera de la vista del público formó parte de su acercamiento posterior a la escenografía."
+          },
+          {
+            "id": "edwing_trasescena_oficio_v03.mp3",
+            "kind": "audio",
+            "creatorId": "edwing",
+            "src": "media/corte/web/edwing_trasescena_oficio_v03.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "edwing_trasescena_registro_v03.mp3",
+            "kind": "audio",
+            "creatorId": "edwing",
+            "src": "media/corte/web/edwing_trasescena_registro_v03.mp3",
+            "caption": "Registro sonoro del archivo de Edwing Pinzón.",
+            "audioRole": "ambience"
           }
         ]
       },
@@ -1110,6 +1718,22 @@
           "kind": "text",
           "creatorId": "edwing",
           "text": "Conjunto de espacios y actividades que se desarrollan detrás de la representación y hacen posible su realización. Edwin relaciona este ámbito con sus primeras experiencias teatrales, cuando acompañaba a una tía a los ensayos y permanecía cerca de las actividades de preparación escénica. Este contacto temprano con el trabajo que ocurre fuera de la vista del público formó parte de su acercamiento posterior a la escenografía."
+        },
+        {
+          "id": "edwing_trasescena_oficio_v03.mp3",
+          "kind": "audio",
+          "creatorId": "edwing",
+          "src": "media/corte/web/edwing_trasescena_oficio_v03.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "edwing_trasescena_registro_v03.mp3",
+          "kind": "audio",
+          "creatorId": "edwing",
+          "src": "media/corte/web/edwing_trasescena_registro_v03.mp3",
+          "caption": "Registro sonoro del archivo de Edwing Pinzón.",
+          "audioRole": "ambience"
         }
       ]
     },
@@ -1305,6 +1929,14 @@
             "kind": "text",
             "creatorId": "castro",
             "text": "Forma particular de organización de los materiales, herramientas y objetos acumulados en el taller. Los hermanos Castro describen un espacio en el que cada cajón contiene elementos de una categoría reconocible para quienes trabajan allí, aunque su disposición no responda a un sistema de orden convencional. Esta organización se ha construido mediante el uso cotidiano y el conocimiento de los materiales disponibles. Una reorganización externa podría dificultar la localización de las herramientas y alterar las rutinas de trabajo."
+          },
+          {
+            "id": "castro_cajones.mp3",
+            "kind": "audio",
+            "creatorId": "castro",
+            "src": "media/corte/web/castro_cajones.mp3",
+            "caption": "Búsqueda entre cajones y secador en el taller de Hermanos Castro.",
+            "audioRole": "ambience"
           }
         ]
       },
@@ -1314,6 +1946,14 @@
           "kind": "text",
           "creatorId": "castro",
           "text": "Forma particular de organización de los materiales, herramientas y objetos acumulados en el taller. Los hermanos Castro describen un espacio en el que cada cajón contiene elementos de una categoría reconocible para quienes trabajan allí, aunque su disposición no responda a un sistema de orden convencional. Esta organización se ha construido mediante el uso cotidiano y el conocimiento de los materiales disponibles. Una reorganización externa podría dificultar la localización de las herramientas y alterar las rutinas de trabajo."
+        },
+        {
+          "id": "castro_cajones.mp3",
+          "kind": "audio",
+          "creatorId": "castro",
+          "src": "media/corte/web/castro_cajones.mp3",
+          "caption": "Búsqueda entre cajones y secador en el taller de Hermanos Castro.",
+          "audioRole": "ambience"
         }
       ]
     },
@@ -1395,6 +2035,14 @@
             "kind": "text",
             "creatorId": "jhon",
             "text": "Proceso de aprendizaje y creación basado en probar materiales, observar sus comportamientos y modificar los procedimientos según los resultados. Para Jhon, el ensayo y error es una parte habitual del trabajo, pues muchos encargos requieren soluciones que no conoce de antemano. Experimenta incluso con productos de ferretería destinados a otros usos, buscando nuevas texturas, acabados y posibilidades de fabricación."
+          },
+          {
+            "id": "jhon_ingenio_versatilidad_maestria_experimentacion.mp3",
+            "kind": "audio",
+            "creatorId": "jhon",
+            "src": "media/corte/web/jhon_ingenio_versatilidad_maestria_experimentacion.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
           }
         ]
       },
@@ -1410,6 +2058,14 @@
           "kind": "text",
           "creatorId": "jhon",
           "text": "Proceso de aprendizaje y creación basado en probar materiales, observar sus comportamientos y modificar los procedimientos según los resultados. Para Jhon, el ensayo y error es una parte habitual del trabajo, pues muchos encargos requieren soluciones que no conoce de antemano. Experimenta incluso con productos de ferretería destinados a otros usos, buscando nuevas texturas, acabados y posibilidades de fabricación."
+        },
+        {
+          "id": "jhon_ingenio_versatilidad_maestria_experimentacion.mp3",
+          "kind": "audio",
+          "creatorId": "jhon",
+          "src": "media/corte/web/jhon_ingenio_versatilidad_maestria_experimentacion.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
         }
       ]
     },
@@ -1626,6 +2282,22 @@
             "kind": "text",
             "creatorId": "pablo",
             "text": "Disciplina que atraviesa la formación artística de Pablo y su manera de trabajar en el teatro. Comenzó sus estudios musicales a los siete años, aprendiendo solfeo y varios instrumentos, y ha mantenido esta práctica durante su vida. Actualmente toca batería, estudia instrumentos de percusión de la India y participa en ensambles con amigos. En su trabajo como actor busca que los personajes tengan alguna relación con la música, ya sea mediante el canto, el silbido, la interpretación instrumental o el ritmo corporal."
+          },
+          {
+            "id": "pablo_musica_sonoridad.mp3",
+            "kind": "audio",
+            "creatorId": "pablo",
+            "src": "media/corte/web/pablo_musica_sonoridad.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "pablo_resolucion_v03.mp3",
+            "kind": "audio",
+            "creatorId": "pablo",
+            "src": "media/corte/web/pablo_resolucion_v03.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
           }
         ]
       },
@@ -1641,6 +2313,22 @@
           "kind": "text",
           "creatorId": "pablo",
           "text": "Disciplina que atraviesa la formación artística de Pablo y su manera de trabajar en el teatro. Comenzó sus estudios musicales a los siete años, aprendiendo solfeo y varios instrumentos, y ha mantenido esta práctica durante su vida. Actualmente toca batería, estudia instrumentos de percusión de la India y participa en ensambles con amigos. En su trabajo como actor busca que los personajes tengan alguna relación con la música, ya sea mediante el canto, el silbido, la interpretación instrumental o el ritmo corporal."
+        },
+        {
+          "id": "pablo_musica_sonoridad.mp3",
+          "kind": "audio",
+          "creatorId": "pablo",
+          "src": "media/corte/web/pablo_musica_sonoridad.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "pablo_resolucion_v03.mp3",
+          "kind": "audio",
+          "creatorId": "pablo",
+          "src": "media/corte/web/pablo_resolucion_v03.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
         }
       ]
     },
@@ -1779,6 +2467,22 @@
             "src": "media/corte/web/jhon_utileria.mp3",
             "caption": "Fragmento de entrevista del archivo de Susurros.",
             "audioRole": "interview"
+          },
+          {
+            "id": "jhon_ingenio_v03.mp3",
+            "kind": "audio",
+            "creatorId": "jhon",
+            "src": "media/corte/web/jhon_ingenio_v03.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "jhon_props_dumies_replica_utileria.mp3",
+            "kind": "audio",
+            "creatorId": "jhon",
+            "src": "media/corte/web/jhon_props_dumies_replica_utileria.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
           }
         ],
         "agarrapata": [
@@ -1810,6 +2514,22 @@
           "kind": "text",
           "creatorId": "agarrapata",
           "text": "Conjunto de objetos fabricados o preparados para intervenir en una representación escénica. En Agarrapata, la creación de objetos está vinculada principalmente con el teatro de títeres y la animación. La Casa de los Objetos reúne elementos de distintas producciones, que circulan entre proyectos y pueden adquirir nuevas funciones en otras obras."
+        },
+        {
+          "id": "jhon_ingenio_v03.mp3",
+          "kind": "audio",
+          "creatorId": "jhon",
+          "src": "media/corte/web/jhon_ingenio_v03.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "jhon_props_dumies_replica_utileria.mp3",
+          "kind": "audio",
+          "creatorId": "jhon",
+          "src": "media/corte/web/jhon_props_dumies_replica_utileria.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
         }
       ]
     },
@@ -1852,6 +2572,30 @@
             "src": "media/corte/web/jhon_ingenio_v03.mp3",
             "caption": "Fragmento de entrevista del archivo de Susurros.",
             "audioRole": "interview"
+          },
+          {
+            "id": "jhon_ingenio_versatilidad_maestria_experimentacion.mp3",
+            "kind": "audio",
+            "creatorId": "jhon",
+            "src": "media/corte/web/jhon_ingenio_versatilidad_maestria_experimentacion.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "jhon_maestria_ingenio_versatilidad.mp3",
+            "kind": "audio",
+            "creatorId": "jhon",
+            "src": "media/corte/web/jhon_maestria_ingenio_versatilidad.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "jhon_versatilidad_ingenio.mp3",
+            "kind": "audio",
+            "creatorId": "jhon",
+            "src": "media/corte/web/jhon_versatilidad_ingenio.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
           }
         ]
       },
@@ -1885,6 +2629,30 @@
           "src": "media/corte/web/jhon_ingenio_v03.mp3",
           "caption": "Fragmento de entrevista del archivo de Susurros.",
           "audioRole": "interview"
+        },
+        {
+          "id": "jhon_ingenio_versatilidad_maestria_experimentacion.mp3",
+          "kind": "audio",
+          "creatorId": "jhon",
+          "src": "media/corte/web/jhon_ingenio_versatilidad_maestria_experimentacion.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "jhon_maestria_ingenio_versatilidad.mp3",
+          "kind": "audio",
+          "creatorId": "jhon",
+          "src": "media/corte/web/jhon_maestria_ingenio_versatilidad.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "jhon_versatilidad_ingenio.mp3",
+          "kind": "audio",
+          "creatorId": "jhon",
+          "src": "media/corte/web/jhon_versatilidad_ingenio.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
         }
       ]
     },
@@ -1903,6 +2671,54 @@
             "kind": "text",
             "creatorId": "jhon",
             "text": "Conocimiento del oficio desarrollado durante años de práctica, experimentación y resolución de encargos diversos. Para Jhon, la experiencia le ha permitido reconocer las posibilidades de los materiales, anticipar dificultades y afrontar trabajos complejos con mayor tranquilidad. Esta seguridad no implica que haya dejado de experimentar o equivocarse, sino que ha aprendido a enfrentar los problemas sin la desesperación que sentía al comienzo de su trayectoria."
+          },
+          {
+            "id": "jhon_ingenio_v03.mp3",
+            "kind": "audio",
+            "creatorId": "jhon",
+            "src": "media/corte/web/jhon_ingenio_v03.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "jhon_ingenio_versatilidad_maestria_experimentacion.mp3",
+            "kind": "audio",
+            "creatorId": "jhon",
+            "src": "media/corte/web/jhon_ingenio_versatilidad_maestria_experimentacion.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "jhon_maestria_ingenio_versatilidad.mp3",
+            "kind": "audio",
+            "creatorId": "jhon",
+            "src": "media/corte/web/jhon_maestria_ingenio_versatilidad.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "jhon_empirismo_maestria_versatilidad.mp3",
+            "kind": "audio",
+            "creatorId": "jhon",
+            "src": "media/corte/web/jhon_empirismo_maestria_versatilidad.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "jhon_versatilidad_v03.mp3",
+            "kind": "audio",
+            "creatorId": "jhon",
+            "src": "media/corte/web/jhon_versatilidad_v03.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "jhon_legado.mp3",
+            "kind": "audio",
+            "creatorId": "jhon",
+            "src": "media/corte/web/jhon_legado.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
           }
         ]
       },
@@ -1912,6 +2728,54 @@
           "kind": "text",
           "creatorId": "jhon",
           "text": "Conocimiento del oficio desarrollado durante años de práctica, experimentación y resolución de encargos diversos. Para Jhon, la experiencia le ha permitido reconocer las posibilidades de los materiales, anticipar dificultades y afrontar trabajos complejos con mayor tranquilidad. Esta seguridad no implica que haya dejado de experimentar o equivocarse, sino que ha aprendido a enfrentar los problemas sin la desesperación que sentía al comienzo de su trayectoria."
+        },
+        {
+          "id": "jhon_ingenio_v03.mp3",
+          "kind": "audio",
+          "creatorId": "jhon",
+          "src": "media/corte/web/jhon_ingenio_v03.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "jhon_ingenio_versatilidad_maestria_experimentacion.mp3",
+          "kind": "audio",
+          "creatorId": "jhon",
+          "src": "media/corte/web/jhon_ingenio_versatilidad_maestria_experimentacion.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "jhon_maestria_ingenio_versatilidad.mp3",
+          "kind": "audio",
+          "creatorId": "jhon",
+          "src": "media/corte/web/jhon_maestria_ingenio_versatilidad.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "jhon_empirismo_maestria_versatilidad.mp3",
+          "kind": "audio",
+          "creatorId": "jhon",
+          "src": "media/corte/web/jhon_empirismo_maestria_versatilidad.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "jhon_versatilidad_v03.mp3",
+          "kind": "audio",
+          "creatorId": "jhon",
+          "src": "media/corte/web/jhon_versatilidad_v03.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "jhon_legado.mp3",
+          "kind": "audio",
+          "creatorId": "jhon",
+          "src": "media/corte/web/jhon_legado.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
         }
       ]
     },
@@ -1939,6 +2803,54 @@
             "kind": "text",
             "creatorId": "jhon",
             "text": "Capacidad de realizar objetos de distintas características, materiales y funciones, adaptando las técnicas de fabricación a las necesidades de cada encargo. En el taller de Jhon, la versatilidad se manifiesta en la diversidad de piezas que produce para cine, televisión y teatro, desde miniaturas y objetos de época hasta herramientas, armas simuladas y elementos para escenas de acción. Cada proyecto exige combinar conocimientos, explorar materiales y emplear procedimientos diferentes según las características del objeto."
+          },
+          {
+            "id": "jhon_ingenio_versatilidad_maestria_experimentacion.mp3",
+            "kind": "audio",
+            "creatorId": "jhon",
+            "src": "media/corte/web/jhon_ingenio_versatilidad_maestria_experimentacion.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "jhon_maestria_ingenio_versatilidad.mp3",
+            "kind": "audio",
+            "creatorId": "jhon",
+            "src": "media/corte/web/jhon_maestria_ingenio_versatilidad.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "jhon_empirismo_maestria_versatilidad.mp3",
+            "kind": "audio",
+            "creatorId": "jhon",
+            "src": "media/corte/web/jhon_empirismo_maestria_versatilidad.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "jhon_moldeo_replica_props_versatilidad_colectivo.mp3",
+            "kind": "audio",
+            "creatorId": "jhon",
+            "src": "media/corte/web/jhon_moldeo_replica_props_versatilidad_colectivo.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "jhon_colectivo_cotidianidad_oficio_versatilidad.mp3",
+            "kind": "audio",
+            "creatorId": "jhon",
+            "src": "media/corte/web/jhon_colectivo_cotidianidad_oficio_versatilidad.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "jhon_versatilidad_ingenio.mp3",
+            "kind": "audio",
+            "creatorId": "jhon",
+            "src": "media/corte/web/jhon_versatilidad_ingenio.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
           }
         ],
         "pablo": [
@@ -1947,6 +2859,30 @@
             "kind": "text",
             "creatorId": "pablo",
             "text": "Capacidad de transitar entre distintas disciplinas artísticas y utilizar sus conocimientos de manera complementaria. Pablo estudió música y actuación, y ha desarrollado su trabajo en el diseño escenográfico, las artes plásticas y la docencia. Esta diversidad le permite abordar una creación desde el dibujo, la composición espacial, el movimiento, la construcción o el sonido, según las necesidades del proyecto. En su estudio mantiene herramientas e instrumentos que le permiten alternar entre estas actividades."
+          },
+          {
+            "id": "pablo_musica_sonoridad.mp3",
+            "kind": "audio",
+            "creatorId": "pablo",
+            "src": "media/corte/web/pablo_musica_sonoridad.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "pablo_resolucion_versatilidad.mp3",
+            "kind": "audio",
+            "creatorId": "pablo",
+            "src": "media/corte/web/pablo_resolucion_versatilidad.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "pablo_laboratorio.mp3",
+            "kind": "audio",
+            "creatorId": "pablo",
+            "src": "media/corte/web/pablo_laboratorio.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
           }
         ]
       },
@@ -1970,6 +2906,78 @@
           "kind": "text",
           "creatorId": "jhon",
           "text": "Capacidad de realizar objetos de distintas características, materiales y funciones, adaptando las técnicas de fabricación a las necesidades de cada encargo. En el taller de Jhon, la versatilidad se manifiesta en la diversidad de piezas que produce para cine, televisión y teatro, desde miniaturas y objetos de época hasta herramientas, armas simuladas y elementos para escenas de acción. Cada proyecto exige combinar conocimientos, explorar materiales y emplear procedimientos diferentes según las características del objeto."
+        },
+        {
+          "id": "pablo_musica_sonoridad.mp3",
+          "kind": "audio",
+          "creatorId": "pablo",
+          "src": "media/corte/web/pablo_musica_sonoridad.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "jhon_ingenio_versatilidad_maestria_experimentacion.mp3",
+          "kind": "audio",
+          "creatorId": "jhon",
+          "src": "media/corte/web/jhon_ingenio_versatilidad_maestria_experimentacion.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "pablo_resolucion_versatilidad.mp3",
+          "kind": "audio",
+          "creatorId": "pablo",
+          "src": "media/corte/web/pablo_resolucion_versatilidad.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "jhon_maestria_ingenio_versatilidad.mp3",
+          "kind": "audio",
+          "creatorId": "jhon",
+          "src": "media/corte/web/jhon_maestria_ingenio_versatilidad.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "pablo_laboratorio.mp3",
+          "kind": "audio",
+          "creatorId": "pablo",
+          "src": "media/corte/web/pablo_laboratorio.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "jhon_empirismo_maestria_versatilidad.mp3",
+          "kind": "audio",
+          "creatorId": "jhon",
+          "src": "media/corte/web/jhon_empirismo_maestria_versatilidad.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "jhon_moldeo_replica_props_versatilidad_colectivo.mp3",
+          "kind": "audio",
+          "creatorId": "jhon",
+          "src": "media/corte/web/jhon_moldeo_replica_props_versatilidad_colectivo.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "jhon_colectivo_cotidianidad_oficio_versatilidad.mp3",
+          "kind": "audio",
+          "creatorId": "jhon",
+          "src": "media/corte/web/jhon_colectivo_cotidianidad_oficio_versatilidad.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "jhon_versatilidad_ingenio.mp3",
+          "kind": "audio",
+          "creatorId": "jhon",
+          "src": "media/corte/web/jhon_versatilidad_ingenio.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
         }
       ]
     },
@@ -1989,6 +2997,14 @@
             "kind": "text",
             "creatorId": "jhon",
             "text": "Conocimiento adquirido mediante la práctica, la observación y la experimentación directa con materiales y herramientas. Para Jhon, el aprendizaje de la utilería ocurre principalmente en el taller, donde cada encargo plantea problemas que exigen probar procedimientos y aprender de los resultados. La experiencia acumulada permite desarrollar habilidades que no necesariamente provienen de una formación académica, especialmente en un oficio que, según señala, carece de una carrera profesional específica en Colombia."
+          },
+          {
+            "id": "jhon_empirismo_maestria_versatilidad.mp3",
+            "kind": "audio",
+            "creatorId": "jhon",
+            "src": "media/corte/web/jhon_empirismo_maestria_versatilidad.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
           }
         ],
         "pablo": [
@@ -1997,6 +3013,14 @@
             "kind": "text",
             "creatorId": "pablo",
             "text": "Aprendizaje de habilidades artísticas y técnicas mediante la participación directa en procesos de creación desde la infancia. Pablo creció rodeado de escritores, músicos y artistas plásticos, y comenzó a familiarizarse con materiales y herramientas ayudando a su madre, que trabajaba como escenógrafa. Posteriormente desarrolló estas habilidades durante su formación teatral, cuando debía construir sus propios elementos de utilería, vestuario y escenografía. Su conocimiento práctico se formó mediante la observación, el trabajo manual y la experimentación."
+          },
+          {
+            "id": "pablo_resolucion_v03.mp3",
+            "kind": "audio",
+            "creatorId": "pablo",
+            "src": "media/corte/web/pablo_resolucion_v03.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
           }
         ]
       },
@@ -2012,6 +3036,22 @@
           "kind": "text",
           "creatorId": "pablo",
           "text": "Aprendizaje de habilidades artísticas y técnicas mediante la participación directa en procesos de creación desde la infancia. Pablo creció rodeado de escritores, músicos y artistas plásticos, y comenzó a familiarizarse con materiales y herramientas ayudando a su madre, que trabajaba como escenógrafa. Posteriormente desarrolló estas habilidades durante su formación teatral, cuando debía construir sus propios elementos de utilería, vestuario y escenografía. Su conocimiento práctico se formó mediante la observación, el trabajo manual y la experimentación."
+        },
+        {
+          "id": "jhon_empirismo_maestria_versatilidad.mp3",
+          "kind": "audio",
+          "creatorId": "jhon",
+          "src": "media/corte/web/jhon_empirismo_maestria_versatilidad.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "pablo_resolucion_v03.mp3",
+          "kind": "audio",
+          "creatorId": "pablo",
+          "src": "media/corte/web/pablo_resolucion_v03.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
         }
       ]
     },
@@ -2030,6 +3070,30 @@
             "kind": "text",
             "creatorId": "jhon",
             "text": "Término utilizado en la industria audiovisual y teatral para referirse a los objetos de utilería que intervienen en una producción. Jhon explica que su uso se ha extendido con la llegada de producciones extranjeras y la adopción de un vocabulario común entre los equipos de trabajo. Aunque reconoce esta denominación, identifica la utilería como la especialidad principal de su taller."
+          },
+          {
+            "id": "jhon_utileria.mp3",
+            "kind": "audio",
+            "creatorId": "jhon",
+            "src": "media/corte/web/jhon_utileria.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "jhon_props_dumies_replica_utileria.mp3",
+            "kind": "audio",
+            "creatorId": "jhon",
+            "src": "media/corte/web/jhon_props_dumies_replica_utileria.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "jhon_moldeo_replica_props_versatilidad_colectivo.mp3",
+            "kind": "audio",
+            "creatorId": "jhon",
+            "src": "media/corte/web/jhon_moldeo_replica_props_versatilidad_colectivo.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
           }
         ]
       },
@@ -2039,6 +3103,30 @@
           "kind": "text",
           "creatorId": "jhon",
           "text": "Término utilizado en la industria audiovisual y teatral para referirse a los objetos de utilería que intervienen en una producción. Jhon explica que su uso se ha extendido con la llegada de producciones extranjeras y la adopción de un vocabulario común entre los equipos de trabajo. Aunque reconoce esta denominación, identifica la utilería como la especialidad principal de su taller."
+        },
+        {
+          "id": "jhon_utileria.mp3",
+          "kind": "audio",
+          "creatorId": "jhon",
+          "src": "media/corte/web/jhon_utileria.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "jhon_props_dumies_replica_utileria.mp3",
+          "kind": "audio",
+          "creatorId": "jhon",
+          "src": "media/corte/web/jhon_props_dumies_replica_utileria.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "jhon_moldeo_replica_props_versatilidad_colectivo.mp3",
+          "kind": "audio",
+          "creatorId": "jhon",
+          "src": "media/corte/web/jhon_moldeo_replica_props_versatilidad_colectivo.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
         }
       ]
     },
@@ -2058,6 +3146,14 @@
             "kind": "text",
             "creatorId": "jhon",
             "text": "Réplicas de objetos fabricadas con materiales blandos para su utilización en escenas de acción que implican golpes, caídas o contacto físico. Jhon describe cómo reproduce herramientas y otros elementos mediante goma EVA, conservando sus proporciones y apariencia mediante técnicas de pintura y texturizado. Estas piezas deben resultar convincentes ante la cámara o sobre el escenario y, al mismo tiempo, reducir el riesgo de lesiones para los intérpretes."
+          },
+          {
+            "id": "jhon_props_dumies_replica_utileria.mp3",
+            "kind": "audio",
+            "creatorId": "jhon",
+            "src": "media/corte/web/jhon_props_dumies_replica_utileria.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
           }
         ],
         "agarrapata": [
@@ -2081,6 +3177,14 @@
           "kind": "text",
           "creatorId": "agarrapata",
           "text": "Réplicas de objetos o figuras fabricadas con materiales blandos o de menor peso para utilizarlas en escenas que implican golpes, caídas o contacto físico. Su construcción busca conservar las características visuales del elemento original y reducir los riesgos durante la representación. Pueden realizarse con espumas, cauchos y otros materiales flexibles, según el tipo de acción y las condiciones de manipulación."
+        },
+        {
+          "id": "jhon_props_dumies_replica_utileria.mp3",
+          "kind": "audio",
+          "creatorId": "jhon",
+          "src": "media/corte/web/jhon_props_dumies_replica_utileria.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
         }
       ]
     },
@@ -2168,6 +3272,22 @@
             "kind": "text",
             "creatorId": "jhon",
             "text": "Reproducción de un objeto a partir de sus características visuales, materiales o históricas, según las necesidades de una producción. Jhon describe la fabricación de monedas de época, para las que utiliza referencias suministradas por el cliente, diseño digital, grabado sobre acrílico y modelado con masilla epóxica. El trabajo exige considerar los procedimientos de fabricación originales para conseguir una apariencia correspondiente al periodo representado, como sucede con las monedas del siglo XIX y los doblones españoles de los siglos XVI y XVII."
+          },
+          {
+            "id": "jhon_props_dumies_replica_utileria.mp3",
+            "kind": "audio",
+            "creatorId": "jhon",
+            "src": "media/corte/web/jhon_props_dumies_replica_utileria.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "jhon_moldeo_replica_props_versatilidad_colectivo.mp3",
+            "kind": "audio",
+            "creatorId": "jhon",
+            "src": "media/corte/web/jhon_moldeo_replica_props_versatilidad_colectivo.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
           }
         ]
       },
@@ -2177,6 +3297,22 @@
           "kind": "text",
           "creatorId": "jhon",
           "text": "Reproducción de un objeto a partir de sus características visuales, materiales o históricas, según las necesidades de una producción. Jhon describe la fabricación de monedas de época, para las que utiliza referencias suministradas por el cliente, diseño digital, grabado sobre acrílico y modelado con masilla epóxica. El trabajo exige considerar los procedimientos de fabricación originales para conseguir una apariencia correspondiente al periodo representado, como sucede con las monedas del siglo XIX y los doblones españoles de los siglos XVI y XVII."
+        },
+        {
+          "id": "jhon_props_dumies_replica_utileria.mp3",
+          "kind": "audio",
+          "creatorId": "jhon",
+          "src": "media/corte/web/jhon_props_dumies_replica_utileria.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "jhon_moldeo_replica_props_versatilidad_colectivo.mp3",
+          "kind": "audio",
+          "creatorId": "jhon",
+          "src": "media/corte/web/jhon_moldeo_replica_props_versatilidad_colectivo.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
         }
       ]
     },
@@ -2195,6 +3331,30 @@
             "kind": "text",
             "creatorId": "jhon",
             "text": "Relación entre la vida doméstica y el trabajo artesanal cuando el taller funciona dentro de la vivienda. El taller de Jhon ocupa una terraza en el tercer piso de su casa, acondicionada progresivamente con ayuda de su cuñado. Esta cercanía le permite trabajar a cualquier hora, pero también hace que las jornadas se extiendan hasta la noche o la madrugada. El espacio reúne herramientas, materiales acumulados durante años y objetos recuperados que conserva para futuros proyectos."
+          },
+          {
+            "id": "jhon_colectivo_cotidianidad_oficio_legado.mp3",
+            "kind": "audio",
+            "creatorId": "jhon",
+            "src": "media/corte/web/jhon_colectivo_cotidianidad_oficio_legado.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "jhon_colectivo_cotidianidad_oficio_versatilidad.mp3",
+            "kind": "audio",
+            "creatorId": "jhon",
+            "src": "media/corte/web/jhon_colectivo_cotidianidad_oficio_versatilidad.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "jhon_cotidianidad_colectivo_oficio.mp3",
+            "kind": "audio",
+            "creatorId": "jhon",
+            "src": "media/corte/web/jhon_cotidianidad_colectivo_oficio.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
           }
         ]
       },
@@ -2204,6 +3364,30 @@
           "kind": "text",
           "creatorId": "jhon",
           "text": "Relación entre la vida doméstica y el trabajo artesanal cuando el taller funciona dentro de la vivienda. El taller de Jhon ocupa una terraza en el tercer piso de su casa, acondicionada progresivamente con ayuda de su cuñado. Esta cercanía le permite trabajar a cualquier hora, pero también hace que las jornadas se extiendan hasta la noche o la madrugada. El espacio reúne herramientas, materiales acumulados durante años y objetos recuperados que conserva para futuros proyectos."
+        },
+        {
+          "id": "jhon_colectivo_cotidianidad_oficio_legado.mp3",
+          "kind": "audio",
+          "creatorId": "jhon",
+          "src": "media/corte/web/jhon_colectivo_cotidianidad_oficio_legado.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "jhon_colectivo_cotidianidad_oficio_versatilidad.mp3",
+          "kind": "audio",
+          "creatorId": "jhon",
+          "src": "media/corte/web/jhon_colectivo_cotidianidad_oficio_versatilidad.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "jhon_cotidianidad_colectivo_oficio.mp3",
+          "kind": "audio",
+          "creatorId": "jhon",
+          "src": "media/corte/web/jhon_cotidianidad_colectivo_oficio.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
         }
       ]
     },
@@ -2222,6 +3406,38 @@
             "kind": "text",
             "creatorId": "jhon",
             "text": "Forma de trabajo basada en la colaboración entre familiares, especialistas y ayudantes que participan según las necesidades de cada producción. En el taller de Jhon trabajan habitualmente su esposa y su cuñado, y para determinados encargos recurre a carpinteros, estudiantes y otros colaboradores. También cuenta con el apoyo de sus sobrinos cuando necesita ampliar el equipo. Esta red permite distribuir tareas y responder a proyectos que superan la capacidad habitual del taller."
+          },
+          {
+            "id": "jhon_colectivo_cotidianidad_oficio_legado.mp3",
+            "kind": "audio",
+            "creatorId": "jhon",
+            "src": "media/corte/web/jhon_colectivo_cotidianidad_oficio_legado.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "jhon_moldeo_replica_props_versatilidad_colectivo.mp3",
+            "kind": "audio",
+            "creatorId": "jhon",
+            "src": "media/corte/web/jhon_moldeo_replica_props_versatilidad_colectivo.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "jhon_colectivo_cotidianidad_oficio_versatilidad.mp3",
+            "kind": "audio",
+            "creatorId": "jhon",
+            "src": "media/corte/web/jhon_colectivo_cotidianidad_oficio_versatilidad.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "jhon_cotidianidad_colectivo_oficio.mp3",
+            "kind": "audio",
+            "creatorId": "jhon",
+            "src": "media/corte/web/jhon_cotidianidad_colectivo_oficio.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
           }
         ]
       },
@@ -2231,6 +3447,38 @@
           "kind": "text",
           "creatorId": "jhon",
           "text": "Forma de trabajo basada en la colaboración entre familiares, especialistas y ayudantes que participan según las necesidades de cada producción. En el taller de Jhon trabajan habitualmente su esposa y su cuñado, y para determinados encargos recurre a carpinteros, estudiantes y otros colaboradores. También cuenta con el apoyo de sus sobrinos cuando necesita ampliar el equipo. Esta red permite distribuir tareas y responder a proyectos que superan la capacidad habitual del taller."
+        },
+        {
+          "id": "jhon_colectivo_cotidianidad_oficio_legado.mp3",
+          "kind": "audio",
+          "creatorId": "jhon",
+          "src": "media/corte/web/jhon_colectivo_cotidianidad_oficio_legado.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "jhon_moldeo_replica_props_versatilidad_colectivo.mp3",
+          "kind": "audio",
+          "creatorId": "jhon",
+          "src": "media/corte/web/jhon_moldeo_replica_props_versatilidad_colectivo.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "jhon_colectivo_cotidianidad_oficio_versatilidad.mp3",
+          "kind": "audio",
+          "creatorId": "jhon",
+          "src": "media/corte/web/jhon_colectivo_cotidianidad_oficio_versatilidad.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "jhon_cotidianidad_colectivo_oficio.mp3",
+          "kind": "audio",
+          "creatorId": "jhon",
+          "src": "media/corte/web/jhon_cotidianidad_colectivo_oficio.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
         }
       ]
     },
@@ -2250,6 +3498,14 @@
             "kind": "text",
             "creatorId": "jhon",
             "text": "Conocimiento del pasado que se conserva y se reconstruye mediante la investigación y la realización manual de objetos. En la experiencia de Jhon, esta relación aparece especialmente en su afición por las miniaturas militares. La fabricación de soldados lo ha llevado a estudiar uniformes e indumentaria de diferentes periodos, desde la época precolombina hasta la guerra de Corea. Su interés por elaborar un libro ilustrado sobre indumentaria militar colombiana muestra cómo la investigación histórica forma parte de su práctica como modelista."
+          },
+          {
+            "id": "jhon_oficio_memoria.mp3",
+            "kind": "audio",
+            "creatorId": "jhon",
+            "src": "media/corte/web/jhon_oficio_memoria.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
           }
         ],
         "pablo": [
@@ -2258,6 +3514,38 @@
             "kind": "text",
             "creatorId": "pablo",
             "text": "Práctica de conservar registros y objetos que permiten reconstruir la trayectoria de un creador y sus producciones. Pablo guarda fotografías, bocetos, planos constructivos e imágenes de montajes y funciones. También utiliza las redes sociales como una especie de archivo personal, al que llama su «egoteca», donde reúne evidencias de los proyectos en los que ha participado. Conserva además pinturas y elementos escenográficos de otros momentos de su vida, incluso cuando ya no tienen un uso inmediato."
+          },
+          {
+            "id": "pablo_diseno_memoria.mp3",
+            "kind": "audio",
+            "creatorId": "pablo",
+            "src": "media/corte/web/pablo_diseno_memoria.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "pablo_practica_escenotecnia.mp3",
+            "kind": "audio",
+            "creatorId": "pablo",
+            "src": "media/corte/web/pablo_practica_escenotecnia.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "pablo_practica_herencia.mp3",
+            "kind": "audio",
+            "creatorId": "pablo",
+            "src": "media/corte/web/pablo_practica_herencia.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "pablo_sonoridad_memoria.mp3",
+            "kind": "audio",
+            "creatorId": "pablo",
+            "src": "media/corte/web/pablo_sonoridad_memoria.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
           }
         ]
       },
@@ -2273,6 +3561,46 @@
           "kind": "text",
           "creatorId": "pablo",
           "text": "Práctica de conservar registros y objetos que permiten reconstruir la trayectoria de un creador y sus producciones. Pablo guarda fotografías, bocetos, planos constructivos e imágenes de montajes y funciones. También utiliza las redes sociales como una especie de archivo personal, al que llama su «egoteca», donde reúne evidencias de los proyectos en los que ha participado. Conserva además pinturas y elementos escenográficos de otros momentos de su vida, incluso cuando ya no tienen un uso inmediato."
+        },
+        {
+          "id": "jhon_oficio_memoria.mp3",
+          "kind": "audio",
+          "creatorId": "jhon",
+          "src": "media/corte/web/jhon_oficio_memoria.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "pablo_diseno_memoria.mp3",
+          "kind": "audio",
+          "creatorId": "pablo",
+          "src": "media/corte/web/pablo_diseno_memoria.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "pablo_practica_escenotecnia.mp3",
+          "kind": "audio",
+          "creatorId": "pablo",
+          "src": "media/corte/web/pablo_practica_escenotecnia.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "pablo_practica_herencia.mp3",
+          "kind": "audio",
+          "creatorId": "pablo",
+          "src": "media/corte/web/pablo_practica_herencia.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "pablo_sonoridad_memoria.mp3",
+          "kind": "audio",
+          "creatorId": "pablo",
+          "src": "media/corte/web/pablo_sonoridad_memoria.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
         }
       ]
     },
@@ -2292,6 +3620,14 @@
             "kind": "text",
             "creatorId": "jhon",
             "text": "Procedimiento de reproducción de objetos mediante la fabricación de moldes y el vaciado de materiales como resinas y espumas. En el taller de Jhon, la moldería se utiliza especialmente cuando es necesario producir varias copias de una pieza. Trabaja con moldes de caucho de silicona, resinas de poliéster y equipos como una bomba de vacío para eliminar burbujas de las mezclas. El procedimiento se elige según las características del objeto, su uso y los recursos disponibles."
+          },
+          {
+            "id": "jhon_moldeo_replica_props_versatilidad_colectivo.mp3",
+            "kind": "audio",
+            "creatorId": "jhon",
+            "src": "media/corte/web/jhon_moldeo_replica_props_versatilidad_colectivo.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
           }
         ],
         "agarrapata": [
@@ -2315,6 +3651,14 @@
           "kind": "text",
           "creatorId": "agarrapata",
           "text": "Técnica de reproducción de piezas mediante la elaboración de un molde a partir de un modelo original. Según las características del objeto, pueden emplearse materiales como caucho de silicona, yeso o fibra de vidrio para fabricar las matrices. El procedimiento permite obtener varias copias de una misma forma, conservar detalles superficiales y facilitar la producción de componentes repetidos para títeres u objetos escénicos."
+        },
+        {
+          "id": "jhon_moldeo_replica_props_versatilidad_colectivo.mp3",
+          "kind": "audio",
+          "creatorId": "jhon",
+          "src": "media/corte/web/jhon_moldeo_replica_props_versatilidad_colectivo.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
         }
       ]
     },
@@ -2366,6 +3710,14 @@
             "src": "media/corte/web/jhon_pasion.mp3",
             "caption": "Fragmento de entrevista del archivo de Susurros.",
             "audioRole": "interview"
+          },
+          {
+            "id": "jhon_oficio_pasion_legado.mp3",
+            "kind": "audio",
+            "creatorId": "jhon",
+            "src": "media/corte/web/jhon_oficio_pasion_legado.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
           }
         ]
       },
@@ -2375,6 +3727,14 @@
           "kind": "audio",
           "creatorId": "jhon",
           "src": "media/corte/web/jhon_pasion.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "jhon_oficio_pasion_legado.mp3",
+          "kind": "audio",
+          "creatorId": "jhon",
+          "src": "media/corte/web/jhon_oficio_pasion_legado.mp3",
           "caption": "Fragmento de entrevista del archivo de Susurros.",
           "audioRole": "interview"
         }
@@ -2397,6 +3757,22 @@
             "src": "media/corte/web/jhon_legado.mp3",
             "caption": "Fragmento de entrevista del archivo de Susurros.",
             "audioRole": "interview"
+          },
+          {
+            "id": "jhon_colectivo_cotidianidad_oficio_legado.mp3",
+            "kind": "audio",
+            "creatorId": "jhon",
+            "src": "media/corte/web/jhon_colectivo_cotidianidad_oficio_legado.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "jhon_oficio_pasion_legado.mp3",
+            "kind": "audio",
+            "creatorId": "jhon",
+            "src": "media/corte/web/jhon_oficio_pasion_legado.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
           }
         ]
       },
@@ -2406,6 +3782,22 @@
           "kind": "audio",
           "creatorId": "jhon",
           "src": "media/corte/web/jhon_legado.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "jhon_colectivo_cotidianidad_oficio_legado.mp3",
+          "kind": "audio",
+          "creatorId": "jhon",
+          "src": "media/corte/web/jhon_colectivo_cotidianidad_oficio_legado.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "jhon_oficio_pasion_legado.mp3",
+          "kind": "audio",
+          "creatorId": "jhon",
+          "src": "media/corte/web/jhon_oficio_pasion_legado.mp3",
           "caption": "Fragmento de entrevista del archivo de Susurros.",
           "audioRole": "interview"
         }
@@ -2488,6 +3880,30 @@
             "kind": "text",
             "creatorId": "pablo",
             "text": "Proceso de concepción y desarrollo de una propuesta visual y espacial para una puesta en escena. Pablo parte de la lectura del texto, la observación de ensayos y el dibujo para construir sus propuestas escenográficas. Su formación familiar y teatral le proporcionó referentes de composición, equilibrio, color y uso de materiales. Considera importante conservar la intención del boceto durante la construcción y el montaje, aunque reconoce que las decisiones de dirección y las necesidades de la producción pueden exigir modificaciones."
+          },
+          {
+            "id": "pablo_adaptacion.mp3",
+            "kind": "audio",
+            "creatorId": "pablo",
+            "src": "media/corte/web/pablo_adaptacion.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "pablo_diseno_memoria.mp3",
+            "kind": "audio",
+            "creatorId": "pablo",
+            "src": "media/corte/web/pablo_diseno_memoria.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "pablo_reciclaje_v03.mp3",
+            "kind": "audio",
+            "creatorId": "pablo",
+            "src": "media/corte/web/pablo_reciclaje_v03.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
           }
         ]
       },
@@ -2497,6 +3913,30 @@
           "kind": "text",
           "creatorId": "pablo",
           "text": "Proceso de concepción y desarrollo de una propuesta visual y espacial para una puesta en escena. Pablo parte de la lectura del texto, la observación de ensayos y el dibujo para construir sus propuestas escenográficas. Su formación familiar y teatral le proporcionó referentes de composición, equilibrio, color y uso de materiales. Considera importante conservar la intención del boceto durante la construcción y el montaje, aunque reconoce que las decisiones de dirección y las necesidades de la producción pueden exigir modificaciones."
+        },
+        {
+          "id": "pablo_adaptacion.mp3",
+          "kind": "audio",
+          "creatorId": "pablo",
+          "src": "media/corte/web/pablo_adaptacion.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "pablo_diseno_memoria.mp3",
+          "kind": "audio",
+          "creatorId": "pablo",
+          "src": "media/corte/web/pablo_diseno_memoria.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "pablo_reciclaje_v03.mp3",
+          "kind": "audio",
+          "creatorId": "pablo",
+          "src": "media/corte/web/pablo_reciclaje_v03.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
         }
       ]
     },
@@ -2523,6 +3963,14 @@
             "kind": "text",
             "creatorId": "pablo",
             "text": "Capacidad de adaptar una propuesta escenográfica a las condiciones materiales, económicas y técnicas de una producción. Pablo recuerda que anteriormente era posible importar determinados insumos o encargar materiales especializados, mientras que las restricciones presupuestales actuales exigen buscar otras alternativas. En su experiencia, resolver supone conocer los recursos disponibles, evaluar sustituciones y modificar los procedimientos de fabricación para llevar adelante un montaje."
+          },
+          {
+            "id": "pablo_resolucion_versatilidad.mp3",
+            "kind": "audio",
+            "creatorId": "pablo",
+            "src": "media/corte/web/pablo_resolucion_versatilidad.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
           }
         ]
       },
@@ -2540,6 +3988,14 @@
           "kind": "text",
           "creatorId": "pablo",
           "text": "Capacidad de adaptar una propuesta escenográfica a las condiciones materiales, económicas y técnicas de una producción. Pablo recuerda que anteriormente era posible importar determinados insumos o encargar materiales especializados, mientras que las restricciones presupuestales actuales exigen buscar otras alternativas. En su experiencia, resolver supone conocer los recursos disponibles, evaluar sustituciones y modificar los procedimientos de fabricación para llevar adelante un montaje."
+        },
+        {
+          "id": "pablo_resolucion_versatilidad.mp3",
+          "kind": "audio",
+          "creatorId": "pablo",
+          "src": "media/corte/web/pablo_resolucion_versatilidad.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
         }
       ]
     },
@@ -2560,6 +4016,30 @@
             "src": "media/corte/web/pablo_adaptacion.mp3",
             "caption": "Fragmento de entrevista del archivo de Susurros.",
             "audioRole": "interview"
+          },
+          {
+            "id": "pablo_resolucion_versatilidad.mp3",
+            "kind": "audio",
+            "creatorId": "pablo",
+            "src": "media/corte/web/pablo_resolucion_versatilidad.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "pablo_laboratorio.mp3",
+            "kind": "audio",
+            "creatorId": "pablo",
+            "src": "media/corte/web/pablo_laboratorio.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "pablo_maquetismo.mp3",
+            "kind": "audio",
+            "creatorId": "pablo",
+            "src": "media/corte/web/pablo_maquetismo.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
           }
         ]
       },
@@ -2569,6 +4049,30 @@
           "kind": "audio",
           "creatorId": "pablo",
           "src": "media/corte/web/pablo_adaptacion.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "pablo_resolucion_versatilidad.mp3",
+          "kind": "audio",
+          "creatorId": "pablo",
+          "src": "media/corte/web/pablo_resolucion_versatilidad.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "pablo_laboratorio.mp3",
+          "kind": "audio",
+          "creatorId": "pablo",
+          "src": "media/corte/web/pablo_laboratorio.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "pablo_maquetismo.mp3",
+          "kind": "audio",
+          "creatorId": "pablo",
+          "src": "media/corte/web/pablo_maquetismo.mp3",
           "caption": "Fragmento de entrevista del archivo de Susurros.",
           "audioRole": "interview"
         }
@@ -2589,6 +4093,22 @@
             "kind": "text",
             "creatorId": "pablo",
             "text": "Conjunto de materiales, conocimientos y alternativas prácticas que permiten realizar una propuesta cuando los insumos previstos no están disponibles. Pablo relata el caso de una producción de Così fan tutte en el Teatro Colón, para la que una diseñadora italiana solicitó telas teatrales especializadas que resultaban difíciles y costosas de conseguir en Bogotá. Después de explorar distintas posibilidades, el equipo utilizó liencillo para cubrir los bastidores, aceptando las diferencias visuales respecto al material originalmente solicitado."
+          },
+          {
+            "id": "pablo_resolucion_v03.mp3",
+            "kind": "audio",
+            "creatorId": "pablo",
+            "src": "media/corte/web/pablo_resolucion_v03.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "pablo_maquetismo.mp3",
+            "kind": "audio",
+            "creatorId": "pablo",
+            "src": "media/corte/web/pablo_maquetismo.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
           }
         ]
       },
@@ -2598,6 +4118,22 @@
           "kind": "text",
           "creatorId": "pablo",
           "text": "Conjunto de materiales, conocimientos y alternativas prácticas que permiten realizar una propuesta cuando los insumos previstos no están disponibles. Pablo relata el caso de una producción de Così fan tutte en el Teatro Colón, para la que una diseñadora italiana solicitó telas teatrales especializadas que resultaban difíciles y costosas de conseguir en Bogotá. Después de explorar distintas posibilidades, el equipo utilizó liencillo para cubrir los bastidores, aceptando las diferencias visuales respecto al material originalmente solicitado."
+        },
+        {
+          "id": "pablo_resolucion_v03.mp3",
+          "kind": "audio",
+          "creatorId": "pablo",
+          "src": "media/corte/web/pablo_resolucion_v03.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "pablo_maquetismo.mp3",
+          "kind": "audio",
+          "creatorId": "pablo",
+          "src": "media/corte/web/pablo_maquetismo.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
         }
       ]
     },
@@ -2618,6 +4154,30 @@
             "src": "media/corte/web/pablo_practica.jpg",
             "caption": "Fotografía del archivo de Susurros.",
             "alt": "Croquis a lápiz con piezas numeradas y una leyenda manuscrita en un cuaderno."
+          },
+          {
+            "id": "pablo_musica_sonoridad.mp3",
+            "kind": "audio",
+            "creatorId": "pablo",
+            "src": "media/corte/web/pablo_musica_sonoridad.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "pablo_practica_escenotecnia.mp3",
+            "kind": "audio",
+            "creatorId": "pablo",
+            "src": "media/corte/web/pablo_practica_escenotecnia.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "pablo_practica_herencia.mp3",
+            "kind": "audio",
+            "creatorId": "pablo",
+            "src": "media/corte/web/pablo_practica_herencia.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
           }
         ]
       },
@@ -2629,6 +4189,30 @@
           "src": "media/corte/web/pablo_practica.jpg",
           "caption": "Fotografía del archivo de Susurros.",
           "alt": "Croquis a lápiz con piezas numeradas y una leyenda manuscrita en un cuaderno."
+        },
+        {
+          "id": "pablo_musica_sonoridad.mp3",
+          "kind": "audio",
+          "creatorId": "pablo",
+          "src": "media/corte/web/pablo_musica_sonoridad.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "pablo_practica_escenotecnia.mp3",
+          "kind": "audio",
+          "creatorId": "pablo",
+          "src": "media/corte/web/pablo_practica_escenotecnia.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "pablo_practica_herencia.mp3",
+          "kind": "audio",
+          "creatorId": "pablo",
+          "src": "media/corte/web/pablo_practica_herencia.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
         }
       ]
     },
@@ -2647,6 +4231,22 @@
             "kind": "text",
             "creatorId": "pablo",
             "text": "Conjunto de conocimientos y procedimientos técnicos necesarios para materializar y montar una propuesta escénica. Pablo distingue su trabajo como diseñador de su experiencia en producción técnica, especialmente en los montajes de ópera de gran formato. En la Ópera de Colombia participó en la coordinación de recursos y materiales requeridos por diseñadores, incluidos elementos que debían importarse. Su experiencia en escenotecnia también se relaciona con la enseñanza, en la que incorpora herramientas teatrales y ejercicios de percepción espacial."
+          },
+          {
+            "id": "pablo_practica_escenotecnia.mp3",
+            "kind": "audio",
+            "creatorId": "pablo",
+            "src": "media/corte/web/pablo_practica_escenotecnia.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "pablo_resolucion_versatilidad.mp3",
+            "kind": "audio",
+            "creatorId": "pablo",
+            "src": "media/corte/web/pablo_resolucion_versatilidad.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
           }
         ]
       },
@@ -2656,6 +4256,22 @@
           "kind": "text",
           "creatorId": "pablo",
           "text": "Conjunto de conocimientos y procedimientos técnicos necesarios para materializar y montar una propuesta escénica. Pablo distingue su trabajo como diseñador de su experiencia en producción técnica, especialmente en los montajes de ópera de gran formato. En la Ópera de Colombia participó en la coordinación de recursos y materiales requeridos por diseñadores, incluidos elementos que debían importarse. Su experiencia en escenotecnia también se relaciona con la enseñanza, en la que incorpora herramientas teatrales y ejercicios de percepción espacial."
+        },
+        {
+          "id": "pablo_practica_escenotecnia.mp3",
+          "kind": "audio",
+          "creatorId": "pablo",
+          "src": "media/corte/web/pablo_practica_escenotecnia.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "pablo_resolucion_versatilidad.mp3",
+          "kind": "audio",
+          "creatorId": "pablo",
+          "src": "media/corte/web/pablo_resolucion_versatilidad.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
         }
       ]
     },
@@ -2674,6 +4290,14 @@
             "kind": "text",
             "creatorId": "pablo",
             "text": "Proceso de representación y estudio de una propuesta escenográfica mediante modelos a escala, dibujos y otros recursos gráficos. Para Pablo, maquetear forma parte de las actividades que puede desarrollar en su estudio junto con la composición y el diseño. Las maquetas le permiten explorar espacialmente las ideas antes de su construcción. En su práctica también utiliza bocetos y planos constructivos para comunicar las características de los elementos que posteriormente realizan otros talleres."
+          },
+          {
+            "id": "pablo_maquetismo.mp3",
+            "kind": "audio",
+            "creatorId": "pablo",
+            "src": "media/corte/web/pablo_maquetismo.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
           }
         ]
       },
@@ -2683,6 +4307,14 @@
           "kind": "text",
           "creatorId": "pablo",
           "text": "Proceso de representación y estudio de una propuesta escenográfica mediante modelos a escala, dibujos y otros recursos gráficos. Para Pablo, maquetear forma parte de las actividades que puede desarrollar en su estudio junto con la composición y el diseño. Las maquetas le permiten explorar espacialmente las ideas antes de su construcción. En su práctica también utiliza bocetos y planos constructivos para comunicar las características de los elementos que posteriormente realizan otros talleres."
+        },
+        {
+          "id": "pablo_maquetismo.mp3",
+          "kind": "audio",
+          "creatorId": "pablo",
+          "src": "media/corte/web/pablo_maquetismo.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
         }
       ]
     },
@@ -2701,6 +4333,22 @@
             "kind": "text",
             "creatorId": "pablo",
             "text": "Práctica de enseñanza que vincula la creación artística con la experiencia física y la participación de los estudiantes. Pablo comenzó a desarrollar esta metodología cuando fue invitado a orientar talleres de artes plásticas para niños y jóvenes en la Casa del Teatro Nacional. Consideraba importante que los propios participantes construyeran los elementos de sus montajes, por lo que diseñó actividades de dibujo, pintura y trabajo colectivo en grandes formatos. Actualmente incorpora ejercicios de desplazamiento, observación y contacto corporal en sus clases universitarias de escenotecnia."
+          },
+          {
+            "id": "pablo_practica_escenotecnia.mp3",
+            "kind": "audio",
+            "creatorId": "pablo",
+            "src": "media/corte/web/pablo_practica_escenotecnia.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "pablo_practica_herencia.mp3",
+            "kind": "audio",
+            "creatorId": "pablo",
+            "src": "media/corte/web/pablo_practica_herencia.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
           }
         ]
       },
@@ -2710,6 +4358,22 @@
           "kind": "text",
           "creatorId": "pablo",
           "text": "Práctica de enseñanza que vincula la creación artística con la experiencia física y la participación de los estudiantes. Pablo comenzó a desarrollar esta metodología cuando fue invitado a orientar talleres de artes plásticas para niños y jóvenes en la Casa del Teatro Nacional. Consideraba importante que los propios participantes construyeran los elementos de sus montajes, por lo que diseñó actividades de dibujo, pintura y trabajo colectivo en grandes formatos. Actualmente incorpora ejercicios de desplazamiento, observación y contacto corporal en sus clases universitarias de escenotecnia."
+        },
+        {
+          "id": "pablo_practica_escenotecnia.mp3",
+          "kind": "audio",
+          "creatorId": "pablo",
+          "src": "media/corte/web/pablo_practica_escenotecnia.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "pablo_practica_herencia.mp3",
+          "kind": "audio",
+          "creatorId": "pablo",
+          "src": "media/corte/web/pablo_practica_herencia.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
         }
       ]
     },
@@ -2728,6 +4392,14 @@
             "kind": "text",
             "creatorId": "pablo",
             "text": "Transmisión familiar de conocimientos, sensibilidades y prácticas artísticas que influyen en la formación de un oficio. Pablo creció en una familia de escritores, músicos y artistas plásticos. Su padre es escritor, su madre es artista plástica y escenógrafa, y su hermana es diseñadora industrial. Desde niño observó procesos de construcción escenográfica y participó en tareas manuales sencillas que le permitieron familiarizarse con herramientas y materiales. Reconoce en esta experiencia el origen de su sensibilidad hacia la composición, el equilibrio y la creación visual."
+          },
+          {
+            "id": "pablo_practica_herencia.mp3",
+            "kind": "audio",
+            "creatorId": "pablo",
+            "src": "media/corte/web/pablo_practica_herencia.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
           }
         ]
       },
@@ -2737,6 +4409,14 @@
           "kind": "text",
           "creatorId": "pablo",
           "text": "Transmisión familiar de conocimientos, sensibilidades y prácticas artísticas que influyen en la formación de un oficio. Pablo creció en una familia de escritores, músicos y artistas plásticos. Su padre es escritor, su madre es artista plástica y escenógrafa, y su hermana es diseñadora industrial. Desde niño observó procesos de construcción escenográfica y participó en tareas manuales sencillas que le permitieron familiarizarse con herramientas y materiales. Reconoce en esta experiencia el origen de su sensibilidad hacia la composición, el equilibrio y la creación visual."
+        },
+        {
+          "id": "pablo_practica_herencia.mp3",
+          "kind": "audio",
+          "creatorId": "pablo",
+          "src": "media/corte/web/pablo_practica_herencia.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
         }
       ]
     },
@@ -2763,6 +4443,14 @@
             "kind": "text",
             "creatorId": "pablo",
             "text": "Práctica de conservar y reutilizar materiales o elementos escenográficos en nuevas producciones. Pablo relata que, durante un montaje, el director decidió retirar unas patas escenográficas antes del estreno. En lugar de desecharlas, las guardó y dos años después las incorporó a otra obra, donde encontraron una función diferente. Para él, los elementos construidos pueden conservar su utilidad incluso cuando dejan de formar parte del proyecto para el que fueron concebidos."
+          },
+          {
+            "id": "pablo_maquetismo.mp3",
+            "kind": "audio",
+            "creatorId": "pablo",
+            "src": "media/corte/web/pablo_maquetismo.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
           }
         ]
       },
@@ -2780,6 +4468,14 @@
           "kind": "text",
           "creatorId": "pablo",
           "text": "Práctica de conservar y reutilizar materiales o elementos escenográficos en nuevas producciones. Pablo relata que, durante un montaje, el director decidió retirar unas patas escenográficas antes del estreno. En lugar de desecharlas, las guardó y dos años después las incorporó a otra obra, donde encontraron una función diferente. Para él, los elementos construidos pueden conservar su utilidad incluso cuando dejan de formar parte del proyecto para el que fueron concebidos."
+        },
+        {
+          "id": "pablo_maquetismo.mp3",
+          "kind": "audio",
+          "creatorId": "pablo",
+          "src": "media/corte/web/pablo_maquetismo.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
         }
       ]
     },
@@ -2798,6 +4494,22 @@
             "kind": "text",
             "creatorId": "pablo",
             "text": "Presencia de sonidos, ritmos y prácticas musicales que acompañan el trabajo creativo y pueden incorporarse a la interpretación escénica. Pablo describe su estudio como un espacio cuya sonoridad cambia constantemente: allí escucha música de distintos géneros, estudia percusión y dibuja. Su formación musical también influye en la construcción de personajes, a los que procura dar una relación particular con el sonido, el canto o el movimiento rítmico."
+          },
+          {
+            "id": "pablo_musica_sonoridad.mp3",
+            "kind": "audio",
+            "creatorId": "pablo",
+            "src": "media/corte/web/pablo_musica_sonoridad.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
+          },
+          {
+            "id": "pablo_sonoridad_memoria.mp3",
+            "kind": "audio",
+            "creatorId": "pablo",
+            "src": "media/corte/web/pablo_sonoridad_memoria.mp3",
+            "caption": "Fragmento de entrevista del archivo de Susurros.",
+            "audioRole": "interview"
           }
         ]
       },
@@ -2807,6 +4519,22 @@
           "kind": "text",
           "creatorId": "pablo",
           "text": "Presencia de sonidos, ritmos y prácticas musicales que acompañan el trabajo creativo y pueden incorporarse a la interpretación escénica. Pablo describe su estudio como un espacio cuya sonoridad cambia constantemente: allí escucha música de distintos géneros, estudia percusión y dibuja. Su formación musical también influye en la construcción de personajes, a los que procura dar una relación particular con el sonido, el canto o el movimiento rítmico."
+        },
+        {
+          "id": "pablo_musica_sonoridad.mp3",
+          "kind": "audio",
+          "creatorId": "pablo",
+          "src": "media/corte/web/pablo_musica_sonoridad.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "pablo_sonoridad_memoria.mp3",
+          "kind": "audio",
+          "creatorId": "pablo",
+          "src": "media/corte/web/pablo_sonoridad_memoria.mp3",
+          "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
         }
       ]
     },

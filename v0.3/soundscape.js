@@ -47,10 +47,12 @@ function chooseLeaders(samples, previous) {
 
 const trackTerm = track => track.wordId ?? track.node?.word?.id ?? track.piece?.src;
 
-function matchSoundscapeTracks(candidates, previous) {
+function matchSoundscapeTracks(candidates, previousWords, previousSources) {
   const start = Symbol(), end = Symbol(), interview = Symbol(), ambience = Symbol();
   const routes = new Map();
   const trackLimit = 5;
+  const repeatedTerm = trackLimit + 1;
+  const repeatedRecording = trackLimit * (repeatedTerm + 1) + 1;
   function connect(from, to, remaining = 1, cost = 0) {
     const forward = {to, remaining, cost};
     const reverse = {to: from, remaining: 0, cost: -cost, reverse: forward};
@@ -63,10 +65,10 @@ function matchSoundscapeTracks(candidates, previous) {
   }
   connect(start, interview, 3);
   connect(start, ambience, 2);
-  // Fill up to five seats first. Exceeding a quota costs more than
-  // repeating every term, so a feasible 3 + 2 mix always takes precedence.
-  connect(start, interview, trackLimit, trackLimit + 1);
-  connect(start, ambience, trackLimit, trackLimit + 1);
+  // Fill five seats, then avoid repeated recordings and terms before
+  // preferring 3 + 2. A small ambient catalog must not force a repeat.
+  connect(start, interview, trackLimit, 1);
+  connect(start, ambience, trackLimit, 1);
   const recordings = new Map();
   const terms = new Set();
   const choices = [];
@@ -77,11 +79,12 @@ function matchSoundscapeTracks(candidates, previous) {
     if (!recordings.has(src)) {
       const recording = {terms: new Set()};
       recordings.set(src, recording);
-      connect(track.piece.audioRole === 'ambience' ? ambience : interview, recording);
+      const role = track.piece.audioRole === 'ambience' ? ambience : interview;
+      connect(role, recording, 1, previousSources.has(src) ? repeatedRecording : 0);
     }
     if (!terms.has(term)) {
       terms.add(term);
-      connect(term, end, 1, previous.has(term) ? 1 : 0);
+      connect(term, end, 1, previousWords.has(term) ? repeatedTerm : 0);
     }
     const recording = recordings.get(src);
     if (recording.terms.has(term)) continue;
@@ -126,7 +129,7 @@ function matchSoundscapeTracks(candidates, previous) {
   return choices.filter(({edge}) => edge.reverse.remaining).map(({track}) => track);
 }
 
-export function selectSoundscapeTracks(candidates, random = Math.random, previousWordIds = []) {
+export function selectSoundscapeTracks(candidates, random = Math.random, previous = {}) {
   function shuffle(tracks) {
     for (let i = tracks.length - 1; i > 0; i--) {
       const j = Math.floor(random() * (i + 1));
@@ -134,8 +137,14 @@ export function selectSoundscapeTracks(candidates, random = Math.random, previou
     }
     return tracks;
   }
-  const previous = new Set(Array.isArray(previousWordIds) ? previousWordIds : []);
-  return shuffle(matchSoundscapeTracks(shuffle([...candidates]), previous));
+  const legacy = Array.isArray(previous);
+  const words = legacy ? previous : previous?.words;
+  const previousWords = new Set(Array.isArray(words) ? words : []);
+  const sources = legacy
+    ? candidates.filter(track => previousWords.has(trackTerm(track))).map(track => track.piece?.src)
+    : previous?.sources;
+  const previousSources = new Set(Array.isArray(sources) ? sources : []);
+  return shuffle(matchSoundscapeTracks(shuffle([...candidates]), previousWords, previousSources));
 }
 
 async function decodeTracks(context, tracks, resolveSource) {
