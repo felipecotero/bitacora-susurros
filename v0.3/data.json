@@ -801,6 +801,14 @@
             "kind": "text",
             "creatorId": "edwing",
             "text": "Herramienta de golpe utilizada en diferentes operaciones de construcción y ensamblaje. Edwin identifica su sonido como uno de los más reconocibles del taller, aunque considera que el ambiente sonoro está compuesto por muchas acciones simultáneas. La repetición cotidiana de estos sonidos hace que dejen de percibirse individualmente y se integren en una experiencia sonora común."
+          },
+          {
+            "id": "edwing_martillo_sonidos_v03.mp3",
+            "kind": "audio",
+            "creatorId": "edwing",
+            "src": "media/corte/web/edwing_martillo_sonidos_v03.mp3",
+            "caption": "Edwing Pinzón habla del sonido de las acciones cotidianas del taller. El fragmento acompaña la ficha sobre el golpeteo del martillo en ese ambiente sonoro.",
+            "audioRole": "interview"
           }
         ]
       },
@@ -810,6 +818,14 @@
           "kind": "text",
           "creatorId": "edwing",
           "text": "Herramienta de golpe utilizada en diferentes operaciones de construcción y ensamblaje. Edwin identifica su sonido como uno de los más reconocibles del taller, aunque considera que el ambiente sonoro está compuesto por muchas acciones simultáneas. La repetición cotidiana de estos sonidos hace que dejen de percibirse individualmente y se integren en una experiencia sonora común."
+        },
+        {
+          "id": "edwing_martillo_sonidos_v03.mp3",
+          "kind": "audio",
+          "creatorId": "edwing",
+          "src": "media/corte/web/edwing_martillo_sonidos_v03.mp3",
+          "caption": "Edwing Pinzón habla del sonido de las acciones cotidianas del taller. El fragmento acompaña la ficha sobre el golpeteo del martillo en ese ambiente sonoro.",
+          "audioRole": "interview"
         }
       ]
     },
@@ -1070,6 +1086,14 @@
             "src": "media/corte/web/edwing_geometria_pesos_v03.mp3",
             "caption": "Fragmento de entrevista del archivo de Susurros.",
             "audioRole": "interview"
+          },
+          {
+            "id": "edwing_pesos_teatro_movil_v03.mp3",
+            "kind": "audio",
+            "creatorId": "edwing",
+            "src": "media/corte/web/edwing_pesos_teatro_movil_v03.mp3",
+            "caption": "Edwing Pinzón habla de escenografía y teatro móvil. El fragmento acompaña la pregunta por los pesos de las piezas que se desplazan.",
+            "audioRole": "interview"
           }
         ]
       },
@@ -1086,6 +1110,14 @@
           "creatorId": "edwing",
           "src": "media/corte/web/edwing_geometria_pesos_v03.mp3",
           "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "edwing_pesos_teatro_movil_v03.mp3",
+          "kind": "audio",
+          "creatorId": "edwing",
+          "src": "media/corte/web/edwing_pesos_teatro_movil_v03.mp3",
+          "caption": "Edwing Pinzón habla de escenografía y teatro móvil. El fragmento acompaña la pregunta por los pesos de las piezas que se desplazan.",
           "audioRole": "interview"
         }
       ]
@@ -1644,6 +1676,30 @@
             "src": "media/corte/web/castro_lijas.mp3",
             "caption": "Registro de lijado en el taller de Hermanos Castro.",
             "audioRole": "ambience"
+          },
+          {
+            "id": "castro_rasgar.mp3",
+            "kind": "audio",
+            "creatorId": "castro",
+            "src": "media/corte/web/castro_rasgar.mp3",
+            "caption": "Registro sonoro de rasgado en el taller de Hermanos Castro.",
+            "audioRole": "ambience"
+          },
+          {
+            "id": "castro_tijeras.mp3",
+            "kind": "audio",
+            "creatorId": "castro",
+            "src": "media/corte/web/castro_tijeras.mp3",
+            "caption": "Registro sonoro de tijeras en el taller de Hermanos Castro.",
+            "audioRole": "ambience"
+          },
+          {
+            "id": "castro_aerosol.mp3",
+            "kind": "audio",
+            "creatorId": "castro",
+            "src": "media/corte/web/castro_aerosol.mp3",
+            "caption": "Registro sonoro de un aerosol en el taller de Hermanos Castro.",
+            "audioRole": "ambience"
           }
         ]
       },
@@ -1674,6 +1730,30 @@
           "creatorId": "castro",
           "src": "media/corte/web/castro_lijas.mp3",
           "caption": "Registro de lijado en el taller de Hermanos Castro.",
+          "audioRole": "ambience"
+        },
+        {
+          "id": "castro_rasgar.mp3",
+          "kind": "audio",
+          "creatorId": "castro",
+          "src": "media/corte/web/castro_rasgar.mp3",
+          "caption": "Registro sonoro de rasgado en el taller de Hermanos Castro.",
+          "audioRole": "ambience"
+        },
+        {
+          "id": "castro_tijeras.mp3",
+          "kind": "audio",
+          "creatorId": "castro",
+          "src": "media/corte/web/castro_tijeras.mp3",
+          "caption": "Registro sonoro de tijeras en el taller de Hermanos Castro.",
+          "audioRole": "ambience"
+        },
+        {
+          "id": "castro_aerosol.mp3",
+          "kind": "audio",
+          "creatorId": "castro",
+          "src": "media/corte/web/castro_aerosol.mp3",
+          "caption": "Registro sonoro de un aerosol en el taller de Hermanos Castro.",
           "audioRole": "ambience"
         }
       ]
@@ -2027,6 +2107,14 @@
             "kind": "text",
             "creatorId": "castro",
             "text": "Proceso de exploración de materiales y procedimientos para descubrir posibilidades de uso que no siempre corresponden a su función original. Los hermanos Castro encuentran en objetos cotidianos oportunidades para resolver problemas escénicos. Su trabajo exige observar las propiedades físicas de los materiales, manipularlos y realizar pruebas que permitan identificar aplicaciones inesperadas. La cinta transparente de embalaje aparece en su relato como ejemplo de un material común cuyo potencial creativo puede pasar inadvertido."
+          },
+          {
+            "id": "castro_maquina_ovni.mp3",
+            "kind": "audio",
+            "creatorId": "castro",
+            "src": "media/corte/web/castro_maquina_ovni.mp3",
+            "caption": "Registro sonoro de una máquina en el taller de Hermanos Castro. El tipo de máquina está por identificar.",
+            "audioRole": "ambience"
           }
         ],
         "jhon": [
@@ -2058,6 +2146,14 @@
           "kind": "text",
           "creatorId": "jhon",
           "text": "Proceso de aprendizaje y creación basado en probar materiales, observar sus comportamientos y modificar los procedimientos según los resultados. Para Jhon, el ensayo y error es una parte habitual del trabajo, pues muchos encargos requieren soluciones que no conoce de antemano. Experimenta incluso con productos de ferretería destinados a otros usos, buscando nuevas texturas, acabados y posibilidades de fabricación."
+        },
+        {
+          "id": "castro_maquina_ovni.mp3",
+          "kind": "audio",
+          "creatorId": "castro",
+          "src": "media/corte/web/castro_maquina_ovni.mp3",
+          "caption": "Registro sonoro de una máquina en el taller de Hermanos Castro. El tipo de máquina está por identificar.",
+          "audioRole": "ambience"
         },
         {
           "id": "jhon_ingenio_versatilidad_maestria_experimentacion.mp3",
@@ -2219,6 +2315,14 @@
             "kind": "text",
             "creatorId": "castro",
             "text": "Conjunto de elementos físicos y tangibles mediante los cuales una idea artística adquiere forma. Los hermanos Castro describen su trabajo como el tránsito entre lo imaginado por un creador y su realización material. Este proceso requiere interpretar imágenes, conceptos o necesidades escénicas y encontrar los procedimientos que permitan convertirlos en objetos concretos. La materia es, por tanto, el medio sobre el cual se desarrollan las decisiones técnicas y plásticas del taller."
+          },
+          {
+            "id": "castro_liquido.mp3",
+            "kind": "audio",
+            "creatorId": "castro",
+            "src": "media/corte/web/castro_liquido.mp3",
+            "caption": "Registro sonoro de un líquido en el taller de Hermanos Castro.",
+            "audioRole": "ambience"
           }
         ]
       },
@@ -2228,6 +2332,14 @@
           "kind": "text",
           "creatorId": "castro",
           "text": "Conjunto de elementos físicos y tangibles mediante los cuales una idea artística adquiere forma. Los hermanos Castro describen su trabajo como el tránsito entre lo imaginado por un creador y su realización material. Este proceso requiere interpretar imágenes, conceptos o necesidades escénicas y encontrar los procedimientos que permitan convertirlos en objetos concretos. La materia es, por tanto, el medio sobre el cual se desarrollan las decisiones técnicas y plásticas del taller."
+        },
+        {
+          "id": "castro_liquido.mp3",
+          "kind": "audio",
+          "creatorId": "castro",
+          "src": "media/corte/web/castro_liquido.mp3",
+          "caption": "Registro sonoro de un líquido en el taller de Hermanos Castro.",
+          "audioRole": "ambience"
         }
       ]
     },
@@ -3355,6 +3467,14 @@
             "src": "media/corte/web/jhon_cotidianidad_colectivo_oficio.mp3",
             "caption": "Fragmento de entrevista del archivo de Susurros.",
             "audioRole": "interview"
+          },
+          {
+            "id": "jhon_detras_de_microfono_v03.mp3",
+            "kind": "audio",
+            "creatorId": "jhon",
+            "src": "media/corte/web/jhon_detras_de_microfono_v03.mp3",
+            "caption": "Registro detrás del micrófono en el archivo del taller de Jhon Sánchez.",
+            "audioRole": "interview"
           }
         ]
       },
@@ -3387,6 +3507,14 @@
           "creatorId": "jhon",
           "src": "media/corte/web/jhon_cotidianidad_colectivo_oficio.mp3",
           "caption": "Fragmento de entrevista del archivo de Susurros.",
+          "audioRole": "interview"
+        },
+        {
+          "id": "jhon_detras_de_microfono_v03.mp3",
+          "kind": "audio",
+          "creatorId": "jhon",
+          "src": "media/corte/web/jhon_detras_de_microfono_v03.mp3",
+          "caption": "Registro detrás del micrófono en el archivo del taller de Jhon Sánchez.",
           "audioRole": "interview"
         }
       ]

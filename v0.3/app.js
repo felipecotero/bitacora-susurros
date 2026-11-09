@@ -1021,7 +1021,7 @@ drawer.addEventListener('click',e=>{if(e.target===drawer){const r=drawer.getBoun
 document.fonts?.ready.then(resize);document.fonts?.addEventListener('loadingdone',measureWords);
 makeGrain();installSurfaceTexture();installLiquidGlass();createAppearance({onChange:()=>{connectionRGB=getComputedStyle(document.documentElement).getPropertyValue('--connection-rgb').trim()||'171,151,122';measureWords();}});updatePause();
 try{
-  const response=await fetch('data.json?v=03-3');
+  const response=await fetch('data.json?v=03-4');
   if(!response.ok)throw Error('No se encontró el archivo de palabras.');
   data=await response.json();
   resize();rebuild();setupSoundscape();$('#loading').hidden=true;requestAnimationFrame(frame);
