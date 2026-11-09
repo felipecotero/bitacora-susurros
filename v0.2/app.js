@@ -7,7 +7,7 @@ import { createTerritory } from './territory.js?v=02';
 import { createIndices } from './indices.js?v=02';
 import { createPersonProfile, getPersonConstellation } from './people.js?v=02';
 import { installLiquidGlass } from './liquid-glass.js?v=7';
-import { getCloudLayout, getCloudDepthExtent, getDepthStyle, getWordVisibility } from './cloud-view.js?v=7';
+import { getCloudLayout, getCloudDepthExtent, getDepthStyle, getWordVisibility } from './cloud-view.js?v=02-2';
 
 const $ = (s) => document.querySelector(s);
 const el = (tag, cls, text) => { const n = document.createElement(tag); if(cls) n.className=cls; if(text!==undefined) n.textContent=text; return n; };
@@ -35,6 +35,15 @@ function makeGrain(){const c=document.createElement('canvas');c.width=c.height=1
 
 function resize() {
   viewport = getCloudLayout(innerWidth, innerHeight);
+  if (!mode && !viewport.portrait) {
+    const title = $('.v02-title').getBoundingClientRect();
+    viewport.titleRect = {
+      left: title.left - 20,
+      right: title.right + 20,
+      top: title.top - 20,
+      bottom: title.bottom + 20
+    };
+  }
   if (mode?.type === 'person' && viewport.portrait) {
     const bottom = viewport.safeBottom - 55;
     viewport.cy = (viewport.safeTop + bottom) / 2;
@@ -407,7 +416,7 @@ document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!drawer.open&&!docu
 $('#people-button').addEventListener('click',openPeople);$('#knots-button').addEventListener('click',openKnots);$('#about-button').addEventListener('click',openAbout);$('#close-drawer').addEventListener('click',closeDrawer);$('#return-button').addEventListener('click',resetMode);$('#pause-button').addEventListener('click',()=>{paused=!paused;velocityX=velocityY=0;updatePause();});
 drawer.addEventListener('click',e=>{if(e.target===drawer){const r=drawer.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)closeDrawer();}});drawer.addEventListener('cancel',()=>{if(stopSound){stopSound();stopSound=null;}});drawer.addEventListener('close',()=>{if(stopSound){stopSound();stopSound=null;}});window.addEventListener('resize',resize);reduced.addEventListener('change',e=>{if(e.matches){paused=true;velocityX=velocityY=0;lung.release();}updatePause();});document.addEventListener('visibilitychange',()=>{if(document.hidden&&stopSound){stopSound();stopSound=null;}pointers.clear();drag=null;velocityX=velocityY=0;lung.release();});
 
-document.fonts?.ready.then(measureWords);document.fonts?.addEventListener('loadingdone',measureWords);
+document.fonts?.ready.then(resize);document.fonts?.addEventListener('loadingdone',measureWords);
 makeGrain();installSurfaceTexture();installLiquidGlass();createAppearance({onChange:()=>{connectionRGB=getComputedStyle(document.documentElement).getPropertyValue('--connection-rgb').trim()||'171,151,122';measureWords();}});updatePause();
 try{const response=await fetch('data.json');if(!response.ok)throw Error('No se encontró el archivo de palabras.');const base=await response.json();data=loadLocalData(base);editor=createEditor({getData:()=>data,onChange:next=>{data=next;mode=null;rebuild();resetMode();}});$('#contribute-button').addEventListener('click',()=>{indices?.close(false);territory?.close();editor.open();});resize();rebuild();$('#loading').hidden=true;requestAnimationFrame(frame);
   indices=createIndices({getData:()=>data,onSelect:(type,source)=>{activate(type,source);$('#return-button').focus({preventScroll:true});},onOpen:syncForeground,onClose:syncForeground});

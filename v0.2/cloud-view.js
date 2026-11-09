@@ -48,13 +48,14 @@ export function getDepthStyle(z,zoom=1,extent=230){
  * in this per-frame helper; cache unprojected label dimensions after font/layout.
  */
 export function getWordVisibility({x,y,width=0,height=0},layout,{hasContext=false}={}){
-  if(!layout.compact)return 1;
+  if(!layout.compact&&!layout.titleRect)return 1;
   if(![x,y,width,height].every(Number.isFinite))return 0;
   const left=x-width/2,right=x+width/2,top=y-height/2,bottom=y+height/2;
   const safeBottom=layout.safeBottom-(hasContext&&layout.portrait?55:0);
-  let visibility=smooth(layout.safeTop,layout.safeTop+24,top)
-    *smooth(safeBottom,safeBottom-24,bottom);
-  // Landscape leaves the small title to one side rather than adding a tall band.
+  let visibility=layout.compact
+    ? smooth(layout.safeTop,layout.safeTop+24,top)*smooth(safeBottom,safeBottom-24,bottom)
+    : 1;
+  // Words recede as they enter the reading area around the title.
   if(layout.titleRect){
     const reserved=layout.titleRect;
     const horizontalOverlap=right>reserved.left&&left<reserved.right;
