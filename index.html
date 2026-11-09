@@ -18,6 +18,14 @@
   <link rel="preload" href="fonts/architects-daughter-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="fonts/archivo-latin.woff2" as="font" type="font/woff2" crossorigin>
   <script type="module" src="app.js?v=7"></script>
+  <style>
+    .version-switch { position: fixed; top: 94px; left: 42px; z-index: 12; display: inline-flex; align-items: center; min-height: 30px; padding: 4px 0; border-bottom: 1px solid var(--line); color: var(--muted); font: 400 10px/1.4 var(--sans); letter-spacing: .04em; text-decoration: none; }
+    .version-switch:hover, .version-switch:focus-visible { color: var(--paper); border-color: var(--accent); }
+    @media (min-width: 1500px) { .version-switch { left: 55px; } }
+    @media (max-width: 1000px) { .version-switch { top: 88px; left: 28px; } }
+    @media (max-width: 650px) { .version-switch { top: 76px; left: 22px; } }
+    @media (max-height: 520px) and (min-width: 651px) { .version-switch { top: 66px; } }
+  </style>
 </head>
 <body>
   <svg class="optical-definitions" xmlns="http://www.w3.org/2000/svg" width="0" height="0" aria-hidden="true" focusable="false">
@@ -51,6 +59,7 @@
     <button id="theme-toggle" type="button" aria-pressed="false" aria-label="Cambiar a versión diurna"><span class="appearance-icon" aria-hidden="true">◐</span><span class="appearance-label">Noche</span></button>
     <button id="writing-toggle" type="button" aria-pressed="false" aria-label="Cambiar a letra manuscrita"><span class="appearance-icon" aria-hidden="true">Aa</span><span class="appearance-label">Imprenta</span></button>
   </div>
+  <a class="version-switch" href="./v0.2/" aria-label="Ir a la versión 0.2">0.2 <span aria-hidden="true"> ↗</span></a>
   <div class="title-block">
     <p class="eyebrow">SUSURROS. VOCES OCULTAS</p>
     <h1>Bitácora<span aria-hidden="true">.</span></h1>

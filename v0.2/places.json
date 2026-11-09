@@ -1,0 +1,113 @@
+{
+  "version": 1,
+  "demo": true,
+  "description": "Vínculos ficticios con lugares de trabajo para ensayar la bitácora de una investigación de Fragua. No representan residencias ni registros de campo.",
+  "locations": [
+    {
+      "id": "bogota",
+      "name": "Bogotá",
+      "latitude": 4.711,
+      "longitude": -74.072,
+      "creatorIds": [
+        "pablo",
+        "ines",
+        "lucia"
+      ],
+      "labelOffset": [
+        85,
+        -42
+      ]
+    },
+    {
+      "id": "medellin",
+      "name": "Medellín",
+      "latitude": 6.244,
+      "longitude": -75.581,
+      "creatorIds": [
+        "elias"
+      ],
+      "labelOffset": [
+        -95,
+        -25
+      ]
+    },
+    {
+      "id": "buenaventura",
+      "name": "Buenaventura",
+      "latitude": 3.88,
+      "longitude": -77.03,
+      "creatorIds": [
+        "tomas"
+      ],
+      "labelOffset": [
+        -35,
+        -45
+      ]
+    },
+    {
+      "id": "cali",
+      "name": "Cali",
+      "latitude": 3.4516,
+      "longitude": -76.532,
+      "creatorIds": [
+        "vera"
+      ],
+      "labelOffset": [
+        -72,
+        75
+      ]
+    },
+    {
+      "id": "barranquilla",
+      "name": "Barranquilla",
+      "latitude": 10.9639,
+      "longitude": -74.7964,
+      "creatorIds": [
+        "tomas"
+      ],
+      "labelOffset": [
+        -60,
+        -40
+      ]
+    },
+    {
+      "id": "santa-marta",
+      "name": "Santa Marta",
+      "latitude": 11.2408,
+      "longitude": -74.199,
+      "creatorIds": [
+        "elias"
+      ],
+      "labelOffset": [
+        70,
+        -65
+      ]
+    },
+    {
+      "id": "villavicencio",
+      "name": "Villavicencio",
+      "latitude": 4.142,
+      "longitude": -73.6266,
+      "creatorIds": [
+        "lucia"
+      ],
+      "labelOffset": [
+        98,
+        65
+      ]
+    },
+    {
+      "id": "pasto",
+      "name": "Pasto",
+      "latitude": 1.2136,
+      "longitude": -77.2811,
+      "creatorIds": [
+        "ines"
+      ],
+      "labelOffset": [
+        55,
+        45
+      ]
+    }
+  ]
+}

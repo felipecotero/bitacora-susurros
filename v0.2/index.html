@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="es" data-theme="night" data-writing="print" data-palette="penumbra">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#090909">
+  <meta name="description" content="Bitácora de una investigación del colectivo Fragua hacia la instalación Susurros. Voces ocultas: un recorrido abierto por sus materiales, encuentros y procesos.">
+  <title>Susurros. Voces ocultas · Bitácora 0.2 — Fragua</title>
+  <script>
+    try {
+      if (localStorage.getItem('susurros.v02.palette') === 'revelado') {
+        document.documentElement.dataset.palette = 'revelado';
+      }
+    } catch {}
+  </script>
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css?v=5">
+  <link rel="stylesheet" href="editor.css?v=5">
+  <link rel="stylesheet" href="glass.css?v=7">
+  <link rel="stylesheet" href="territory.css?v=7">
+  <link rel="stylesheet" href="appearance.css?v=5">
+  <link rel="stylesheet" href="indices.css?v=7">
+  <link rel="stylesheet" href="cloud-view.css?v=7">
+  <link rel="stylesheet" href="people.css">
+  <link rel="stylesheet" href="edition.css">
+  <link rel="stylesheet" href="palette.css">
+  <link rel="preload" href="fonts/archivo-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <script type="module" src="app.js?v=02"></script>
+  <style>
+    .version-switch { position: fixed; top: 94px; left: 42px; z-index: 12; display: inline-flex; align-items: center; min-height: 30px; padding: 4px 0; border-bottom: 1px solid var(--line); color: var(--muted); font: 400 10px/1.4 var(--sans); letter-spacing: .04em; text-decoration: none; }
+    .version-switch:hover, .version-switch:focus-visible { color: var(--paper); border-color: var(--accent); }
+    @media (min-width: 1500px) { .version-switch { left: 55px; } }
+    @media (max-width: 1000px) { .version-switch { top: 88px; left: 28px; } }
+    @media (max-width: 650px) { .version-switch { top: 76px; left: 22px; } }
+    @media (max-height: 520px) and (min-width: 651px) { .version-switch { top: 66px; } }
+  </style>
+</head>
+<body>
+  <svg class="optical-definitions" xmlns="http://www.w3.org/2000/svg" width="0" height="0" aria-hidden="true" focusable="false">
+    <defs>
+      <filter id="resin-refraction" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+        <feTurbulence type="fractalNoise" baseFrequency=".006 .011" numOctaves="2" seed="12" result="surface"/>
+        <feGaussianBlur in="surface" stdDeviation="1.5" result="curvature"/>
+        <feDisplacementMap in="SourceGraphic" in2="curvature" scale="48" xChannelSelector="R" yChannelSelector="G"/>
+      </filter>
+      <filter id="resin-image-refraction" x="-15%" y="-15%" width="130%" height="130%" color-interpolation-filters="sRGB">
+        <feTurbulence type="fractalNoise" baseFrequency=".008 .014" numOctaves="2" seed="7" result="surface"/>
+        <feGaussianBlur in="surface" stdDeviation="1.2" result="curvature"/>
+        <feDisplacementMap in="SourceGraphic" in2="curvature" scale="32" xChannelSelector="R" yChannelSelector="G"/>
+      </filter>
+    </defs>
+  </svg>
+  <div class="film-grain" aria-hidden="true"></div>
+  <div class="vignette" aria-hidden="true"></div>
+  <header class="masthead">
+    <div class="project-credit" aria-label="Bitácora de una investigación del colectivo Fragua"><span class="fragua-name">FRAGUA</span><span class="fragua-caption">COLECTIVO</span></div>
+    <p class="edition">BITÁCORA DE UNA INVESTIGACIÓN<br>ENSAYO 0.2</p>
+    <nav class="main-nav" aria-label="Recorrer la bitácora">
+      <button id="people-button" aria-controls="indices-view" aria-expanded="false">Personas <span aria-hidden="true">↗</span></button>
+      <button id="places-button" aria-controls="territory-view" aria-expanded="false">Lugares <span aria-hidden="true">↗</span></button>
+      <button id="knots-button" aria-controls="indices-view" aria-expanded="false">Nudos <span aria-hidden="true">↗</span></button>
+      <button id="about-button" class="round-button" aria-label="Acerca de este ensayo" aria-haspopup="dialog">i</button>
+    </nav>
+  </header>
+
+  <div id="palette-controls" class="appearance-controls" role="group" aria-label="Pruebas de color">
+    <button type="button" data-palette-choice="penumbra" aria-pressed="true">1 · penumbra</button>
+    <button type="button" data-palette-choice="revelado" aria-pressed="false">2 · revelado</button>
+  </div>
+  <a class="version-switch" href="../" aria-label="Ir a la versión 0.1">0.1 <span aria-hidden="true"> ↗</span></a>
+  <div class="title-block v02-title">
+    <h1>Susurros<span>.</span> Voces ocultas</h1>
+    <p class="v02-subtitle">bitácora <span>0.2</span></p>
+    <p class="intro">Una investigación de Fragua</p>
+  </div>
+
+  <main id="stage" tabindex="0" aria-label="Nube tridimensional de palabras. Arrastra para girar y usa la rueda para acercarte. Con el teclado: flechas para girar, más y menos para acercarte; Tab para elegir palabras.">
+    <canvas id="connections" aria-hidden="true"></canvas>
+    <div id="space"><div id="cloud"></div></div>
+    <div id="loading" class="loading loading-credit" role="status">
+      <p class="eyebrow">FRAGUA</p>
+      <p>Susurros. Voces ocultas</p>
+      <span>Afinando la escucha…</span>
+    </div>
+  </main>
+
+  <div id="context" class="context" hidden>
+    <button id="return-button" class="back-arrow" aria-label="Volver a todas las palabras">↶</button>
+    <div><p id="context-type" class="eyebrow"></p><p id="context-title"></p></div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-credits"><a class="friend-network" href="https://ardered.com/" target="_blank" rel="noopener noreferrer" aria-label="ARDE, red amiga de Fragua. Visitar su sitio web"><img src="media/arde-logo.png" alt="ARDE · Artistas de la Escenografía en Red" width="42" height="40"><span>RED AMIGA</span></a><div class="archive-caption"><span class="status-dot"></span><span>ENSAYO 0.2<span class="caption-detail"> / CONTENIDO FICTICIO</span></span></div></div>
+    <div id="gesture-hint" class="gesture-hint"><span class="drag-icon" aria-hidden="true">↔</span> arrastra para girar<span class="hint-divider">·</span><span class="desktop-hint">rueda para acercarte</span><span class="mobile-hint">pellizca para acercarte</span></div>
+    <div class="footer-actions">
+      <button id="pause-button" class="round-button" aria-label="Pausar la respiración" aria-pressed="false"><span aria-hidden="true">Ⅱ</span></button>
+      <button id="contribute-button">Añadir un apunte <span aria-hidden="true">＋</span></button>
+    </div>
+  </footer>
+  <p id="announcement" class="sr-only" role="status" aria-live="polite"></p>
+
+  <dialog id="drawer" class="drawer" aria-labelledby="drawer-heading">
+    <div class="plate-optics" aria-hidden="true"></div>
+    <div class="plate-scroll">
+      <div class="drawer-top"><span class="eyebrow" id="drawer-kicker"></span><button id="close-drawer" class="close-button" aria-label="Cerrar">×</button></div>
+      <div id="drawer-content"></div>
+    </div>
+  </dialog>
+  <noscript><div class="no-js">Este ensayo necesita JavaScript para recorrer la nube. Actívalo y vuelve a abrir la página.</div></noscript>
+</body>
+</html>

@@ -1,0 +1,196 @@
+/* Both studies begin in the same warm darkness. */
+:root[data-palette] {
+  --bg: #0b0a08;
+  --paper: #e8dfcb;
+  --muted: #a39983;
+  --line: #302b22;
+  --accent: #ccb380;
+  --connection-rgb: 174, 151, 108;
+  --lamp-ink: #e4cf97;
+  --lamp-focus: #ffe3a9;
+  --shadow-ink: #827a6766;
+  --reveal-ink: #edc48d;
+  --map-reveal: #a0dfc8;
+}
+
+:root[data-palette="revelado"] {
+  --lamp-ink: #d7c69d;
+  --connection-rgb: 171, 143, 122;
+}
+
+/* Category hues are only applied to a term as it comes into focus. */
+:is([data-knot="talleres"], [data-index-id="talleres"]) { --reveal-ink: #efd081; }
+:is([data-knot="trasescena"], [data-index-id="trasescena"]) { --reveal-ink: #eca894; }
+:is([data-knot="con-texto"], [data-index-id="con-texto"]) { --reveal-ink: #a7c9ee; }
+:is([data-knot="maridajes"], [data-index-id="maridajes"]) { --reveal-ink: #a8d9b3; }
+:is([data-knot="un-hacer-paralelo"], [data-index-id="un-hacer-paralelo"]) { --reveal-ink: #d2b8ec; }
+
+html[data-palette] .word {
+  --word-light: var(--lamp-ink);
+  --word-focus: var(--lamp-focus);
+  text-transform: lowercase;
+  color: var(--lamp-ink);
+  color: color-mix(in srgb, var(--word-light) var(--depth-tone, 50%), var(--shadow-ink));
+  transition: color .24s;
+}
+
+html[data-palette="revelado"] .word {
+  --word-focus: var(--reveal-ink);
+  --word-light: color-mix(in srgb, var(--reveal-ink) calc(var(--depth-tone, 50%) * var(--approach, 0)), var(--lamp-ink));
+}
+
+html[data-palette="revelado"] .word.selected {
+  --word-light: var(--reveal-ink);
+  color: color-mix(in srgb, var(--word-light) max(68%, var(--depth-tone, 50%)), var(--shadow-ink));
+}
+
+html[data-palette] .word:is(:hover, :focus-visible) {
+  color: var(--word-focus) !important;
+}
+
+html[data-palette] .word:is(:hover, :focus-visible) > span {
+  text-shadow: 0 0 14px color-mix(in srgb, var(--word-focus) 25%, transparent);
+}
+
+#palette-controls {
+  gap: clamp(8px, 1.3vw, 18px);
+}
+
+#palette-controls button[data-palette-choice] {
+  min-height: 30px;
+  padding-inline: 3px;
+  color: var(--muted);
+  transition: color .18s, border-color .18s;
+}
+
+#palette-controls button[data-palette-choice][aria-pressed="true"] {
+  color: var(--lamp-focus);
+  border-color: var(--accent);
+}
+
+#palette-controls button[data-palette-choice]:is(:hover, :focus-visible) {
+  color: var(--paper);
+}
+
+#palette-controls button[data-palette-choice="revelado"][aria-pressed="true"] {
+  color: #edbba4;
+  border-color: #a4766b;
+}
+
+html[data-palette] .indices-view {
+  --index-line: #9a8662;
+}
+
+html[data-palette] .indices-node {
+  --index-ink: color-mix(
+    in srgb,
+    var(--lamp-ink) calc(var(--name-depth, .78) * 100%),
+    #827a67
+  );
+  --node-focus: var(--lamp-focus);
+}
+
+html[data-palette="revelado"] .indices-node {
+  --node-focus: var(--reveal-ink);
+}
+
+html[data-palette="revelado"] .indices-view[data-index-type="person"] .indices-node:nth-of-type(3n + 1) {
+  --node-focus: #ecd49a;
+}
+
+html[data-palette="revelado"] .indices-view[data-index-type="person"] .indices-node:nth-of-type(3n + 2) {
+  --node-focus: #cdb9eb;
+}
+
+html[data-palette="revelado"] .indices-view[data-index-type="person"] .indices-node:nth-of-type(3n) {
+  --node-focus: #a6dac3;
+}
+
+html[data-palette] .indices-node:is(:hover, :focus-visible, .is-focused) {
+  color: var(--node-focus);
+}
+
+html[data-palette] .indices-node:is(:hover, :focus-visible, .is-focused) .indices-point {
+  box-shadow: 0 0 14px color-mix(in srgb, var(--node-focus) 36%, transparent);
+}
+
+html[data-palette] .indices-edge.is-active {
+  stroke: #e6c78f;
+}
+
+html[data-palette="revelado"] .indices-edge.is-active {
+  stroke: #d2b6c3;
+}
+
+html[data-palette] .territory-city {
+  color: var(--lamp-ink);
+  --city-focus: var(--lamp-focus);
+}
+
+html[data-palette="revelado"] .territory-city {
+  --city-focus: var(--map-reveal);
+}
+
+html[data-palette] .territory-outline {
+  stroke: #c8b88f;
+}
+
+html[data-palette] .territory-guide-active {
+  stroke: var(--lamp-focus);
+}
+
+html[data-palette="revelado"] .territory-guide-active {
+  stroke: var(--map-reveal);
+}
+
+html[data-palette] .territory-city:is(:hover, :focus-visible) .territory-city-name {
+  color: var(--city-focus);
+}
+
+html[data-palette] .territory-city:is(:hover, :focus-visible) .territory-point::before {
+  background: var(--city-focus);
+  border-color: var(--city-focus);
+  box-shadow: 0 0 12px color-mix(in srgb, var(--city-focus) 56%, transparent);
+}
+
+html[data-palette] :is(.word-plate, .territory-city-plate) {
+  --plate-light: var(--lamp-focus);
+  color: var(--paper);
+}
+
+html[data-palette="revelado"] .word-plate {
+  --plate-light: var(--reveal-ink);
+}
+
+html[data-palette="revelado"] .territory-city-plate {
+  --plate-light: var(--map-reveal);
+}
+
+html[data-palette] :is(.word-plate, .territory-city-plate) h2 {
+  color: var(--plate-light);
+}
+
+html[data-palette] .word-plate::before {
+  border-color: color-mix(in srgb, var(--plate-light) 40%, transparent);
+}
+
+html[data-palette] .word-plate .waveform i {
+  background: var(--plate-light);
+}
+
+html[data-palette="revelado"] .person-profile-name {
+  color: #d2b8ec;
+}
+
+@media (max-width: 650px) {
+  #palette-controls {
+    gap: 10px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html[data-palette] .word,
+  #palette-controls button[data-palette-choice] {
+    transition: none;
+  }
+}
