@@ -1,0 +1,77 @@
+.editor-dialog {
+  box-sizing: border-box;
+  position: fixed;
+  inset: 0 0 0 auto;
+  margin: 0;
+  padding: 0;
+  width: min(560px, 100vw);
+  height: 100dvh;
+  max-width: 100vw;
+  max-height: 100dvh;
+  border: 0;
+  border-left: 1px solid #dfd8cc24;
+  background: #101010;
+  color: #dfd8cc;
+  font: 14px/1.6 var(--sans);
+  scrollbar-color: #585148 #101010;
+}
+.editor-dialog::backdrop { background: #0009; backdrop-filter: blur(5px); }
+.editor-inner { padding: 40px 40px 32px; }
+.editor-header { position: relative; padding-right: 30px; }
+.editor-eyebrow { margin: 0 0 15px; color: #bb997b; text-transform: uppercase; letter-spacing: .19em; font-size: 10px; }
+.editor-header h2 { margin: 0; font:600 36px/1.12 var(--sans); letter-spacing: -.04em; }
+.editor-intro { margin: 18px 0 22px; color: #aaa59d; max-width: 320px; font-size: 13px; }
+.editor-close { position: absolute; right: -8px; top: -10px; background: transparent; color: #dfd8cc; border: 0; font: 30px/1 var(--sans); cursor: pointer; width: 40px; height: 40px; }
+.editor-local-note { border-top: 1px solid #dfd8cc24; border-bottom: 1px solid #dfd8cc24; padding: 15px 0; margin: 0 0 25px; font-size: 11px; line-height: 1.65; color: #bb997b; }
+.editor-form { display: flex; flex-direction: column; }
+.editor-form input:not([type='checkbox']), .editor-form textarea, .editor-form select {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 43px;
+  padding: 11px 12px;
+  background: #171717;
+  border: 1px solid #dfd8cc2b;
+  border-radius: 0;
+  color: #dfd8cc;
+  font: 13px/1.5 var(--sans);
+  color-scheme: dark;
+}
+.editor-form textarea { resize: vertical; }
+.editor-form input::placeholder, .editor-form textarea::placeholder { color: #77736c; }
+.editor-label { display: block; margin: 21px 0 8px; color: #dfd8cc; font-size: 12px; }
+.editor-label:first-child { margin-top: 0; }
+.editor-label span { float: right; color: #827e77; font-size: 10px; }
+.editor-match { color: #bb997b; font-size: 11px; line-height: 1.65; margin: 8px 0 -4px; }
+.editor-match:empty { display: none; }
+.editor-selections { border: 0; padding: 0; margin: 23px 0 0; min-width: 0; }
+.editor-selections legend { padding: 0; font-size: 12px; }
+.editor-help { margin: 5px 0 12px; font-size: 10px; line-height: 1.6; color: #918a81; }
+.editor-selector-list { display: grid; grid-template-columns: 1fr 1fr; gap: 9px 12px; }
+.editor-selector { display: flex; gap: 8px; align-items: flex-start; font-size: 11px; cursor: pointer; }
+.editor-selector input { accent-color: #bb997b; margin: 3px 0 0; width: 14px; height: 14px; flex: 0 0 auto; }
+.editor-form input[type='file'] { padding: 0; border: 0; background: none; font-size: 11px; color: #aaa59d; min-height: 34px; }
+.editor-form input[type='file']::file-selector-button { color: #dfd8cc; background: #20201e; border: 1px solid #dfd8cc35; padding: 8px 10px; font: 11px var(--sans); margin-right: 10px; cursor: pointer; }
+.editor-media-note { overflow-wrap: anywhere; margin-top: 3px; }
+.editor-submit-row { display: flex; flex-wrap: wrap; gap: 15px; align-items: center; margin-top: 26px; }
+.editor-save { flex: 1; background: #d4c4b0; color: #151311; border: 1px solid #d4c4b0; padding: 13px 16px; font: 12px/1.5 var(--sans); text-align: left; cursor: pointer; }
+.editor-save span { float: right; }
+.editor-save:hover { background: #e3d5c3; }
+.editor-view, .editor-transfer-actions button { padding: 5px 0; background: none; border: 0; border-bottom: 1px solid #bb997b6b; color: #bb997b; font: 11px/1.5 var(--sans); cursor: pointer; }
+.editor-status { margin: 16px 0 0; min-height: 0; font-size: 11px; line-height: 1.65; color: #c4b098; overflow-wrap: anywhere; }
+.editor-status:empty { display: none; }
+.editor-error { color: #e6a395; }
+.editor-transfer { border-top: 1px solid #dfd8cc24; margin-top: 32px; padding-top: 25px; }
+.editor-transfer .editor-eyebrow { margin-bottom: 9px; }
+.editor-transfer p:not(.editor-eyebrow) { margin: 0; color: #918a81; font-size: 11px; line-height: 1.7; }
+.editor-transfer-actions { display: flex; justify-content: space-between; gap: 18px; margin-top: 16px; }
+.editor-dialog button:disabled { opacity: .4; cursor: wait; }
+.editor-dialog :focus-visible { outline: 1px solid #d2b08d; outline-offset: 4px; }
+.editor-dialog [hidden] { display: none !important; }
+@media (max-width: 520px) {
+  .editor-inner { padding: 28px 24px; }
+  .editor-header h2 { font-size: 35px; }
+  .editor-form input:not([type='checkbox']), .editor-form textarea, .editor-form select { font-size: 16px; }
+  .editor-selector-list { grid-template-columns: 1fr; }
+  .editor-selector { min-height: 28px; align-items: center; }
+  .editor-label { margin-top: 18px; }
+}

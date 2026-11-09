@@ -47,12 +47,13 @@ function chooseLeaders(samples, previous) {
 
 const trackTerm = track => track.wordId ?? track.node?.word?.id ?? track.piece?.src;
 
-function matchSoundscapeTracks(candidates) {
+function matchSoundscapeTracks(candidates, previous) {
   const start = Symbol(), end = Symbol(), interview = Symbol(), ambience = Symbol();
   const routes = new Map();
-  function connect(from, to, remaining = 1) {
-    const forward = {to, remaining};
-    const reverse = {to: from, remaining: 0, reverse: forward};
+  const trackLimit = 5;
+  function connect(from, to, remaining = 1, cost = 0) {
+    const forward = {to, remaining, cost};
+    const reverse = {to: from, remaining: 0, cost: -cost, reverse: forward};
     forward.reverse = reverse;
     if (!routes.has(from)) routes.set(from, []);
     if (!routes.has(to)) routes.set(to, []);
@@ -60,8 +61,12 @@ function matchSoundscapeTracks(candidates) {
     routes.get(to).push(reverse);
     return forward;
   }
-  const interviewSeats = connect(start, interview, 3);
-  const ambienceSeats = connect(start, ambience, 2);
+  connect(start, interview, 3);
+  connect(start, ambience, 2);
+  // Fill up to five seats first. Exceeding a quota costs more than
+  // repeating every term, so a feasible 3 + 2 mix always takes precedence.
+  connect(start, interview, trackLimit, trackLimit + 1);
+  connect(start, ambience, trackLimit, trackLimit + 1);
   const recordings = new Map();
   const terms = new Set();
   const choices = [];
@@ -76,7 +81,7 @@ function matchSoundscapeTracks(candidates) {
     }
     if (!terms.has(term)) {
       terms.add(term);
-      connect(term, end);
+      connect(term, end, 1, previous.has(term) ? 1 : 0);
     }
     const recording = recordings.get(src);
     if (recording.terms.has(term)) continue;
@@ -84,16 +89,26 @@ function matchSoundscapeTracks(candidates) {
     choices.push({track, edge: connect(recording, term)});
   }
 
-  // Each route consumes one recording and one term. A later route can
-  // rearrange earlier choices to keep both quotas with different terms.
+  // Reverse routes let a cheaper match replace an earlier choice without
+  // using the same recording or term twice.
   function addTrack() {
-    const path = new Map([[start, null]]);
+    const path = new Map();
+    const costs = new Map([[start, 0]]);
     const queue = [start];
-    for (let i = 0; i < queue.length && !path.has(end); i++) {
-      for (const edge of routes.get(queue[i])) {
-        if (!edge.remaining || path.has(edge.to)) continue;
+    const queued = new Set(queue);
+    for (let i = 0; i < queue.length; i++) {
+      const node = queue[i];
+      queued.delete(node);
+      for (const edge of routes.get(node)) {
+        if (!edge.remaining) continue;
+        const cost = costs.get(node) + edge.cost;
+        if (cost >= (costs.get(edge.to) ?? Infinity)) continue;
+        costs.set(edge.to, cost);
         path.set(edge.to, edge);
-        queue.push(edge.to);
+        if (edge.to !== end && !queued.has(edge.to)) {
+          queue.push(edge.to);
+          queued.add(edge.to);
+        }
       }
     }
     if (!path.has(end)) return false;
@@ -107,13 +122,7 @@ function matchSoundscapeTracks(candidates) {
   }
 
   let count = 0;
-  while (count < 5 && addTrack()) count++;
-  if (count < 5) {
-    const remaining = 5 - count;
-    interviewSeats.remaining += remaining;
-    ambienceSeats.remaining += remaining;
-    while (count < 5 && addTrack()) count++;
-  }
+  while (count < trackLimit && addTrack()) count++;
   return choices.filter(({edge}) => edge.reverse.remaining).map(({track}) => track);
 }
 
@@ -125,25 +134,8 @@ export function selectSoundscapeTracks(candidates, random = Math.random, previou
     }
     return tracks;
   }
-  const pool = shuffle([...candidates]);
-  const selected = matchSoundscapeTracks(pool);
   const previous = new Set(Array.isArray(previousWordIds) ? previousWordIds : []);
-  const repeated = selected.length === previous.size && selected.every(track => previous.has(trackTerm(track)));
-  if (!repeated || !pool.some(track => track.piece?.src && !previous.has(trackTerm(track)))) {
-    return shuffle(selected);
-  }
-
-  const matchesQuota = tracks => tracks.length === 5
-    && tracks.filter(track => track.piece.audioRole === 'ambience').length === 2;
-  const preserveQuota = matchesQuota(selected);
-  // Any different set must omit at least one previously heard term.
-  for (const excluded of shuffle([...previous])) {
-    const alternative = matchSoundscapeTracks(pool.filter(track => trackTerm(track) !== excluded));
-    if (alternative.length === selected.length && (!preserveQuota || matchesQuota(alternative))) {
-      return shuffle(alternative);
-    }
-  }
-  return shuffle(selected);
+  return shuffle(matchSoundscapeTracks(shuffle([...candidates]), previous));
 }
 
 async function decodeTracks(context, tracks, resolveSource) {

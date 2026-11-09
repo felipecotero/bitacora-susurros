@@ -2,98 +2,19 @@
 <html lang="es">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#090909">
-  <meta name="description" content="Bitácora de una investigación del colectivo Fragua hacia la instalación Susurros. Voces ocultas: un recorrido abierto por sus materiales, encuentros y procesos.">
-  <title>Bitácora · Susurros. Voces ocultas — Fragua</title>
-  <script>try{const p=JSON.parse(localStorage.getItem('susurros.appearance.v1')||'{}')||{};document.documentElement.dataset.theme=p.theme==='day'?'day':'night';document.documentElement.dataset.writing=p.writing==='hand'?'hand':'print';}catch{}</script>
-  <link rel="icon" href="icon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=5">
-  <link rel="stylesheet" href="editor.css?v=5">
-  <link rel="stylesheet" href="glass.css?v=7">
-  <link rel="stylesheet" href="territory.css?v=7">
-  <link rel="stylesheet" href="appearance.css?v=5">
-  <link rel="stylesheet" href="indices.css?v=7">
-  <link rel="stylesheet" href="cloud-view.css?v=7">
-  <link rel="preload" href="fonts/architects-daughter-latin.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="fonts/archivo-latin.woff2" as="font" type="font/woff2" crossorigin>
-  <script type="module" src="app.js?v=7"></script>
-  <style>
-    .version-switch { position: fixed; top: 94px; left: 42px; z-index: 12; display: inline-flex; align-items: center; min-height: 30px; padding: 4px 0; border-bottom: 1px solid var(--line); color: var(--muted); font: 400 10px/1.4 var(--sans); letter-spacing: .04em; text-decoration: none; }
-    .version-switch:hover, .version-switch:focus-visible { color: var(--paper); border-color: var(--accent); }
-    @media (min-width: 1500px) { .version-switch { left: 55px; } }
-    @media (max-width: 1000px) { .version-switch { top: 88px; left: 28px; } }
-    @media (max-width: 650px) { .version-switch { top: 76px; left: 22px; } }
-    @media (max-height: 520px) and (min-width: 651px) { .version-switch { top: 66px; } }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="refresh" content="0; url=./v0.3/">
+  <link rel="canonical" href="https://felipecotero.github.io/bitacora-susurros/v0.3/">
+  <title>Bitácora de Susurros. Voces ocultas</title>
 </head>
 <body>
-  <svg class="optical-definitions" xmlns="http://www.w3.org/2000/svg" width="0" height="0" aria-hidden="true" focusable="false">
-    <defs>
-      <filter id="resin-refraction" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
-        <feTurbulence type="fractalNoise" baseFrequency=".006 .011" numOctaves="2" seed="12" result="surface"/>
-        <feGaussianBlur in="surface" stdDeviation="1.5" result="curvature"/>
-        <feDisplacementMap in="SourceGraphic" in2="curvature" scale="48" xChannelSelector="R" yChannelSelector="G"/>
-      </filter>
-      <filter id="resin-image-refraction" x="-15%" y="-15%" width="130%" height="130%" color-interpolation-filters="sRGB">
-        <feTurbulence type="fractalNoise" baseFrequency=".008 .014" numOctaves="2" seed="7" result="surface"/>
-        <feGaussianBlur in="surface" stdDeviation="1.2" result="curvature"/>
-        <feDisplacementMap in="SourceGraphic" in2="curvature" scale="32" xChannelSelector="R" yChannelSelector="G"/>
-      </filter>
-    </defs>
-  </svg>
-  <div class="film-grain" aria-hidden="true"></div>
-  <div class="vignette" aria-hidden="true"></div>
-  <header class="masthead">
-    <div class="project-credit" aria-label="Bitácora de una investigación del colectivo Fragua"><span class="fragua-name">FRAGUA</span><span class="fragua-caption">COLECTIVO</span></div>
-    <p class="edition">BITÁCORA DE UNA INVESTIGACIÓN<br>SUSURROS · VOCES OCULTAS</p>
-    <nav class="main-nav" aria-label="Recorrer la bitácora">
-      <button id="people-button" aria-controls="indices-view" aria-expanded="false">Personas <span aria-hidden="true">↗</span></button>
-      <button id="places-button" aria-controls="territory-view" aria-expanded="false">Lugares <span aria-hidden="true">↗</span></button>
-      <button id="knots-button" aria-controls="indices-view" aria-expanded="false">Nudos <span aria-hidden="true">↗</span></button>
-      <button id="about-button" class="round-button" aria-label="Acerca de este ensayo" aria-haspopup="dialog">i</button>
+  <main>
+    <h1>Bitácora de Susurros. Voces ocultas</h1>
+    <p><a href="./v0.3/">Abrir la edición 0.3</a></p>
+    <nav aria-label="Versiones anteriores">
+      <a href="./v0.1/">Versión 0.1</a>
+      <a href="./v0.2/">Versión 0.2</a>
     </nav>
-  </header>
-
-  <div class="appearance-controls" role="group" aria-label="Aspecto de la bitácora">
-    <button id="theme-toggle" type="button" aria-pressed="false" aria-label="Cambiar a versión diurna"><span class="appearance-icon" aria-hidden="true">◐</span><span class="appearance-label">Noche</span></button>
-    <button id="writing-toggle" type="button" aria-pressed="false" aria-label="Cambiar a letra manuscrita"><span class="appearance-icon" aria-hidden="true">Aa</span><span class="appearance-label">Imprenta</span></button>
-  </div>
-  <a class="version-switch" href="./v0.2/" aria-label="Ir a la versión 0.2">0.2 <span aria-hidden="true"> ↗</span></a>
-  <div class="title-block">
-    <p class="eyebrow">SUSURROS. VOCES OCULTAS</p>
-    <h1>Bitácora<span aria-hidden="true">.</span></h1>
-    <p class="intro">De una investigación hacia una instalación.<br>Un recorrido por sus materiales y encuentros.</p>
-  </div>
-
-  <main id="stage" tabindex="0" aria-label="Nube tridimensional de palabras. Arrastra para girar y usa la rueda para acercarte. Con el teclado: flechas para girar, más y menos para acercarte; Tab para elegir palabras.">
-    <canvas id="connections" aria-hidden="true"></canvas>
-    <div id="space"><div id="cloud"></div></div>
-    <p id="loading" class="loading" role="status">Afinando la escucha<span>…</span></p>
   </main>
-
-  <div id="context" class="context" hidden>
-    <button id="return-button" class="back-arrow" aria-label="Volver a todas las palabras">↶</button>
-    <div><p id="context-type" class="eyebrow"></p><p id="context-title"></p></div>
-  </div>
-
-  <footer class="footer">
-    <div class="footer-credits"><a class="friend-network" href="https://ardered.com/" target="_blank" rel="noopener noreferrer" aria-label="ARDE, red amiga de Fragua. Visitar su sitio web"><img src="media/arde-logo.png" alt="ARDE · Artistas de la Escenografía en Red" width="42" height="40"><span>RED AMIGA</span></a><div class="archive-caption"><span class="status-dot"></span><span>PRIMER ENSAYO<span class="caption-detail"> / CONTENIDO FICTICIO</span></span></div></div>
-    <div id="gesture-hint" class="gesture-hint"><span class="drag-icon" aria-hidden="true">↔</span> arrastra para girar<span class="hint-divider">·</span><span class="desktop-hint">rueda para acercarte</span><span class="mobile-hint">pellizca para acercarte</span></div>
-    <div class="footer-actions">
-      <button id="pause-button" class="round-button" aria-label="Pausar la respiración" aria-pressed="false"><span aria-hidden="true">Ⅱ</span></button>
-      <button id="contribute-button">Añadir un apunte <span aria-hidden="true">＋</span></button>
-    </div>
-  </footer>
-  <p id="announcement" class="sr-only" role="status" aria-live="polite"></p>
-
-  <dialog id="drawer" class="drawer" aria-labelledby="drawer-heading">
-    <div class="plate-optics" aria-hidden="true"></div>
-    <div class="plate-scroll">
-      <div class="drawer-top"><span class="eyebrow" id="drawer-kicker"></span><button id="close-drawer" class="close-button" aria-label="Cerrar">×</button></div>
-      <div id="drawer-content"></div>
-    </div>
-  </dialog>
-  <noscript><div class="no-js">Este ensayo necesita JavaScript para recorrer la nube. Actívalo y vuelve a abrir la página.</div></noscript>
 </body>
 </html>

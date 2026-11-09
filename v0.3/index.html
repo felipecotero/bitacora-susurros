@@ -24,7 +24,19 @@
   <link rel="stylesheet" href="edition.css?v=02-3">
   <link rel="stylesheet" href="palette.css">
   <link rel="preload" href="fonts/archivo-latin.woff2" as="font" type="font/woff2" crossorigin>
-  <script type="module" src="app.js?v=03"></script>
+  <script type="module" src="app.js?v=03-2"></script>
+  <style>
+    .version-switch { position: fixed; top: 128px; right: 42px; z-index: 12; display: flex; align-items: center; gap: 4px; color: var(--muted); font: 400 10px/1.4 var(--sans); letter-spacing: .04em; white-space: nowrap; }
+    .version-switch-label { margin-inline-end: 2px; font-size: 9px; }
+    .version-switch a { display: inline-grid; place-items: center; min-width: 26px; min-height: 28px; padding: 3px; border-bottom: 1px solid var(--line); text-decoration: none; }
+    .version-switch a:hover, .version-switch a:focus-visible, .version-switch a[aria-current="page"] { color: var(--paper); border-color: var(--accent); }
+    .version-switch a[aria-current="page"] { font-weight: 600; }
+    @media (min-width: 1500px) { .version-switch { right: 55px; } }
+    @media (max-width: 1000px) { .version-switch { top: 122px; right: 28px; } }
+    @media (max-width: 650px) { .version-switch { top: 108px; right: 22px; } }
+    @media (max-width: 390px) { .version-switch { right: 18px; } }
+    @media (max-height: 520px) and (min-width: 651px) { .version-switch { top: 100px; right: 28px; } }
+  </style>
 </head>
 <body>
   <svg class="optical-definitions" xmlns="http://www.w3.org/2000/svg" width="0" height="0" aria-hidden="true" focusable="false">
@@ -66,6 +78,12 @@
     <button type="button" data-palette-choice="penumbra" aria-pressed="true">Amarillos</button>
     <button type="button" data-palette-choice="revelado" aria-pressed="false">Color</button>
   </div>
+  <nav class="version-switch" aria-label="Versiones de la bitácora">
+    <span class="version-switch-label" aria-hidden="true">Versiones</span>
+    <a href="../v0.1/" aria-label="Versión 0.1">0.1</a>
+    <a href="../v0.2/" aria-label="Versión 0.2">0.2</a>
+    <a href="../v0.3/" aria-label="Versión 0.3" aria-current="page">0.3</a>
+  </nav>
   <div class="title-block v02-title">
     <h1><strong>Bitácora de</strong> <span>Susurros. Voces ocultas</span></h1>
     <p class="intro">Una investigación de Fragua</p>

@@ -27,11 +27,15 @@
   <link rel="preload" href="fonts/archivo-latin.woff2" as="font" type="font/woff2" crossorigin>
   <script type="module" src="app.js?v=02-2"></script>
   <style>
-    .version-switch { position: fixed; top: 94px; left: 42px; z-index: 12; display: inline-flex; align-items: center; min-height: 30px; padding: 4px 0; border-bottom: 1px solid var(--line); color: var(--muted); font: 400 10px/1.4 var(--sans); letter-spacing: .04em; text-decoration: none; }
-    .version-switch:hover, .version-switch:focus-visible { color: var(--paper); border-color: var(--accent); }
+    .version-switch { position: fixed; top: 94px; left: 42px; z-index: 12; display: flex; align-items: center; gap: 4px; color: var(--muted); font: 400 10px/1.4 var(--sans); letter-spacing: .04em; white-space: nowrap; }
+    .version-switch-label { margin-inline-end: 2px; font-size: 9px; }
+    .version-switch a { display: inline-grid; place-items: center; min-width: 26px; min-height: 28px; padding: 3px; border-bottom: 1px solid var(--line); text-decoration: none; }
+    .version-switch a:hover, .version-switch a:focus-visible, .version-switch a[aria-current="page"] { color: var(--paper); border-color: var(--accent); }
+    .version-switch a[aria-current="page"] { font-weight: 600; }
     @media (min-width: 1500px) { .version-switch { left: 55px; } }
     @media (max-width: 1000px) { .version-switch { top: 88px; left: 28px; } }
     @media (max-width: 650px) { .version-switch { top: 76px; left: 22px; } }
+    @media (max-width: 390px) { .version-switch { left: 18px; } }
     @media (max-height: 520px) and (min-width: 651px) { .version-switch { top: 66px; } }
   </style>
 </head>
@@ -69,7 +73,12 @@
     <button type="button" data-palette-choice="penumbra" aria-pressed="true">1 · penumbra</button>
     <button type="button" data-palette-choice="revelado" aria-pressed="false">2 · revelado</button>
   </div>
-  <a class="version-switch" href="../" aria-label="Ir a la versión 0.1">0.1 <span aria-hidden="true"> ↗</span></a>
+  <nav class="version-switch" aria-label="Versiones de la bitácora">
+    <span class="version-switch-label" aria-hidden="true">Versiones</span>
+    <a href="../v0.1/" aria-label="Versión 0.1">0.1</a>
+    <a href="../v0.2/" aria-label="Versión 0.2" aria-current="page">0.2</a>
+    <a href="../v0.3/" aria-label="Versión 0.3">0.3</a>
+  </nav>
   <div class="title-block v02-title">
     <h1><strong>Bitácora de</strong> <span>Susurros. Voces ocultas</span></h1>
     <p class="intro">Una investigación de Fragua</p>

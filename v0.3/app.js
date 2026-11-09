@@ -7,7 +7,7 @@ import { createIndices } from './indices.js?v=02';
 import { createPersonProfile } from './people.js?v=privado-1';
 import { installLiquidGlass } from './liquid-glass.js?v=7';
 import { getCloudLayout, getCloudDepthExtent, getDepthStyle, getWordVisibility } from './cloud-view.js?v=02-2';
-import { createSoundscape, selectSoundscapeTracks } from './soundscape.js';
+import { createSoundscape, selectSoundscapeTracks } from './soundscape.js?v=03-2';
 
 const $ = (s) => document.querySelector(s);
 const el = (tag, cls, text) => { const n = document.createElement(tag); if(cls) n.className=cls; if(text!==undefined) n.textContent=text; return n; };
