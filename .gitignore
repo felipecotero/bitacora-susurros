@@ -4,3 +4,6 @@
 node_modules/
 *.tar.gz
 *.tgz
+
+# La 0.3 se publica desde un paquete temporal.
+/v0.3/

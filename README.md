@@ -6,7 +6,9 @@ Primer ensayo de una **bitácora de una investigación del colectivo Fragua haci
 
 [Visitar la bitácora](https://felipecotero.github.io/bitacora-susurros/)
 
-## Abrir el prototipo
+La edición 0.3 se publica como paquete web en GitHub Pages. La fuente editable se gestiona en un repositorio privado. Este repositorio conserva las ediciones 0.1 y 0.2 y el flujo de publicación.
+
+## Abrir los prototipos anteriores
 
 Desde esta carpeta:
 
@@ -14,7 +16,7 @@ Desde esta carpeta:
 python3 -m http.server 4173
 ```
 
-Abrir `http://localhost:4173`. La web es estática, sin dependencias ni proceso de compilación. GitHub Pages publica directamente la raíz de la rama `main`. El archivo `.nojekyll` permite servir estos archivos sin transformación. Los cambios que se publiquen en `main` actualizan el sitio automáticamente.
+Abre `http://localhost:4173/v0.1/` o `http://localhost:4173/v0.2/`. El resto de este documento describe el primer ensayo.
 
 ## Qué permite ensayar
 
@@ -46,7 +48,7 @@ El formulario guarda el ensayo en `localStorage`, únicamente en ese navegador y
 
 ## Siguiente fase: carga compartida
 
-Para recibir información del equipo se propone mantener el código público en GitHub y conectar la web a un servicio de contenidos:
+En el primer ensayo se propuso conectar la web a un servicio de contenidos para recibir aportes del equipo.
 
 1. Acceso mediante cuentas invitadas y permisos diferenciados para aportar, revisar y publicar.
 2. Validación en el servidor de campos, formatos, tamaños, tipos de archivo y permisos de cada operación.
