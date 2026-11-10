@@ -1,14 +1,18 @@
 # Bitácora · Susurros. Voces ocultas
 
-Primer ensayo de una **bitácora de una investigación del colectivo Fragua hacia la instalación artística «Susurros. Voces ocultas»**. Reorganiza los materiales y encuentros del recorrido desde la curiosidad de quien los visita. La nube ofrece otra manera de acercarse a las personas, materiales y saberes que sostienen la escena. Sirve para probar la experiencia antes de incorporar las selecciones y registros definitivos del equipo.
+Bitácora de una investigación del colectivo Fragua hacia la instalación artística «Susurros. Voces ocultas». Reúne palabras, voces e imágenes de los talleres y los oficios que sostienen la escena.
 
-## Sitio en línea
+## Ediciones
 
-[Visitar la bitácora](https://felipecotero.github.io/bitacora-susurros/)
+[Visitar la bitácora](https://felipecotero.github.io/bitacora-susurros/) abre la [edición 0.5](https://felipecotero.github.io/bitacora-susurros/v0.5/).
 
-La portada abre la [edición 0.4](https://felipecotero.github.io/bitacora-susurros/v0.4/). Las ediciones [0.1](https://felipecotero.github.io/bitacora-susurros/v0.1/), [0.2](https://felipecotero.github.io/bitacora-susurros/v0.2/) y [0.3](https://felipecotero.github.io/bitacora-susurros/v0.3/) siguen disponibles en GitHub Pages.
+Las ediciones [0.1](https://felipecotero.github.io/bitacora-susurros/v0.1/), [0.2](https://felipecotero.github.io/bitacora-susurros/v0.2/), [0.3](https://felipecotero.github.io/bitacora-susurros/v0.3/) y [0.4](https://felipecotero.github.io/bitacora-susurros/v0.4/) siguen disponibles para comparar el recorrido.
 
-El flujo manual «Publicar bitácora» conserva las ediciones 0.1 y 0.2 de `main` y toma los paquetes web de 0.3 y 0.4 de la rama temporal `publicacion-0-4`. Ejecuta el flujo con `publish` desactivado para verificar el paquete antes de publicar. La fuente editable se gestiona en un repositorio privado.
+## Publicación
+
+El flujo manual «Publicar bitácora» toma las ediciones 0.1 y 0.2 de `main` y los paquetes compilados 0.3, 0.4 y 0.5 de `publicacion-0-5`. La edición 0.5 reutiliza archivos multimedia de la 0.4.
+
+Ejecuta el flujo con `publish` desactivado para validar el paquete antes de publicar. La fuente editable se gestiona en un repositorio privado.
 
 ## Abrir los prototipos anteriores
 

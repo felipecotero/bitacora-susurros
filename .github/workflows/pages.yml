@@ -25,32 +25,36 @@ jobs:
         uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
         with:
           persist-credentials: false
-      - name: Obtener los paquetes web de 0.3 y 0.4
+      - name: Obtener los paquetes web de 0.3, 0.4 y 0.5
         uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
         with:
-          ref: publicacion-0-4
+          ref: publicacion-0-5
           path: .susurros-release
           persist-credentials: false
       - name: Preparar la publicación
+        shell: bash
         run: |
           site="$RUNNER_TEMP/susurros-site"
           mkdir "$site"
           git archive HEAD -- .nojekyll index.html v0.1 v0.2 | tar -xf - -C "$site"
-          git -C .susurros-release archive HEAD -- v0.3 v0.4 | tar -xf - -C "$site"
-          for version in v0.3 v0.4; do
+          git -C .susurros-release archive HEAD -- v0.3 v0.4 v0.5 | tar -xf - -C "$site"
+          for version in v0.3 v0.4 v0.5; do
             edition="$site/$version"
             test -s "$edition/index.html"
             test -s "$edition/app.js"
             test -s "$edition/places.json"
             test -s "$edition/media/colombia-outline.json"
             test -s "$edition/media/cotero-logo.png"
-            test -d "$edition/media/corte/web"
             test ! -e "$edition/data.json"
             test "$(find "$edition" -name '*.js' -type f | wc -l)" -eq 1
             test -z "$(find "$edition" -name '*.map' -type f -print -quit)"
             node --check "$edition/app.js"
           done
+          test -d "$site/v0.3/media/corte/web"
+          test -d "$site/v0.4/media/corte/web"
           test -n "$(find "$site/v0.4/media/corte/mix" -type f -name '*.mp3' -size +0c -print -quit)"
+          test -s "$site/v0.5/opening.css"
+          test -s "$site/v0.5/media/minculturas-logo.png"
       - name: Preparar paquete para GitHub Pages
         if: inputs.publish
         uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4

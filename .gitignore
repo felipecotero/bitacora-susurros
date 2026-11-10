@@ -5,6 +5,7 @@ node_modules/
 *.tar.gz
 *.tgz
 
-# Las ediciones 0.3 y 0.4 se publican desde paquetes temporales.
+# Estas ediciones se publican desde paquetes compilados.
 /v0.3/
 /v0.4/
+/v0.5/
