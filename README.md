@@ -6,7 +6,9 @@ Primer ensayo de una **bitácora de una investigación del colectivo Fragua haci
 
 [Visitar la bitácora](https://felipecotero.github.io/bitacora-susurros/)
 
-La edición 0.3 se publica como paquete web en GitHub Pages. La fuente editable se gestiona en un repositorio privado. Este repositorio conserva las ediciones 0.1 y 0.2 y el flujo de publicación.
+La portada abre la [edición 0.4](https://felipecotero.github.io/bitacora-susurros/v0.4/). Las ediciones [0.1](https://felipecotero.github.io/bitacora-susurros/v0.1/), [0.2](https://felipecotero.github.io/bitacora-susurros/v0.2/) y [0.3](https://felipecotero.github.io/bitacora-susurros/v0.3/) siguen disponibles en GitHub Pages.
+
+El flujo manual «Publicar bitácora» conserva las ediciones 0.1 y 0.2 de `main` y toma los paquetes web de 0.3 y 0.4 de la rama temporal `publicacion-0-4`. Ejecuta el flujo con `publish` desactivado para verificar el paquete antes de publicar. La fuente editable se gestiona en un repositorio privado.
 
 ## Abrir los prototipos anteriores
 
