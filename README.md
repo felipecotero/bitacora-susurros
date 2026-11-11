@@ -4,13 +4,13 @@ Bitácora de una investigación del colectivo Fragua hacia la instalación artí
 
 ## Ediciones
 
-[Visitar la bitácora](https://felipecotero.github.io/bitacora-susurros/) abre la [edición 0.5](https://felipecotero.github.io/bitacora-susurros/v0.5/).
+[Visitar la bitácora](https://felipecotero.github.io/bitacora-susurros/) abre la [edición 0.6](https://felipecotero.github.io/bitacora-susurros/v0.6/).
 
-Las ediciones [0.1](https://felipecotero.github.io/bitacora-susurros/v0.1/), [0.2](https://felipecotero.github.io/bitacora-susurros/v0.2/), [0.3](https://felipecotero.github.io/bitacora-susurros/v0.3/) y [0.4](https://felipecotero.github.io/bitacora-susurros/v0.4/) siguen disponibles para comparar el recorrido.
+Las ediciones [0.1](https://felipecotero.github.io/bitacora-susurros/v0.1/), [0.2](https://felipecotero.github.io/bitacora-susurros/v0.2/), [0.3](https://felipecotero.github.io/bitacora-susurros/v0.3/), [0.4](https://felipecotero.github.io/bitacora-susurros/v0.4/) y [0.5](https://felipecotero.github.io/bitacora-susurros/v0.5/) siguen disponibles para comparar el recorrido.
 
 ## Publicación
 
-El flujo manual «Publicar bitácora» toma las ediciones 0.1 y 0.2 de `main` y los paquetes compilados 0.3, 0.4 y 0.5 de `publicacion-0-5`. La edición 0.5 reutiliza archivos multimedia de la 0.4.
+El flujo manual «Publicar bitácora» toma las ediciones 0.1 y 0.2 de `main` y los paquetes compilados 0.3 a 0.6 de `publicacion-0-6`. Las ediciones 0.5 y 0.6 reutilizan archivos multimedia de la 0.4.
 
 Ejecuta el flujo con `publish` desactivado para validar el paquete antes de publicar. La fuente editable se gestiona en un repositorio privado.
 
