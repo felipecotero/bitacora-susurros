@@ -2,11 +2,9 @@
 
 Bitácora de una investigación del colectivo Fragua hacia la instalación artística «Susurros. Voces ocultas». Reúne palabras, voces e imágenes de los talleres y los oficios que sostienen la escena.
 
-## Ediciones
+## Edición actual
 
 [Visitar la bitácora](https://felipecotero.github.io/bitacora-susurros/) abre la [edición 0.7](https://felipecotero.github.io/bitacora-susurros/v0.7/).
-
-Las ediciones [0.1](https://felipecotero.github.io/bitacora-susurros/v0.1/), [0.2](https://felipecotero.github.io/bitacora-susurros/v0.2/), [0.3](https://felipecotero.github.io/bitacora-susurros/v0.3/), [0.4](https://felipecotero.github.io/bitacora-susurros/v0.4/), [0.5](https://felipecotero.github.io/bitacora-susurros/v0.5/) y [0.6](https://felipecotero.github.io/bitacora-susurros/v0.6/) siguen disponibles para comparar el recorrido.
 
 ## Publicación
 
@@ -14,17 +12,7 @@ El flujo manual «Publicar bitácora» toma las ediciones 0.1 y 0.2 de `main` y 
 
 Ejecuta el flujo con `publish` desactivado para validar el paquete antes de publicar. La fuente editable se gestiona en un repositorio privado.
 
-## Abrir los prototipos anteriores
-
-Desde esta carpeta:
-
-```sh
-python3 -m http.server 4173
-```
-
-Abre `http://localhost:4173/v0.1/` o `http://localhost:4173/v0.2/`. El resto de este documento describe el primer ensayo.
-
-## Qué permite ensayar
+## Qué permitía el primer ensayo
 
 - Girar la nube con el arrastre y acercarse o alejarse con la rueda. Las palabras mantienen trazos horizontales o verticales, con algunas invertidas, incluso al mirar desde atrás. Su distribución cambia con cada recarga y se conserva durante esa visita.
 - Observar una respiración lenta, sutil e irregular por zonas, con pequeños adelantos y retardos entre palabras y retenciones ocasionales. La escena sigue respirando durante el arrastre y mientras se lee una ficha. Al girar, algunas palabras se rezagan levemente y siempre alcanzan su posición final. La pausa y la preferencia de movimiento reducido permiten detener la respiración.
