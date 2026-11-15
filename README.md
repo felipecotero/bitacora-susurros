@@ -1,14 +1,14 @@
 # Bitácora · Susurros. Voces ocultas
 
-Bitácora de una investigación del colectivo Fragua hacia la instalación artística «Susurros. Voces ocultas». Reúne palabras, voces e imágenes de los talleres y los oficios que sostienen la escena.
+Bitácora de una investigación de Fraguar colectivo hacia la instalación artística «Susurros. Voces ocultas». Reúne palabras, voces e imágenes de los talleres y los oficios que sostienen la escena.
 
 ## Edición actual
 
-[Visitar la bitácora](https://felipecotero.github.io/bitacora-susurros/) abre la [edición 0.7](https://felipecotero.github.io/bitacora-susurros/v0.7/).
+[Visitar la bitácora](https://fraguar.art/) abre directamente la edición 0.8.
 
 ## Publicación
 
-El flujo manual «Publicar bitácora» toma las ediciones 0.1 y 0.2 de `main` y los paquetes compilados 0.3 a 0.7 de `publicacion-0-7`. La edición 0.7 reutiliza archivos multimedia de las ediciones 0.4 y 0.6.
+El flujo manual «Publicar bitácora» toma las ediciones 0.1 y 0.2 de `main` y los paquetes compilados 0.3 a 0.8 de `publicacion-0-8`. La portada sirve el HTML de la edición 0.8 directamente. Esta edición reutiliza archivos multimedia de las ediciones 0.4 y 0.6.
 
 Ejecuta el flujo con `publish` desactivado para validar el paquete antes de publicar. La fuente editable se gestiona en un repositorio privado.
 
