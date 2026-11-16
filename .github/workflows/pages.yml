@@ -37,7 +37,15 @@ jobs:
           site="$RUNNER_TEMP/susurros-site"
           mkdir "$site"
           git archive HEAD -- .nojekyll v0.1 v0.2 | tar -xf - -C "$site"
-          git -C .susurros-release archive HEAD -- v0.3 v0.4 v0.5 v0.6 v0.7 v0.8 | tar -xf - -C "$site"
+          git -C .susurros-release archive HEAD -- visits.js v0.3 v0.4 v0.5 v0.6 v0.7 v0.8 | tar -xf - -C "$site"
+          node --check "$site/visits.js"
+          counter_script="/visits.js?v=$(sha256sum "$site/visits.js" | cut -c1-12)"
+          for edition in "$site"/v0.*; do
+            awk -v script="$counter_script" '{sub(/<\/head>/, "  <script defer src=\"" script "\"></script>\n</head>"); print}' \
+              "$edition/index.html" > "$edition/index-with-counter.html"
+            grep -Fq "$counter_script" "$edition/index-with-counter.html"
+            mv "$edition/index-with-counter.html" "$edition/index.html"
+          done
           # Serve the current edition at the root, resolving assets from its own directory.
           awk '{print} /<meta charset="utf-8">/ {print "  <base href=\"./v0.8/\">"}' \
             "$site/v0.8/index.html" > "$site/index.html"

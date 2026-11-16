@@ -8,7 +8,7 @@ Bitácora de una investigación de Fraguar colectivo hacia la instalación artí
 
 ## Publicación
 
-El flujo manual «Publicar bitácora» toma las ediciones 0.1 y 0.2 de `main` y los paquetes compilados 0.3 a 0.8 de `publicacion-0-8`. La portada sirve el HTML de la edición 0.8 directamente. Esta edición reutiliza archivos multimedia de las ediciones 0.4 y 0.6.
+El flujo manual «Publicar bitácora» toma las ediciones 0.1 y 0.2 de `main`, los paquetes compilados 0.3 a 0.8 y el archivo compilado `visits.js` de `publicacion-0-8`. La portada sirve el HTML de la edición 0.8 directamente. Esta edición reutiliza archivos multimedia de las ediciones 0.4 y 0.6.
 
 Ejecuta el flujo con `publish` desactivado para validar el paquete antes de publicar. La fuente editable se gestiona en un repositorio privado.
 
