@@ -6,6 +6,8 @@ Bitácora de una investigación de Fraguar colectivo hacia la instalación artí
 
 [Visitar la bitácora](https://fraguar.art/) abre directamente la edición 0.8.
 
+El pie de la portada muestra el total acumulado de visitas por sesión. El desglose de origen por país se consulta en el panel privado de Fraguar.
+
 ## Publicación
 
 El flujo manual «Publicar bitácora» toma las ediciones 0.1 y 0.2 de `main`, los paquetes compilados 0.3 a 0.8 y el archivo compilado `visits.js` de `publicacion-0-8`. La portada sirve el HTML de la edición 0.8 directamente. Esta edición reutiliza archivos multimedia de las ediciones 0.4 y 0.6.
